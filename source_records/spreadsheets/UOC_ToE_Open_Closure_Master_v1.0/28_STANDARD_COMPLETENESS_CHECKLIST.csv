@@ -1,0 +1,28 @@
+ID,Requirement,What must be explicit,Class,UOC Status
+CHK-001,Fundamental degrees of freedom,Explicit state space or equivalent mathematical object,CORE,OPEN
+CHK-002,Action/dynamics,"Action, Hamiltonian, generator, path integral or equivalent",CORE,OPEN
+CHK-003,Symmetry group,Spacetime/internal symmetries and transformation law,CORE,OPEN
+CHK-004,Gauge redundancy,Gauge group + gauge fixing/constraint structure,CORE,OPEN
+CHK-005,Anomaly cancellation,All gauge/gravitational anomalies controlled,CORE,OPEN/PARTIAL
+CHK-006,Unitarity,Positive probability / unitary S-matrix or equivalent,CORE,OPEN
+CHK-007,Causality,Microcausality or controlled causal replacement,CORE,OPEN
+CHK-008,Lorentz invariance,Exact or emergent low-energy Lorentz symmetry,CORE,OPEN
+CHK-009,Renormalization,RG flow and regulator independence,CORE,OPEN
+CHK-010,UV completion,Finite/high-energy completion,CORE,OPEN
+CHK-011,IR limit,Correct low-energy effective theory,CORE,OPEN
+CHK-012,Classical limit,Correct ℏ→0 / semiclassical limit,CORE,OPEN
+CHK-013,Gravity limit,Correct Einstein equations,CORE,PARTIAL
+CHK-014,SM limit,Correct QCD+EW+Higgs+matter,CORE,OPEN
+CHK-015,Scattering,Well-defined amplitudes/cross sections and optical theorem where applicable,CORE,OPEN
+CHK-016,Positivity/analyticity,Known consistency constraints on amplitudes,EXTENDED,OPEN
+CHK-017,Vacuum stability,Identify stable/metastable vacuum and lifetime,EXTENDED,OPEN
+CHK-018,Parameter counting,Track fitted vs derived parameters,CORE,OPEN
+CHK-019,Naturalness/hierarchy,Explain or predict large/small scales if claimed,EXTENDED,OPEN
+CHK-020,Black holes,Entropy + Hawking radiation + information,CORE,OPEN
+CHK-021,Cosmology,Early/late universe + perturbations,CORE/EXTENDED,OPEN
+CHK-022,Dark matter,Microscopic or emergent explanation,EXTENDED,OPEN
+CHK-023,Dark energy,Microscopic or emergent explanation,EXTENDED,OPEN
+CHK-024,Initial conditions,State selection / boundary condition mechanism,EXTENDED,OPEN
+CHK-025,Distinctive prediction,Observable difference from SM+GR,CORE,OPEN
+CHK-026,Reproducibility,Numerical/symbolic calculations independently rerunnable,CORE,OPEN
+CHK-027,Falsification,Explicit failure conditions,CORE,OPEN

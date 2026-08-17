@@ -1,0 +1,14 @@
+ID,External Target,Closure Criterion,Observable/Output,UOC Reuse,Priority
+EXT-C-001,String compactification,4D compactification reproducing SM gauge group/matter/chirality,Moduli stabilization + spectrum + vacuum,Reuse topology/geometry as candidate spectral selectors,CRITICAL
+EXT-C-002,String SUSY breaking,Controlled supersymmetry breaking,Mass spectrum + vacuum energy,Use as benchmark for mass hierarchy and vacuum selection,HIGH
+EXT-C-003,String dS/vacuum,Controlled realistic late-time vacuum,Λ_obs / acceleration,Benchmark UOC C7 scale/selection problem,CRITICAL
+EXT-C-004,String nonperturbative definition,Full M-theory/string dynamics,Well-defined UV theory,"Use as UV benchmark, not ontology",HIGH
+EXT-C-005,LQG semiclassical limit,Spin-network/spinfoam → GR,Einstein + gravitons,Compare invariant observables,HIGH
+EXT-C-006,LQG matter coupling,Matter/QFT on quantum geometry,SM-compatible low energy,Benchmark UOC matter coupling,HIGH
+EXT-C-007,Asymptotic safety fixed point,Robust NGFP + finite critical surface,Predictive UV completion,Directly test UOC operator RG,CRITICAL
+EXT-C-008,CDT continuum,Second-order critical surface/continuum limit,4D spacetime,Generalize UOC refinement tests,HIGH
+EXT-C-009,Causal set manifold emergence,Manifold-like causal sets,Lorentzian continuum,Use causal order test family,HIGH
+EXT-C-010,GUT coupling unification,"g1,g2,g3 meet under RG",Unified gauge coupling,Derive/check UOC coupling trajectories,HIGH
+EXT-C-011,GUT proton decay,Distinctive baryon violation,τ_p prediction/bound,Use as external falsification template,HIGH
+EXT-C-012,Holographic reconstruction,Bulk geometry from boundary information,Geometric encoding,Use for information→geometry mapping,HIGH
+EXT-C-013,Black-hole Page curve,Unitary entropy evolution,Information recovery,Use as hard quantum-gravity test,CRITICAL

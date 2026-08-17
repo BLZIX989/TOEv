@@ -1,0 +1,16 @@
+ID,Source,Title,URL,Use in Workbook
+SRC-WEB-001,CERN,The Standard Model,https://home.cern/science/physics/standard-model/,SM success + gravity exclusion
+SRC-WEB-002,PDG,2025 Standard Model & Related Topics,https://pdg.lbl.gov/2025/reviews/standard_model_and_related.html,Current SM/QCD/EW/neutrino benchmark
+SRC-WEB-003,PDG,2025 Higgs Physics,https://pdg.lbl.gov/2025/reviews/rpp2025-rev-higgs-boson.pdf,Higgs/EWSB/Yukawa parameter structure
+SRC-WEB-004,PDG,2025 Dark Matter,https://pdg.lbl.gov/2025/reviews/rpp2025-rev-dark-matter.pdf,Dark matter empirical requirement
+SRC-WEB-005,PDG,2025 Cosmological Parameters,https://pdg.lbl.gov/2025/reviews/rpp2025-rev-cosmological-parameters.pdf,Cosmology/parameters benchmark
+SRC-WEB-006,Marchesano/Shiu/Weigand,The Standard Model from String Theory: What Have We Learned?,https://arxiv.org/abs/2401.01939,String compactification and SM recovery benchmark
+SRC-WEB-007,Graña,Flux compactifications in string theory,https://arxiv.org/abs/hep-th/0509003,Moduli stabilization/vacua
+SRC-WEB-008,Harlow,Black holes in quantum gravity,https://arxiv.org/abs/2304.10367,BH information/entropy benchmark
+SRC-WEB-009,Ashtekar/Bianchi,A Short Review of Loop Quantum Gravity,https://arxiv.org/abs/2104.04394,LQG QG benchmark
+SRC-WEB-010,Loll,Quantum Gravity from Causal Dynamical Triangulations: A Review,https://arxiv.org/abs/1905.08669,CDT continuum benchmark
+SRC-WEB-011,Surya,The causal set approach to quantum gravity,https://arxiv.org/abs/1903.11544,Causal-order benchmark
+SRC-WEB-012,Pawlowski et al.,Quantum gravity: a fluctuating point of view,https://arxiv.org/abs/2007.10353,Asymptotic-safety UV fixed point benchmark
+SRC-WEB-013,PDG,Grand Unified Theories,https://pdg.lbl.gov/2022/reviews/rpp2022-rev-guts.pdf,GUT group/coupling/proton-decay benchmark
+SRC-WEB-014,Kibe/Mandayam/Mukhopadhyay,"Holographic spacetime, black holes and quantum error correcting codes",https://link.springer.com/article/10.1140/epjc/s10052-022-10382-1,Holography/information benchmark
+SRC-WEB-015,CERN Courier,General relativity at 100,https://cern-courier.web.cern.ch/a/general-relativity-at-100/,GR equations and tested limits

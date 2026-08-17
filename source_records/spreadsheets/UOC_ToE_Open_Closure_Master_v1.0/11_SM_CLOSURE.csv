@@ -1,0 +1,13 @@
+ID,Target,Known Structure,Required UOC Result,Status,Recommended Route
+SM-001,Gauge group,SU(3)_C×SU(2)_L×U(1)_Y,Derive from UOC/NCG algebra rather than assume,OPEN,H-006 + finite algebra enumeration
+SM-002,Representations,3 generations of chiral fermions with observed hypercharges,Derive representations and chirality,OPEN,Finite algebra / index / anomaly
+SM-003,Anomalies,Gauge/gravitational anomaly cancellation,A_anomaly=0,PARTIAL,Complete anomaly polynomial
+SM-004,Higgs,"Complex SU(2) doublet, potential and VEV",Derive scalar sector,OPEN,Spectral/finite geometry
+SM-005,EWSB,SU(2)_L×U(1)_Y→U(1)_Q,Derive vacuum and masses,OPEN,Potential minimization
+SM-006,Yukawa sector,Quark/lepton masses and CKM,Derive matrices/ratios,OPEN,Spectral projectors
+SM-007,Neutrino masses,Observed oscillations require beyond-minimal SM neutrino mass sector,Derive Dirac/Majorana mechanism,OPEN,Extended representation
+SM-008,Strong CP,θ_QCD and effective CP,Explain smallness,OPEN,Axion/selection/symmetry route
+SM-009,Generation count,N_gen=3,Independent derivation,OPEN,Index/topology
+SM-010,Confinement,Low-energy QCD,Derive nonperturbative confinement scale,OPEN,Lattice/spectral gap
+SM-011,Gauge coupling running,β_gi and unification,Derive RG flow,OPEN,RG/spectral dynamics
+SM-012,No extra light states,Predict allowed spectrum,Derive absence/decoupling,OPEN,Spectral stability + experimental bounds

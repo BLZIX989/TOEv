@@ -1,0 +1,22 @@
+ID,Simulation,Input Family,Output,Closure Criterion,Failure/Falsifier,Origin,Priority
+SIM-O-001,NX-001/Γ fixed-point sweep,Finite typed state families,"Fix(Γ), attractor basins, invariance",Γ:X→X well-defined and fixed points stable,No well-defined Γ or representation dependence,Internal,HIGH
+SIM-O-002,Graph representation invariance,Multiple admissible Ψ representations,G isomorphism/refinement invariants,Equivalent representations induce equivalent canonical invariants,Non-equivalent semantics,Internal,HIGH
+SIM-O-003,Continuum refinement universality,Multiple graph refinement families,||L_N/h²+Δ_g|| scaling,Convergence order and universality class,Family-dependent failure,Internal,HIGH
+SIM-O-004,Joint heat-kernel limit,h²/t grid,K_N(t) asymptotics,Stable Seeley-DeWitt coefficients,Order-of-limits failure,Internal,HIGH
+SIM-O-005,Dirac correspondence,Graph families + D_G,Spec(D_G²) vs Spec(L),Controlled spectral correspondence,No controlled relation,Internal,HIGH
+SIM-O-006,Fokker-Planck gap,Same graph with Q generators,λ_FP vs λ_2,Bound/equality with stated assumptions,Bound failure,Internal,HIGH
+SIM-O-007,Matter source closure,Recovered matter/gauge/quantum states,"T_{μν}, conservation",∇T=0 + variational consistency,Conservation/coupling failure,Internal,CRITICAL
+SIM-O-008,Horizon selector sweep,Persistence/null-expansion/geometric candidates,P_H stability and equivalence,Invariant selector across refinements,Selector ambiguity,Internal,CRITICAL
+SIM-O-009,Localized heat trace,Selected P_H,"Z_H(t), coefficients",Area law and normalization,No area scaling,Internal,CRITICAL
+SIM-O-010,Absolute scale search,Dimensionful invariants,C_UOC candidates,Unique selector or no-go,No unique selector,Internal,CRITICAL
+SIM-O-011,Universal spectral dynamics,Γ/O/Ψ families,Infer F and residual vs −2HL,Single F with homogeneous branch,H externally inserted,Internal,CRITICAL
+SIM-O-012,Gauge/representation enumeration,Finite algebras/Clifford candidates,"Groups, reps, anomaly conditions",Unique SM group/representations,Multiple survivors/no survivor,Internal,CRITICAL
+SIM-O-013,Mass spectrum,Spectral/projector data,mass ratios,Parameter-free ratios,Requires fit parameter,Internal,HIGH
+SIM-O-014,Born rule,Finite Hilbert models,Probability measure uniqueness,Unique quadratic measure,Alternative measure survives,Internal,HIGH
+SIM-O-015,Black-hole information,Horizon subsystem,Entropy/Page-curve analogue,Unitary information accounting,Information deficit,External benchmark,CRITICAL
+SIM-O-016,UV/RG fixed point,Coupling/operator truncations,β_i(g*),Finite-dimensional critical surface,No robust fixed point,External benchmark,CRITICAL
+SIM-O-017,Cosmological perturbations,UOC cosmology branch,"P(k), CMB transfer",Observed spectral shape within bounds,Mismatch,External benchmark,CRITICAL
+SIM-O-018,Dark-matter candidate,UOC matter sector,relic abundance/lensing/clustering,Correct abundance and structure,No viable candidate,External benchmark,CRITICAL
+SIM-O-019,Novel prediction: dispersion,Spectral corrections,Δt(E),Nonzero distinctive signal within bounds,Null/bound contradiction,Internal+external,HIGH
+SIM-O-020,Novel prediction: lensing,Spectral Green functions,Φ_lens(r),Distinct profile,No distinctive effect,Internal+external,HIGH
+SIM-O-021,Novel prediction: metric noise,Quantum geometry fluctuations,S_h(f),Distinct detector spectrum,Bounds exclude,Internal+external,HIGH

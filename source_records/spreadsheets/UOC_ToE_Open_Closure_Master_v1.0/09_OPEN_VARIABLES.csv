@@ -1,0 +1,25 @@
+ID,Symbol,Definition,Units,Status,Branch,Closure action
+VAR-O-001,λ_c,spectral persistence threshold,dimensionless or inverse-length² depending convention,OPEN,SEIT,derive from Γ
+VAR-O-002,C_UOC,absolute scale coefficient in ℓ_*=C_UOCℓ_p,dimensionless,OPEN,COSMO-DYN,derive/no-go
+VAR-O-003,N_H,UOC horizon information count,dimensionless,OPEN,COSMO-DYN,derive without H/Λ
+VAR-O-004,Ξ,dimensionless spectral cutoff,dimensionless,CONDITIONAL,COSMO-DYN,calculate after N_H
+VAR-O-005,Λ_*,physical spectral cutoff,m^-1,CONDITIONAL,COSMO-DYN,Λ_*=Ξ/ℓ_p
+VAR-O-006,P_H,horizon projector,operator,OPEN,COSMO-DYN,derive from UOC data
+VAR-O-007,Σ_H,horizon selector,functional/object,OPEN,COSMO-DYN,derive invariant selector
+VAR-O-008,m_0,mass normalization,mass,OPEN,SEIT,derive without external fit
+VAR-O-009,m_n,particle mass spectrum,mass,PARTIAL,SEIT,derive from spectral/projector data
+VAR-O-010,α_k,interaction/coupling parameters,dimensionless,PARTIAL,SEIT,derive projectors/normalization
+VAR-O-011,G_gauge,gauge group,group object,OPEN,C5,derive unique selection
+VAR-O-012,N_gen,fermion generation count,integer,OPEN,C5,derive independently of N_c
+VAR-O-013,Y_f,Yukawa matrices,dimensionless matrices,OPEN,SM,derive flavor hierarchy
+VAR-O-014,θ_QCD,strong CP angle,dimensionless,OPEN,SM/BSM,derive/selection or explain smallness
+VAR-O-015,"m_ν,U_PMNS",neutrino masses/mixing,eV/matrix,OPEN,SM/cosmology,derive mechanism
+VAR-O-016,ρ_DM,dark matter density,energy density,OPEN,cosmology,derive particle/emergent source
+VAR-O-017,ρ_DE,dark energy density,energy density,OPEN,cosmology,derive late-time acceleration
+VAR-O-018,Λ_cosm,cosmological constant,m^-2,PARTIAL,COSMO-DYN,close upstream N_H/scale
+VAR-O-019,H_0,present Hubble rate,s^-1,EXTERNAL/DERIVABLE,cosmology,predict or fit with explicit status
+VAR-O-020,"A_s,n_s,r",primordial perturbation parameters,mixed,OPEN,cosmology,derive initial-state mechanism
+VAR-O-021,N_c,color count,integer,OBSERVED/KNOWN,SM,must emerge if claimed
+VAR-O-022,"g_1,g_2,g_3",gauge couplings,dimensionless,OPEN,SM/GUT,derive RG trajectories
+VAR-O-023,"v_H,λ_H",Higgs VEV/self-coupling,GeV/dimensionless,OPEN,SM,derive scalar sector
+VAR-O-024,M_P,Planck scale,mass,KNOWN SCALE,GR/QG,must relate to UOC scale

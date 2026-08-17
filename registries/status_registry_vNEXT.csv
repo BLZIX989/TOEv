@@ -1,0 +1,24 @@
+"=== MASTER_STATUS_SYSTEM.csv (Phase 1, unchanged) ==="
+ID,Field,Meaning,Allowed / Rule
+S_D,Derivation Status,What has actually been mathematically calculated/proven?,CERTIFIED / DERIVED / CALCULATED / ALGEBRAICALLY DERIVED / CONDITIONAL / FORMULATED / NO-GO / etc.
+S_C,Closure Status,How universal/canonical is the result?,CLOSED / SCOPED / CONDITIONAL / OPEN / RECONCILIATION OPEN
+S_R,Registry Status,"Is the object certified, open, candidate or newly proposed?",CERTIFIED / OPEN / CANDIDATE / PROPOSED / FALSIFIED
+RULE-001,Governance rule,Never erase an executed calculation because its upstream ancestry remains unresolved.,ACTIVE
+RULE-002,Governance rule,New calculations receive PROPOSED status until executed and registered.,ACTIVE
+RULE-003,Governance rule,"Scope must be explicit for finite graph, continuum, asymptotic, homogeneous, curved, boundary, etc.",ACTIVE
+RULE-004,Observational firewall,"Λ_obs,H_obs,N_H^obs may not occur in ancestors of Xi_UOC.",ACTIVE
+
+"=== MASTER_STATUS_SEMANTICS_CANONICAL.csv (Phase 1, unchanged) ==="
+Status,Definition,Permitted_Use,Governance_Rule
+CERTIFIED,Formally established and admitted,Canonical dependency,No universality inflation
+CALCULATED,Executed numerical/algebraic result,Usable within recorded scope,Do not relabel OPEN because ancestry is unresolved
+PARTIAL/CONDITIONAL,Established under explicit assumptions/family,Usable only with scope,Expose assumptions
+OPEN THEOREM,Specific proof obligation remains,Not certified,Record closure criterion and falsifier
+PROPOSED,Future calculation/program not executed,Planning only,No registry admission by implication
+FALSIFIED/NO-GO,Candidate failed specified test,Exclude from active route; retain history,Preserve failure provenance
+SOURCE-REGISTERED,"Present in source corpus, status not adjudicated",Reference only,Must receive status-layer classification
+
+=== Phase 1.5 additions (SOURCE-010 status vocabulary cross-check) ===
+Finding,Detail
+Vocabulary consistency,"SOURCE-010 uses OPEN THEOREM, CERTIFIED SPINE, Partial/Open, CONDITIONAL, PROPOSED, no-go -- all consistent with the existing status ontology; no new status word introduced."
+ARBS canonicity dispute,"SOURCE-010 asserts ARBS is ""LEGACY ONLY... not canonical"" against 8 CERTIFIED ARBS theorems in MASTER_THEOREM_REGISTRY.csv. See CONFLICTS_AND_VERSION_RESOLUTION.md CONFLICT-001. NOT applied to any registry status in this phase."

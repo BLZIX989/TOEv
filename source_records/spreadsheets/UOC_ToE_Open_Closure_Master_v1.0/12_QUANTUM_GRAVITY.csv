@@ -1,0 +1,13 @@
+ID,Target,Benchmark,Required Result,Status,Recommended Route
+QG-001,Quantization of geometry,g_{μν} or equivalent is quantum,Define fundamental quantum geometry object,OPEN,"Compare D_G/NCG, LQG, holography"
+QG-002,Background independence,No fixed background metric at fundamental level,Derive background-independent state space,OPEN,TDIC/relational substrate
+QG-003,UV completion,Finite/controlled high-energy theory,RG fixed point or equivalent,OPEN,Asymptotic-safety benchmark
+QG-004,Classical GR,Einstein equations recovered,Semiclassical limit,PARTIAL,Extend MRC/PRC
+QG-005,Lorentzian causality,Observed causal cones,Derive index-1 metric and causal order,OPEN,CST/CDT + UOC Lorentz branch
+QG-006,Graviton / spin-2,Massless spin-2 low-energy excitation or equivalent,Recover gravitational wave sector,OPEN,Spectral perturbations
+QG-007,Black-hole entropy,S=A/4Gℏ,Microscopic spectral count,OPEN,Horizon projector + heat kernel
+QG-008,Hawking radiation,Thermal radiation from horizons,Derive spectrum/temperature,OPEN,Semiclassical horizon calculation
+QG-009,Information unitarity,No fundamental information loss or equivalent resolution,Page curve / unitary map,OPEN,Holography benchmark
+QG-010,Matter coupling,Quantum matter + quantum geometry,Common action/operator,OPEN,BR-011
+QG-011,Continuum limit,Discrete UOC substrate → smooth spacetime,Convergence theorem,PARTIAL,BR-017/018
+QG-012,Observables,Gauge/diffeomorphism invariant observables,Define measurable quantities,OPEN,Relational observables

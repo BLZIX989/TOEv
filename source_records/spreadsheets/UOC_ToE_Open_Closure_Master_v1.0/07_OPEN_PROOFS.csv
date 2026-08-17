@@ -1,0 +1,20 @@
+ID,Proof Obligation,Missing Proof,Layer,Status,Method
+PRF-001,Primitive reconciliation,"Formal equivalence/reduction among DTC, UDP, gradient, MDCL, NCG grammar routes",C0,OPEN,Morphisms + counterexample suite
+PRF-002,Fix correspondence,Equivalence between Banach/spectral/least fixed point/organizational closures,C1,OPEN,Contraction/monotone operator cases
+PRF-003,Persistence,Derive Π_O from TNDS/NEDS/Fokker-Planck first principles,C2,OPEN,Stationary distribution + entropy production
+PRF-004,Threshold,Prove monotonic Γ and unique λ_c,C2,OPEN,Derivative/sign proof
+PRF-005,Lorentz signature,Negative mode → indefinite form → index 1 → Lorentzian metric,C3,OPEN,Spectral index + continuum causal cone
+PRF-006,Gauge group,Unique SM group and chiral reps,C5,OPEN,Finite algebra + anomaly + phenomenology
+PRF-007,Generations,N_gen=3 independent of color count,C5,OPEN,Topological/index/representation
+PRF-008,Born rule,Unique probability measure from invariance,C6,OPEN,Gleason-style proof
+PRF-009,Quantum geometry,Operator algebra with classical GR limit,C6,OPEN,Semiclassical convergence
+PRF-010,Horizon projector,P_H intrinsic and refinement invariant,C7,OPEN,Selector theorem + numerical robustness
+PRF-011,BH normalization,π factor internal,C7,OPEN,Zeta/heat-kernel/boundary derivation
+PRF-012,Non-circular N_H,N_H independent of observational cosmology,C7,OPEN,DAG provenance audit
+PRF-013,Universal dynamics,F operator generates homogeneous cosmology,C7,OPEN,Symbolic + numerical residual
+PRF-014,Biological derivation,Evolutionary mechanisms reverse-derived,C8,OPEN,Agent/population simulations
+PRF-015,Compiler termination,Canonical rewrite system terminates,C9,OPEN,Well-founded ranking function
+PRF-016,Compiler confluence,Canonical rewrite system confluent,C9,OPEN,Critical-pair analysis
+PRF-017,Compiler soundness,Semantics preserved,C9,OPEN,Formal semantics + property tests
+PRF-018,Compiler completeness,Supported corpus maps to IR,C9,OPEN,Coverage benchmark
+PRF-019,Prediction,Novel observable survives parameter audit,C10,OPEN,External data comparison

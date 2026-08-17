@@ -1,0 +1,1012 @@
+Node_ID,Node_Type,Name,Symbol,Derivation_Status,Closure_Status,Registry_Status,Source,Parent_or_Reference,Notes
+PRIM-G-001,PRIMITIVE,Distinction,Delta (D),SOURCE-REGISTERED,,,UCG,,The minimal identifiable difference — a closed orientable boundary separating interior from exterior. Formally: a hypersurface satisfying the homological closure condition d(dΩ) = 0.
+PRIM-G-002,PRIMITIVE,Transformation,tau (T),SOURCE-REGISTERED,,,UCG,,"Any lawful evolution acting on an established distinction, preserving phase-space volume (discrete Liouville condition). Requires a prior distinction to act on."
+PRIM-G-003,PRIMITIVE,Constraint,kappa (C),SOURCE-REGISTERED,,,UCG,,The rules restricting which transformations are permissible. Formally: a projection operator P_kappa satisfying idempotency (P_kappa^2 = P_kappa).
+PRIM-G-004,PRIMITIVE,Persistence,Pi (P),SOURCE-REGISTERED,,,UCG,,The retention of organizational identity across constrained transformations — the kernel of an invariant operator surviving repeated application of tau under kappa.
+PRIM-P-001,PRIMITIVE,Energy,E,SOURCE-REGISTERED,,,UCG,,The capacity of a physical system to do work. Foundational input to the Physical Layer. All thermodynamic states derive from E.
+PRIM-P-002,PRIMITIVE,Gradient,nabla Phi,SOURCE-REGISTERED,,,UCG,,A nonzero spatial difference in an intensive variable creating a driving force. The physical realization of Distinction. Measurable; replaces the abstract Delta in the physics-first formulation.
+PRIM-C-001,PRIMITIVE,Bipartite Substrate,"B=(U,V,E)",SOURCE-REGISTERED,,,UCG,,"An Abelian bipartite graph with disjoint vertex sets U and V and edge set E ⊂ U×V. No metric, orientation, or background geometry assumed. The foundational input to the Computational Layer."
+PRIM-X-001,PRIMITIVE,Distinction,Delta,SOURCE-REGISTERED,,,UCG,,State distinguishability — same as PRIM-G-001.
+PRIM-X-002,PRIMITIVE,Transformation,tau,SOURCE-REGISTERED,,,UCG,,Admissible evolution — same as PRIM-G-002.
+PRIM-X-003,PRIMITIVE,Constraint,kappa,SOURCE-REGISTERED,,,UCG,,Restriction on admissible evolution — same as PRIM-G-003.
+PRIM-X-004,PRIMITIVE,Accessibility,Theta,SOURCE-REGISTERED,,,UCG,,A reachability structure defining which states can follow which.
+PRIM-X-005,PRIMITIVE,Persistence,Pi,SOURCE-REGISTERED,,,UCG,,Stable organizational realization — same as PRIM-G-004.
+PRIM-X-006,PRIMITIVE,Organizational State,Omega,SOURCE-REGISTERED,,,UCG,,A certified organizational configuration — the state variable for the organizational evolution equation.
+USR-001,SYMBOL,Distinction primitive,Delta,SOURCE-REGISTERED,,,UCG,,
+USR-002,SYMBOL,Transformation primitive,tau,SOURCE-REGISTERED,,,UCG,,
+USR-003,SYMBOL,Constraint primitive,kappa,SOURCE-REGISTERED,,,UCG,,
+USR-004,SYMBOL,Persistence primitive,Pi,SOURCE-REGISTERED,,,UCG,,
+USR-005,SYMBOL,Organizational action,Gamma,SOURCE-REGISTERED,,,UCG,,
+USR-006,SYMBOL,Distinction graph,"G=(V,E)",SOURCE-REGISTERED,,,UCG,,
+USR-007,SYMBOL,Graph Laplacian,L=D-A,SOURCE-REGISTERED,,,UCG,,
+USR-008,SYMBOL,Laplacian spectrum,"Spec(L)={lam_n,phi_n}",SOURCE-REGISTERED,,,UCG,,
+USR-009,SYMBOL,Heat kernel,K_t=exp(-tL),SOURCE-REGISTERED,,,UCG,,
+USR-010,SYMBOL,Persistence filter,R=exp(-beta L),SOURCE-REGISTERED,,,UCG,,
+USR-011,SYMBOL,Diffusion distance,"d(i,j)",SOURCE-REGISTERED,,,UCG,,
+USR-012,SYMBOL,Metric tensor,g_{mu nu},SOURCE-REGISTERED,,,UCG,,
+USR-013,SYMBOL,Christoffel symbols,Gamma^c_{ab},SOURCE-REGISTERED,,,UCG,,
+USR-014,SYMBOL,Riemann tensor,R^rho_{sig mu nu},SOURCE-REGISTERED,,,UCG,,
+USR-015,SYMBOL,Ricci tensor,R_{mu nu},SOURCE-REGISTERED,,,UCG,,
+USR-016,SYMBOL,Ricci scalar,R,SOURCE-REGISTERED,,,UCG,,
+USR-017,SYMBOL,Einstein tensor,G_{mu nu},SOURCE-REGISTERED,,,UCG,,
+USR-018,SYMBOL,Gauge connection,A_mu,SOURCE-REGISTERED,,,UCG,,
+USR-019,SYMBOL,Field strength,F_{mu nu},SOURCE-REGISTERED,,,UCG,,
+USR-020,SYMBOL,Covariant derivative,D_mu,SOURCE-REGISTERED,,,UCG,,
+USR-021,SYMBOL,Spinor field,psi,SOURCE-REGISTERED,,,UCG,,
+USR-022,SYMBOL,Stress-energy tensor,T_{mu nu},SOURCE-REGISTERED,,,UCG,,
+USR-023,SYMBOL,Entropy production rate,sigma,SOURCE-REGISTERED,,,UCG,,
+USR-024,SYMBOL,Org. Persistence Functional,Pi_O,SOURCE-REGISTERED,,,UCG,,
+USR-025,SYMBOL,Control parameter,alpha,SOURCE-REGISTERED,,,UCG,,
+USR-026,SYMBOL,Evolution operator,U_alpha,SOURCE-REGISTERED,,,UCG,,
+USR-027,SYMBOL,Master attractor,Omega,SOURCE-REGISTERED,,,UCG,,
+USR-028,SYMBOL,Dirac operator,D=sqrt(L),SOURCE-REGISTERED,,,UCG,,
+USR-029,SYMBOL,Einstein-Hilbert action,S_EH,SOURCE-REGISTERED,,,UCG,,
+USR-030,SYMBOL,Persistence Cost Functional,C_Pi[y],SOURCE-REGISTERED,,,UCG,,
+OP-ORG-001,OPERATOR,Distinction,D (Delta),SOURCE-REGISTERED,,,UCG,,
+OP-ORG-002,OPERATOR,Transformation,T (tau),SOURCE-REGISTERED,,,UCG,,
+OP-ORG-003,OPERATOR,Constraint,C (kappa),SOURCE-REGISTERED,,,UCG,,
+OP-ORG-004,OPERATOR,Organizational Action,Gamma = C o T o D,SOURCE-REGISTERED,,,UCG,,
+OP-ORG-005,OPERATOR,Evolution Operator,U_alpha,SOURCE-REGISTERED,,,UCG,,
+OP-CMP-001,OPERATOR,Graph Laplacian,L = D_deg - A,SOURCE-REGISTERED,,,UCG,,
+OP-CMP-002,OPERATOR,Persistence Filter,R = exp(-beta L),SOURCE-REGISTERED,,,UCG,,
+OP-CMP-003,OPERATOR,Heat Kernel,K_t = exp(-tL),SOURCE-REGISTERED,,,UCG,,
+OP-CMP-004,OPERATOR,Dirac Operator,D = sqrt(L),SOURCE-REGISTERED,,,UCG,,
+OP-CMP-005,OPERATOR,Covariant Derivative,nabla_mu,SOURCE-REGISTERED,,,UCG,,
+OP-CMP-006,OPERATOR,Euler-Lagrange,delta C_Pi,SOURCE-REGISTERED,,,UCG,,
+OP-P0-001,OPERATOR,Arithmetic,"+,-,x,/",SOURCE-REGISTERED,,,UCG,,
+OP-P0-002,OPERATOR,Partial Derivative,d_mu,SOURCE-REGISTERED,,,UCG,,
+OP-P0-003,OPERATOR,Gradient,nabla,SOURCE-REGISTERED,,,UCG,,
+OP-P0-004,OPERATOR,Variation,delta,SOURCE-REGISTERED,,,UCG,,
+OP-P0-005,OPERATOR,Laplacian,Delta = nabla.nabla,SOURCE-REGISTERED,,,UCG,,
+OP-P0-006,OPERATOR,Exponential / Logarithm,"exp, log",SOURCE-REGISTERED,,,UCG,,
+OP-P0-007,OPERATOR,Trace,Tr,SOURCE-REGISTERED,,,UCG,,
+OP-P0-008,OPERATOR,Spectrum,Spec,SOURCE-REGISTERED,,,UCG,,
+OP-P0-009,OPERATOR,Adjoint,O^dag,SOURCE-REGISTERED,,,UCG,,
+OP-P0-010,OPERATOR,Projection,P (P^2=P),SOURCE-REGISTERED,,,UCG,,
+OP-P0-011,OPERATOR,Commutator,"[A,B]",SOURCE-REGISTERED,,,UCG,,
+OP-P0-012,OPERATOR,Tensor Product / Direct Sum,"x, +_direct",SOURCE-REGISTERED,,,UCG,,
+EQSRC:NCG.1,EQUATION,Connes 1995,NCG.1,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.2,EQUATION,Connes-Chamseddine,NCG.2,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.3,EQUATION,Lichnerowicz,NCG.3,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.4,EQUATION,Definition,NCG.4,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.5,EQUATION,Standard Model,NCG.5,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.6,EQUATION,Standard Model,NCG.6,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.7,EQUATION,Standard Model,NCG.7,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.8,EQUATION,Inner fluctuations,NCG.8,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.9,EQUATION,Definition,NCG.9,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.10,EQUATION,Spectral action,NCG.10,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.11,EQUATION,Spectral action,NCG.11,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.12,EQUATION,Full action,NCG.12,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.13,EQUATION,Seeley-DeWitt,NCG.13,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.14,EQUATION,Definition,NCG.14,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.15,EQUATION,Coefficients,NCG.15,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.16,EQUATION,Expansion,NCG.16,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.17,EQUATION,Heat kernel,NCG.17,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.18,EQUATION,Zeta function,NCG.18,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.19,EQUATION,Zeta action,NCG.19,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.20,EQUATION,Atiyah-Singer,NCG.20,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.21,EQUATION,Real structure,NCG.21,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.22,EQUATION,Real structure,NCG.22,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.23,EQUATION,Real structure,NCG.23,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.24,EQUATION,Chirality,NCG.24,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.25,EQUATION,Chirality,NCG.25,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.26,EQUATION,SM algebra,NCG.26,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.27,EQUATION,Gauge group,NCG.27,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.28,EQUATION,Unification,NCG.28,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.29,EQUATION,Higgs mass,NCG.29,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.30,EQUATION,Seesaw,NCG.30,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.31,EQUATION,Connes distance,NCG.31,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.32,EQUATION,Commutator,NCG.32,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.33,EQUATION,Order-one,NCG.33,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.34,EQUATION,Boundedness,NCG.34,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.35,EQUATION,Propagator,NCG.35,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:NCG.36,EQUATION,Chiral trace,NCG.36,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.1,EQUATION,Definition,SP.1,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.2,EQUATION,Graph Laplacian,SP.2,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.3,EQUATION,Eigenequation,SP.3,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.4,EQUATION,Spectrum,SP.4,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.5,EQUATION,Ground state,SP.5,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.6,EQUATION,Kernel,SP.6,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.7,EQUATION,Trace,SP.7,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.8,EQUATION,Orthonormality,SP.8,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.9,EQUATION,Incidence factorization,SP.9,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.10,EQUATION,Diagonalization,SP.10,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.11,EQUATION,Functional calculus,SP.11,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.12,EQUATION,Spectral trace,SP.12,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.13,EQUATION,Heat trace,SP.13,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.14,EQUATION,Heat semigroup,SP.14,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.15,EQUATION,Regularized det,SP.15,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.16,EQUATION,Hodge Laplacian,SP.16,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.17,EQUATION,Dirac-Hodge,SP.17,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.18,EQUATION,Nilpotency,SP.18,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.19,EQUATION,k-forms,SP.19,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.20,EQUATION,de Rham cohomology,SP.20,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.21,EQUATION,Hodge decomposition,SP.21,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.22,EQUATION,Hodge spectrum,SP.22,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.23,EQUATION,Hodge heat trace,SP.23,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.24,EQUATION,Scalar Laplacian,SP.24,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:SP.25,EQUATION,Riemannian Laplacian,SP.25,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.1,EQUATION,Diffusion distance,GE.1,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.2,EQUATION,Spectral metric,GE.2,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.3,EQUATION,Line element,GE.3,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.4,EQUATION,Hessian metric,GE.4,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.5,EQUATION,Inner product,GE.5,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.6,EQUATION,Norm,GE.6,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.7,EQUATION,Cyclicity,GE.7,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.8,EQUATION,Heat kernel trace,GE.8,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.9,EQUATION,Continuum limit,GE.9,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.10,EQUATION,Spectral dimension,GE.10,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.11,EQUATION,Covariant derivative,GE.11,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.12,EQUATION,Metric compatibility,GE.12,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.13,EQUATION,Conservation,GE.13,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:GE.14,EQUATION,D'Alembertian,GE.14,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.1,EQUATION,Cost functional,PE.1,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.2,EQUATION,Fisher cost,PE.2,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.3,EQUATION,Variational principle,PE.3,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.4,EQUATION,Euler-Lagrange,PE.4,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.5,EQUATION,Action principle,PE.5,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.6,EQUATION,Action,PE.6,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.7,EQUATION,Field equation,PE.7,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.8,EQUATION,GR limit,PE.8,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.9,EQUATION,Covariant form,PE.9,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.10,EQUATION,Material derivative,PE.10,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.11,EQUATION,Gradient,PE.11,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.12,EQUATION,Org action stationarity,PE.12,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PE.13,EQUATION,Org action,PE.13,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.1,EQUATION,Christoffel,CV.1,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.2,EQUATION,Riemann tensor,CV.2,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.3,EQUATION,Ricci tensor,CV.3,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.4,EQUATION,Ricci scalar,CV.4,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.5,EQUATION,Einstein tensor,CV.5,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.6,EQUATION,Einstein equations,CV.6,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.7,EQUATION,Kretschner scalar,CV.7,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.8,EQUATION,Ricci squared,CV.8,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.9,EQUATION,Ricci scalar squared,CV.9,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.10,EQUATION,Weyl squared,CV.10,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.11,EQUATION,Einstein-Hilbert action,CV.11,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:CV.12,EQUATION,Volume element,CV.12,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.1,EQUATION,Continuity,PH.1,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.2,EQUATION,Diffusion,PH.2,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.3,EQUATION,Reaction-diffusion,PH.3,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.4,EQUATION,Navier-Stokes,PH.4,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.5,EQUATION,Gauss electric,PH.5,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.6,EQUATION,Gauss magnetic,PH.6,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.7,EQUATION,Faraday,PH.7,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.8,EQUATION,Ampere-Maxwell,PH.8,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.9,EQUATION,Pressure gradient,PH.9,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.10,EQUATION,Temperature gradient,PH.10,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.11,EQUATION,Chemical gradient,PH.11,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.12,EQUATION,Field gradient,PH.12,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:PH.13,EQUATION,Distinction operator,PH.13,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:QM.1,EQUATION,Schrodinger,QM.1,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:QM.2,EQUATION,Energy eigenvalue,QM.2,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:QM.3,EQUATION,Boltzmann entropy,QM.3,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:QM.4,EQUATION,Clausius,QM.4,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:QM.5,EQUATION,Helmholtz free energy,QM.5,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:QM.6,EQUATION,Gibbs free energy,QM.6,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:QM.7,EQUATION,Partition function,QM.7,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:QM.8,EQUATION,Free energy from Z,QM.8,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:QM.9,EQUATION,Entropy from F,QM.9,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:QM.10,EQUATION,Spectral action,QM.10,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:LH.1,EQUATION,Principle of stationary action,LH.1,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:LH.2,EQUATION,Action,LH.2,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:LH.3,EQUATION,Lagrangian,LH.3,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:LH.4,EQUATION,Hamilton equation 1,LH.4,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:LH.5,EQUATION,Hamilton equation 2,LH.5,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:LH.6,EQUATION,Hamiltonian,LH.6,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:LH.7,EQUATION,Poisson bracket,LH.7,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:LH.8,EQUATION,Energy conservation,LH.8,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.1,EQUATION,Evolution operator,OD.1,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.2,EQUATION,Operator form,OD.2,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.3,EQUATION,Attractor,OD.3,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.4,EQUATION,DTC iteration,OD.4,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.5,EQUATION,DTC composition,OD.5,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.6,EQUATION,Org state,OD.6,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.7,EQUATION,Control parameter,OD.7,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.8,EQUATION,Fragmentation,OD.8,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.9,EQUATION,Persistence,OD.9,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.10,EQUATION,Frozen equilibrium,OD.10,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.11,EQUATION,Persistence cond. 1,OD.11,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.12,EQUATION,Persistence cond. 2,OD.12,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.13,EQUATION,Persistence cond. 3,OD.13,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.14,EQUATION,Org. continuity,OD.14,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:OD.15,EQUATION,Full org. dynamics,OD.15,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:RG.1,EQUATION,Axiom 1 — Closure,RG.1,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:RG.2,EQUATION,Axiom 2 — Minimality,RG.2,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:RG.3,EQUATION,Axiom 3 — Completeness,RG.3,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:RG.4,EQUATION,Axiom 4 — Consistency,RG.4,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:RG.5,EQUATION,Axiom 5 — Canonical Form,RG.5,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:RG.6,EQUATION,Axiom 6 — Recursive Generativity,RG.6,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:RG.7,EQUATION,Persistence theorem,RG.7,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:RG.8,EQUATION,Generativity chain,RG.8,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.1,EQUATION,Input,MC.1,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.2,EQUATION,Step 1,MC.2,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.3,EQUATION,Step 2,MC.3,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.4,EQUATION,Step 3,MC.4,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.5,EQUATION,Step 4,MC.5,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.6,EQUATION,Step 5,MC.6,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.7,EQUATION,Step 6,MC.7,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.8,EQUATION,Step 7,MC.8,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.9,EQUATION,Step 8,MC.9,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.10,EQUATION,Step 9,MC.10,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.11,EQUATION,Step 10,MC.11,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.12,EQUATION,Step 11,MC.12,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.13,EQUATION,Step 12,MC.13,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.14,EQUATION,Step 13,MC.14,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.15,EQUATION,Step 14,MC.15,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.16,EQUATION,Step 15,MC.16,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.17,EQUATION,Step 16,MC.17,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.18,EQUATION,Step 17,MC.18,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.19,EQUATION,Step 18,MC.19,SOURCE-REGISTERED,,,Master Equation Matrix,,
+EQSRC:MC.20,EQUATION,Step 19,MC.20,SOURCE-REGISTERED,,,Master Equation Matrix,,
+DER-SDR-001,DERIVATION,Strict Dependency Relation — Definition,,CERTIFIED,,,DER Registry v2,None (definitional),
+DER-SDR-002,DERIVATION,Irreflexivity,,CERTIFIED,,,DER Registry v2,SDR-001,
+DER-SDR-003,DERIVATION,Transitivity,,CERTIFIED,,,DER Registry v2,SDR-001,
+DER-SDR-004,DERIVATION,Acyclicity,,CERTIFIED,,,DER Registry v2,SDR-001,
+DER-SDR-005,DERIVATION,Recovery Admissibility,,CERTIFIED,,,DER Registry v2,SDR-001 through SDR-004,
+DER-ORG-001,DERIVATION,Organizational Grammar Recovery,,CERTIFIED,,,DER Registry v2,"PRIM-001,002,003",
+DER-ORG-002,DERIVATION,Organizational State Evolution,,CERTIFIED,,,DER Registry v2,ORG-001,
+DER-ORG-003,DERIVATION,Persistence / Fixed-Point Recovery,,CERTIFIED,,,DER Registry v2,ORG-002,
+DER-ORG-004,DERIVATION,Recursive Organizational Distinction,,CERTIFIED,,,DER Registry v2,ORG-003,
+DER-ORG-005,DERIVATION,Organizational Compiler Interface,,CERTIFIED,,,DER Registry v2,"ORG-001, SPC-001",
+DER-ORG-006,DERIVATION,Fixed-Point Equivalence Theorem,,OPEN,,,DER Registry v2,"ORG-003, SPC-005",
+DER-ORG-007,DERIVATION,Organizational Persistence Functional Recovery,,OPEN,,,DER Registry v2,"ORG-003, TRC-002",
+DER-ORG-008,DERIVATION,Organizational Attractor Uniqueness,,OPEN,,,DER Registry v2,ORG-003,
+DER-ORG-009,DERIVATION,Compiler Completeness Theorem,,OPEN,,,DER Registry v2,ORG-005,
+DER-ORG-010,DERIVATION,Dependency Completeness Theorem,,OPEN,,,DER Registry v2,"SDR-005, ORG-009",
+DER-SPC-001,DERIVATION,Organizational Graph Recovery,,CERTIFIED,,,DER Registry v2,ORG-001,
+DER-SPC-002,DERIVATION,Laplacian Recovery,,CERTIFIED,,,DER Registry v2,SPC-001,
+DER-SPC-003,DERIVATION,Spectrum Recovery,,CERTIFIED,,,DER Registry v2,SPC-002,
+DER-SPC-004,DERIVATION,Heat Kernel Recovery,,CERTIFIED,,,DER Registry v2,SPC-003,
+DER-SPC-005,DERIVATION,Spectral Persistence Operator,,CERTIFIED,,,DER Registry v2,SPC-003,
+DER-SPC-006,DERIVATION,Spectral Organizational Fixed Point,,OPEN,,,DER Registry v2,SPC-005,
+DER-VAR-001,DERIVATION,Action Functional Recovery,,CERTIFIED,,,DER Registry v2,"GEO-001, SPC-003",
+DER-VAR-002,DERIVATION,Euler-Lagrange Recovery,,CERTIFIED,,,DER Registry v2,VAR-001,
+DER-VAR-003,DERIVATION,Legendre Transform Recovery,,CERTIFIED,,,DER Registry v2,VAR-002,
+DER-VAR-004,DERIVATION,Einstein-Hilbert Action,,CERTIFIED,,,DER Registry v2,GEO-005,
+DER-VAR-005,DERIVATION,Einstein Equation Recovery from Variation,,CERTIFIED,,,DER Registry v2,"VAR-004, GEO-006",
+DER-GEO-001,DERIVATION,Metric Recovery,,CERTIFIED,,,DER Registry v2,SPC-003,
+DER-GEO-002,DERIVATION,Connection Recovery,,CERTIFIED,,,DER Registry v2,GEO-001,
+DER-GEO-003,DERIVATION,Curvature Tensor Recovery,,CERTIFIED,,,DER Registry v2,GEO-002,
+DER-GEO-004,DERIVATION,Ricci Tensor Recovery,,CERTIFIED,,,DER Registry v2,GEO-003,
+DER-GEO-005,DERIVATION,Scalar Curvature Recovery,,CERTIFIED,,,DER Registry v2,GEO-004,
+DER-GEO-006,DERIVATION,Einstein Tensor Recovery,,CERTIFIED,,,DER Registry v2,GEO-005,
+DER-GAU-001,DERIVATION,Gauge Connection,,CERTIFIED,,,DER Registry v2,SPC-002,
+DER-GAU-002,DERIVATION,Electromagnetic Curvature,,CERTIFIED,,,DER Registry v2,GAU-001,
+DER-GAU-003,DERIVATION,Covariant Derivative,,CERTIFIED,,,DER Registry v2,"GAU-001, GEO-002",
+DER-GAU-004,DERIVATION,Yang-Mills Recovery,,CERTIFIED,,,DER Registry v2,"GAU-002, GAU-003",
+DER-QR-001,DERIVATION,Hilbert Space Recovery,,CERTIFIED,,,DER Registry v2,SPC-003,
+DER-QR-002,DERIVATION,Schrodinger Recovery,,CERTIFIED,,,DER Registry v2,"QR-001, SPC-003",
+DER-QR-003,DERIVATION,Heisenberg Recovery,,CERTIFIED,,,DER Registry v2,QR-002,
+DER-QR-004,DERIVATION,Uncertainty Structure,,CERTIFIED,,,DER Registry v2,QR-003,
+DER-QR-005,DERIVATION,Clifford Algebra Recovery,,CERTIFIED,,,DER Registry v2,GEO-001,
+DER-QR-006,DERIVATION,Dirac Operator Recovery,,CERTIFIED,,,DER Registry v2,"QR-005, GAU-003",
+DER-QR-007,DERIVATION,Spin Recovery,,CERTIFIED,,,DER Registry v2,QR-006,
+DER-QR-008,DERIVATION,Magnetic Moment Recovery,,CERTIFIED,,,DER Registry v2,"QR-007, GAU-001",
+DER-TRC-001,DERIVATION,Internal Energy Recovery,,CERTIFIED,,,DER Registry v2,PRIM-004,
+DER-TRC-002,DERIVATION,Entropy Recovery,,CERTIFIED,,,DER Registry v2,TRC-001,
+DER-TRC-003,DERIVATION,Entropy Flux Recovery,,CERTIFIED,,,DER Registry v2,TRC-002,
+DER-TRC-004,DERIVATION,Clausius-Duhem Recovery,,CERTIFIED,,,DER Registry v2,"TRC-002, TRC-003",
+DER-TRC-005,DERIVATION,Fourier Heat Flux Recovery,,CERTIFIED,,,DER Registry v2,TRC-003,
+DER-TRC-006,DERIVATION,Organizational Persistence Functional,,OPEN,,,DER Registry v2,"TRC-002, SPC-003",
+PRIM-001,DERIVATION,Delta (Distinction),,CERTIFIED,,,DER Registry v2,None,
+PRIM-002,DERIVATION,tau (Transformation),,CERTIFIED,,,DER Registry v2,None,
+PRIM-003,DERIVATION,kappa (Constraint),,CERTIFIED,,,DER Registry v2,None,
+PRIM-004,DERIVATION,E (Energy),,CERTIFIED,,,DER Registry v2,None,
+PRIM-005,DERIVATION,B (Bipartite substrate),,CERTIFIED,,,DER Registry v2,None,
+BR-001,BRIDGE,Grammar composition,"(Δ,τ,κ,Π)→Γ",CERTIFIED SPINE,,,v1 Synchronization,"(Δ,τ,κ,Π)→Γ",C0 canonical uniqueness remains open
+BR-002,BRIDGE,Organizational evolution,Γ→O→Ψ,CERTIFIED/PARTIAL,,,v1 Synchronization,Γ→O→Ψ,Fixed-point closure remains open
+BR-003,BRIDGE,Organizational state to graph,Ψ→G,CALCULATED/SCOPED,,,v1 Synchronization,Ψ→G,Representation universality open
+BR-004,BRIDGE,Graph to Laplacian,G→L,CERTIFIED,,,v1 Synchronization,G→L,Graph assumptions
+BR-005,BRIDGE,Spectral decomposition,L→Spec(L),CERTIFIED,,,v1 Synchronization,L→Spec(L),Self-adjoint/finite graph conditions
+BR-006,BRIDGE,Spectrum to heat semigroup,Spec(L)→K_t,CERTIFIED,,,v1 Synchronization,Spec(L)→K_t,PSD/self-adjoint
+BR-007,BRIDGE,Spectrum to diffusion distance,Spec(L)→d,CALCULATED/SCOPED,,,v1 Synchronization,Spec(L)→d,Nonzero modes
+BR-008,BRIDGE,Distance to metric,d→g,CALCULATED/SCOPED,,,v1 Synchronization,d→g,Continuum/refinement assumptions
+BR-009,BRIDGE,Metric to connection,g→∇,DERIVED,,,v1 Synchronization,g→∇,Riemannian scope
+BR-010,BRIDGE,Curvature hierarchy,∇→Riemann→Ricci→R→G,DERIVED,,,v1 Synchronization,∇→Riemann→Ricci→R→G,Metric differentiability
+BR-011,BRIDGE,Einstein tensor to field equation,G→Einstein dynamics,DERIVED/ADMITTED,,,v1 Synchronization,G→Einstein dynamics,Matter source/coupling status version-dependent
+BR-012,BRIDGE,Graph Laplacian to Dirac,L→D,CERTIFIED IN UCG SOURCE,,,v1 Synchronization,L→D,Scope and NCG equivalence remain a distinct issue
+BR-013,BRIDGE,Spectral persistence filter,L→R=e^{-βL},CERTIFIED,,,v1 Synchronization,L→R=e^{-βL},Persistence interpretation open
+BR-014,BRIDGE,Persistence cost to field equation,C_Π→δC_Π=0,CERTIFIED,,,v1 Synchronization,C_Π→δC_Π=0,Functional assumptions
+BR-015,BRIDGE,Zero informational-loss limit,I_F→geodesic,CERTIFIED,,,v1 Synchronization,I_F→geodesic,Model branch
+BR-016,BRIDGE,Statistical bridge,R→Z→F,DERIVED,,,v1 Synchronization,R→Z→F,β=1/k_BT convention
+BR-017,BRIDGE,Discrete-to-continuum bridge,L_N/h_N²→-Δ_g,CLOSED FOR TEST FAMILY,,,v1 Synchronization,L_N/h_N²→-Δ_g,Not universal yet
+BR-018,BRIDGE,Heat-kernel geometric bridge,K_N→K_g→d_g→g_ij,CONDITIONAL/DERIVED,,,v1 Synchronization,K_N→K_g→d_g→g_ij,h_N²/t→0
+BR-019,BRIDGE,Homogeneous scale evolution,L(a)→dotL,DERIVED/CALCULATED,,,v1 Synchronization,L(a)→dotL,Homogeneous branch
+BR-020,BRIDGE,Spectral vacuum bridge,Spec(L)→DOS→ρ_vac,DERIVED/CALCULATED,,,v1 Synchronization,Spec(L)→DOS→ρ_vac,3D continuum physical cutoff
+BR-021,BRIDGE,Horizon heat-kernel area bridge,Z_H→A_H,DERIVED/CALCULATED,,,v1 Synchronization,Z_H→A_H,Given legitimate horizon subsystem
+BR-022,BRIDGE,Spectral/BH normalization bridge,Z_H(ℓ_p²)→N_BH,ALGEBRAIC CONDITION,,,v1 Synchronization,Z_H(ℓ_p²)→N_BH,π origin not derived
+BR-023,BRIDGE,Information-to-cutoff bridge,N_H→Ξ,CONDITIONAL DOWNSTREAM,,,v1 Synchronization,N_H→Ξ,Requires non-circular N_H
+BR-024,BRIDGE,Cutoff to vacuum bridge,Ξ→Λ_*→ρ_vac,DERIVED GIVEN Ξ,,,v1 Synchronization,Ξ→Λ_*→ρ_vac,Scale anchor remains upstream
+BR-025,BRIDGE,Cosmological dynamics bridge,ρ_vac→Λ_cosm→H→a,DOWNSTREAM CLOSED GIVEN INPUT,,,v1 Synchronization,ρ_vac→Λ_cosm→H→a,Vacuum branch
+BR-026,BRIDGE,Horizon selection bridge,Γ→Σ_H→P_H,OPEN,,,v1 Synchronization,Γ→Σ_H→P_H,UOC horizon selector not yet generated
+BR-027,BRIDGE,Localized heat trace,P_H→Z_H,OPEN AS UOC DERIVATION,,,v1 Synchronization,P_H→Z_H,Depends on P_H
+BR-028,BRIDGE,Absolute scale bridge,Γ→ℓ_*,OPEN,,,v1 Synchronization,Γ→ℓ_*,Scale nonuniqueness theorem
+BR-029,BRIDGE,Universal spectral dynamics,Γ→dotL,OPEN,,,v1 Synchronization,Γ→dotL,Must generate H
+DEP-001,DEPENDENCY,Primitive grammar → organizational action,"(D,τ,κ,Π)→Γ",CERTIFIED SPINE,,,v1 Synchronization,"(D,τ,κ,Π)→Γ",C0 uniqueness/reconciliation open
+DEP-002,DEPENDENCY,Organizational operator,Γ→O,CERTIFIED SPINE,,,v1 Synchronization,Γ→O,Fixed-point closure open
+DEP-003,DEPENDENCY,State recursion,O→Ψ,CERTIFIED SPINE,,,v1 Synchronization,O→Ψ,Compiler correspondence
+DEP-004,DEPENDENCY,Graph substrate,Ψ→G,CERTIFIED/PARTIAL,,,v1 Synchronization,Ψ→G,Representation scope
+DEP-005,DEPENDENCY,Graph Laplacian,G→L,CERTIFIED,,,v1 Synchronization,G→L,Finite graph
+DEP-006,DEPENDENCY,Spectral decomposition,L→Spec(L),CERTIFIED,,,v1 Synchronization,L→Spec(L),Self-adjoint
+DEP-007,DEPENDENCY,Heat semigroup,Spec(L)→K_t,CERTIFIED,,,v1 Synchronization,Spec(L)→K_t,t>0
+DEP-008,DEPENDENCY,Diffusion distance,K_t→d,CALCULATED,,,v1 Synchronization,K_t→d,Nonzero spectrum
+DEP-009,DEPENDENCY,Metric reconstruction,d→g,CALCULATED/SCOPED,,,v1 Synchronization,d→g,Continuum
+DEP-010,DEPENDENCY,Levi-Civita connection,g→∇,DERIVED,,,v1 Synchronization,g→∇,Smooth metric
+DEP-011,DEPENDENCY,Curvature,∇→Riemann,DERIVED,,,v1 Synchronization,∇→Riemann,Differentiability
+DEP-012,DEPENDENCY,Contraction,Riemann→Ricci,DERIVED,,,v1 Synchronization,Riemann→Ricci,Geometry
+DEP-013,DEPENDENCY,Scalar curvature,Ricci→R,DERIVED,,,v1 Synchronization,Ricci→R,Geometry
+DEP-014,DEPENDENCY,Einstein tensor,R→G_μν,DERIVED,,,v1 Synchronization,R→G_μν,Geometry
+DEP-015,DEPENDENCY,Variational gravity,G_μν→S_EH,DERIVED/ADMITTED,,,v1 Synchronization,G_μν→S_EH,Action
+DEP-016,DEPENDENCY,Matter/gauge/quantum sectors,"S_EH→A_μ,F_μν,D_μ,ψ,T_μν",PARTIAL/VERSION DEPENDENT,,,v1 Synchronization,"S_EH→A_μ,F_μν,D_μ,ψ,T_μν",Selection/integration
+DEP-017,DEPENDENCY,Persistence sector,Spec(L)→Π_spectral,PARTIAL,,,v1 Synchronization,Spec(L)→Π_spectral,Functional/threshold open
+DEP-018,DEPENDENCY,Horizon selector,Π_spectral→Σ_H,OPEN,,,v1 Synchronization,Π_spectral→Σ_H,Need organizational/causal boundary derivation
+DEP-019,DEPENDENCY,Horizon projector,Σ_H→P_H,OPEN,,,v1 Synchronization,Σ_H→P_H,Need P_H derivation
+DEP-020,DEPENDENCY,Localized heat trace,"P_H,L→Z_H",CALCULATED GIVEN P_H,,,v1 Synchronization,"P_H,L→Z_H",UOC generation open
+DEP-021,DEPENDENCY,Area,Z_H→A_H,DERIVED/SCOPED,,,v1 Synchronization,Z_H→A_H,2D heat kernel
+DEP-022,DEPENDENCY,Information count,A_H→N_H^UOC,OPEN,,,v1 Synchronization,A_H→N_H^UOC,Independent functional
+DEP-023,DEPENDENCY,Cutoff ratio,N_H^UOC→Ξ,CONDITIONAL,,,v1 Synchronization,N_H^UOC→Ξ,Non-circular mapping
+DEP-024,DEPENDENCY,Physical cutoff,Ξ→Λ_*,DERIVED GIVEN ℓ_p,,,v1 Synchronization,Ξ→Λ_*,Absolute scale origin open
+DEP-025,DEPENDENCY,Vacuum density,Λ_*→ρ_vac,DERIVED,,,v1 Synchronization,Λ_*→ρ_vac,3D DOS
+DEP-026,DEPENDENCY,Cosmological constant,ρ_vac→Λ_cosm,DERIVED,,,v1 Synchronization,ρ_vac→Λ_cosm,ℓ_p² relation
+DEP-027,DEPENDENCY,Friedmann,Λ_cosm→H,DERIVED/ADMITTED,,,v1 Synchronization,Λ_cosm→H,Vacuum branch
+DEP-028,DEPENDENCY,Scale factor,H→a(t),DERIVED,,,v1 Synchronization,H→a(t),Constant vacuum → de Sitter
+DEP-029,DEPENDENCY,Absolute scale anchor,Γ→ℓ_*,OPEN,,,v1 Synchronization,Γ→ℓ_*,Scale nonuniqueness
+DEP-030,DEPENDENCY,Spectral dynamics,Γ→dotL,OPEN,,,v1 Synchronization,Γ→dotL,Must generate H rather than insert it
+GAP-001,GAP,What must exist for any physically observable universe to exist at all?,,OPEN,,,ToE Gap Matrix,,I. Ontological Foundation
+GAP-002,GAP,What is the minimum ontological commitment required to formulate a fundamental physical theory?,,OPEN,,,ToE Gap Matrix,,I. Ontological Foundation
+GAP-003,GAP,"Which entities or structures are genuinely fundamental, and which are emergent descriptions?",,OPEN,,,ToE Gap Matrix,,I. Ontological Foundation
+GAP-004,GAP,Can the fundamental theory be formulated without presupposing spacetime?,,OPEN,,,ToE Gap Matrix,,I. Ontological Foundation
+GAP-005,GAP,Can it be formulated without presupposing time?,,OPEN,,,ToE Gap Matrix,,I. Ontological Foundation
+GAP-006,GAP,"Can it be formulated without presupposing matter, particles, fields, or quantum states?",,OPEN,,,ToE Gap Matrix,,I. Ontological Foundation
+GAP-007,GAP,"Does the theory require an underlying substrate, or can physical reality be defined entirely relationally?",,OPEN,,,ToE Gap Matrix,,I. Ontological Foundation
+GAP-008,GAP,What distinguishes physical existence from mathematical possibility?,,OPEN,,,ToE Gap Matrix,,I. Ontological Foundation
+GAP-009,GAP,What determines which mathematically possible structures are physically realized?,,OPEN,,,ToE Gap Matrix,,I. Ontological Foundation
+GAP-010,GAP,"Does the theory need to explain why something exists, or is existence itself a legitimate primitive?",,OPEN,,,ToE Gap Matrix,,I. Ontological Foundation
+GAP-011,GAP,What organizational process is occurring at the deepest physically meaningful level?,,OPEN,,,ToE Gap Matrix,,II. Fundamental Organizational Process
+GAP-012,GAP,"What changes, and what remains invariant, during that process?",,OPEN,,,ToE Gap Matrix,,II. Fundamental Organizational Process
+GAP-013,GAP,What relationships are necessary for the process to occur?,,OPEN,,,ToE Gap Matrix,,II. Fundamental Organizational Process
+GAP-014,GAP,What structures can participate in the process?,,OPEN,,,ToE Gap Matrix,,II. Fundamental Organizational Process
+GAP-015,GAP,What structures can emerge from the process without being fundamental assumptions?,,OPEN,,,ToE Gap Matrix,,II. Fundamental Organizational Process
+GAP-016,GAP,Is there one universal organizational process underlying apparently different physical phenomena?,,OPEN,,,ToE Gap Matrix,,II. Fundamental Organizational Process
+GAP-017,GAP,"If multiple processes exist, what relates them?",,OPEN,,,ToE Gap Matrix,,II. Fundamental Organizational Process
+GAP-018,GAP,Can the fundamental process be expressed independently of any particular mathematical representation?,,OPEN,,,ToE Gap Matrix,,II. Fundamental Organizational Process
+GAP-019,GAP,What distinguishes a physical process from an arbitrary mathematical transformation?,,OPEN,,,ToE Gap Matrix,,II. Fundamental Organizational Process
+GAP-020,GAP,"Does the fundamental process possess a natural notion of composition, succession, or interaction without presupposing time?",,OPEN,,,ToE Gap Matrix,,II. Fundamental Organizational Process
+GAP-021,GAP,"What quantities, relationships, or structures must remain invariant under fundamental physical transformations?",,OPEN,,,ToE Gap Matrix,,III. Fundamental Invariants
+GAP-022,GAP,Which invariants are representation-independent?,,OPEN,,,ToE Gap Matrix,,III. Fundamental Invariants
+GAP-023,GAP,Which invariants are merely artifacts of a particular mathematical description?,,OPEN,,,ToE Gap Matrix,,III. Fundamental Invariants
+GAP-024,GAP,Can conservation laws be derived from deeper invariance principles?,,OPEN,,,ToE Gap Matrix,,III. Fundamental Invariants
+GAP-025,GAP,Can symmetries be derived rather than assumed?,,OPEN,,,ToE Gap Matrix,,III. Fundamental Invariants
+GAP-026,GAP,Can gauge invariance be derived from deeper structure?,,OPEN,,,ToE Gap Matrix,,III. Fundamental Invariants
+GAP-027,GAP,Can Lorentz invariance be derived rather than postulated?,,OPEN,,,ToE Gap Matrix,,III. Fundamental Invariants
+GAP-028,GAP,Can unitarity be derived rather than assumed?,,OPEN,,,ToE Gap Matrix,,III. Fundamental Invariants
+GAP-029,GAP,Can locality or an appropriate replacement for locality be derived?,,OPEN,,,ToE Gap Matrix,,III. Fundamental Invariants
+GAP-030,GAP,What is the smallest set of fundamental invariants from which known physical laws can emerge?,,OPEN,,,ToE Gap Matrix,,III. Fundamental Invariants
+GAP-031,GAP,What is the fundamental notion of physical transformation?,,OPEN,,,ToE Gap Matrix,,IV. Transformation and Dynamics
+GAP-032,GAP,What determines which transformations are physically admissible?,,OPEN,,,ToE Gap Matrix,,IV. Transformation and Dynamics
+GAP-033,GAP,What determines the dynamics of the fundamental system?,,OPEN,,,ToE Gap Matrix,,IV. Transformation and Dynamics
+GAP-034,GAP,Can the fundamental dynamics be expressed without a background spacetime?,,OPEN,,,ToE Gap Matrix,,IV. Transformation and Dynamics
+GAP-035,GAP,Can dynamics exist without a primitive time parameter?,,OPEN,,,ToE Gap Matrix,,IV. Transformation and Dynamics
+GAP-036,GAP,Can temporal evolution emerge from a deeper transformation structure?,,OPEN,,,ToE Gap Matrix,,IV. Transformation and Dynamics
+GAP-037,GAP,What mathematical object generates fundamental dynamics?,,OPEN,,,ToE Gap Matrix,,IV. Transformation and Dynamics
+GAP-038,GAP,"Does the theory require an action principle, Hamiltonian structure, path integral, transition operator, category, algebra, or something more fundamental?",,OPEN,,,ToE Gap Matrix,,IV. Transformation and Dynamics
+GAP-039,GAP,Can apparently different dynamical laws be derived as different limits of one fundamental law?,,OPEN,,,ToE Gap Matrix,,IV. Transformation and Dynamics
+GAP-040,GAP,"What determines the arrow of time, if time itself is emergent?",,OPEN,,,ToE Gap Matrix,,IV. Transformation and Dynamics
+GAP-041,GAP,Is spacetime fundamental or emergent?,,OPEN,,,ToE Gap Matrix,,V. Emergence of Spacetime
+GAP-042,GAP,"If spacetime is emergent, what underlying structure generates it?",,OPEN,,,ToE Gap Matrix,,V. Emergence of Spacetime
+GAP-043,GAP,What mechanism produces dimensionality?,,OPEN,,,ToE Gap Matrix,,V. Emergence of Spacetime
+GAP-044,GAP,Why does effective spacetime have approximately 3+1 dimensions?,,OPEN,,,ToE Gap Matrix,,V. Emergence of Spacetime
+GAP-045,GAP,Can locality emerge from a nonlocal or pre-geometric structure?,,OPEN,,,ToE Gap Matrix,,V. Emergence of Spacetime
+GAP-046,GAP,Can causal structure emerge without assuming causality at the fundamental level?,,OPEN,,,ToE Gap Matrix,,V. Emergence of Spacetime
+GAP-047,GAP,Can metric structure emerge from more primitive relationships?,,OPEN,,,ToE Gap Matrix,,V. Emergence of Spacetime
+GAP-048,GAP,Can curvature emerge from organizational or relational structure?,,OPEN,,,ToE Gap Matrix,,V. Emergence of Spacetime
+GAP-049,GAP,Can the Einstein field equations emerge from the deeper theory?,,OPEN,,,ToE Gap Matrix,,V. Emergence of Spacetime
+GAP-050,GAP,Under what limit does the fundamental theory reproduce General Relativity?,,OPEN,,,ToE Gap Matrix,,V. Emergence of Spacetime
+GAP-051,GAP,Why is nature quantum mechanical?,,OPEN,,,ToE Gap Matrix,,VI. Quantum Structure
+GAP-052,GAP,Can the Hilbert-space structure of quantum theory be derived?,,OPEN,,,ToE Gap Matrix,,VI. Quantum Structure
+GAP-053,GAP,Can complex amplitudes be derived?,,OPEN,,,ToE Gap Matrix,,VI. Quantum Structure
+GAP-054,GAP,Can superposition be derived?,,OPEN,,,ToE Gap Matrix,,VI. Quantum Structure
+GAP-055,GAP,Can entanglement be derived?,,OPEN,,,ToE Gap Matrix,,VI. Quantum Structure
+GAP-056,GAP,Can the Born rule be derived?,,OPEN,,,ToE Gap Matrix,,VI. Quantum Structure
+GAP-057,GAP,Can quantum probabilities be derived rather than assumed?,,OPEN,,,ToE Gap Matrix,,VI. Quantum Structure
+GAP-058,GAP,Can unitarity emerge from deeper dynamics?,,OPEN,,,ToE Gap Matrix,,VI. Quantum Structure
+GAP-059,GAP,Can measurement and classical definiteness emerge from the fundamental theory?,,OPEN,,,ToE Gap Matrix,,VI. Quantum Structure
+GAP-060,GAP,Does quantum mechanics represent a fundamental level of reality or an effective preservation architecture?,,OPEN,,,ToE Gap Matrix,,VI. Quantum Structure
+GAP-061,GAP,What is gravity fundamentally?,,OPEN,,,ToE Gap Matrix,,VII. Gravity
+GAP-062,GAP,"Is gravity a fundamental interaction, emergent geometry, collective phenomenon, or something else?",,OPEN,,,ToE Gap Matrix,,VII. Gravity
+GAP-063,GAP,Why does gravitational interaction correspond to spacetime geometry in General Relativity?,,OPEN,,,ToE Gap Matrix,,VII. Gravity
+GAP-064,GAP,Can the equivalence principle be derived?,,OPEN,,,ToE Gap Matrix,,VII. Gravity
+GAP-065,GAP,Can gravitational dynamics emerge from the same structure responsible for quantum behavior?,,OPEN,,,ToE Gap Matrix,,VII. Gravity
+GAP-066,GAP,Can black-hole entropy be derived from the underlying degrees of freedom?,,OPEN,,,ToE Gap Matrix,,VII. Gravity
+GAP-067,GAP,Can black-hole thermodynamics be derived?,,OPEN,,,ToE Gap Matrix,,VII. Gravity
+GAP-068,GAP,Can the Bekenstein-Hawking entropy formula be derived?,,OPEN,,,ToE Gap Matrix,,VII. Gravity
+GAP-069,GAP,Can Hawking radiation be recovered?,,OPEN,,,ToE Gap Matrix,,VII. Gravity
+GAP-070,GAP,Can the black-hole information problem be resolved without adding ad hoc assumptions?,,OPEN,,,ToE Gap Matrix,,VII. Gravity
+GAP-071,GAP,Can the Standard Model gauge structure be derived?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-072,GAP,Why is the gauge group SU(3)xSU(2)xU(1) the structure realized by nature?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-073,GAP,Can gauge symmetries emerge from deeper principles?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-074,GAP,Can the observed particle representations be derived?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-075,GAP,Can the number of particle generations be derived?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-076,GAP,Can fermionic statistics be derived?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-077,GAP,Can chirality be derived?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-078,GAP,Can the Higgs mechanism be derived?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-079,GAP,Can electroweak symmetry breaking be derived?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-080,GAP,Can the strong interaction and confinement be derived?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-081,GAP,Can neutrino masses and mixing be derived?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-082,GAP,Can the absence or presence of additional particles be predicted?,,OPEN,,,ToE Gap Matrix,,VIII. Standard Model
+GAP-083,GAP,Why do the fundamental dimensionless constants have their observed values?,,OPEN,,,ToE Gap Matrix,,IX. Constants and Parameters
+GAP-084,GAP,Which constants are genuinely fundamental?,,OPEN,,,ToE Gap Matrix,,IX. Constants and Parameters
+GAP-085,GAP,Which parameters can be derived from deeper structure?,,OPEN,,,ToE Gap Matrix,,IX. Constants and Parameters
+GAP-086,GAP,Can the fine-structure constant be predicted?,,OPEN,,,ToE Gap Matrix,,IX. Constants and Parameters
+GAP-087,GAP,Can particle mass ratios be predicted?,,OPEN,,,ToE Gap Matrix,,IX. Constants and Parameters
+GAP-088,GAP,Can gauge couplings be predicted?,,OPEN,,,ToE Gap Matrix,,IX. Constants and Parameters
+GAP-089,GAP,Can the cosmological constant be predicted?,,OPEN,,,ToE Gap Matrix,,IX. Constants and Parameters
+GAP-090,GAP,Can the number of free parameters in fundamental physics be reduced to zero or to a uniquely determined set?,,OPEN,,,ToE Gap Matrix,,IX. Constants and Parameters
+GAP-091,GAP,"If parameters cannot be derived, what determines their allowed values?",,OPEN,,,ToE Gap Matrix,,IX. Constants and Parameters
+GAP-092,GAP,Are quantum mechanics and General Relativity different manifestations of one underlying structure?,,OPEN,,,ToE Gap Matrix,,X. Unification
+GAP-093,GAP,Do gauge interactions and gravity arise from a common mathematical structure?,,OPEN,,,ToE Gap Matrix,,X. Unification
+GAP-094,GAP,Can matter and geometry emerge from the same underlying degrees of freedom?,,OPEN,,,ToE Gap Matrix,,X. Unification
+GAP-095,GAP,Can forces be understood as different manifestations of one organizational mechanism?,,OPEN,,,ToE Gap Matrix,,X. Unification
+GAP-096,GAP,Can apparently different mathematical descriptions be translated into a common preservation architecture?,,OPEN,,,ToE Gap Matrix,,X. Unification
+GAP-097,GAP,What mathematical equivalences connect currently separate theories?,,OPEN,,,ToE Gap Matrix,,X. Unification
+GAP-098,GAP,"Which differences between existing theories are physical, and which are representational?",,OPEN,,,ToE Gap Matrix,,X. Unification
+GAP-099,GAP,What is the minimal common structure capable of reproducing all established fundamental theories?,,OPEN,,,ToE Gap Matrix,,X. Unification
+GAP-100,GAP,"Does a genuinely unified theory require a single mathematical language, or can fundamentally different mathematical representations describe the same underlying structure?",,OPEN,,,ToE Gap Matrix,,X. Unification
+GAP-101,GAP,Is the fundamental theory mathematically well-defined?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-102,GAP,Does it possess a well-defined state space or equivalent fundamental structure?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-103,GAP,Are its dynamics well-defined?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-104,GAP,Is the theory internally consistent?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-105,GAP,Does it contain anomalies?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-106,GAP,Does it preserve unitarity?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-107,GAP,Does it preserve appropriate causality?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-108,GAP,Does it possess a sensible continuum limit?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-109,GAP,Does it possess a sensible classical limit?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-110,GAP,Does it reproduce ordinary quantum field theory where QFT is known to work?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-111,GAP,Does it reproduce General Relativity where GR is known to work?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-112,GAP,Does it avoid mathematical structures that have no physically meaningful interpretation?,,OPEN,,,ToE Gap Matrix,,XI. Mathematical Consistency
+GAP-113,GAP,What is the precise limit in which the theory becomes quantum mechanics?,,OPEN,,,ToE Gap Matrix,,XII. Recovery of Known Physics
+GAP-114,GAP,What is the precise limit in which it becomes quantum field theory?,,OPEN,,,ToE Gap Matrix,,XII. Recovery of Known Physics
+GAP-115,GAP,What is the precise limit in which it becomes General Relativity?,,OPEN,,,ToE Gap Matrix,,XII. Recovery of Known Physics
+GAP-116,GAP,What is the precise limit in which it becomes classical mechanics?,,OPEN,,,ToE Gap Matrix,,XII. Recovery of Known Physics
+GAP-117,GAP,What is the precise limit in which it becomes thermodynamics?,,OPEN,,,ToE Gap Matrix,,XII. Recovery of Known Physics
+GAP-118,GAP,What is the precise limit in which it becomes statistical mechanics?,,OPEN,,,ToE Gap Matrix,,XII. Recovery of Known Physics
+GAP-119,GAP,Can all successful existing theories be recovered without independently inserting their fundamental assumptions?,,OPEN,,,ToE Gap Matrix,,XII. Recovery of Known Physics
+GAP-120,GAP,Which assumptions of established physics become theorems of the deeper theory?,,OPEN,,,ToE Gap Matrix,,XII. Recovery of Known Physics
+GAP-121,GAP,How does microscopic structure produce macroscopic physics?,,OPEN,,,ToE Gap Matrix,,XIII. Emergence and Scale
+GAP-122,GAP,What survives coarse-graining?,,OPEN,,,ToE Gap Matrix,,XIII. Emergence and Scale
+GAP-123,GAP,Can renormalization-group behavior emerge from the fundamental theory?,,OPEN,,,ToE Gap Matrix,,XIII. Emergence and Scale
+GAP-124,GAP,Can universality classes be derived?,,OPEN,,,ToE Gap Matrix,,XIII. Emergence and Scale
+GAP-125,GAP,Why do very different microscopic systems produce the same effective laws?,,OPEN,,,ToE Gap Matrix,,XIII. Emergence and Scale
+GAP-126,GAP,Which physical laws are fixed-point structures?,,OPEN,,,ToE Gap Matrix,,XIII. Emergence and Scale
+GAP-127,GAP,"Which quantities are relevant, irrelevant, or marginal at fundamental scales?",,OPEN,,,ToE Gap Matrix,,XIII. Emergence and Scale
+GAP-128,GAP,"Can spacetime, particles, fields, and forces all be effective large-scale organizational structures?",,OPEN,,,ToE Gap Matrix,,XIII. Emergence and Scale
+GAP-129,GAP,"Is information fundamental, emergent, or merely representational?",,OPEN,,,ToE Gap Matrix,,XIV. Information and Entropy
+GAP-130,GAP,What physical structure corresponds to information?,,OPEN,,,ToE Gap Matrix,,XIV. Information and Entropy
+GAP-131,GAP,Can entropy be derived from deeper organizational structure?,,OPEN,,,ToE Gap Matrix,,XIV. Information and Entropy
+GAP-132,GAP,Can the second law of thermodynamics be derived?,,OPEN,,,ToE Gap Matrix,,XIV. Information and Entropy
+GAP-133,GAP,Why does entropy increase in the observed direction of time?,,OPEN,,,ToE Gap Matrix,,XIV. Information and Entropy
+GAP-134,GAP,Can black-hole entropy and ordinary thermodynamic entropy be understood through the same mechanism?,,OPEN,,,ToE Gap Matrix,,XIV. Information and Entropy
+GAP-135,GAP,Can quantum entanglement entropy generate geometric structure?,,OPEN,,,ToE Gap Matrix,,XIV. Information and Entropy
+GAP-136,GAP,"Is there a universal relationship between information, geometry, and physical organization?",,OPEN,,,ToE Gap Matrix,,XIV. Information and Entropy
+GAP-137,GAP,Can the existence and properties of the early universe be derived?,,OPEN,,,ToE Gap Matrix,,XV. Cosmology
+GAP-138,GAP,Why does the universe possess the observed large-scale structure?,,OPEN,,,ToE Gap Matrix,,XV. Cosmology
+GAP-139,GAP,"Can inflation be derived, replaced, or shown unnecessary?",,OPEN,,,ToE Gap Matrix,,XV. Cosmology
+GAP-140,GAP,Can the cosmological constant be explained?,,OPEN,,,ToE Gap Matrix,,XV. Cosmology
+GAP-141,GAP,Can dark matter be derived as an emergent phenomenon or predicted as fundamental matter?,,OPEN,,,ToE Gap Matrix,,XV. Cosmology
+GAP-142,GAP,Can dark energy be derived?,,OPEN,,,ToE Gap Matrix,,XV. Cosmology
+GAP-143,GAP,Why is the universe approximately homogeneous and isotropic at large scales?,,OPEN,,,ToE Gap Matrix,,XV. Cosmology
+GAP-144,GAP,What determines the initial conditions of the universe?,,OPEN,,,ToE Gap Matrix,,XV. Cosmology
+GAP-145,GAP,Does the fundamental theory require an initial state at all?,,OPEN,,,ToE Gap Matrix,,XV. Cosmology
+GAP-146,GAP,Can the apparent beginning of time emerge from a deeper timeless description?,,OPEN,,,ToE Gap Matrix,,XV. Cosmology
+GAP-147,GAP,Why does this universe rather than another mathematically possible universe exist?,,OPEN,,,ToE Gap Matrix,,XVI. Selection and Uniqueness
+GAP-148,GAP,Does the fundamental theory admit multiple consistent solutions?,,OPEN,,,ToE Gap Matrix,,XVI. Selection and Uniqueness
+GAP-149,GAP,"If so, what selects the physical solution?",,OPEN,,,ToE Gap Matrix,,XVI. Selection and Uniqueness
+GAP-150,GAP,Are physical constants uniquely determined?,,OPEN,,,ToE Gap Matrix,,XVI. Selection and Uniqueness
+GAP-151,GAP,Are the laws of physics uniquely determined?,,OPEN,,,ToE Gap Matrix,,XVI. Selection and Uniqueness
+GAP-152,GAP,Does mathematical consistency alone select the observed universe?,,OPEN,,,ToE Gap Matrix,,XVI. Selection and Uniqueness
+GAP-153,GAP,"If not, what additional physical principle performs the selection?",,OPEN,,,ToE Gap Matrix,,XVI. Selection and Uniqueness
+GAP-154,GAP,"Can anthropic reasoning be avoided, derived, or rigorously constrained?",,OPEN,,,ToE Gap Matrix,,XVI. Selection and Uniqueness
+GAP-155,GAP,What does the theory predict that existing theories do not?,,OPEN,,,ToE Gap Matrix,,XVII. Empirical Test
+GAP-156,GAP,Which prediction is experimentally distinguishable?,,OPEN,,,ToE Gap Matrix,,XVII. Empirical Test
+GAP-157,GAP,What observable quantity differs from Standard Model + GR predictions?,,OPEN,,,ToE Gap Matrix,,XVII. Empirical Test
+GAP-158,GAP,"At what energy, distance, time, or precision should the difference appear?",,OPEN,,,ToE Gap Matrix,,XVII. Empirical Test
+GAP-159,GAP,What experiment could falsify the theory?,,OPEN,,,ToE Gap Matrix,,XVII. Empirical Test
+GAP-160,GAP,What observation would conclusively rule out the theory?,,OPEN,,,ToE Gap Matrix,,XVII. Empirical Test
+GAP-161,GAP,"Does the theory make risky predictions, or merely accommodate existing observations?",,OPEN,,,ToE Gap Matrix,,XVII. Empirical Test
+GAP-162,GAP,Are its free parameters fitted or genuinely predicted?,,OPEN,,,ToE Gap Matrix,,XVII. Empirical Test
+GAP-163,GAP,Can two competing theories produce the same observational consequences?,,OPEN,,,ToE Gap Matrix,,XVII. Empirical Test
+GAP-164,GAP,"If so, what additional observation distinguishes them?",,OPEN,,,ToE Gap Matrix,,XVII. Empirical Test
+EQ-001,EQUATION,NCG::1,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Connes spectral triple
+EQ-002,EQUATION,NCG::2,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Spectral action + fermionic term
+EQ-003,EQUATION,NCG::3,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Lichnerowicz relation
+EQ-004,EQUATION,NCG::4,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Dirac spectrum
+EQ-005,EQUATION,NCG::5,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Algebra
+EQ-006,EQUATION,NCG::6,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Hilbert space
+EQ-007,EQUATION,NCG::7,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Product Dirac operator
+EQ-008,EQUATION,NCG::8,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Inner fluctuations
+EQ-009,EQUATION,NCG::9,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Gauge potential
+EQ-010,EQUATION,NCG::10,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Bosonic spectral action
+EQ-011,EQUATION,NCG::11,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Fermionic spectral action
+EQ-012,EQUATION,NCG::12,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Full action
+EQ-013,EQUATION,NCG::13,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Seeley-DeWitt expansion
+EQ-014,EQUATION,NCG::14,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Moment definition
+EQ-015,EQUATION,NCG::15,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Heat-kernel coefficients
+EQ-016,EQUATION,NCG::16,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Expansion
+EQ-017,EQUATION,NCG::17,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Heat kernel
+EQ-018,EQUATION,NCG::18,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Zeta function
+EQ-019,EQUATION,NCG::19,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Zeta action
+EQ-020,EQUATION,NCG::20,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Atiyah-Singer index
+EQ-021,EQUATION,NCG::21,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Real structure
+EQ-022,EQUATION,NCG::22,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Real structure
+EQ-023,EQUATION,NCG::23,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Real structure
+EQ-024,EQUATION,NCG::24,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Chirality
+EQ-025,EQUATION,NCG::25,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Chirality
+EQ-026,EQUATION,NCG::26,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,SM finite algebra
+EQ-027,EQUATION,NCG::27,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Gauge group
+EQ-028,EQUATION,NCG::28,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Unification condition
+EQ-029,EQUATION,NCG::29,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Higgs mass relation
+EQ-030,EQUATION,NCG::30,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Seesaw relation
+EQ-031,EQUATION,NCG::31,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Connes distance
+EQ-032,EQUATION,NCG::32,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Commutator
+EQ-033,EQUATION,NCG::33,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Order-one condition
+EQ-034,EQUATION,NCG::34,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Boundedness
+EQ-035,EQUATION,NCG::35,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Propagator
+EQ-036,EQUATION,NCG::36,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Chiral trace
+EQ-037,EQUATION,Spectral Graph::1,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Graph
+EQ-038,EQUATION,Spectral Graph::2,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Graph Laplacian
+EQ-039,EQUATION,Spectral Graph::3,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Eigenvalue equation
+EQ-040,EQUATION,Spectral Graph::4,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Spectrum
+EQ-041,EQUATION,Spectral Graph::5,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Ground state
+EQ-042,EQUATION,Spectral Graph::6,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Kernel
+EQ-043,EQUATION,Spectral Graph::7,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Trace
+EQ-044,EQUATION,Spectral Graph::8,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Orthonormality
+EQ-045,EQUATION,Spectral Graph::9,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Incidence factorization
+EQ-046,EQUATION,Spectral Graph::10,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Diagonalization
+EQ-047,EQUATION,Spectral Graph::11,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Functional calculus
+EQ-048,EQUATION,Spectral Graph::12,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Spectral trace
+EQ-049,EQUATION,Spectral Graph::13,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Heat trace
+EQ-050,EQUATION,Spectral Graph::14,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Heat semigroup
+EQ-051,EQUATION,Spectral Graph::15,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Regularized determinant
+EQ-052,EQUATION,Spectral Graph::16,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Hodge Laplacian
+EQ-053,EQUATION,Spectral Graph::17,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Dirac-Hodge
+EQ-054,EQUATION,Spectral Graph::18,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Nilpotency
+EQ-055,EQUATION,Spectral Graph::19,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,k-forms
+EQ-056,EQUATION,Spectral Graph::20,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,de Rham cohomology
+EQ-057,EQUATION,Spectral Graph::21,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Hodge decomposition
+EQ-058,EQUATION,Spectral Graph::22,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Hodge spectrum
+EQ-059,EQUATION,Spectral Graph::23,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Hodge heat trace
+EQ-060,EQUATION,Spectral Graph::24,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Scalar Laplacian
+EQ-061,EQUATION,Spectral Graph::25,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Riemannian Laplacian
+EQ-062,EQUATION,Emergent Geometry::1,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Diffusion distance
+EQ-063,EQUATION,Emergent Geometry::2,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Spectral metric
+EQ-064,EQUATION,Emergent Geometry::3,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Line element
+EQ-065,EQUATION,Emergent Geometry::4,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Hessian metric
+EQ-066,EQUATION,Emergent Geometry::5,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Inner product
+EQ-067,EQUATION,Emergent Geometry::6,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Norm
+EQ-068,EQUATION,Emergent Geometry::7,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Cyclicity
+EQ-069,EQUATION,Emergent Geometry::8,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Heat kernel trace
+EQ-070,EQUATION,Emergent Geometry::9,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Continuum limit
+EQ-071,EQUATION,Emergent Geometry::10,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Spectral dimension
+EQ-072,EQUATION,Emergent Geometry::11,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Covariant derivative
+EQ-073,EQUATION,Emergent Geometry::12,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Metric compatibility
+EQ-074,EQUATION,Emergent Geometry::13,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Conservation
+EQ-075,EQUATION,Emergent Geometry::14,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,D'Alembertian
+EQ-076,EQUATION,Persistence::1,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Persistence cost functional
+EQ-077,EQUATION,Persistence::2,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Fisher cost
+EQ-078,EQUATION,Persistence::3,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Variational principle
+EQ-079,EQUATION,Persistence::4,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Euler-Lagrange
+EQ-080,EQUATION,Persistence::5,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Action principle
+EQ-081,EQUATION,Persistence::6,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Action
+EQ-082,EQUATION,Persistence::7,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Universal persistence field equation
+EQ-083,EQUATION,Persistence::8,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,GR/geodesic zero-loss limit
+EQ-084,EQUATION,Persistence::9,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Covariant form
+EQ-085,EQUATION,Persistence::10,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Material derivative
+EQ-086,EQUATION,Persistence::11,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Gradient
+EQ-087,EQUATION,Persistence::12,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Organizational action stationarity
+EQ-088,EQUATION,Persistence::13,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Organizational action
+EQ-089,EQUATION,Curvature::1,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Christoffel symbols
+EQ-090,EQUATION,Curvature::2,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Riemann tensor
+EQ-091,EQUATION,Curvature::3,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Ricci tensor
+EQ-092,EQUATION,Curvature::4,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Ricci scalar
+EQ-093,EQUATION,Curvature::5,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Einstein tensor
+EQ-094,EQUATION,Curvature::6,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Einstein equations as recorded
+EQ-095,EQUATION,Curvature::7,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Kretschmann scalar
+EQ-096,EQUATION,Curvature::8,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Ricci squared
+EQ-097,EQUATION,Curvature::9,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Ricci scalar squared
+EQ-098,EQUATION,Curvature::10,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Weyl squared
+EQ-099,EQUATION,Curvature::11,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Einstein-Hilbert action
+EQ-100,EQUATION,Curvature::12,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Volume element
+EQ-101,EQUATION,Classical Physics::1,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Continuity
+EQ-102,EQUATION,Classical Physics::2,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Diffusion
+EQ-103,EQUATION,Classical Physics::3,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Reaction-diffusion
+EQ-104,EQUATION,Classical Physics::4,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Navier-Stokes
+EQ-105,EQUATION,Classical Physics::5,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Gauss electric
+EQ-106,EQUATION,Classical Physics::6,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Gauss magnetic
+EQ-107,EQUATION,Classical Physics::7,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Faraday
+EQ-108,EQUATION,Classical Physics::8,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Ampere-Maxwell
+EQ-109,EQUATION,Classical Physics::9,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Pressure gradient
+EQ-110,EQUATION,Classical Physics::10,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Temperature gradient
+EQ-111,EQUATION,Classical Physics::11,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Chemical gradient
+EQ-112,EQUATION,Classical Physics::12,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Field gradient
+EQ-113,EQUATION,Classical Physics::13,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Distinction operator
+EQ-114,EQUATION,QM / Thermodynamics::1,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Schrödinger
+EQ-115,EQUATION,QM / Thermodynamics::2,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Energy eigenvalue
+EQ-116,EQUATION,QM / Thermodynamics::3,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Boltzmann entropy
+EQ-117,EQUATION,QM / Thermodynamics::4,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Clausius
+EQ-118,EQUATION,QM / Thermodynamics::5,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Helmholtz free energy
+EQ-119,EQUATION,QM / Thermodynamics::6,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Gibbs free energy
+EQ-120,EQUATION,QM / Thermodynamics::7,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Partition function
+EQ-121,EQUATION,QM / Thermodynamics::8,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Free energy from Z
+EQ-122,EQUATION,QM / Thermodynamics::9,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Entropy from F
+EQ-123,EQUATION,QM / Thermodynamics::10,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Spectral action as recorded
+EQ-124,EQUATION,Lagrangian / Hamiltonian::1,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Stationary action
+EQ-125,EQUATION,Lagrangian / Hamiltonian::2,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Action
+EQ-126,EQUATION,Lagrangian / Hamiltonian::3,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Lagrangian
+EQ-127,EQUATION,Lagrangian / Hamiltonian::4,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Hamilton equation 1
+EQ-128,EQUATION,Lagrangian / Hamiltonian::5,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Hamilton equation 2
+EQ-129,EQUATION,Lagrangian / Hamiltonian::6,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Hamiltonian
+EQ-130,EQUATION,Lagrangian / Hamiltonian::7,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Poisson bracket
+EQ-131,EQUATION,Lagrangian / Hamiltonian::8,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Energy conservation relation
+EQ-132,EQUATION,Organizational Dynamics::1,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Evolution operator
+EQ-133,EQUATION,Organizational Dynamics::2,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Operator form
+EQ-134,EQUATION,Organizational Dynamics::3,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Attractor
+EQ-135,EQUATION,Organizational Dynamics::4,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,DTC iteration
+EQ-136,EQUATION,Organizational Dynamics::5,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,DTC composition
+EQ-137,EQUATION,Organizational Dynamics::6,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Organizational state
+EQ-138,EQUATION,Organizational Dynamics::7,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Control parameter
+EQ-139,EQUATION,Organizational Dynamics::8,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Fragmentation
+EQ-140,EQUATION,Organizational Dynamics::9,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Persistence
+EQ-141,EQUATION,Organizational Dynamics::10,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Frozen equilibrium
+EQ-142,EQUATION,Organizational Dynamics::11,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Persistence condition 1
+EQ-143,EQUATION,Organizational Dynamics::12,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Persistence condition 2
+EQ-144,EQUATION,Organizational Dynamics::13,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Persistence condition 3
+EQ-145,EQUATION,Organizational Dynamics::14,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Organizational continuity
+EQ-146,EQUATION,Organizational Dynamics::15,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Full organizational dynamics
+EQ-147,EQUATION,Recursive Organizational Grammar::1,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Closure axiom
+EQ-148,EQUATION,Recursive Organizational Grammar::2,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Minimality axiom
+EQ-149,EQUATION,Recursive Organizational Grammar::3,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Completeness axiom
+EQ-150,EQUATION,Recursive Organizational Grammar::4,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Consistency axiom
+EQ-151,EQUATION,Recursive Organizational Grammar::5,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Canonical form axiom
+EQ-152,EQUATION,Recursive Organizational Grammar::6,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Recursive generativity
+EQ-153,EQUATION,Recursive Organizational Grammar::7,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Persistence theorem
+EQ-154,EQUATION,Recursive Organizational Grammar::8,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Generativity chain
+EQ-155,EQUATION,Master Cascade::1,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Input
+EQ-156,EQUATION,Master Cascade::2,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 1
+EQ-157,EQUATION,Master Cascade::3,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 2
+EQ-158,EQUATION,Master Cascade::4,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 3
+EQ-159,EQUATION,Master Cascade::5,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 4
+EQ-160,EQUATION,Master Cascade::6,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 5
+EQ-161,EQUATION,Master Cascade::7,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 6
+EQ-162,EQUATION,Master Cascade::8,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 7
+EQ-163,EQUATION,Master Cascade::9,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 8
+EQ-164,EQUATION,Master Cascade::10,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 9
+EQ-165,EQUATION,Master Cascade::11,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 10
+EQ-166,EQUATION,Master Cascade::12,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 11
+EQ-167,EQUATION,Master Cascade::13,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 12
+EQ-168,EQUATION,Master Cascade::14,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 13
+EQ-169,EQUATION,Master Cascade::15,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 14
+EQ-170,EQUATION,Master Cascade::16,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 15
+EQ-171,EQUATION,Master Cascade::17,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 16
+EQ-172,EQUATION,Master Cascade::18,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 17
+EQ-173,EQUATION,Master Cascade::19,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 18
+EQ-174,EQUATION,Master Cascade::20,,SOURCE-CODED,,SOURCE-REGISTERED,MASTER EQUATION MATRIX,,Step 19
+AX-SDR-001..005,DER,Strict Dependency Relation axioms,,CERTIFIED,,CERTIFIED,DER REGISTRY,None,
+CMRC-001..019,DER,Conformal Math Recovery Core (complete),,CERTIFIED,,CERTIFIED,DER REGISTRY,"PRIM-G-001,002,003",
+VAL-001,DER,"String Theory (bosonic, critical dim=26)",,CERTIFIED,,CERTIFIED,DER REGISTRY,CMRC-001..019,
+VAL-002,DER,Maxwell Electrodynamics,,CERTIFIED,,CERTIFIED,DER REGISTRY,DER-GAU-001..004,
+VAL-003,DER,GR Matter Coupling,,CERTIFIED,,CERTIFIED,DER REGISTRY,"DER-VAR-005, DER-TRC-001",
+VAL-004,DER,Quantum Mechanics,,CERTIFIED,,CERTIFIED,DER REGISTRY,DER-QR-001..006,
+VAL-005,DER,Hamiltonian Mechanics,,CERTIFIED,,CERTIFIED,DER REGISTRY,"DER-VAR-003, DER-QR-001",
+THM-ANOM,DER,G_SM = SU(3)xSU(2)xU(1) derivation,,CERTIFIED,,CERTIFIED,DER REGISTRY,DER-QR-006,
+RF-001,THEOREM,Well-Definedness: R: Graph_ARBS -> Field(M) exists as a covariant functor independent of graph approximation sequence,,CERTIFIED,,CERTIFIED,THEOREM REGISTRY,,"Mosco convergence (Kato's Rep. Theorem) + Gromov-Hausdorff + Trotter-Kato. Internal: TH-Pi-003, TH-Pi-006, UCE-001"
+RF-002,THEOREM,Functoriality: R(id_G)=id_{R(G)} and R(g o f)=R(g) o R(f),,CERTIFIED,,CERTIFIED,THEOREM REGISTRY,,"Strong operator topology: lim of bounded linear products = product of limits. Internal: RF-001, CP-001"
+RF-003,THEOREM,"Convergence: G_n ->^GH (M,g) => E_n ->^Mosco E => L_n ->^s.r. L => T_n(t) ->^s T(t)",,CERTIFIED,,CERTIFIED,THEOREM REGISTRY,,Kato's First Rep. Theorem (Mosco->s.r.) + Trotter-Kato (s.r.->semigroup)
+RF-004,THEOREM,Monoidal Preservation: R(G sqcup H) cong R(G) otimes R(H); pentagon + triangle coherence satisfied,,CERTIFIED,,CERTIFIED,THEOREM REGISTRY,,M-000 (tensor comparison construction) + Mac Lane Monoidal Coherence Theorem
+RF-005,THEOREM,Faithfulness and Conservatism: R is faithful and conservative but neither full nor essentially surjective,,CERTIFIED,,CERTIFIED,THEOREM REGISTRY,,Faithfulness: distinct embeddings -> distinct cochain push-forwards -> distinct limits. Obstruction: ker(Phi_d) != empty
+RK-001,THEOREM,Kernel Algebra,,CERTIFIED,,CERTIFIED,THEOREM REGISTRY,,"ker(Phi_d) has algebraic structure generated by five minimal generators {K_1,K_2,K_3,K_5,K_6} forming a closed Lie Groupoid: <K_1,K_2,K_3,K_5,K_6> = A_ker subset ker(Phi_d)"
+RK-002,THEOREM,Normal Forms,,CERTIFIED,,CERTIFIED,THEOREM REGISTRY,,The kernel algebra is strictly terminating and confluent. Every element reduces to unique canonical form: Delta G_normal = K_1^alpha K_2^beta K_6^gamma K_3[g] K_5^delta (proved via Newman's Lemma)
+RK-003,THEOREM,Kernel Decomposition,,CERTIFIED,,CERTIFIED,THEOREM REGISTRY,,ker(Phi_d) cong Aut_disc(G) semidirect Gauge(P->M). Gauge symmetries of the Standard Model emerge as the residual freedom of the discrete graph invisible to the continuum limit.
+PRF-ROG-3,PROOF_OBLIGATION,AX-ROG-3 (Completeness),,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,DER-ORG-009,Formal proof that every organizational phenomenon has a G* representation. No counterexample found; neither exhaustive enumeration nor abstract spanning argument constructed.
+PRF-ROG-5,PROOF_OBLIGATION,AX-ROG-5 (Canonical Form),,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,DER-ORG-009,Uniqueness proof for the minimal DTC representation. Requires showing no two distinct canonical forms represent the same organizational system.
+PRF-FPE,PROOF_OBLIGATION,DER-ORG-006,,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,DER-ORG-006,"Equivalence of Banach, spectral, least fixed point, and ROG closure formulations of persistence. Common fixed point assumed throughout framework but not proven."
+PRF-PiO,PROOF_OBLIGATION,DER-ORG-007 / DER-TRC-006,,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,Both ORG-007 and TRC-006,"Rigorous derivation of Pi_O = f(sigma, C, Spec(L)) from TNDS first principles. Coupling equation proposed; stationary distribution of Fokker-Planck equation approach outlined but not executed."
+PRF-ATU,PROOF_OBLIGATION,DER-ORG-008,,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,DER-ORG-008,Uniqueness of organizational attractor for each alpha. Banach theorem gives uniqueness given completeness and c<1; proof that c<1 holds uniformly across all initial conditions needed.
+PRF-SFP,PROOF_OBLIGATION,DER-SPC-006,,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,DER-SPC-006,Spectral fixed point uniqueness for disconnected graphs. Unique under connectedness assumption; general case open.
+PRF-UGNT,PROOF_OBLIGATION,Part V UGNT,,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,Part V §4,Termination and confluence of the rewrite system for grammar normal forms. Both required for UGNT normal-form theorem; neither proven.
+PRF-BORN,PROOF_OBLIGATION,DER-ORG-006 (partial),,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,Open,Born rule uniqueness: R-invariant measure on Pi is unique and equals |psi|^2. Existence outlined; Gleason's theorem approach not yet executed.
+PRF-LOR,PROOF_OBLIGATION,Open,,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,Open,Lorentz signature: maximum spectral compression direction is timelike. Argument sketched in SEIT Phase III; rigorous connection between compression functional and g_{tt}<0 not constructed.
+PRF-GEN,PROOF_OBLIGATION,Open,,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,Open,Three fermion generations: N_c=3 does not constrain generation count. Extension of representation theory analysis required.
+PRF-CONST,PROOF_OBLIGATION,Open,,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,Open,"Universal constants c,G,hbar as fixed points of Seeley-DeWitt coefficient ratios. Pipeline defined; explicit computation of fixed-point functions f_k not performed."
+PRF-BNAT,PROOF_OBLIGATION,Open,,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,Open,B_Nature: identify M such that Spec(L)=Spec(Nature). Cubitt-Perez Garcia-Wolf undecidability may apply for infinite L. Fundamental open problem.
+PRF-PRIM,PROOF_OBLIGATION,Open,,OPEN,OPEN THEOREM,REGISTERED,PROOF REGISTRY,Open,"Primitive grammar reconciliation: three grammars ({D,T,C,Pi}; {D,T,C}+gradient; {D,tau,kappa,Theta,Pi,Omega}) developed independently. Not shown to be equivalent or reducible to one. Central open problem across all five compiler lines."
+C0,CLOSURE_LAYER,Primitive & grammar reconciliation,,,LAYER,REGISTERED,CLOSURE LAYERS,,"Relation among Δ,τ,κ,Π and competing grammar realizations"
+C1,CLOSURE_LAYER,Organizational / fixed-point closure,,,LAYER,REGISTERED,CLOSURE LAYERS,,Γ:X→X and organizational closure
+C2,CLOSURE_LAYER,Persistence & spectral closure,,,LAYER,REGISTERED,CLOSURE LAYERS,,Π_O and λ_c
+C3,CLOSURE_LAYER,Spectral→geometry→Lorentzian,,,LAYER,REGISTERED,CLOSURE LAYERS,,L→Δ_g→K_g→d_g→g and Lorentzian signature
+C4,CLOSURE_LAYER,Nature spectrum & constants,,,LAYER,REGISTERED,CLOSURE LAYERS,,Nature-spectrum correspondence and dimensional constants
+C5,CLOSURE_LAYER,Gauge/representation/matter/generation,,,LAYER,REGISTERED,CLOSURE LAYERS,,Full particle/gauge sector
+C6,CLOSURE_LAYER,Quantum closure,,,LAYER,REGISTERED,CLOSURE LAYERS,,Quantum theory integrated with persistence/geometry
+C7,CLOSURE_LAYER,Cosmological/horizon/information,,,LAYER,REGISTERED,CLOSURE LAYERS,,Scale→horizon→information→cutoff→cosmology
+C8,CLOSURE_LAYER,Biological/adaptive,,,LAYER,REGISTERED,CLOSURE LAYERS,,Biology reverse-derived from common kernel
+C9,CLOSURE_LAYER,Compiler closure,,,LAYER,REGISTERED,CLOSURE LAYERS,,Universal executable representation
+C10,CLOSURE_LAYER,Validation/falsification,,,LAYER,REGISTERED,CLOSURE LAYERS,,Cross-domain recovery and novel predictions
+"EXT::(Δ,τ,κ,Π)",INTERMEDIATE_ENDPOINT,"(Δ,τ,κ,Π)",,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+BRIDGE-GAMMA,INTERMEDIATE_ENDPOINT,GAMMA,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::O→Ψ,INTERMEDIATE_ENDPOINT,O→Ψ,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+BRIDGE-PSI,INTERMEDIATE_ENDPOINT,PSI,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+BRIDGE-G,INTERMEDIATE_ENDPOINT,G,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+BRIDGE-L,INTERMEDIATE_ENDPOINT,L,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+BRIDGE-SPEC,INTERMEDIATE_ENDPOINT,SPEC,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+BRIDGE-KT,INTERMEDIATE_ENDPOINT,KT,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+BRIDGE-D,INTERMEDIATE_ENDPOINT,D,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+BRIDGE-GMETRIC,INTERMEDIATE_ENDPOINT,GMETRIC,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+BRIDGE-NABLA,INTERMEDIATE_ENDPOINT,NABLA,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::Riemann→Ricci→R→G,INTERMEDIATE_ENDPOINT,Riemann→Ricci→R→G,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::Einstein dynamics,INTERMEDIATE_ENDPOINT,Einstein dynamics,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::D,INTERMEDIATE_ENDPOINT,D,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::R=e^{-βL},INTERMEDIATE_ENDPOINT,R=e^{-βL},,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::C_Π,INTERMEDIATE_ENDPOINT,C_Π,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::δC_Π=0,INTERMEDIATE_ENDPOINT,δC_Π=0,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::I_F,INTERMEDIATE_ENDPOINT,I_F,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::geodesic,INTERMEDIATE_ENDPOINT,geodesic,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+BRIDGE-R,INTERMEDIATE_ENDPOINT,R,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::Z→F,INTERMEDIATE_ENDPOINT,Z→F,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::L_N/h_N²,INTERMEDIATE_ENDPOINT,L_N/h_N²,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::-Δ_g,INTERMEDIATE_ENDPOINT,-Δ_g,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::K_N,INTERMEDIATE_ENDPOINT,K_N,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::K_g→d_g→g_ij,INTERMEDIATE_ENDPOINT,K_g→d_g→g_ij,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::L(a),INTERMEDIATE_ENDPOINT,L(a),,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::dotL,INTERMEDIATE_ENDPOINT,dotL,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::DOS→ρ_vac,INTERMEDIATE_ENDPOINT,DOS→ρ_vac,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::Z_H,INTERMEDIATE_ENDPOINT,Z_H,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::A_H,INTERMEDIATE_ENDPOINT,A_H,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::Z_H(ℓ_p²),INTERMEDIATE_ENDPOINT,Z_H(ℓ_p²),,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::N_BH,INTERMEDIATE_ENDPOINT,N_BH,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::N_H,INTERMEDIATE_ENDPOINT,N_H,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::Ξ,INTERMEDIATE_ENDPOINT,Ξ,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::Λ_*→ρ_vac,INTERMEDIATE_ENDPOINT,Λ_*→ρ_vac,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::ρ_vac,INTERMEDIATE_ENDPOINT,ρ_vac,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::Λ_cosm→H→a,INTERMEDIATE_ENDPOINT,Λ_cosm→H→a,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::Σ_H→P_H,INTERMEDIATE_ENDPOINT,Σ_H→P_H,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::P_H,INTERMEDIATE_ENDPOINT,P_H,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+EXT::ℓ_*,INTERMEDIATE_ENDPOINT,ℓ_*,,SCHEMATIC,UNADJUDICATED,GENERATED_FROM_BRIDGE,22_BRIDGES,,Endpoint placeholder used only to preserve bridge topology; not a new scientific claim.
+COSMO-DYN-010,COSMO_DYN_RESULT,dν/dλ,,CALCULATED/PRESERVED,DOWNSTREAM_SCOPE,REGISTERED,59_COSMO_DYN_EXECUTED_AND_OPEN,,Downstream result retained
+COSMO-DYN-011,COSMO_DYN_RESULT,ρ_vac,,CALCULATED/PRESERVED,DOWNSTREAM_SCOPE,REGISTERED,59_COSMO_DYN_EXECUTED_AND_OPEN,,Cutoff ancestry unresolved
+COSMO-DYN-012,COSMO_DYN_RESULT,Λ_cosm,,CALCULATED/PRESERVED,DOWNSTREAM_SCOPE,REGISTERED,59_COSMO_DYN_EXECUTED_AND_OPEN,,Scale ancestry unresolved
+COSMO-DYN-013,COSMO_DYN_RESULT,Ξ,,CALCULATED/DEFINED,DOWNSTREAM_SCOPE,REGISTERED,59_COSMO_DYN_EXECUTED_AND_OPEN,,Dimensionless cutoff
+COSMO-DYN-014,COSMO_DYN_RESULT,Ξ(N_H),,CALCULATED/PRESERVED,DOWNSTREAM_SCOPE,REGISTERED,59_COSMO_DYN_EXECUTED_AND_OPEN,,Information ancestry unresolved
+COSMO-DYN-015,COSMO_DYN_RESULT,Horizon ancestry,,OPEN,DOWNSTREAM_SCOPE,REGISTERED,59_COSMO_DYN_EXECUTED_AND_OPEN,,P_H remains missing structural object
+COSMO-DYN-016,COSMO_DYN_RESULT,Expansion ancestry,,OPEN,DOWNSTREAM_SCOPE,REGISTERED,59_COSMO_DYN_EXECUTED_AND_OPEN,,Dynamical closure remains open
+LEMMA-AUT-PROJ-001,THEOREM,Automorphism-projector commutation,,CERTIFIED,,REGISTERED,PRF-PRIM-EXEC-2026-08-17,PRF-PRIM,Graph automorphisms commute with every spectral projector of L (proven general + verified 9/9 families)
+LEMMA-INC-001,THEOREM,L = Inc*Inc^T,,"CERTIFIED (external, admitted)",,REGISTERED,PRF-PRIM-EXEC-2026-08-17,PRF-PRIM,"Graph Laplacian is the Gram matrix of the discrete gradient/incidence operator (standard theorem, EXT-001)"
+DER-C0-PRIMGRAPH-001,DER,Graph-spectral primitive realization test,,CALCULATED/PARTIAL,,REGISTERED,PRF-PRIM-EXEC-2026-08-17,PRF-PRIM,"Tests candidate realizations of Delta,tau,kappa,Pi,Theta as graph-theoretic objects against PRF-PRIM"
+INT-001,OPEN_PROBLEM,Primitive/grammar reconciliation,,OPEN THEOREM,C0,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-002,OPEN_PROBLEM,Fixed-point correspondence,,OPEN THEOREM,C1,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-003,OPEN_PROBLEM,Persistence functional,,OPEN THEOREM,C2,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-004,OPEN_PROBLEM,Spectral threshold,,OPEN THEOREM,C2,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-005,OPEN_PROBLEM,Lorentzian emergence,,PARTIAL/OPEN,C3,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-006,OPEN_PROBLEM,Nature-spectrum correspondence,,OPEN,C4,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-007,OPEN_PROBLEM,Absolute scale anchor,,OPEN,C4,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-008,OPEN_PROBLEM,Gauge-group selection,,OPEN / VERSION-SENSITIVE,C5,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-009,OPEN_PROBLEM,Generation problem,,OPEN,C5,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-010,OPEN_PROBLEM,Mass spectrum,,PARTIAL,C5,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-011,OPEN_PROBLEM,Born-rule uniqueness,,OPEN,C6,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-012,OPEN_PROBLEM,Quantum geometry,,PROPOSED,C6,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-013,OPEN_PROBLEM,Horizon selector,,OPEN THEOREM,C7,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-014,OPEN_PROBLEM,Information normalization,,OPEN NORMALIZATION,C7,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-015,OPEN_PROBLEM,Non-circular N_H→Xi,,OPEN,C7,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-016,OPEN_PROBLEM,Spectral zeta normalization,,PROPOSED,C7,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-017,OPEN_PROBLEM,Curved/boundary/topology heat kernel,,PROPOSED,C7,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-018,OPEN_PROBLEM,Universal spectral dynamics,,OPEN,C7,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-019,OPEN_PROBLEM,Biological reverse derivation,,OPEN,C8,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-020,OPEN_PROBLEM,Compiler normal form,,OPEN,C9,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-021,OPEN_PROBLEM,Compiler execution,,PROPOSED / ARCHITECTURAL,C9,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-022,OPEN_PROBLEM,Cross-domain validation,,OPEN/PARTIAL,C10,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+INT-023,OPEN_PROBLEM,Novel predictions,,PROPOSED/PARTIAL,C10,SOURCE-REGISTERED,SOURCE-010,,From 04_OPEN_MASTER_INTERNAL.csv. 
+TH-001,THEOREM_TARGET,Primitive reconciliation theorem,,Open,C0,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-002,THEOREM_TARGET,Fixed-point correspondence theorem,,Open,C1,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-003,THEOREM_TARGET,Persistence derivation theorem,,Open,C2,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-004,THEOREM_TARGET,Threshold uniqueness theorem,,Open,C2,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-005,THEOREM_TARGET,Continuum universality theorem,,Partial/Open,C3,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-006,THEOREM_TARGET,Lorentzian emergence theorem,,Open,C3,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-007,THEOREM_TARGET,Scale non-identifiability theorem,,Open,C4,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-008,THEOREM_TARGET,Gauge selection theorem,,Open,C5,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-009,THEOREM_TARGET,Generation theorem,,Open,C5,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-010,THEOREM_TARGET,Mass-spectrum theorem,,Partial,C5,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-011,THEOREM_TARGET,Born-rule theorem,,Open,C6,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-012,THEOREM_TARGET,Quantum-geometry theorem,,Proposed,C6,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-013,THEOREM_TARGET,Horizon-projector theorem,,Open,C7,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-014,THEOREM_TARGET,BH normalization theorem,,Open,C7,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-015,THEOREM_TARGET,Non-circular information theorem,,Open,C7,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-016,THEOREM_TARGET,Universal spectral dynamics theorem,,Open,C7,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-017,THEOREM_TARGET,Biological reverse-derivation theorem,,Open,C8,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-018,THEOREM_TARGET,Compiler normal-form theorem,,Open,C9,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-019,THEOREM_TARGET,Compiler soundness theorem,,Open,C9,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-020,THEOREM_TARGET,Compiler completeness theorem,,Open,C9,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-021,THEOREM_TARGET,Cross-domain invariance theorem,,Open,C10,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-022,THEOREM_TARGET,Prediction theorem,,Open,C10,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-023,THEOREM_TARGET,Uniqueness/selection theorem,,Open,C16,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+TH-024,THEOREM_TARGET,UV completion theorem,,Open,C11,SOURCE-REGISTERED,SOURCE-010,,From 06_OPEN_THEOREMS.csv. 
+PRF-001,PROOF_OBLIGATION_TARGET,Primitive reconciliation,,OPEN,C0,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-002,PROOF_OBLIGATION_TARGET,Fix correspondence,,OPEN,C1,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-003,PROOF_OBLIGATION_TARGET,Persistence,,OPEN,C2,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-004,PROOF_OBLIGATION_TARGET,Threshold,,OPEN,C2,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-005,PROOF_OBLIGATION_TARGET,Lorentz signature,,OPEN,C3,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-006,PROOF_OBLIGATION_TARGET,Gauge group,,OPEN,C5,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-007,PROOF_OBLIGATION_TARGET,Generations,,OPEN,C5,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-008,PROOF_OBLIGATION_TARGET,Born rule,,OPEN,C6,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-009,PROOF_OBLIGATION_TARGET,Quantum geometry,,OPEN,C6,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-010,PROOF_OBLIGATION_TARGET,Horizon projector,,OPEN,C7,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-011,PROOF_OBLIGATION_TARGET,BH normalization,,OPEN,C7,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-012,PROOF_OBLIGATION_TARGET,Non-circular N_H,,OPEN,C7,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-013,PROOF_OBLIGATION_TARGET,Universal dynamics,,OPEN,C7,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-014,PROOF_OBLIGATION_TARGET,Biological derivation,,OPEN,C8,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-015,PROOF_OBLIGATION_TARGET,Compiler termination,,OPEN,C9,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-016,PROOF_OBLIGATION_TARGET,Compiler confluence,,OPEN,C9,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-017,PROOF_OBLIGATION_TARGET,Compiler soundness,,OPEN,C9,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-018,PROOF_OBLIGATION_TARGET,Compiler completeness,,OPEN,C9,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+PRF-019,PROOF_OBLIGATION_TARGET,Prediction,,OPEN,C10,SOURCE-REGISTERED,SOURCE-010,,"From 07_OPEN_PROOFS.csv. NUMERIC PRF-* namespace, distinct from existing named PRF-* IDs -- see CONFLICT-003."
+EQ-OPEN-001,EQUATION_TARGET,Persistence threshold,,Partial/Open,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-002,EQUATION_TARGET,Persistence sector,,Partial/Open,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-003,EQUATION_TARGET,Mass spectrum candidate,,Partial,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-004,EQUATION_TARGET,Coupling candidate,,Partial,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-005,EQUATION_TARGET,Matter-coupled GR target,,Open target,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-006,EQUATION_TARGET,Matter conservation,,Open target,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-007,EQUATION_TARGET,Geodesic limit,,Open target,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-008,EQUATION_TARGET,Newtonian limit,,Open target,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-009,EQUATION_TARGET,Anomaly consistency,,Partial,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-010,EQUATION_TARGET,Index correspondence,,Established math; integration open,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-011,EQUATION_TARGET,Statistical structure,,Established math,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-012,EQUATION_TARGET,Heat trace,,Established math,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-013,EQUATION_TARGET,Universal spectral dynamics,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-014,EQUATION_TARGET,Absolute scale,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-015,EQUATION_TARGET,Horizon projector,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-016,EQUATION_TARGET,Localized heat trace,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-017,EQUATION_TARGET,BH spectral normalization,,Open normalization,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-018,EQUATION_TARGET,Information cutoff,,Conditional,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-019,EQUATION_TARGET,UV fixed point benchmark,,Open benchmark,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-020,EQUATION_TARGET,Black-hole entropy benchmark,,Must recover,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-021,EQUATION_TARGET,General cosmological closure,,Benchmark,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-022,EQUATION_TARGET,Born rule benchmark,,Open UOC derivation,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-023,EQUATION_TARGET,Gauge selection target,,Open UOC derivation,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-024,EQUATION_TARGET,Higgs potential benchmark,,Open UOC derivation,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-025,EQUATION_TARGET,Renormalization group,,Open UOC integration,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-026,EQUATION_TARGET,Classical limit,,Open UOC integration,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-027,EQUATION_TARGET,Continuum limit,,Partial,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+EQ-OPEN-028,EQUATION_TARGET,Information functional,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 08_OPEN_EQUATIONS.csv. 
+VAR-O-001,VARIABLE_TARGET,spectral persistence threshold,,OPEN,SEIT,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-002,VARIABLE_TARGET,absolute scale coefficient in ℓ_*=C_UOCℓ_p,,OPEN,COSMO-DYN,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-003,VARIABLE_TARGET,UOC horizon information count,,OPEN,COSMO-DYN,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-004,VARIABLE_TARGET,dimensionless spectral cutoff,,CONDITIONAL,COSMO-DYN,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-005,VARIABLE_TARGET,physical spectral cutoff,,CONDITIONAL,COSMO-DYN,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-006,VARIABLE_TARGET,horizon projector,,OPEN,COSMO-DYN,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-007,VARIABLE_TARGET,horizon selector,,OPEN,COSMO-DYN,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-008,VARIABLE_TARGET,mass normalization,,OPEN,SEIT,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-009,VARIABLE_TARGET,particle mass spectrum,,PARTIAL,SEIT,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-010,VARIABLE_TARGET,interaction/coupling parameters,,PARTIAL,SEIT,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-011,VARIABLE_TARGET,gauge group,,OPEN,C5,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-012,VARIABLE_TARGET,fermion generation count,,OPEN,C5,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-013,VARIABLE_TARGET,Yukawa matrices,,OPEN,SM,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-014,VARIABLE_TARGET,strong CP angle,,OPEN,SM/BSM,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-015,VARIABLE_TARGET,neutrino masses/mixing,,OPEN,SM/cosmology,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-016,VARIABLE_TARGET,dark matter density,,OPEN,cosmology,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-017,VARIABLE_TARGET,dark energy density,,OPEN,cosmology,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-018,VARIABLE_TARGET,cosmological constant,,PARTIAL,COSMO-DYN,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-019,VARIABLE_TARGET,present Hubble rate,,EXTERNAL/DERIVABLE,cosmology,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-020,VARIABLE_TARGET,primordial perturbation parameters,,OPEN,cosmology,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-021,VARIABLE_TARGET,color count,,OBSERVED/KNOWN,SM,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-022,VARIABLE_TARGET,gauge couplings,,OPEN,SM/GUT,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-023,VARIABLE_TARGET,Higgs VEV/self-coupling,,OPEN,SM,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+VAR-O-024,VARIABLE_TARGET,Planck scale,,KNOWN SCALE,GR/QG,SOURCE-REGISTERED,SOURCE-010,,From 09_OPEN_VARIABLES.csv. 
+SIM-O-001,SIMULATION_TARGET,NX-001/Γ fixed-point sweep,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-002,SIMULATION_TARGET,Graph representation invariance,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-003,SIMULATION_TARGET,Continuum refinement universality,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-004,SIMULATION_TARGET,Joint heat-kernel limit,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-005,SIMULATION_TARGET,Dirac correspondence,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-006,SIMULATION_TARGET,Fokker-Planck gap,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-007,SIMULATION_TARGET,Matter source closure,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-008,SIMULATION_TARGET,Horizon selector sweep,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-009,SIMULATION_TARGET,Localized heat trace,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-010,SIMULATION_TARGET,Absolute scale search,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-011,SIMULATION_TARGET,Universal spectral dynamics,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-012,SIMULATION_TARGET,Gauge/representation enumeration,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-013,SIMULATION_TARGET,Mass spectrum,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-014,SIMULATION_TARGET,Born rule,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-015,SIMULATION_TARGET,Black-hole information,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-016,SIMULATION_TARGET,UV/RG fixed point,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-017,SIMULATION_TARGET,Cosmological perturbations,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-018,SIMULATION_TARGET,Dark-matter candidate,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-019,SIMULATION_TARGET,Novel prediction: dispersion,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-020,SIMULATION_TARGET,Novel prediction: lensing,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+SIM-O-021,SIMULATION_TARGET,Novel prediction: metric noise,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 10_OPEN_SIMULATIONS.csv. Simulation SPECIFICATION only -- not executed.
+TOE-001,EXTERNAL_BENCHMARK,Quantum gravity,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-002,EXTERNAL_BENCHMARK,Standard Model recovery,,Partial/Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-003,EXTERNAL_BENCHMARK,Classical GR limit,,Partial,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-004,EXTERNAL_BENCHMARK,QFT limit,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-005,EXTERNAL_BENCHMARK,UV consistency,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-006,EXTERNAL_BENCHMARK,Unitarity,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-007,EXTERNAL_BENCHMARK,Anomaly consistency,,Partial/Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-008,EXTERNAL_BENCHMARK,Lorentz/covariance recovery,,Partial/Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-009,EXTERNAL_BENCHMARK,Renormalization/coarse-graining,,Partial/Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-010,EXTERNAL_BENCHMARK,Black holes,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-011,EXTERNAL_BENCHMARK,Cosmology,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-012,EXTERNAL_BENCHMARK,Constants/parameters,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-013,EXTERNAL_BENCHMARK,Vacuum/selection,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-014,EXTERNAL_BENCHMARK,Empirical discrimination,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-015,EXTERNAL_BENCHMARK,Mathematical definition,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-016,EXTERNAL_BENCHMARK,Known-limit hierarchy,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-017,EXTERNAL_BENCHMARK,Matter/geometry common origin,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+TOE-018,EXTERNAL_BENCHMARK,Information/entropy,,Open,,SOURCE-REGISTERED,SOURCE-010,,From 01_TOE_BENCHMARK.csv. 
+ST-001,EXTERNAL_REFERENCE_THEORY,General Relativity,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 02_SUCCESSFUL_THEORIES.csv. ADMITTED EXTERNAL INPUT.
+ST-002,EXTERNAL_REFERENCE_THEORY,Standard Model,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 02_SUCCESSFUL_THEORIES.csv. ADMITTED EXTERNAL INPUT.
+ST-003,EXTERNAL_REFERENCE_THEORY,QCD,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 02_SUCCESSFUL_THEORIES.csv. ADMITTED EXTERNAL INPUT.
+ST-004,EXTERNAL_REFERENCE_THEORY,Electroweak theory,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 02_SUCCESSFUL_THEORIES.csv. ADMITTED EXTERNAL INPUT.
+ST-005,EXTERNAL_REFERENCE_THEORY,Quantum Mechanics,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 02_SUCCESSFUL_THEORIES.csv. ADMITTED EXTERNAL INPUT.
+ST-006,EXTERNAL_REFERENCE_THEORY,Statistical Mechanics,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 02_SUCCESSFUL_THEORIES.csv. ADMITTED EXTERNAL INPUT.
+ST-007,EXTERNAL_REFERENCE_THEORY,Thermodynamics,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 02_SUCCESSFUL_THEORIES.csv. ADMITTED EXTERNAL INPUT.
+ST-008,EXTERNAL_REFERENCE_THEORY,Newtonian Mechanics,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 02_SUCCESSFUL_THEORIES.csv. ADMITTED EXTERNAL INPUT.
+EXT-001,EXTERNAL_PROGRAM,String theory / M-theory,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 03_EXTERNAL_PROGRAMS.csv. ADMITTED EXTERNAL INPUT.
+EXT-002,EXTERNAL_PROGRAM,Loop quantum gravity,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 03_EXTERNAL_PROGRAMS.csv. ADMITTED EXTERNAL INPUT.
+EXT-003,EXTERNAL_PROGRAM,Asymptotic safety,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 03_EXTERNAL_PROGRAMS.csv. ADMITTED EXTERNAL INPUT.
+EXT-004,EXTERNAL_PROGRAM,Causal dynamical triangulations,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 03_EXTERNAL_PROGRAMS.csv. ADMITTED EXTERNAL INPUT.
+EXT-005,EXTERNAL_PROGRAM,Causal set theory,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 03_EXTERNAL_PROGRAMS.csv. ADMITTED EXTERNAL INPUT.
+EXT-006,EXTERNAL_PROGRAM,Grand Unified Theories,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 03_EXTERNAL_PROGRAMS.csv. ADMITTED EXTERNAL INPUT.
+EXT-007,EXTERNAL_PROGRAM,Holography / AdS-CFT,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 03_EXTERNAL_PROGRAMS.csv. ADMITTED EXTERNAL INPUT.
+EXT-008,EXTERNAL_PROGRAM,Asymptotic-safety + matter,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 03_EXTERNAL_PROGRAMS.csv. ADMITTED EXTERNAL INPUT.
+SEL-001,SELECTION_TARGET,Unique grammar,,OPEN,C0,SOURCE-REGISTERED,SOURCE-010,,From 15_SELECTION_UNIQUENESS.csv. 
+SEL-002,SELECTION_TARGET,Unique fixed point,,OPEN,C1,SOURCE-REGISTERED,SOURCE-010,,From 15_SELECTION_UNIQUENESS.csv. 
+SEL-003,SELECTION_TARGET,Unique threshold,,OPEN,C2,SOURCE-REGISTERED,SOURCE-010,,From 15_SELECTION_UNIQUENESS.csv. 
+SEL-004,SELECTION_TARGET,Unique gauge group,,OPEN,C5,SOURCE-REGISTERED,SOURCE-010,,From 15_SELECTION_UNIQUENESS.csv. 
+SEL-005,SELECTION_TARGET,Unique generation count,,OPEN,C5,SOURCE-REGISTERED,SOURCE-010,,From 15_SELECTION_UNIQUENESS.csv. 
+SEL-006,SELECTION_TARGET,Unique mass normalization,,OPEN,C5,SOURCE-REGISTERED,SOURCE-010,,From 15_SELECTION_UNIQUENESS.csv. 
+SEL-007,SELECTION_TARGET,Unique absolute scale,,OPEN,C4/C7,SOURCE-REGISTERED,SOURCE-010,,From 15_SELECTION_UNIQUENESS.csv. 
+SEL-008,SELECTION_TARGET,Unique horizon selector,,OPEN,C7,SOURCE-REGISTERED,SOURCE-010,,From 15_SELECTION_UNIQUENESS.csv. 
+SEL-009,SELECTION_TARGET,Unique cosmological vacuum,,OPEN,C7/C16,SOURCE-REGISTERED,SOURCE-010,,From 15_SELECTION_UNIQUENESS.csv. 
+SEL-010,SELECTION_TARGET,Unique physical universe,,OPEN,C16,SOURCE-REGISTERED,SOURCE-010,,From 15_SELECTION_UNIQUENESS.csv. 
+ATT-001,PAST_ATTEMPT_RECORD,DTC grammar,,OPEN,C0,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-002,PAST_ATTEMPT_RECORD,UDP,,OPEN,C0/C9,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-003,PAST_ATTEMPT_RECORD,MDCL,,OPEN,C0/C9,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-004,PAST_ATTEMPT_RECORD,ARBS/UPG,,OPEN,C0/C3,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-005,PAST_ATTEMPT_RECORD,TDIC,,OPEN,C0/C9,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-006,PAST_ATTEMPT_RECORD,SEIT,,OPEN,C2/C3/C5/C7,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-007,PAST_ATTEMPT_RECORD,TNDS/NEDS/Fokker-Planck,,OPEN,C2,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-008,PAST_ATTEMPT_RECORD,NCG route,,OPEN,C5/C6,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-009,PAST_ATTEMPT_RECORD,H-003,,OPEN,C5/C6,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-010,PAST_ATTEMPT_RECORD,H-004,,OPEN,C6,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-011,PAST_ATTEMPT_RECORD,H-006,,OPEN,C6,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-012,PAST_ATTEMPT_RECORD,COSMO-DYN,,OPEN,C7,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-013,PAST_ATTEMPT_RECORD,String recovery,,OPEN,C11,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-014,PAST_ATTEMPT_RECORD,GUT,,OPEN,C5,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-015,PAST_ATTEMPT_RECORD,LQG,,OPEN,C6/C7,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-016,PAST_ATTEMPT_RECORD,Asymptotic safety,,OPEN,C11/C13,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-017,PAST_ATTEMPT_RECORD,CDT,,OPEN,C3/C11,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-018,PAST_ATTEMPT_RECORD,Causal sets,,OPEN,C3/C11,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+ATT-019,PAST_ATTEMPT_RECORD,Holography,,OPEN,C7/C14,SOURCE-REGISTERED,SOURCE-010,,From 19_PAST_ATTEMPTS_RECOMMENDATIONS.csv. 
+CHK-001,COMPLETENESS_CHECK,Fundamental degrees of freedom,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-002,COMPLETENESS_CHECK,Action/dynamics,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-003,COMPLETENESS_CHECK,Symmetry group,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-004,COMPLETENESS_CHECK,Gauge redundancy,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-005,COMPLETENESS_CHECK,Anomaly cancellation,,OPEN/PARTIAL,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-006,COMPLETENESS_CHECK,Unitarity,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-007,COMPLETENESS_CHECK,Causality,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-008,COMPLETENESS_CHECK,Lorentz invariance,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-009,COMPLETENESS_CHECK,Renormalization,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-010,COMPLETENESS_CHECK,UV completion,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-011,COMPLETENESS_CHECK,IR limit,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-012,COMPLETENESS_CHECK,Classical limit,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-013,COMPLETENESS_CHECK,Gravity limit,,PARTIAL,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-014,COMPLETENESS_CHECK,SM limit,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-015,COMPLETENESS_CHECK,Scattering,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-016,COMPLETENESS_CHECK,Positivity/analyticity,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-017,COMPLETENESS_CHECK,Vacuum stability,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-018,COMPLETENESS_CHECK,Parameter counting,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-019,COMPLETENESS_CHECK,Naturalness/hierarchy,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-020,COMPLETENESS_CHECK,Black holes,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-021,COMPLETENESS_CHECK,Cosmology,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-022,COMPLETENESS_CHECK,Dark matter,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-023,COMPLETENESS_CHECK,Dark energy,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-024,COMPLETENESS_CHECK,Initial conditions,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-025,COMPLETENESS_CHECK,Distinctive prediction,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-026,COMPLETENESS_CHECK,Reproducibility,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 
+CHK-027,COMPLETENESS_CHECK,Falsification,,OPEN,,SOURCE-REGISTERED,SOURCE-010,,From 28_STANDARD_COMPLETENESS_CHECKLIST.csv. 

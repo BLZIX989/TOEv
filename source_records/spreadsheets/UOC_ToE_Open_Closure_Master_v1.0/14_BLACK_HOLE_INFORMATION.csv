@@ -1,0 +1,9 @@
+ID,Target,Reference Equation/Structure,UOC Closure,Status
+BH-001,Bekenstein-Hawking entropy,S_BH=k_Bc^3A/(4Gℏ),Microscopic count / spectral trace,OPEN
+BH-002,Temperature,T_H=ℏκ/(2πk_B c),Derive surface gravity/thermal spectrum,OPEN
+BH-003,Hawking flux,thermal spectrum with greybody factors,Recover semiclassical radiation,OPEN
+BH-004,Page curve,S_rad(t) rises then falls under unitary evolution,Recover information accounting,OPEN
+BH-005,Interior reconstruction,bulk/horizon information map,Define interior observables consistently,OPEN
+BH-006,Horizon selector,P_H intrinsic,No externally imposed boundary,OPEN
+BH-007,Spectral area coefficient,1/4 normalization,Derive heat-kernel coefficient,OPEN
+BH-008,Entropy unification,S_BH ↔ S_thermo ↔ S_info,Single invariant information functional,OPEN

@@ -1,0 +1,14 @@
+Metric,Value
+Workbook version,v1.0
+Synchronization timestamp,2026-08-16T19:00:55
+Primary architecture,C0–C10 closure layers + certified dependency spine + parallel compiler closure
+Status model,Derivation status / Closure status / Registry status
+Equation count in Master Equation Matrix,174
+DER entries represented in UCG summary,"60 registry rows including primitives, axioms, recovery, validation and theorem entries"
+COSMO-DYN executed/recorded entries,29 source rows in synchronized closure workbook
+Source spreadsheets synchronized,3
+Source documents synchronized,7
+Core canonical spine,"(D,τ,κ,Π) < Γ < O < Ψ < G < L < Spec(L) < K_t < d < g < ∇ < Γ^c < Riemann < Ricci < R < G_μν < S < A_μ < F_μν < D_μ < ψ < T_μν < physics"
+Governing rule,"Derived under what dependencies, with what scope, and with what closure status?"
+Observational-input firewall,"Λ_obs, H_obs, N_H^obs must not occur in ancestors of Xi_UOC"
+Synchronization principle,Preserve executed results; preserve open questions; mark genuinely new work PROPOSED.

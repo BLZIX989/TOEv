@@ -1,0 +1,17 @@
+ID,Target,Equation,Domain,UOC Requirement
+STD-EQ-001,Einstein field equation,G_{μν}+Λg_{μν}=8πG c^{-4}T_{μν},GR,Must recover
+STD-EQ-002,Geodesic equation,d²x^μ/dτ²+Γ^μ_{αβ}u^αu^β=0,GR,Must recover
+STD-EQ-003,Newtonian limit,∇²Φ=4πGρ,GR→Newton,Must recover
+STD-EQ-004,SM gauge group,SU(3)_C×SU(2)_L×U(1)_Y,SM,Must derive
+STD-EQ-005,Higgs kinetic/potential,(D_μΦ)†D^μΦ−[μ²Φ†Φ+λ(Φ†Φ)²],SM,Must derive
+STD-EQ-006,QCD Lagrangian,−1/4F^a_{μν}F^{aμν}+Σ_q \bar q(iγ^μD_μ−m_q)q,QCD,Must recover
+STD-EQ-007,Dirac equation,(iγ^μD_μ−m)ψ=0,QFT,Must recover
+STD-EQ-008,Klein-Gordon,(□+m²)φ=0,QFT,Must recover
+STD-EQ-009,Schrödinger,iℏ∂_tψ=Hψ,QM,Must recover
+STD-EQ-010,Born rule,p_i=|⟨i|ψ⟩|²,QM,Must derive/equivalent
+STD-EQ-011,Partition function,Z=Tr e^{-βH},Stat mech,Must recover
+STD-EQ-012,Free energy,F=−k_BT ln Z,Thermo/stat mech,Must recover
+STD-EQ-013,Friedmann,H²=8πGρ/3+Λc²/3−kc²/a²,Cosmology,Must recover
+STD-EQ-014,Black-hole entropy,S_BH=k_Bc³A/(4Gℏ),QG,Must derive
+STD-EQ-015,RG flow,β_i(g)=dg_i/dlnμ,QFT/QG,Must recover/derive
+STD-EQ-016,UV fixed point,β_i(g_i*)=0,QG,Candidate UV closure

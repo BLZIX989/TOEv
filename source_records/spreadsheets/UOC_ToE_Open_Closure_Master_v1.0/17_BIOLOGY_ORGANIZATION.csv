@@ -1,0 +1,11 @@
+ID,Target,Canonical interpretation,Required calculation,Status
+BIO-001,Replication,State-preserving transformation with variation,derive minimal replication operator,OPEN
+BIO-002,Heredity,Persistent information across generations,derive inheritance map,OPEN
+BIO-003,Variation,state transformation producing alternatives,derive mutation/variation operator,OPEN
+BIO-004,Selection,constraint-weighted differential persistence,derive selection functional,OPEN
+BIO-005,Fitness,predictive persistence under environment,derive from Π/constraint,OPEN
+BIO-006,Adaptation,population state changes preserving organization,derive from Γ/O/Π,OPEN
+BIO-007,Metabolism,energy/material throughput,map to TNDS operator structure,OPEN
+BIO-008,Development,multi-scale state transitions,derive hierarchical dynamics,OPEN
+BIO-009,Ecology,interacting persistence populations,derive network dynamics,OPEN
+BIO-010,Neuroscience,representation + transformation + constraint + persistence,map to compiler operators and test,OPEN

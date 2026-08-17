@@ -1,0 +1,6 @@
+Cycle audit on SOURCE-010's 21_MASTER_CLOSURE_DAG sub-graph (30 edges, D-001..D-030):
+Result: PASS -- no cycles found
+Nodes: 49, Edges: 30
+This sub-graph was checked independently; it references named concepts (e.g. 'Gamma', 'Fix/Gamma')
+some of which coincide with existing canonical spine nodes by NAME but were not merged/identified
+with them automatically -- see dependency_registry_vNEXT.csv note.

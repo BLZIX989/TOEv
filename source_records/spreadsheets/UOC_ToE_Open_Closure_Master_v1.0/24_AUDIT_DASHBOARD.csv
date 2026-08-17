@@ -1,0 +1,17 @@
+Metric,Item,Value,Interpretation
+AUD-001,Internal closure obligations,23,Source count
+AUD-002,Non-closed registered bridges,17,Includes partial/conditional/scoped bridges
+AUD-003,Gap questions,164,Full 164-question matrix
+AUD-004,Open theorem targets,24,Master theorem program
+AUD-005,Open proof obligations,19,Proof registry extension
+AUD-006,Open equations,28,Internal + external benchmark equations
+AUD-007,Open variable targets,24,Internal + standard ToE parameters
+AUD-008,Open simulations,21,Closure + prediction suite
+AUD-009,External programs,8,String/LQG/GUT/holography/etc.
+AUD-010,Priority CRITICAL items,15,Execution plan
+AUD-011,Planck-length cutoff target Xi,6.50e-31,"Current observational target, not prediction"
+AUD-012,Xi^4,1.7850625e-121,Dimensionless hierarchy target
+AUD-013,BH normalization ratio,π,Under current asymptotic normalization
+Calculated formula,Xi^4,,Dimensionless hierarchy target
+Gap matrix count,Q_ID count,,Should equal 164
+Standard completeness checklist,27,29_CANDIDATE_SCORECARD,External comparison layer

@@ -1,0 +1,18 @@
+Bridge,From,To,Name,Registered Equation,Derivation Status,Closure Status,Layer,Recommended Closure Calculation
+BR-001,Primitive/Grammar,Graph?,Grammar composition,"(Δ,τ,κ,Π)→Γ",CERTIFIED SPINE,C0 canonical uniqueness remains open,Primitive reconciliation,Reconcile DTC/UDP/gradient/MDCL/NCG realizations into one dependency-preserving equivalence/hierarchy result.
+BR-002,Γ,O→Ψ,Organizational evolution,Γ→O→Ψ,CERTIFIED/PARTIAL,Fixed-point closure remains open,C1 fixed-point closure,Construct Γ fixed-point correspondence across organizational and spectral formulations.
+BR-003,Ψ,G,Organizational state to graph,Ψ→G,CALCULATED/SCOPED,Representation universality open,C0/C3 representation closure,Prove representation-invariant Ψ→G extraction or construct counterexample.
+BR-007,Spec(L),D_t / diffusion distance,Spectrum to diffusion distance,D_t / spectral diffusion-distance construction,CERTIFIED,Depends on spectral heat kernel,Spectral→geometry,Execute bridge-specific proof/counterexample program.
+BR-011,G_{μν},Field equation,Einstein tensor to field equation,G_{μν}+Λg_{μν}=8πG c^{-4}T_{μν},CERTIFIED/SCOPED,Matter coupling is a separate closure boundary in current matrix,C5 matter closure,Derive T_{μν} from recovered matter/gauge/quantum sector and verify ∇^μT_{μν}=0.
+BR-012,L,Dirac,Graph Laplacian to Dirac,L→D (or L→D² correspondence),CERTIFIED/SCOPED,Exact spectral correspondence remains an integration question,C5/C6 spectral correspondence,Test exact/controlled D_G↔L correspondence on graph families; distinguish incidence Dirac from arbitrary square roots.
+BR-013,L / R,P,Spectral persistence filter,R=e^{-βL}; persistence filtering via spectral relaxation,CERTIFIED/PROPOSED DEPENDING BRANCH,Persistence interpretation and FP spectral correspondence remain open,C1/C2,Construct Q/Fokker-Planck families and prove/deny λ_FP↔λ_2 relation.
+BR-014,Persistence cost,Euler-Lagrange,Persistence cost to field equation,δC_Π=0,CERTIFIED/SCOPED,Functional assumptions,Variational closure,Execute bridge-specific proof/counterexample program.
+BR-015,I_F,geodesic,Zero informational-loss limit,I_F=0→geodesic,CERTIFIED,Model branch,Information→GR,Execute bridge-specific proof/counterexample program.
+BR-017,L_N/h_N²,-Δ_g,Discrete-to-continuum bridge,L_N/h_N²→-Δ_g,CLOSED FOR TEST FAMILY,Not universal yet,C3 continuum closure,Expand beyond periodic refinements; establish universality class or explicit no-go.
+BR-018,K_N,K_g→d_g→g_ij,Heat-kernel geometric bridge,K_N→K_g→d_g→g_ij,CONDITIONAL/DERIVED,h_N²/t→0,C3 continuum closure,Joint h²/t convergence sweep and heat-kernel asymptotic robustness.
+BR-022,Z_H(ℓ_p²),N_BH,Spectral/BH normalization bridge,N_BH=π Z_H(ℓ_p²),ALGEBRAIC CONDITION,Origin of π not derived,C7,Derive π normalization from spectral data or classify it as convention/free/no-go.
+BR-023,N_H,Ξ,Information-to-cutoff bridge,Ξ=6^{1/4}π^{1/2}N_H^{-1/4},CONDITIONAL DOWNSTREAM,Requires non-circular N_H,C7,"Generate N_H independently of H/Λ/observation, then calculate Ξ."
+BR-026,Γ,Σ_H→P_H,Horizon selection bridge,"P_H²=P_H, P_H†=P_H",OPEN,UOC horizon selector not yet generated,C7,Derive horizon selector Σ_H and projector P_H from UOC data.
+BR-027,P_H,Z_H,Localized heat trace,Z_H(t)=Tr(P_H e^{-tL} P_H),OPEN AS UOC DERIVATION,Depends on P_H,C7,Compute localized heat trace Z_H(t) after P_H closure.
+BR-028,Γ,ℓ_*,Absolute scale bridge,ℓ_*=C_UOC ℓ_p,OPEN,Scale nonuniqueness theorem; C_UOC unresolved,C4/C7,Search internal absolute scale selector C_UOC or prove scale non-identifiability.
+BR-029,Γ,dot L,Universal spectral dynamics,"dot L=F(L,Δ,τ,κ,Π)",OPEN,Must generate H / homogeneous -2HL branch,C7,"Derive universal spectral dynamics F(L,Δ,τ,κ,Π) and recover homogeneous dotL=−2HL."

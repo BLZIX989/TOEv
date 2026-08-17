@@ -1,0 +1,66 @@
+"=== MASTER_DEPENDENCIES.csv (Phase 1, unchanged) ==="
+Dependency_ID,Parent,Child,Meaning,Status,Scope / Closure
+DEP-001,"(D,τ,κ,Π)",Γ,Primitive grammar → organizational action,CERTIFIED SPINE,C0 uniqueness/reconciliation open
+DEP-002,Γ,O,Organizational operator,CERTIFIED SPINE,Fixed-point closure open
+DEP-003,O,Ψ,State recursion,CERTIFIED SPINE,Compiler correspondence
+DEP-004,Ψ,G,Graph substrate,CERTIFIED/PARTIAL,Representation scope
+DEP-005,G,L,Graph Laplacian,CERTIFIED,Finite graph
+DEP-006,L,Spec(L),Spectral decomposition,CERTIFIED,Self-adjoint
+DEP-007,Spec(L),K_t,Heat semigroup,CERTIFIED,t>0
+DEP-008,K_t,d,Diffusion distance,CALCULATED,Nonzero spectrum
+DEP-009,d,g,Metric reconstruction,CALCULATED/SCOPED,Continuum
+DEP-010,g,∇,Levi-Civita connection,DERIVED,Smooth metric
+DEP-011,∇,Riemann,Curvature,DERIVED,Differentiability
+DEP-012,Riemann,Ricci,Contraction,DERIVED,Geometry
+DEP-013,Ricci,R,Scalar curvature,DERIVED,Geometry
+DEP-014,R,G_μν,Einstein tensor,DERIVED,Geometry
+DEP-015,G_μν,S_EH,Variational gravity,DERIVED/ADMITTED,Action
+DEP-016,S_EH,"A_μ,F_μν,D_μ,ψ,T_μν",Matter/gauge/quantum sectors,PARTIAL/VERSION DEPENDENT,Selection/integration
+DEP-017,Spec(L),Π_spectral,Persistence sector,PARTIAL,Functional/threshold open
+DEP-018,Π_spectral,Σ_H,Horizon selector,OPEN,Need organizational/causal boundary derivation
+DEP-019,Σ_H,P_H,Horizon projector,OPEN,Need P_H derivation
+DEP-020,"P_H,L",Z_H,Localized heat trace,CALCULATED GIVEN P_H,UOC generation open
+DEP-021,Z_H,A_H,Area,DERIVED/SCOPED,2D heat kernel
+DEP-022,A_H,N_H^UOC,Information count,OPEN,Independent functional
+DEP-023,N_H^UOC,Ξ,Cutoff ratio,CONDITIONAL,Non-circular mapping
+DEP-024,Ξ,Λ_*,Physical cutoff,DERIVED GIVEN ℓ_p,Absolute scale origin open
+DEP-025,Λ_*,ρ_vac,Vacuum density,DERIVED,3D DOS
+DEP-026,ρ_vac,Λ_cosm,Cosmological constant,DERIVED,ℓ_p² relation
+DEP-027,Λ_cosm,H,Friedmann,DERIVED/ADMITTED,Vacuum branch
+DEP-028,H,a(t),Scale factor,DERIVED,Constant vacuum → de Sitter
+DEP-029,Γ,ℓ_*,Absolute scale anchor,OPEN,Scale nonuniqueness
+DEP-030,Γ,dotL,Spectral dynamics,OPEN,Must generate H rather than insert it
+
+"=== SOURCE-010 theorem-target dependency graph (21_MASTER_CLOSURE_DAG, PARALLEL/complementary framing) ==="
+"NOTE: this is a THEOREM-TARGET-granularity graph (coarser than the 779-node DAG), not a replacement for it. Registered as-is, source-tagged, not merged into master_edges.csv node-for-node."
+Edge,Parent,Child,Layer,Unlock Theorem
+D-001,Primitive reconciliation,Γ,C0,TH-001
+D-002,Γ,Fix(Γ),C1,TH-002
+D-003,Fix/Γ,Π_O,C2,TH-003
+D-004,Π_O,λ_c,C2,TH-004
+D-005,λ_c,persistence sector,C2,TH-004
+D-006,G/refinement,−Δ_g,C3,TH-005
+D-007,heat kernel,g,C3,TH-005/006
+D-008,negative mode,Lorentzian signature,C3,TH-006
+D-009,spectral invariants,C_UOC,C4,TH-007
+D-010,D_G/finite algebra,G_SM/reps,C5,TH-008
+D-011,G_SM/reps,N_gen,C5,TH-009
+D-012,spectral/projectors,"m_i,α_i",C5,TH-010
+D-013,Hilbert/measure,Born rule,C6,TH-011
+D-014,quantum geometry,BH entropy,C6/C7,TH-012/014
+D-015,Γ/geometry,P_H,C7,TH-013
+D-016,P_H,Z_H,C7,EQ-OPEN-016
+D-017,Z_H,N_BH,C7,TH-014
+D-018,N_H,Ξ,C7,TH-015
+D-019,Ξ,Λ_*,C7,EQ-OPEN-018
+D-020,Λ_*,ρ_vac,C7,EQ-OPEN-008
+D-021,ρ_vac,"Λ_cosm,H,a",C7,COS-010
+D-022,Γ/O/Ψ,F,C7,TH-016
+D-023,F,H branch,C7,TH-016
+D-024,C8 biology,reverse derivation,C8,TH-017
+D-025,C9 grammar,normal form,C9,TH-018
+D-026,normal form,soundness/completeness,C9,TH-019/020
+D-027,all branches,cross-domain validation,C10,TH-021
+D-028,validated branches,novel prediction,C10,TH-022
+D-029,solution space,selection,C16,TH-023
+D-030,UV program,fundamental completion,C11,TH-024

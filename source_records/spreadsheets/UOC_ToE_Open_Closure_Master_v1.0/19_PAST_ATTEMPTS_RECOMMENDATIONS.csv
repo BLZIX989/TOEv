@@ -1,0 +1,20 @@
+ID,Attempt,Core Structure,What It Achieved,Current Recommendation,Action,Target Layer
+ATT-001,DTC grammar,"Δ,T,C(+Π)",Canonical primitive grammar,Reconcile with UDP/gradient/NCG instead of adding another grammar,Continue as equivalence target,C0
+ATT-002,UDP,Reality→Variables→Operators→Constraints→Equations→Predictions,Execution ordering,"Use as compiler pipeline, not competing ontology",Continue/merge,C0/C9
+ATT-003,MDCL,Dependency-first DAG,Ordering/governance,Keep canonical; enforce no circular dependencies,Continue,C0/C9
+ATT-004,ARBS/UPG,Persistence graph architecture,Earlier graph substrate,Retire as canonical; preserve transferable results; re-derive ARBS-dependent claims in TDIC,Retire/translate,C0/C3
+ATT-005,TDIC,Typed Dependency Incidence Complex,Proposed canonical substrate,Implement as normalized table/executable substrate,Continue,C0/C9
+ATT-006,SEIT,Spectral emergence framework,Spectral/geometry/persistence pipeline,"Keep L→Spec→heat→geometry; close Γ, λ_c, gauge, masses, cosmology",Continue,C2/C3/C5/C7
+ATT-007,TNDS/NEDS/Fokker-Planck,Dissipative organization,Persistence derivation route,Use to derive Π_O and λ_c; test against known dissipative systems,Continue/test,C2
+ATT-008,NCG route,Graph/finite algebra/Dirac,Gauge/quantum geometry route,Keep incidence Dirac; treat naive real structure as falsified on test families,Continue with constraints,C5/C6
+ATT-009,H-003,"D_G=[[0,B],[Bᵀ,0]]",Incidence Dirac construction,Canonical candidate for first-order operator,Continue,C5/C6
+ATT-010,H-004,Finite admissibility tests,NCG representation constraints,Use source/target endpoint representations; reject naive midpoint and naive J=K first-order route,Continue/falsify,C6
+ATT-011,H-006,Graph-class universality,Real-structure universality test,Edge-reversal closure survives bidirected pair; balance alone insufficient,Continue general theorem,C6
+ATT-012,COSMO-DYN,Spectral vacuum/cosmology,Cutoff→vacuum→Λ→H→a,"Preserve downstream calculations; close P_H, N_H, C_UOC, F",Continue,C7
+ATT-013,String recovery,Ω→Σ→X→TΣ→h→A→Polyakov→δS→T_ab→Virasoro→BRST→β(g)=0→R_μν=0,UV/QG benchmark,Reuse as external consistency path; do not import string ontology,Benchmark,C11
+ATT-014,GUT,SU(5)/SO(10)/Pati-Salam,Gauge unification benchmark,Use group/representation/anomaly constraints as filters,Benchmark,C5
+ATT-015,LQG,Spin-network/geometry quantization,Background-independent QG benchmark,Test semiclassical observables against UOC geometry,Benchmark,C6/C7
+ATT-016,Asymptotic safety,β_i(g*)=0,UV fixed point benchmark,Use fixed-point/critical-surface logic for λ_c/Γ,Benchmark,C11/C13
+ATT-017,CDT,Causal triangulations + continuum scaling,Discrete QG benchmark,Reuse refinement/continuum methodology,Benchmark,C3/C11
+ATT-018,Causal sets,Order + discreteness,Pre-geometric causal benchmark,Use as test family for causality without metric,Benchmark,C3/C11
+ATT-019,Holography,Boundary↔bulk duality,Information/geometry benchmark,"Use entropy/encoding ideas, avoid assuming AdS cosmology",Benchmark,C7/C14

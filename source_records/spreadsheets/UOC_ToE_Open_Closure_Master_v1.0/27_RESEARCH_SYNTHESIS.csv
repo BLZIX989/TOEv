@@ -1,0 +1,11 @@
+ID,Topic,Research finding,Use,Evidence
+R-001,String theory,Compactification makes 4D quantum gravity possible; gauge sector tied to internal topology/geometry; challenge is reproducing SM.,External benchmark,turn2academia36 / turn2search1
+R-002,String vacua,Flux compactifications and moduli stabilization are central; realistic vacua and scale separation remain difficult.,External benchmark,turn1academia26 / turn2search7
+R-003,LQG,Background-independent quantum geometry is a major QG route; semiclassical/black-hole issues remain active.,External benchmark,turn0academia12
+R-004,Black holes,"Entropy, information, holography and Page-curve physics are central quantum-gravity constraints.",External benchmark,turn1academia23 / turn2search5
+R-005,Asymptotic safety,UV fixed point and finite critical surface are candidate completion criteria; robustness and observables remain open.,External benchmark,turn4academia37 / turn4search1
+R-006,CDT,Nonperturbative lattice route seeks a continuum scaling limit and 4D semiclassical spacetime.,External benchmark,turn4academia34 / turn4search10
+R-007,Causal sets,Fundamental causal order + discreteness with manifold-like continuum as a target; Hauptvermutung remains conjectural.,External benchmark,turn4search0
+R-008,GUT,"SU(5)/SO(10)/Pati-Salam provide concrete gauge-unification/representation benchmarks, including charge quantization and proton-decay consequences.",External benchmark,turn1search27
+R-009,Standard Model,"SM successfully describes non-gravitational particle interactions with precision, but excludes gravity and leaves dark matter/flavor/baryogenesis-type questions.",External benchmark,turn3search0 / turn5search1
+R-010,Dark matter,Current cosmological model requires a dominant non-baryonic dark matter component whose microscopic nature remains unknown.,External benchmark,turn1search30

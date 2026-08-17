@@ -1,0 +1,16 @@
+ID,Target,Benchmark/Equation,Required Result,Status,Recommended Route
+COS-001,Horizon subsystem,Intrinsic horizon selector,P_H from Γ/Π/g,OPEN,BR-026
+COS-002,Localized trace,Z_H(t),Tr(P_He^{-tL}P_H),OPEN,BR-027
+COS-003,Area law,A_H=4π lim tZ_H(t),Refinement-invariant area,DERIVED SCOPED,Generalize beyond explicit family
+COS-004,BH normalization,N_BH=πZ_H(ℓ_p²),Derive π internally,OPEN,Zeta/heat-kernel
+COS-005,N_H,Independent horizon information,No H/Λ input,OPEN,BR-023
+COS-006,Cutoff,Ξ=6^{1/4}π^{1/2}N_H^{-1/4},Compute from N_H,CONDITIONAL,BR-023
+COS-007,Absolute scale,ℓ_*=C_UOCℓ_p,C_UOC derived/no-go,OPEN,BR-028
+COS-008,Vacuum density,ρ_vac=ℏcΛ_*^4/(16π²),Upstream cutoff derived,CALCULATED GIVEN INPUT,Preserve
+COS-009,Cosmological constant,Λ_cosm=ℓ_p²Λ_*^4/(2π),Derived from vacuum density,CALCULATED GIVEN INPUT,Preserve
+COS-010,Friedmann,H²=8πGρ/3+Λc²/3−kc²/a²,Recover cosmology,PARTIAL,Integrate matter/perturbations
+COS-011,Dark matter,ρ_DM or emergent alternative,Predict abundance/structure,OPEN,Add matter sector
+COS-012,Dark energy,ρ_DE / w,Predict late-time acceleration,OPEN,Vacuum/alternative branch
+COS-013,Inflation/initial state,"P_R(k), n_s, r or alternative",Predict primordial spectrum,OPEN,Early-universe dynamics
+COS-014,Homogeneity/isotropy,FLRW limit,Derive from large-scale attractor/coarse-graining,OPEN,Cosmological RG
+COS-015,Initial conditions,Initial state measure,Derive/selection principle,OPEN,Selection branch

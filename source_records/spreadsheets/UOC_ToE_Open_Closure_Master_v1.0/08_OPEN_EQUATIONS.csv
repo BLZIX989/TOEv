@@ -1,0 +1,29 @@
+ID,Equation,Role,Source/Branch,Status,Required Closure
+EQ-OPEN-001,Γ(λ_c)=1,Persistence threshold,SEIT,Partial/Open,Need Γ derivation + uniqueness
+EQ-OPEN-002,Π={n:λ_n<λ_c},Persistence sector,SEIT,Partial/Open,Need threshold derivation
+EQ-OPEN-003,m_n=m_0√λ_n,Mass spectrum candidate,SEIT,Partial,Need m0 and representation map
+EQ-OPEN-004,α_k=⟨ψ|P_k|ψ⟩,Coupling candidate,SEIT,Partial,Need projectors and normalization
+EQ-OPEN-005,G_{μν}+Λg_{μν}=8πGc^{-4}T_{μν},Matter-coupled GR target,UOC/PRC,Open target,Derive T_{μν} and coupling
+EQ-OPEN-006,∇_μT^{μν}=0,Matter conservation,GR,Open target,Derive from symmetry/field equation
+EQ-OPEN-007,d²x^μ/dτ²+Γ^μ_{αβ}u^αu^β=0,Geodesic limit,GR,Open target,Derive test-particle limit
+EQ-OPEN-008,∇²Φ=4πGρ,Newtonian limit,GR,Open target,Weak-field reduction
+EQ-OPEN-009,Tr[Γ⁵Δ²]=0,Anomaly consistency,SEIT,Partial,Complete representation/anomaly calculation
+EQ-OPEN-010,ind(D)=∫ch(E)Td(TM),Index correspondence,Mathematics/NCG,Established math; integration open,Map to UOC objects
+EQ-OPEN-011,"Z=Tr(e^{-βO}), F=−k_BT ln Z",Statistical structure,SRC/SEIT,Established math,Derive from UOC generator
+EQ-OPEN-012,Θ(t)~(4πt)^{-n/2}Σa_k t^k,Heat trace,Spectral geometry,Established math,Derive localized/horizon coefficients
+EQ-OPEN-013,"dot L=F(L,Δ,τ,κ,Π)",Universal spectral dynamics,COSMO-DYN,Open,Recover −2HL
+EQ-OPEN-014,ℓ_*=C_UOCℓ_p,Absolute scale,COSMO-DYN,Open,Find C_UOC or no-go
+EQ-OPEN-015,P_H²=P_H=P_H†,Horizon projector,COSMO-DYN,Open,Derive P_H
+EQ-OPEN-016,Z_H(t)=Tr(P_He^{-tL}P_H),Localized heat trace,COSMO-DYN,Open,Requires P_H
+EQ-OPEN-017,N_BH=πZ_H(ℓ_p²),BH spectral normalization,COSMO-DYN,Open normalization,Derive π
+EQ-OPEN-018,Ξ=6^{1/4}π^{1/2}N_H^{-1/4},Information cutoff,COSMO-DYN,Conditional,Requires independent N_H
+EQ-OPEN-019,β_i(g*)=0,UV fixed point benchmark,External/QG,Open benchmark,Search finite-dimensional critical surface
+EQ-OPEN-020,S_BH=k_Bc^3A/(4Gℏ),Black-hole entropy benchmark,External/QG,Must recover,Microscopic/spectral derivation
+EQ-OPEN-021,H²=8πGρ/3+Λc²/3−kc²/a²,General cosmological closure,External/GR,Benchmark,Recover as UOC cosmology limit
+EQ-OPEN-022,p_i=|⟨i|ψ⟩|²,Born rule benchmark,QM,Open UOC derivation,Derive unique measure
+EQ-OPEN-023,G_SM=SU(3)_C×SU(2)_L×U(1)_Y,Gauge selection target,SM,Open UOC derivation,Derive group and reps
+EQ-OPEN-024,V(Φ)=μ²Φ†Φ+λ(Φ†Φ)²,Higgs potential benchmark,SM,Open UOC derivation,Derive scalar sector/EWSB
+EQ-OPEN-025,β_i=dg_i/dlnμ,Renormalization group,QFT/QG,Open UOC integration,Derive flow from spectral dynamics
+EQ-OPEN-026,lim_{ℏ→0} S_quantum=S_classical,Classical limit,QG,Open UOC integration,Stationary phase/semiclassical limit
+EQ-OPEN-027,lim_{N→∞} L_N→−Δ_g,Continuum limit,UOC,Partial,Generalize refinement family
+EQ-OPEN-028,I=I(UOC state),Information functional,UOC,Open,Define invariant information object

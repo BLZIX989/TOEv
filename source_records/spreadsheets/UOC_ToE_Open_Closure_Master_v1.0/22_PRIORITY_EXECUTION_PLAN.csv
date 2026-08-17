@@ -1,0 +1,23 @@
+ID,Task,Inputs,Layer,Expected Artifact,Stop/Falsifier,Priority
+P0-01,Freeze canonical substrate,TDIC/UOC/MDCL; ARBS legacy only,C0/C9,No new ontology layers,Canonical substrate decision,CRITICAL
+P0-02,Close Γ fixed-point implementation,NX-001 finite typed states,C0/C1,Fix table + attractor basins,No well-defined Γ,CRITICAL
+P0-03,Close representation invariance,NX-002/003,C1/C3,Invariant matrix across representations,Semantic mismatch,CRITICAL
+P0-04,Close continuum/heat limits,NX-003/004,C3,Multi-family convergence,No universal scaling,CRITICAL
+P0-05,Close incidence/NCG branch,H-003/H-004/H-006 + NX-005,C5/C6,Controlled Dirac/real-structure class,No correspondence,CRITICAL
+P0-06,Derive matter coupling,BR-011,C5,"T_{μν}, conservation, variational closure",Coupling failure,CRITICAL
+P0-07,Derive persistence,TNDS/NEDS/FP,C2,Π_O + λ_c theorem,No invariant Π,CRITICAL
+P0-08,Derive Lorentzian geometry,LOR branch,C3,Index 1 + causal cone,No Lorentzian limit,CRITICAL
+P1-01,Gauge group + reps,Finite algebra enumeration,C5,Unique SM sector,Multiple survivors,CRITICAL
+P1-02,Mass/coupling spectrum,Spectral/projector program,C5,Parameter-free ratios,Fit required,HIGH
+P1-03,Born rule + quantum geometry,Measure + operator algebra,C6,Quantum limit,Nonunique measure,HIGH
+P1-04,Horizon selector,BR-026,C7,P_H,Selector ambiguity,CRITICAL
+P1-05,Information normalization,BR-022/023,C7,N_H→Ξ→Λ,Circularity,CRITICAL
+P1-06,Universal spectral dynamics,BR-029,C7,F and H branch,H inserted,CRITICAL
+P2-01,Cosmological perturbations,CMB/structure simulation,C7/C10,"P(k), growth, lensing",Mismatch,HIGH
+P2-02,Dark matter,Matter/emergent candidate,C7/C10,Abundance + structure,No viable sector,HIGH
+P2-03,UV completion,RG/string/CDT benchmark,C11,UV finite/predictive,No completion,CRITICAL
+P2-04,Black-hole information,Entropy/Page curve,C7/C14,Unitary information accounting,Failure,CRITICAL
+P2-05,Compiler proof,termination/confluence/soundness/completeness,C9,Executable theorem,Runtime counterexample,CRITICAL
+P2-06,Cross-domain validation,physics/biology/statistics/etc.,C10,Invariance benchmark,Failure,HIGH
+P3-01,Selection/uniqueness,solution-space analysis,C16,unique or constrained branch,many survivors,HIGH
+P3-02,Novel prediction,dispersion/lensing/noise,C10,quantitative discriminant,null/bound contradiction,HIGH

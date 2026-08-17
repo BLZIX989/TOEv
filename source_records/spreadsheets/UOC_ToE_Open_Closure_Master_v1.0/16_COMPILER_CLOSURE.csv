@@ -1,0 +1,15 @@
+ID,Subsystem,Input→Output,Required Artifact,Status
+COMP-001,Parser,Domain theory → typed IR,AST/semantic graph,OPEN
+COMP-002,Canonicalization,IR → TDIC,Unique typed dependency representation,OPEN
+COMP-003,Dimensional analysis,Every equation dimensionally consistent,unit map + dimensional vector,OPEN
+COMP-004,Symbol registry,Unique symbol IDs and scope,symbol table,OPEN
+COMP-005,Dependency DAG,Acyclic executable dependency graph,topological ordering,ARCHITECTURE EXISTS; runtime open
+COMP-006,Rewrite termination,Canonical rewrite terminates,ranking function,OPEN
+COMP-007,Rewrite confluence,Equivalent inputs converge to same normal form,critical-pair closure,OPEN
+COMP-008,Proof engine,DER → proof object,proof certificate,OPEN
+COMP-009,Numerical engine,Equation → simulation,reproducible numerical result,OPEN
+COMP-010,Falsification engine,Prediction → test → rejection/constraint,test certificate,OPEN
+COMP-011,Provenance,Every result traceable to inputs/versions,hash + dependency lineage,PARTIAL
+COMP-012,Cross-domain validation,Same invariants across physics/biology/economics/neuroscience,benchmark matrix,OPEN
+COMP-013,Runtime soundness,Executed compiler preserves semantics,formal semantics/property tests,OPEN
+COMP-014,Runtime completeness,Supported corpus compiles,coverage benchmark,OPEN

@@ -1,0 +1,25 @@
+ID,Theorem Target,Statement,Calculated Form,Layer,Status,Closure Test
+TH-001,Primitive reconciliation theorem,Show the canonical grammar is an equivalence class or strict reduction of DTC/UDP/gradient/MDCL/NCG realizations.,Γ_UOC ≃ {Γ_i} or ∀Γ_i ∃ morphism φ_i preserving dependency semantics,C0,Open,Explicit equivalence proof or counterexample.
+TH-002,Fixed-point correspondence theorem,"Characterize relation between Fix(Γ), Fix(R), least fixed points and spectral fixed points.",φ(Fix Γ)=Fix R under stated hypotheses; otherwise counterexample,C1,Open,Finite-state exhaustive + analytic contraction/monotonicity cases.
+TH-003,Persistence derivation theorem,Derive Π_O from TNDS/NEDS/Fokker-Planck dynamics.,"Π_O=F(σ,C,Spec L) with invariance/monotonicity",C2,Open,Derive from stationary measure / entropy production; falsify on known dissipative systems.
+TH-004,Threshold uniqueness theorem,Derive Γ(λ_c)=1 and uniqueness/running of λ_c.,Γ(λ_c)=1; Γ'(λ)<0 ⇒ unique λ_c,C2,Open,Analytic monotonicity + numerical parameter sweep.
+TH-005,Continuum universality theorem,Extend L_N/h_N²→−Δ_g beyond one refinement family.,"∀ admissible refinements in class ℛ, ||L_N/h_N²+Δ_g||→0",C3,Partial/Open,Multi-family convergence and counterexample search.
+TH-006,Lorentzian emergence theorem,Derive Lorentzian signature rather than infer it from a negative eigenvalue alone.,index(g)=1 and causal cone structure emerges,C3,Open,Signature/index proof + continuum causal tests.
+TH-007,Scale non-identifiability theorem,Prove whether UOC can or cannot determine an absolute length scale from dimensionless spectral data.,No dimensionful invariant ⇒ C_UOC non-identifiable,C4,Open,Scale-rescaling invariance audit.
+TH-008,Gauge selection theorem,Derive unique G_SM and representations from graph/Clifford/algebraic constraints.,G*=SU(3)_C×SU(2)_L×U(1)_Y with anomaly-free chiral reps,C5,Open,Enumerate admissible finite algebras/representations; anomaly and phenomenology filters.
+TH-009,Generation theorem,Derive N_gen=3 independently of N_c=3.,N_gen=3 from independent representation/topological/index constraint,C5,Open,Index/representation/topology search; counterexample generation.
+TH-010,Mass-spectrum theorem,Derive particle masses/ratios without free normalization.,"m_i/m_j = f(Spec L, projectors, couplings)",C5,Partial,Fit-free spectral prediction test.
+TH-011,Born-rule theorem,Derive quantum probabilities from UOC invariants.,p_i=|⟨i|ψ⟩|² or equivalent measure uniquely forced,C6,Open,Gleason/noncontextual measure route + finite-dimensional counterexamples.
+TH-012,Quantum-geometry theorem,Construct a consistent quantum geometry operator algebra whose classical limit is recovered.,"[X,g,D] algebra + semiclassical limit → g_{μν}",C6,Proposed,Finite operator model → continuum limit.
+TH-013,Horizon-projector theorem,Derive P_H from UOC data rather than insert a boundary.,"P_H²=P_H=P_H†; P_H=F(Γ,Π,g,causal data)",C7,Open,Selector equivalence and refinement invariance.
+TH-014,BH normalization theorem,Derive S_BH normalization from localized spectral data.,N_BH=πZ_H(ℓ_p²) with π generated internally or prove convention,C7,Open,Heat-kernel/zeta/boundary analysis.
+TH-015,Non-circular information theorem,"Generate N_H without H, Λ, or observational Λ input.","N_H=F(Spec(t_*L_H),Π_H)",C7,Open,Provenance DAG + independent numerical generation.
+TH-016,Universal spectral dynamics theorem,"Derive F such that dotL=F(L,Δ,τ,κ,Π).",F[homogeneous] = −2HL,C7,Open,Infer from operator algebra + test multiple families.
+TH-017,Biological reverse-derivation theorem,Derive replication/heredity/selection/adaptation from common organizational kernel.,"D,T,C,Π → biological transition operators",C8,Open,Synthetic minimal models + evolutionary simulations.
+TH-018,Compiler normal-form theorem,Prove termination and confluence of canonical rewrite system.,∀x ∃! NF(x) and finite reduction,C9,Open,Termination measure + local confluence + Newman.
+TH-019,Compiler soundness theorem,Every admitted transformation preserves semantics/invariants.,⟦compile(x)⟧=⟦x⟧,C9,Open,Formal semantics + differential testing.
+TH-020,Compiler completeness theorem,Every supported domain representation has a canonical IR path.,∀x∈D_supported ∃ compile(x),C9,Open,Domain corpus coverage + constructive translation.
+TH-021,Cross-domain invariance theorem,Canonical invariants survive representation changes.,I(Tx)=I(x),C10,Open,Multi-representation benchmark.
+TH-022,Prediction theorem,At least one new quantitative prediction differs from SM+GR.,∃O: ΔO_UOC≠0 with uncertainty bounds,C10,Open,UV dispersion/lensing/metric-noise/cosmological cutoff tests.
+TH-023,Uniqueness/selection theorem,Determine whether one physical solution is selected.,argmin/argfix selection functional yields unique admissible universe,C16,Open,Solution-space enumeration + selection functional.
+TH-024,UV completion theorem,Establish finite/controlled high-energy completion of UOC physical dynamics.,UV fixed point/string-complete/discrete continuum equivalence,C11,Open,RG fixed point or constructive UV definition.

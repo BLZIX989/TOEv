@@ -25,3 +25,20 @@ The `supplementary_DAG_*.csv` files are the rest of the DAG_* sheet family from 
 (closure obligations, critical frontier, impact map, phase execution plan, etc.) — not required by
 the directive's file list, but kept because they are direct dependents of the same DAG construction
 and are referenced by `PHASE_1_REPORT.md` and the ledger.
+
+## Phase 1.5 update (2026-08-17)
+
+`MASTER_DAG_vNEXT_nodes.csv` and `MASTER_DAG_vNEXT_edges.csv` are the reconciled, append-only
+successors to `master_nodes.csv`/`master_edges.csv`: all existing 783 nodes / 326 edges are
+preserved verbatim (verified: 0 modified, 0 removed), plus 229 new nodes and 30 new edges sourced
+from `UOC_ToE_Open_Closure_Master_v1.0.xlsx` (SOURCE-010) -- open-problem, theorem-target, proof-
+target, equation-target, variable-target, simulation-target, external-benchmark/program/reference-
+theory, selection-target, past-attempt, and completeness-check nodes, plus the 30-edge theorem-
+target dependency graph (`21_MASTER_CLOSURE_DAG`). Every new node/edge is tagged `SOURCE-REGISTERED`
+/ `SOURCE-010` -- none was promoted past the status given in its source. Cycle audit: PASS (0 cycles,
+full merged graph and the new sub-graph checked independently). See
+`results/reconciliation/PHASE_1_5_CORPUS_EXPANSION_REPORT.md` Section 6 for the full accounting.
+
+`master_nodes.csv` / `master_edges.csv` themselves are UNCHANGED by this phase (still Phase-1/PRF-PRIM
+state) -- `MASTER_DAG_vNEXT_*` is an additive successor file, not a replacement, per governance
+rule "never overwrite historical registries; use append-only versioned updates."

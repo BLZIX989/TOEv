@@ -1,0 +1,11 @@
+ID,Selection Target,Criterion,Layer,Status
+SEL-001,Unique grammar,One canonical primitive realization or proven equivalence class,C0,OPEN
+SEL-002,Unique fixed point,One admissible organizational attractor per conditions,C1,OPEN
+SEL-003,Unique threshold,λ_c unique,C2,OPEN
+SEL-004,Unique gauge group,SM group uniquely selected,C5,OPEN
+SEL-005,Unique generation count,N_gen=3 uniquely selected,C5,OPEN
+SEL-006,Unique mass normalization,m0 no external fit,C5,OPEN
+SEL-007,Unique absolute scale,C_UOC unique or provably absent,C4/C7,OPEN
+SEL-008,Unique horizon selector,P_H independent of representation/refinement,C7,OPEN
+SEL-009,Unique cosmological vacuum,N_H/Λ/H branch selected,C7/C16,OPEN
+SEL-010,Unique physical universe,No unresolved equivalent solutions or selection principle,C16,OPEN

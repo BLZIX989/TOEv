@@ -1,0 +1,79 @@
+Parent,Child,Edge_Type,Relation
+OBJ-001,OBJ-003,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-001,OBJ-004,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-003,OBJ-005,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-004,OBJ-005,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-005,OBJ-006,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-005,OBJ-007,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-006,OBJ-007,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-005,OBJ-008,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-006,OBJ-008,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-007,OBJ-008,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-001,OBJ-009,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-003,OBJ-009,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-005,OBJ-010,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-005,OBJ-011,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-006,OBJ-011,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-007,OBJ-011,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-011,OBJ-012,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-001,OBJ-013,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-011,OBJ-014,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-006,OBJ-014,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-012,OBJ-015,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-005,OBJ-016,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-009,OBJ-017,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-006,OBJ-018,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-005,OBJ-019,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-018,OBJ-019,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-018,OBJ-020,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-019,OBJ-020,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-006,OBJ-022,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-021,OBJ-022,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-005,OBJ-023,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-008,OBJ-024,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-023,OBJ-024,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-005,OBJ-025,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-006,OBJ-025,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-008,OBJ-027,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-011,OBJ-027,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-005,OBJ-028,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-010,OBJ-028,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-028,OBJ-029,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-011,OBJ-030,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-014,OBJ-032,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-010,OBJ-GAP-003,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-011,OBJ-GAP-003,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-018,OBJ-GAP-003,OBJECT_DEPENDENCY,mathematical prerequisite (built FROM parent)
+OBJ-005,CAND-PRIM-001,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-019,CAND-PRIM-001,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-010,CAND-PRIM-001,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-007,CAND-PRIM-002,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-019,CAND-PRIM-002,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-020,CAND-PRIM-003,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-008,CAND-PRIM-003,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-033,CAND-PRIM-004,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-008,CAND-PRIM-004,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-006,CAND-PRIM-005,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-016,CAND-PRIM-006,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-012,CAND-PRIM-006,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-032,CAND-PRIM-007,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-015,CAND-PRIM-007,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-014,CAND-PRIM-007,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-013,CAND-PRIM-008,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-004,CAND-PRIM-008,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-017,CAND-PRIM-009,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-009,CAND-PRIM-009,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-021,CAND-PRIM-010,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-020,CAND-PRIM-010,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-030,CAND-PRIM-011,INSTANTIATES,object is a concrete instance of this candidate recurring structure
+OBJ-005,KERNEL-CAND-001,SUPPORTS,object cited as supporting evidence for this candidate kernel
+CAND-PRIM-001,KERNEL-CAND-001,COMPOSED_OF,kernel candidate built from this candidate primitive
+CAND-PRIM-005,KERNEL-CAND-001,COMPOSED_OF,kernel candidate built from this candidate primitive
+OBJ-001,KERNEL-CAND-002,SUPPORTS,object cited as supporting evidence for this candidate kernel
+CAND-PRIM-008,KERNEL-CAND-002,COMPOSED_OF,kernel candidate built from this candidate primitive
+OBJ-014,KERNEL-CAND-003,SUPPORTS,object cited as supporting evidence for this candidate kernel
+CAND-PRIM-007,KERNEL-CAND-003,COMPOSED_OF,kernel candidate built from this candidate primitive
+OBJ-030,KERNEL-CAND-004,SUPPORTS,object cited as supporting evidence for this candidate kernel
+CAND-PRIM-011,KERNEL-CAND-004,COMPOSED_OF,kernel candidate built from this candidate primitive
+OBJ-013,KERNEL-CAND-005,SUPPORTS,object cited as supporting evidence for this candidate kernel
+OBJ-008,KERNEL-CAND-005,SUPPORTS,object cited as supporting evidence for this candidate kernel

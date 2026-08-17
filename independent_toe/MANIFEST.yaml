@@ -1,0 +1,64 @@
+experiment: "Independent Theory Reconstruction"
+purpose: >
+  Determine whether the mathematical content already present in the TOEv corpus is sufficient
+  to reconstruct a unified physical theory without assuming the UOC/SEIT/ARBS/MDCL architecture
+  is correct. Adversarial independence: the corpus is treated as data, not as the theory.
+governing_rule: "The existing project corpus is DATA, not the theory."
+isolation:
+  writes_to_canonical_records: false
+  reads_from:
+    - source_records/
+    - registries/
+    - compiler/dag/
+    - derivations/C0/PRF-PRIM/
+    - calculations/C0/PRF-PRIM/
+    - proofs/C0/PRF-PRIM/
+    - falsification/C0/PRF-PRIM/
+  append_only: true
+excluded_assumptions:
+  - DTC
+  - UOC
+  - SEIT
+  - ARBS
+  - MDCL
+  - UCG
+  - UCCP
+  - "Gamma = kappa o tau o Delta"
+  - "any proposed persistence functional"
+  - "any proposed spectral cutoff"
+  - "any proposed horizon-information law"
+  - "any proposed particle-spectrum mapping"
+  - "any proposed universal functional"
+possible_outcomes:
+  - "1. a unified theory is derivable"
+  - "2. only a partial unified theory is derivable"
+  - "3. multiple inequivalent theories remain possible"
+  - "4. the available mathematical structure is insufficient"
+  - "5. the proposed UOC framework supplies genuinely necessary structure"
+  - "6. the entire proposed unification program is falsified"
+status_ontology:
+  - DERIVED
+  - CALCULATED
+  - CONDITIONAL
+  - ADMITTED
+  - CANDIDATE
+  - OPEN
+  - FALSIFIED
+phase: 0
+phase_0_scope:
+  - "Create independent_toe/ directory architecture"
+  - "Build the ontology-neutral object registry"
+  - "Build the independent source index"
+  - "Build the mathematical object dependency graph"
+  - "Build the candidate primitive registry"
+  - "Build the candidate common-kernel registry"
+  - "Build the independent derivation ledger"
+  - "Build the calculation/proof workbook templates"
+  - "Build a Master Independent-ToE DAG"
+  - "Produce independent_toe/PHASE_0_REPORT.md"
+phase_0_excludes:
+  - "Any physical derivation (Phase 1 onward)"
+  - "Any convergence test against UOC (Phase 13, explicitly last)"
+  - "Any forced kernel selection (Phase 5 tests candidates, does not select yet)"
+session: "session_01UBKp9Jq2qXFgravroyUp32"
+date: "2026-08-17"

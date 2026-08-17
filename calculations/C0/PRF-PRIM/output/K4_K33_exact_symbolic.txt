@@ -1,0 +1,9 @@
+EXACT SYMBOLIC CROSS-CHECK against registries/MASTER_COSMO_DYN_RESULTS.csv
+
+K4: L eigenvalues (exact) = {4: 3, 0: 1}
+    Corpus claim (COSMO-BRIDGE-003): Spec={0,4,4,4}, rank(L)=3
+    Computed rank(L) = 3  -->  MATCHES corpus claim
+
+K3,3: L eigenvalues (exact) = {6: 1, 3: 4, 0: 1}
+    Corpus claim (COSMO-BRIDGE-004/005): N_bulk = rank(L) = 5, d_spectral = 5
+    Computed rank(L) = 5  -->  MATCHES corpus claim

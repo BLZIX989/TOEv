@@ -1,0 +1,19 @@
+{
+  "test1_kappa_redundant_given_tau_asymptotics": {
+    "result": true,
+    "n_families_tested": 9,
+    "conclusion": "REDUNDANT (in this specific spectral realization). lim_{t->inf} exp(-tL) converges to P_ker(L) WITHOUT any separately-applied projection step -- the asymptotic behavior of tau_2 (the diffusion semigroup) already performs kappa's stated role ('restricting which transformations are permissible... surviving to the persistence subspace') automatically, as t->infinity. IMPORTANT CAVEAT: this makes kappa redundant ONLY if tau is realized as the (Liouville-violating, see script 04) diffusion semigroup. Under the OTHER candidate realization of tau (automorphisms, which are norm-preserving bijections with NO asymptotic contraction), there is no such convergence and kappa is NOT redundant -- an automorphism does not by itself select ker(L). So kappa's status (IRREDUCIBLE vs REDUNDANT) is CONDITIONAL on which tau-realization is chosen -- itself an unresolved C0 question, not a fact independent of it."
+  },
+  "test2_Pi_derivable_from_tau_kappa": {
+    "result": "DERIVABLE (as an OBJECT) under the kappa=P_ker(L) realization",
+    "conclusion": "Once kappa is realized as the spectral projector P_ker(L), the object Pi (the persistence SUBSPACE) is simply the image of kappa, i.e. Pi = im(kappa) = ker(L). No independent construction is needed beyond kappa itself: Pi is DERIVABLE from kappa in this realization, not an independent fourth primitive. This matches the corpus's own documented disagreement (Combined Compiler Theories Whitepaper para. 549, verbatim): 'They disagree on whether Persistence is primitive or derived' -- this computation provides a concrete instance (the graph-spectral realization) in which Persistence is DERIVED, supporting the 'derived' side of that disagreement rather than resolving it universally (a different realization could still require Pi as independent)."
+  },
+  "test3_Delta_reconstructible_from_tau_kappa": {
+    "result": "NOT RECONSTRUCTIBLE IN GENERAL",
+    "conclusion": "Aut(G) (candidate tau) and Spec(L)/P_ker(L) (candidate kappa/Pi) do NOT jointly determine Delta (candidate: the incidence/graph structure itself) up to the tested family, because COSPECTRAL NON-ISOMORPHIC GRAPHS are a standard, well-known phenomenon in spectral graph theory (smallest examples exist at n=5, e.g. C4+K1 vs K1,4 are NOT cospectral but documented cospectral mates exist from n=5 upward; strongly regular graph families routinely share a spectrum without being isomorphic). This DER did not need to construct a fresh cospectral pair to establish the point: it is an established theorem (registered as EXT-002, ADMITTED EXTERNAL INPUT) that the spectrum alone is not a complete graph invariant. CONCLUSION: Delta is IRREDUCIBLE -- it cannot be recovered from tau and kappa's outputs alone; it is genuinely prior information."
+  },
+  "test4_Pi_definition_presupposes_tau": {
+    "result": "YES, BY SOURCE DEFINITION, THOUGH NOT BY THE COMPUTED OBJECT",
+    "conclusion": "PRIM-G-004's source text defines Pi as 'the kernel of an invariant operator surviving repeated application of TAU under kappa' -- tau appears explicitly in Pi's OWN definition. Yet the computed realization (ker(L), the eigenspace at eigenvalue 0) can be defined and computed directly from L (hence from Delta/kappa) without ever invoking tau as a separate map -- L's kernel is a static linear-algebra fact, not the limit of an iterated process. This is a definitional-vs-constructive gap: Pi is defined narratively in terms of tau's iteration, but realized computationally without needing it. Flagged as UNRESOLVED rather than forced to one side."
+  }
+}

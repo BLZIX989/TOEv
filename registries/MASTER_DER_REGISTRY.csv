@@ -58,3 +58,4 @@ VAL-003,GR Matter Coupling,"DER-VAR-005, DER-TRC-001",CERTIFIED
 VAL-004,Quantum Mechanics,DER-QR-001..006,CERTIFIED
 VAL-005,Hamiltonian Mechanics,"DER-VAR-003, DER-QR-001",CERTIFIED
 THM-ANOM,G_SM = SU(3)xSU(2)xU(1) derivation,DER-QR-006,CERTIFIED
+DER-C0-PRIMGRAPH-001,"Graph-spectral realization test of {Delta,tau,kappa,Pi} against PRF-PRIM (kappa=P_ker(L) idempotent+commutes with automorphism tau; Pi=ker(L) derivable; tau=exp(-tL) FALSIFIED; Delta type-mismatch found)","PRF-PRIM, DER-SPC-002..005",CALCULATED/PARTIAL

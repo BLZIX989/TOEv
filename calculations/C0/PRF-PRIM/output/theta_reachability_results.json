@@ -1,0 +1,56 @@
+{
+  "K4": {
+    "n": 4,
+    "reachability_classes": 1,
+    "n_connected_components": 1,
+    "theta_classes_match_components": true
+  },
+  "K33": {
+    "n": 6,
+    "reachability_classes": 1,
+    "n_connected_components": 1,
+    "theta_classes_match_components": true
+  },
+  "C6": {
+    "n": 6,
+    "reachability_classes": 1,
+    "n_connected_components": 1,
+    "theta_classes_match_components": true
+  },
+  "P5": {
+    "n": 5,
+    "reachability_classes": 1,
+    "n_connected_components": 1,
+    "theta_classes_match_components": true
+  },
+  "disjoint_K4_K33": {
+    "n": 10,
+    "reachability_classes": 2,
+    "n_connected_components": 2,
+    "theta_classes_match_components": true
+  },
+  "two_triangles_disjoint": {
+    "n": 6,
+    "reachability_classes": 2,
+    "n_connected_components": 2,
+    "theta_classes_match_components": true
+  },
+  "torus_4x4": {
+    "n": 16,
+    "reachability_classes": 1,
+    "n_connected_components": 1,
+    "theta_classes_match_components": true
+  },
+  "petersen": {
+    "n": 10,
+    "reachability_classes": 1,
+    "n_connected_components": 1,
+    "theta_classes_match_components": true
+  },
+  "star_K1_5": {
+    "n": 6,
+    "reachability_classes": 1,
+    "n_connected_components": 1,
+    "theta_classes_match_components": true
+  }
+}

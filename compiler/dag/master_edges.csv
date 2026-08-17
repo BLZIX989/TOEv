@@ -319,3 +319,8 @@ LAYER-C7-COSMO-DYN-010,CLOSURE_LAYER_DEPENDENCY,C7,COSMO-DYN-010,Closure layer g
 LAYER-C7-COSMO-DYN-011,CLOSURE_LAYER_DEPENDENCY,C7,COSMO-DYN-011,Closure layer governs/contains target,REGISTERED,24_C0_C10_CLOSURE_LAYERS,C7,
 LAYER-C7-COSMO-DYN-012,CLOSURE_LAYER_DEPENDENCY,C7,COSMO-DYN-012,Closure layer governs/contains target,REGISTERED,24_C0_C10_CLOSURE_LAYERS,C7,
 LAYER-C7-COSMO-DYN-013,CLOSURE_LAYER_DEPENDENCY,C7,COSMO-DYN-013,Closure layer governs/contains target,REGISTERED,24_C0_C10_CLOSURE_LAYERS,C7,
+EDGE-PRF-PRIM-001,PROOF_DEPENDENCY,PRF-PRIM,DER-C0-PRIMGRAPH-001,This execution's computational test targets PRF-PRIM,CALCULATED,PRF-PRIM-EXEC-2026-08-17,graph-spectral realization only,
+EDGE-PRF-PRIM-002,DERIVED_FROM,DER-C0-PRIMGRAPH-001,LEMMA-AUT-PROJ-001,"Commutation lemma proven while testing kappa=P_ker(L), tau=automorphism candidates",CERTIFIED,PRF-PRIM-EXEC-2026-08-17,graph automorphisms only,
+EDGE-PRF-PRIM-003,DERIVED_FROM,DER-C0-PRIMGRAPH-001,LEMMA-INC-001,Incidence identity applied while testing grad(Phi)<->Delta structural correspondence,CERTIFIED,PRF-PRIM-EXEC-2026-08-17,any finite graph,
+EDGE-PRF-PRIM-004,TESTED_AGAINST,DER-C0-PRIMGRAPH-001,DER-SPC-005,"Candidate kappa=P_ker(L),Pi=ker(L) tested for compatibility with existing 'Persistence operator R=exp(-beta L)'; COMPATIBLE (lim R(t)=P_ker(L) verified 9/9)",CALCULATED,PRF-PRIM-EXEC-2026-08-17,9 benchmark graph families,
+EDGE-PRF-PRIM-005,FALSIFIES,DER-C0-PRIMGRAPH-001,PRIM-G-002,"tau=exp(-tL) candidate realization of PRIM-G-002 falsified (violates its own Liouville-condition definition, 9/9 families)",FALSIFIED,PRF-PRIM-EXEC-2026-08-17,any graph with >=1 edge,det(exp(-tL))=exp(-t*trace L) -> 0 as t->inf

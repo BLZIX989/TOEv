@@ -1,0 +1,8 @@
+{
+  "su2_generators": "T^a = sigma^a/(2i), Pauli matrices, antihermitian convention",
+  "commutation_relations_[T^a,T^b]=eps^{abc}T^c_verified": true,
+  "covariant_derivative_D_t_psi": "d_t(psi) - g*A_mu*psi  (A_mu = A^a T^a, matrix-valued)",
+  "gauge_transformation": "delta(psi) = eps^a T^a psi ; delta(A_mu) = (1/g) d_t(eps^a T^a) - [A_mu, eps^a T^a]",
+  "note": "Full symbolic first-order covariance verification for the general matrix case is algebraically heavy in raw SymPy without a dedicated Lie-algebra package; the su(2) commutation relations themselves (the structural content that MAKES Yang-Mills curvature transform covariantly) were verified exactly. The covariance property delta(F_mu_nu) = [eps, F_mu_nu] follows from these commutation relations by the standard argument (external, well-established non-Abelian gauge theory, e.g. Peskin & Schroeder Ch. 15) -- registered as ADMITTED given the commutation-relation verification, not independently re-proven symbolically component-by-component here.",
+  "conclusion": "SU(2) Lie algebra structure (the essential input distinguishing Yang-Mills from Maxwell) independently verified by explicit matrix computation. Full non-Abelian field-strength covariance is ADMITTED (standard, external) rather than symbolically re-derived component-by-component, to control scope."
+}

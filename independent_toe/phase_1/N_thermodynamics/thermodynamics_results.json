@@ -1,0 +1,83 @@
+{
+  "K4": {
+    "Z(beta=1)": 1.0549469166662024,
+    "U_via_finite_difference_-dlnZ/dbeta": 0.208340024752951,
+    "U_via_direct_boltzmann_average": 0.20834002468993779,
+    "U_consistency_error": 6.301320576440617e-11,
+    "F_free_energy": -0.05349044970593341,
+    "S_entropy_(U-F)*beta": 0.2618304743958712,
+    "S_nonnegative": true
+  },
+  "K33": {
+    "Z(beta=1)": 1.2016270256481216,
+    "U_via_finite_difference_-dlnZ/dbeta": 0.50957353690817,
+    "U_via_direct_boltzmann_average": 0.509573536883543,
+    "U_consistency_error": 2.4626967132235222e-11,
+    "F_free_energy": -0.1836764931597273,
+    "S_entropy_(U-F)*beta": 0.6932500300432703,
+    "S_nonnegative": true
+  },
+  "C6": {
+    "Z(beta=1)": 1.8536486579673477,
+    "U_via_finite_difference_-dlnZ/dbeta": 0.5976018396802729,
+    "U_via_direct_boltzmann_average": 0.5976018396710202,
+    "U_consistency_error": 9.252709709528517e-12,
+    "F_free_energy": -0.6171559443133656,
+    "S_entropy_(U-F)*beta": 1.214757783984386,
+    "S_nonnegative": true
+  },
+  "P5": {
+    "Z(beta=1)": 2.033384201625649,
+    "U_via_finite_difference_-dlnZ/dbeta": 0.44052457692789204,
+    "U_via_direct_boltzmann_average": 0.44052457693850156,
+    "U_consistency_error": 1.0609513267922921e-11,
+    "F_free_energy": -0.7097014993911732,
+    "S_entropy_(U-F)*beta": 1.1502260763296748,
+    "S_nonnegative": true
+  },
+  "disjoint_K4_K33": {
+    "Z(beta=1)": 2.2565739423143243,
+    "U_via_finite_difference_-dlnZ/dbeta": 0.3687470570556961,
+    "U_via_direct_boltzmann_average": 0.3687470570034923,
+    "U_consistency_error": 5.2203796840899486e-11,
+    "F_free_energy": -0.8138477083340472,
+    "S_entropy_(U-F)*beta": 1.1825947653375395,
+    "S_nonnegative": true
+  },
+  "two_triangles_disjoint": {
+    "Z(beta=1)": 2.1991482734714562,
+    "U_via_finite_difference_-dlnZ/dbeta": 0.27167100447034187,
+    "U_via_direct_boltzmann_average": 0.2716710044617742,
+    "U_consistency_error": 8.567646592183564e-12,
+    "F_free_energy": -0.7880701369809064,
+    "S_entropy_(U-F)*beta": 1.0597411414426807,
+    "S_nonnegative": true
+  },
+  "torus_4x4": {
+    "Z(beta=1)": 1.661485437613424,
+    "U_via_finite_difference_-dlnZ/dbeta": 0.9536233761542334,
+    "U_via_direct_boltzmann_average": 0.9536233761769397,
+    "U_consistency_error": 2.27062812996337e-11,
+    "F_free_energy": -0.5077120441718901,
+    "S_entropy_(U-F)*beta": 1.4613354203488298,
+    "S_nonnegative": true
+  },
+  "petersen": {
+    "Z(beta=1)": 1.703628204179406,
+    "U_via_finite_difference_-dlnZ/dbeta": 0.8734956186140508,
+    "U_via_direct_boltzmann_average": 0.8734956187606795,
+    "U_consistency_error": 1.466287091744789e-10,
+    "F_free_energy": -0.5327602145646553,
+    "S_entropy_(U-F)*beta": 1.4062558333253348,
+    "S_nonnegative": true
+  },
+  "star_K1_5": {
+    "Z(beta=1)": 2.473996516862436,
+    "U_via_finite_difference_-dlnZ/dbeta": 0.6008053234918265,
+    "U_via_direct_boltzmann_average": 0.60080532353814,
+    "U_consistency_error": 4.631350858375072e-11,
+    "F_free_energy": -0.905834866072149,
+    "S_entropy_(U-F)*beta": 1.506640189610289,
+    "S_nonnegative": true
+  }
+}

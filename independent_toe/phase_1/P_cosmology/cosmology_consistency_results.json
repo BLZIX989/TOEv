@@ -1,0 +1,33 @@
+{
+  "1_Weyl_law_recognition": {
+    "external_3D_Weyl_law_nu(lambda)": "lambda**(3/2)/(6*pi**2)",
+    "d(nu)/d(lambda)_computed": "sqrt(lambda)/(4*pi**2)",
+    "corpus_claim_dnu/dlambda": "sqrt(lambda)/(4*pi**2)",
+    "match_(0=exact)": "0",
+    "interpretation": "The corpus's dnu/dlambda formula IS EXACTLY the derivative of the standard external 3D Weyl eigenvalue-counting law for unit volume. This is well-known spectral geometry (H. Weyl, 1911), not a UOC-original derivation -- the corpus correctly cites/uses a standard formula, independently confirmed here."
+  },
+  "2_dimensional_and_scaling_checks": {
+    "rho_vac_dimensional_form": "Lambda_star**4*c*hbar/(16*pi**2)",
+    "Lambda_cosm_dimensional_form": "Lambda_star**4*ell_p**2/(2*pi)",
+    "Xi_dimensionless_form": "Lambda_star*ell_p",
+    "Xi^4_symbolic": "Lambda_star**4*ell_p**4",
+    "Xi^4_matches_Lambda_star^4*ell_p^4": "0 (0=match)",
+    "dimensional_consistency": "rho_vac ~ energy/length^3 (CORRECT for energy density); Lambda_cosm ~ 1/length^2 (CORRECT for cosmological constant); Xi ~ dimensionless (CORRECT, matches corpus's numeric claim Xi~6.5e-31 being a pure number) -- all 3 pass dimensional analysis given [ell_p]=length, [Lambda_star]=1/length.",
+    "scaling_law_dL/dt=-2HL_check_(0=verified)": "0"
+  },
+  "3_horizon_heat_trace_normalization": {
+    "Z_H(t)_from_Node_C_independently_verified_asymptotic": "A_H/(4*pi*t)",
+    "Z_H(ell_p^2)": "A_H/(4*pi*ell_p**2)",
+    "N_H^BH_=_pi*Z_H(ell_p^2)_(corpus's_claimed_relation)": "A_H/(4*ell_p**2)",
+    "N_H^BH_standard_Bekenstein-Hawking_A_H/(4ell_p^2)": "A_H/(4*ell_p**2)",
+    "discrepancy_(0_would_mean_no_discrepancy)": "0",
+    "interpretation": "The two formulas ARE algebraically identical (discrepancy=0): pi*Z_H(ell_p^2) = pi*A_H/(4*pi*ell_p^2) = A_H/(4*ell_p^2) = N_H^BH exactly. This CONFIRMS the corpus's own claimed relation N_H^BH=pi*Z_H(ell_p^2) is an EXACT algebraic consequence of the Node-C-verified short-time heat-trace asymptotic evaluated at t=ell_p^2 -- i.e. the corpus's relation is not a coincidence or an independent postulate, it is IMPLIED by the (independently verified) heat-trace asymptotic. This is a genuine, positive, independently-confirmed finding. NOTE: this confirms internal algebraic CONSISTENCY of the corpus's own two formulas -- it does NOT independently establish that A_H (horizon area) or a genuine 'horizon selector P_H' are themselves derivable from Gamma (that remains OPEN, per the corpus's own SEL-008: 'Unique horizon selector... OPEN')."
+  },
+  "4_unresolved_upstream_generators_(explicitly_preserved_as_OPEN,_not_used_as_ancestors)": {
+    "Gamma -> ell_*": "OPEN -- no independent construction found or attempted; source itself marks C4-002 OPEN",
+    "Gamma -> P_H (horizon selector)": "OPEN -- source's own SEL-008 marks this OPEN ('P_H independent of representation/refinement')",
+    "Gamma -> N_H^UOC": "OPEN -- depends on P_H, hence also OPEN",
+    "Gamma -> dot(L) (as a PHYSICAL, not merely formal, scaling)": "ADMITTED as a formal scaling rule (verified self-consistent above); the physical origin of WHY L should rescale as a^-2 under cosmic expansion (rather than some other power) was not independently established -- flagged OPEN"
+  },
+  "governance_compliance": "No observed H, Lambda, Xi, horizon area, or information count was used as an INPUT anywhere in this node -- all symbols are free/symbolic throughout; only internal algebraic/dimensional self-consistency was tested."
+}

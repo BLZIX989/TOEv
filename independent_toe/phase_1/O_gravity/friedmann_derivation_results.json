@@ -1,0 +1,12 @@
+{
+  "Ricci_scalar_R_computed_from_full_4D_Christoffel/Riemann_tensor_algebra": "6*(a(t)*Derivative(a(t), (t, 2)) + Derivative(a(t), t)**2)/a(t)**2",
+  "textbook_comparison_R=6(addot/a+(adot/a)^2)": "6*Derivative(a(t), (t, 2))/a(t) + 6*Derivative(a(t), t)**2/a(t)**2",
+  "match_check_(0=exact_match)": "0",
+  "IBP_identity_check_(0=verified)": "0",
+  "minisuperspace_Lagrangian_L(a,adot)": "(-2*Lambda*a_s**3 - 6*a_s*adot_s**2)/(16*pi*G)",
+  "second_Friedmann_equation_(Euler-Lagrange)_lhs=0": "3*(Lambda*a(t)**2 - 2*a(t)*Derivative(a(t), (t, 2)) - Derivative(a(t), t)**2)/(8*pi*G)",
+  "Hamiltonian_constraint_(first_Friedmann_eq)_E=0": "(Lambda*a(t)**2 - 3*Derivative(a(t), t)**2)*a(t)/(8*pi*G)",
+  "H^2_solved_from_constraint": "Lambda/3",
+  "corpus_claim_(registries/MASTER_COSMO_DYN_RESULTS.csv)": "H^2 = Lambda/3",
+  "comparison": "H^2 = Lambda/3 (independently derived) vs corpus's H^2=Lambda/3 claim -- see whether these match exactly (up to convention/normalization of Lambda and G)."
+}

@@ -1,0 +1,65 @@
+{
+  "K4": {
+    "n": 4,
+    "symmetric_max_error": 0.0,
+    "nonnegative": true,
+    "triangle_inequality_violations": 0,
+    "is_a_valid_metric": true
+  },
+  "K33": {
+    "n": 6,
+    "symmetric_max_error": 0.0,
+    "nonnegative": true,
+    "triangle_inequality_violations": 0,
+    "is_a_valid_metric": true
+  },
+  "C6": {
+    "n": 6,
+    "symmetric_max_error": 5.551115123125783e-17,
+    "nonnegative": true,
+    "triangle_inequality_violations": 0,
+    "is_a_valid_metric": true
+  },
+  "P5": {
+    "n": 5,
+    "symmetric_max_error": 5.551115123125783e-17,
+    "nonnegative": true,
+    "triangle_inequality_violations": 0,
+    "is_a_valid_metric": true
+  },
+  "disjoint_K4_K33": {
+    "n": 10,
+    "symmetric_max_error": 0.0,
+    "nonnegative": true,
+    "triangle_inequality_violations": 0,
+    "is_a_valid_metric": true
+  },
+  "two_triangles_disjoint": {
+    "n": 6,
+    "symmetric_max_error": 0.0,
+    "nonnegative": true,
+    "triangle_inequality_violations": 0,
+    "is_a_valid_metric": true
+  },
+  "torus_4x4": {
+    "n": 16,
+    "symmetric_max_error": 5.551115123125783e-17,
+    "nonnegative": true,
+    "triangle_inequality_violations": 0,
+    "is_a_valid_metric": true
+  },
+  "petersen": {
+    "n": 10,
+    "symmetric_max_error": 5.551115123125783e-17,
+    "nonnegative": true,
+    "triangle_inequality_violations": 0,
+    "is_a_valid_metric": true
+  },
+  "star_K1_5": {
+    "n": 6,
+    "symmetric_max_error": 1.1102230246251565e-16,
+    "nonnegative": true,
+    "triangle_inequality_violations": 0,
+    "is_a_valid_metric": true
+  }
+}

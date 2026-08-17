@@ -1,0 +1,137 @@
+{
+  "per_family_results": {
+    "K4": {
+      "unitarity_error_||U^dag U - I||_max": 6.951372692114539e-16,
+      "norm_after_unitary_evolution_(should_stay_1.0)": 0.9999999999999998,
+      "norm_after_heat_semigroup_(EXPECTED_to_shrink,_contraction)": 0.5917911954418799,
+      "eigenvalues_(candidate_'energies'_E_n=hbar*lambda_n,_hbar=1_CHOICE)": [
+        0.0,
+        4.0,
+        4.0,
+        4.0
+      ]
+    },
+    "K33": {
+      "unitarity_error_||U^dag U - I||_max": 1.3322676295501878e-15,
+      "norm_after_unitary_evolution_(should_stay_1.0)": 1.0000000000000002,
+      "norm_after_heat_semigroup_(EXPECTED_to_shrink,_contraction)": 0.10823443836045778,
+      "eigenvalues_(candidate_'energies'_E_n=hbar*lambda_n,_hbar=1_CHOICE)": [
+        -0.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        6.0
+      ]
+    },
+    "C6": {
+      "unitarity_error_||U^dag U - I||_max": 8.881784197001252e-16,
+      "norm_after_unitary_evolution_(should_stay_1.0)": 0.9999999999999996,
+      "norm_after_heat_semigroup_(EXPECTED_to_shrink,_contraction)": 0.2699245696100022,
+      "eigenvalues_(candidate_'energies'_E_n=hbar*lambda_n,_hbar=1_CHOICE)": [
+        -0.0,
+        1.0,
+        1.0,
+        3.0,
+        3.0,
+        4.0
+      ]
+    },
+    "P5": {
+      "unitarity_error_||U^dag U - I||_max": 4.440892098500626e-16,
+      "norm_after_unitary_evolution_(should_stay_1.0)": 1.0000000000000002,
+      "norm_after_heat_semigroup_(EXPECTED_to_shrink,_contraction)": 0.47915878035753884,
+      "eigenvalues_(candidate_'energies'_E_n=hbar*lambda_n,_hbar=1_CHOICE)": [
+        -0.0,
+        0.382,
+        1.382,
+        2.618,
+        3.618
+      ]
+    },
+    "disjoint_K4_K33": {
+      "unitarity_error_||U^dag U - I||_max": 1.3322676295501878e-15,
+      "norm_after_unitary_evolution_(should_stay_1.0)": 1.0,
+      "norm_after_heat_semigroup_(EXPECTED_to_shrink,_contraction)": 0.43772496471770356,
+      "eigenvalues_(candidate_'energies'_E_n=hbar*lambda_n,_hbar=1_CHOICE)": [
+        -0.0,
+        0.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        4.0,
+        4.0,
+        4.0,
+        6.0
+      ]
+    },
+    "two_triangles_disjoint": {
+      "unitarity_error_||U^dag U - I||_max": 5.551130678108766e-16,
+      "norm_after_unitary_evolution_(should_stay_1.0)": 0.9999999999999997,
+      "norm_after_heat_semigroup_(EXPECTED_to_shrink,_contraction)": 0.5899327906491506,
+      "eigenvalues_(candidate_'energies'_E_n=hbar*lambda_n,_hbar=1_CHOICE)": [
+        0.0,
+        0.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ]
+    },
+    "torus_4x4": {
+      "unitarity_error_||U^dag U - I||_max": 1.1102230246251565e-15,
+      "norm_after_unitary_evolution_(should_stay_1.0)": 0.9999999999999997,
+      "norm_after_heat_semigroup_(EXPECTED_to_shrink,_contraction)": 0.23935683431577895,
+      "eigenvalues_(candidate_'energies'_E_n=hbar*lambda_n,_hbar=1_CHOICE)": [
+        -0.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        8.0
+      ]
+    },
+    "petersen": {
+      "unitarity_error_||U^dag U - I||_max": 1.1102235400023698e-15,
+      "norm_after_unitary_evolution_(should_stay_1.0)": 1.0000000000000004,
+      "norm_after_heat_semigroup_(EXPECTED_to_shrink,_contraction)": 0.3751585004733439,
+      "eigenvalues_(candidate_'energies'_E_n=hbar*lambda_n,_hbar=1_CHOICE)": [
+        -0.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        5.0,
+        5.0,
+        5.0,
+        5.0
+      ]
+    },
+    "star_K1_5": {
+      "unitarity_error_||U^dag U - I||_max": 6.661338147750939e-16,
+      "norm_after_unitary_evolution_(should_stay_1.0)": 1.0,
+      "norm_after_heat_semigroup_(EXPECTED_to_shrink,_contraction)": 0.2396288737317505,
+      "eigenvalues_(candidate_'energies'_E_n=hbar*lambda_n,_hbar=1_CHOICE)": [
+        -0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        6.0
+      ]
+    }
+  },
+  "graph_eigenvalue_vs_physical_energy_correspondence_note": "The identification 'E_n = hbar * lambda_n^graph' used above is an EXPLICIT CHOICE made by this toy construction (H:=L), not a derivation. No independent argument was found or constructed establishing that a graph Laplacian eigenvalue IS a physical energy without this choice. Per the Special Rule, this distinction is preserved rather than silently collapsed: STATUS of the correspondence lambda_n^graph <-> E_n^physical = CANDIDATE (this repository's construction), not CALCULATED or DERIVED."
+}

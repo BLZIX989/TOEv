@@ -1,0 +1,9 @@
+{
+  "F_01_definition": "-Derivative(A0(t, x), x) + Derivative(A1(t, x), t)",
+  "Maxwell_Lagrangian_density_-1/2_F01_F^01": "Derivative(A0(t, x), x)**2/2 - Derivative(A0(t, x), x)*Derivative(A1(t, x), t) + Derivative(A1(t, x), t)**2/2",
+  "Euler_Lagrange_eq_for_A0_(should_be_d_mu_F^mu0=0)": "Derivative(A0(t, x), (x, 2)) - Derivative(A1(t, x), t, x)",
+  "Euler_Lagrange_eq_for_A1_(should_be_d_mu_F^mu1=0)": "Derivative(A1(t, x), (t, 2)) - Derivative(A0(t, x), t, x)",
+  "gauge_invariance_check_F_unchanged_under_A_mu->A_mu+d_mu(chi)": "0 (0 = gauge invariant, verified)",
+  "Bianchi_identity_D=2": "trivial (only 1 independent F component in D=2; nontrivial 3-index cyclic identity requires D>=3, standard external result, not independently re-verified here to control scope)",
+  "conclusion": "Source-free Maxwell equations d_mu F^{mu nu} = 0 independently derived by explicit symbolic Euler-Lagrange variation of the U(1) gauge action in D=2; gauge invariance of F verified symbolically. Generalization to D=4 with matter coupling J^mu is standard (external, not UOC-original) and not repeated here in full component form."
+}

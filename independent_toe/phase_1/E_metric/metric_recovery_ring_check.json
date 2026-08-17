@@ -1,0 +1,327 @@
+{
+  "N": 64,
+  "t": 0.5,
+  "rows": [
+    {
+      "vertex": 0,
+      "graph_geodesic_distance": 0,
+      "diffusion_distance": 0.0
+    },
+    {
+      "vertex": 1,
+      "graph_geodesic_distance": 1,
+      "diffusion_distance": 0.7181214273978069
+    },
+    {
+      "vertex": 2,
+      "graph_geodesic_distance": 2,
+      "diffusion_distance": 0.9119438915848023
+    },
+    {
+      "vertex": 3,
+      "graph_geodesic_distance": 3,
+      "diffusion_distance": 0.9566653540510663
+    },
+    {
+      "vertex": 4,
+      "graph_geodesic_distance": 4,
+      "diffusion_distance": 0.9641085803334629
+    },
+    {
+      "vertex": 5,
+      "graph_geodesic_distance": 5,
+      "diffusion_distance": 0.9650489540738629
+    },
+    {
+      "vertex": 6,
+      "graph_geodesic_distance": 6,
+      "diffusion_distance": 0.9651438592017499
+    },
+    {
+      "vertex": 7,
+      "graph_geodesic_distance": 7,
+      "diffusion_distance": 0.9651518215018103
+    },
+    {
+      "vertex": 8,
+      "graph_geodesic_distance": 8,
+      "diffusion_distance": 0.9651523930971235
+    },
+    {
+      "vertex": 9,
+      "graph_geodesic_distance": 9,
+      "diffusion_distance": 0.9651524289598403
+    },
+    {
+      "vertex": 10,
+      "graph_geodesic_distance": 10,
+      "diffusion_distance": 0.9651524309583077
+    },
+    {
+      "vertex": 11,
+      "graph_geodesic_distance": 11,
+      "diffusion_distance": 0.9651524310584788
+    },
+    {
+      "vertex": 12,
+      "graph_geodesic_distance": 12,
+      "diffusion_distance": 0.965152431063041
+    },
+    {
+      "vertex": 13,
+      "graph_geodesic_distance": 13,
+      "diffusion_distance": 0.9651524310632317
+    },
+    {
+      "vertex": 14,
+      "graph_geodesic_distance": 14,
+      "diffusion_distance": 0.9651524310632389
+    },
+    {
+      "vertex": 15,
+      "graph_geodesic_distance": 15,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 16,
+      "graph_geodesic_distance": 16,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 17,
+      "graph_geodesic_distance": 17,
+      "diffusion_distance": 0.9651524310632393
+    },
+    {
+      "vertex": 18,
+      "graph_geodesic_distance": 18,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 19,
+      "graph_geodesic_distance": 19,
+      "diffusion_distance": 0.9651524310632393
+    },
+    {
+      "vertex": 20,
+      "graph_geodesic_distance": 20,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 21,
+      "graph_geodesic_distance": 21,
+      "diffusion_distance": 0.9651524310632391
+    },
+    {
+      "vertex": 22,
+      "graph_geodesic_distance": 22,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 23,
+      "graph_geodesic_distance": 23,
+      "diffusion_distance": 0.9651524310632391
+    },
+    {
+      "vertex": 24,
+      "graph_geodesic_distance": 24,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 25,
+      "graph_geodesic_distance": 25,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 26,
+      "graph_geodesic_distance": 26,
+      "diffusion_distance": 0.9651524310632393
+    },
+    {
+      "vertex": 27,
+      "graph_geodesic_distance": 27,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 28,
+      "graph_geodesic_distance": 28,
+      "diffusion_distance": 0.9651524310632391
+    },
+    {
+      "vertex": 29,
+      "graph_geodesic_distance": 29,
+      "diffusion_distance": 0.9651524310632393
+    },
+    {
+      "vertex": 30,
+      "graph_geodesic_distance": 30,
+      "diffusion_distance": 0.9651524310632393
+    },
+    {
+      "vertex": 31,
+      "graph_geodesic_distance": 31,
+      "diffusion_distance": 0.9651524310632396
+    },
+    {
+      "vertex": 32,
+      "graph_geodesic_distance": 32,
+      "diffusion_distance": 0.9651524310632394
+    },
+    {
+      "vertex": 33,
+      "graph_geodesic_distance": 31,
+      "diffusion_distance": 0.9651524310632394
+    },
+    {
+      "vertex": 34,
+      "graph_geodesic_distance": 30,
+      "diffusion_distance": 0.9651524310632393
+    },
+    {
+      "vertex": 35,
+      "graph_geodesic_distance": 29,
+      "diffusion_distance": 0.9651524310632393
+    },
+    {
+      "vertex": 36,
+      "graph_geodesic_distance": 28,
+      "diffusion_distance": 0.9651524310632391
+    },
+    {
+      "vertex": 37,
+      "graph_geodesic_distance": 27,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 38,
+      "graph_geodesic_distance": 26,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 39,
+      "graph_geodesic_distance": 25,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 40,
+      "graph_geodesic_distance": 24,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 41,
+      "graph_geodesic_distance": 23,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 42,
+      "graph_geodesic_distance": 22,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 43,
+      "graph_geodesic_distance": 21,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 44,
+      "graph_geodesic_distance": 20,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 45,
+      "graph_geodesic_distance": 19,
+      "diffusion_distance": 0.9651524310632394
+    },
+    {
+      "vertex": 46,
+      "graph_geodesic_distance": 18,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 47,
+      "graph_geodesic_distance": 17,
+      "diffusion_distance": 0.9651524310632394
+    },
+    {
+      "vertex": 48,
+      "graph_geodesic_distance": 16,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 49,
+      "graph_geodesic_distance": 15,
+      "diffusion_distance": 0.9651524310632392
+    },
+    {
+      "vertex": 50,
+      "graph_geodesic_distance": 14,
+      "diffusion_distance": 0.9651524310632389
+    },
+    {
+      "vertex": 51,
+      "graph_geodesic_distance": 13,
+      "diffusion_distance": 0.9651524310632317
+    },
+    {
+      "vertex": 52,
+      "graph_geodesic_distance": 12,
+      "diffusion_distance": 0.9651524310630412
+    },
+    {
+      "vertex": 53,
+      "graph_geodesic_distance": 11,
+      "diffusion_distance": 0.9651524310584788
+    },
+    {
+      "vertex": 54,
+      "graph_geodesic_distance": 10,
+      "diffusion_distance": 0.9651524309583076
+    },
+    {
+      "vertex": 55,
+      "graph_geodesic_distance": 9,
+      "diffusion_distance": 0.9651524289598402
+    },
+    {
+      "vertex": 56,
+      "graph_geodesic_distance": 8,
+      "diffusion_distance": 0.9651523930971236
+    },
+    {
+      "vertex": 57,
+      "graph_geodesic_distance": 7,
+      "diffusion_distance": 0.9651518215018103
+    },
+    {
+      "vertex": 58,
+      "graph_geodesic_distance": 6,
+      "diffusion_distance": 0.9651438592017499
+    },
+    {
+      "vertex": 59,
+      "graph_geodesic_distance": 5,
+      "diffusion_distance": 0.965048954073863
+    },
+    {
+      "vertex": 60,
+      "graph_geodesic_distance": 4,
+      "diffusion_distance": 0.9641085803334629
+    },
+    {
+      "vertex": 61,
+      "graph_geodesic_distance": 3,
+      "diffusion_distance": 0.9566653540510665
+    },
+    {
+      "vertex": 62,
+      "graph_geodesic_distance": 2,
+      "diffusion_distance": 0.9119438915848022
+    },
+    {
+      "vertex": 63,
+      "graph_geodesic_distance": 1,
+      "diffusion_distance": 0.7181214273978067
+    }
+  ],
+  "monotonic_up_to_half_circumference": true
+}

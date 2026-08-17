@@ -1,0 +1,66 @@
+{
+  "1D_ring_N=4096_circumference=2pi_RESCALED": [
+    {
+      "t": 0.001,
+      "Tr(K_t)_numeric_RESCALED_L/h^2": 56.058160806290815,
+      "predicted_Len/sqrt(4pi t)": 56.049912163979286,
+      "ratio": 1.0001471660167351
+    },
+    {
+      "t": 0.002,
+      "Tr(K_t)_numeric_RESCALED_L/h^2": 39.636188345347975,
+      "predicted_Len/sqrt(4pi t)": 39.633272976060105,
+      "ratio": 1.0000735586306393
+    },
+    {
+      "t": 0.005,
+      "Tr(K_t)_numeric_RESCALED_L/h^2": 25.067020136370175,
+      "predicted_Len/sqrt(4pi t)": 25.066282746310005,
+      "ratio": 1.0000294176072149
+    },
+    {
+      "t": 0.01,
+      "Tr(K_t)_numeric_RESCALED_L/h^2": 17.724799198550574,
+      "predicted_Len/sqrt(4pi t)": 17.72453850905516,
+      "ratio": 1.0000147078297852
+    },
+    {
+      "t": 0.02,
+      "Tr(K_t)_numeric_RESCALED_L/h^2": 12.533233537758475,
+      "predicted_Len/sqrt(4pi t)": 12.533141373155003,
+      "ratio": 1.0000073536714162
+    }
+  ],
+  "2D_torus_N=48x48_physical_area=(2pi)^2_RESCALED": [
+    {
+      "t": 0.05,
+      "Tr(K_t)_numeric_RESCALED_L/h^2": 65.88605074254642,
+      "predicted_Area/(4pi t)": 62.83185307179586,
+      "ratio": 1.0486090656479703
+    },
+    {
+      "t": 0.1,
+      "Tr(K_t)_numeric_RESCALED_L/h^2": 32.128588326577564,
+      "predicted_Area/(4pi t)": 31.41592653589793,
+      "ratio": 1.0226847293478771
+    },
+    {
+      "t": 0.2,
+      "Tr(K_t)_numeric_RESCALED_L/h^2": 15.880903755932938,
+      "predicted_Area/(4pi t)": 15.707963267948966,
+      "ratio": 1.0110097334093495
+    },
+    {
+      "t": 0.3,
+      "Tr(K_t)_numeric_RESCALED_L/h^2": 10.54811616431253,
+      "predicted_Area/(4pi t)": 10.471975511965978,
+      "ratio": 1.0072708967147173
+    },
+    {
+      "t": 0.5,
+      "Tr(K_t)_numeric_RESCALED_L/h^2": 6.310394193995879,
+      "predicted_Area/(4pi t)": 6.283185307179586,
+      "ratio": 1.004330428832841
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "BLOCKER_001": "Full smooth Riemann/Ricci/Einstein tensor construction from the graph-spectral substrate NOT independently completed -- requires a genuine global smooth-manifold limit construction (charts, C^2 metric), beyond what was independently verified (Node B established only pointwise spectral convergence, not a full manifold structure).",
+  "flat_space_trivial_check": {
+    "all_christoffel_symbols_zero": true,
+    "riemann_tensor_zero": true,
+    "ricci_tensor_zero": true,
+    "ricci_scalar_zero": true,
+    "einstein_tensor_zero": true
+  },
+  "discrete_ollivier_ricci_curvature_ADMITTED_EXTERNAL": {
+    "K4": {
+      "n_edges_computed": 6,
+      "mean_ollivier_ricci": 0.6666666666666669,
+      "min": 0.6666666666666667,
+      "max": 0.6666666666666667
+    },
+    "K33": {
+      "n_edges_computed": 9,
+      "mean_ollivier_ricci": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "C6": {
+      "n_edges_computed": 6,
+      "mean_ollivier_ricci": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "P5": {
+      "n_edges_computed": 4,
+      "mean_ollivier_ricci": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "disjoint_K4_K33": {
+      "n_edges_computed": 15,
+      "mean_ollivier_ricci": 0.26666666666666666,
+      "min": 0.0,
+      "max": 0.6666666666666667
+    },
+    "two_triangles_disjoint": {
+      "n_edges_computed": 6,
+      "mean_ollivier_ricci": 0.5,
+      "min": 0.5,
+      "max": 0.5
+    },
+    "torus_4x4": {
+      "n_edges_computed": 32,
+      "mean_ollivier_ricci": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "petersen": {
+      "n_edges_computed": 15,
+      "mean_ollivier_ricci": -0.33333333333333315,
+      "min": -0.33333333333333326,
+      "max": -0.33333333333333326
+    },
+    "star_K1_5": {
+      "n_edges_computed": 5,
+      "mean_ollivier_ricci": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    }
+  }
+}

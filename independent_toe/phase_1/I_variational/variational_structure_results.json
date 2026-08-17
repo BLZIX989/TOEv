@@ -1,0 +1,14 @@
+{
+  "Lagrangian_L(q,qdot)": "-k*q_s**2/2 + m*qdot_s**2/2",
+  "Euler_Lagrange_equation_lhs=0": "k*q(t) + m*Derivative(q(t), (t, 2))",
+  "Euler_Lagrange_verified_gives_Newtons_law": "0 == 0 confirms EL eq is m*qddot + k*q = 0 (SHM)",
+  "canonical_momentum_p=dL/dqdot": "m*qdot_s",
+  "Hamiltonian_H(q,p)_via_Legendre_transform": "(k*m*q_s**2 + p**2)/(2*m)",
+  "Hamilton_eq_qdot=dH/dp": "p/m",
+  "Hamilton_eq_pdot=-dH/dq": "-k*q_s",
+  "consistency_check_qdot_matches_p/m": "0 (0 = consistent)",
+  "poisson_bracket_{q,p}": "1",
+  "poisson_bracket_{q,H}_minus_qdot_hamilton": "0 (0 = {q,H}=qdot verified)",
+  "poisson_bracket_{p,H}_minus_pdot_hamilton": "0 (0 = {p,H}=pdot verified)",
+  "conclusion": "Full chain S[q]->delta S=0->Euler-Lagrange->Legendre transform->H(q,p)->Hamilton's equations->canonical Poisson bracket {q,p}=1->{.,H} reproduces Hamilton's equations, ALL independently derived and symbolically verified for the harmonic-oscillator example, with ZERO of it imported from a UOC source or assumed a priori."
+}

@@ -1,0 +1,92 @@
+{
+  "K4": {
+    "n": 4,
+    "m_edges": 6,
+    "L_equals_Inc_IncT": true,
+    "rank(Inc^T)_==_rank(L)": true,
+    "grad_map_injective": false,
+    "grad_map_surjective_onto_edge_space": false,
+    "ker(grad_map)_dim": 1,
+    "note": "ker(Inc^T) = ker(L) = constant-on-each-component functions (Delta-less states); grad map fails injectivity exactly when graph is disconnected or has isolated-constant sectors, and fails surjectivity onto the FULL edge space whenever independent cycles exist (m > rank(L), i.e. the graph is not a forest)."
+  },
+  "K33": {
+    "n": 6,
+    "m_edges": 9,
+    "L_equals_Inc_IncT": true,
+    "rank(Inc^T)_==_rank(L)": true,
+    "grad_map_injective": false,
+    "grad_map_surjective_onto_edge_space": false,
+    "ker(grad_map)_dim": 1,
+    "note": "ker(Inc^T) = ker(L) = constant-on-each-component functions (Delta-less states); grad map fails injectivity exactly when graph is disconnected or has isolated-constant sectors, and fails surjectivity onto the FULL edge space whenever independent cycles exist (m > rank(L), i.e. the graph is not a forest)."
+  },
+  "C6": {
+    "n": 6,
+    "m_edges": 6,
+    "L_equals_Inc_IncT": true,
+    "rank(Inc^T)_==_rank(L)": true,
+    "grad_map_injective": false,
+    "grad_map_surjective_onto_edge_space": false,
+    "ker(grad_map)_dim": 1,
+    "note": "ker(Inc^T) = ker(L) = constant-on-each-component functions (Delta-less states); grad map fails injectivity exactly when graph is disconnected or has isolated-constant sectors, and fails surjectivity onto the FULL edge space whenever independent cycles exist (m > rank(L), i.e. the graph is not a forest)."
+  },
+  "P5": {
+    "n": 5,
+    "m_edges": 4,
+    "L_equals_Inc_IncT": true,
+    "rank(Inc^T)_==_rank(L)": true,
+    "grad_map_injective": false,
+    "grad_map_surjective_onto_edge_space": true,
+    "ker(grad_map)_dim": 1,
+    "note": "ker(Inc^T) = ker(L) = constant-on-each-component functions (Delta-less states); grad map fails injectivity exactly when graph is disconnected or has isolated-constant sectors, and fails surjectivity onto the FULL edge space whenever independent cycles exist (m > rank(L), i.e. the graph is not a forest)."
+  },
+  "disjoint_K4_K33": {
+    "n": 10,
+    "m_edges": 15,
+    "L_equals_Inc_IncT": true,
+    "rank(Inc^T)_==_rank(L)": true,
+    "grad_map_injective": false,
+    "grad_map_surjective_onto_edge_space": false,
+    "ker(grad_map)_dim": 2,
+    "note": "ker(Inc^T) = ker(L) = constant-on-each-component functions (Delta-less states); grad map fails injectivity exactly when graph is disconnected or has isolated-constant sectors, and fails surjectivity onto the FULL edge space whenever independent cycles exist (m > rank(L), i.e. the graph is not a forest)."
+  },
+  "two_triangles_disjoint": {
+    "n": 6,
+    "m_edges": 6,
+    "L_equals_Inc_IncT": true,
+    "rank(Inc^T)_==_rank(L)": true,
+    "grad_map_injective": false,
+    "grad_map_surjective_onto_edge_space": false,
+    "ker(grad_map)_dim": 2,
+    "note": "ker(Inc^T) = ker(L) = constant-on-each-component functions (Delta-less states); grad map fails injectivity exactly when graph is disconnected or has isolated-constant sectors, and fails surjectivity onto the FULL edge space whenever independent cycles exist (m > rank(L), i.e. the graph is not a forest)."
+  },
+  "torus_4x4": {
+    "n": 16,
+    "m_edges": 32,
+    "L_equals_Inc_IncT": true,
+    "rank(Inc^T)_==_rank(L)": true,
+    "grad_map_injective": false,
+    "grad_map_surjective_onto_edge_space": false,
+    "ker(grad_map)_dim": 1,
+    "note": "ker(Inc^T) = ker(L) = constant-on-each-component functions (Delta-less states); grad map fails injectivity exactly when graph is disconnected or has isolated-constant sectors, and fails surjectivity onto the FULL edge space whenever independent cycles exist (m > rank(L), i.e. the graph is not a forest)."
+  },
+  "petersen": {
+    "n": 10,
+    "m_edges": 15,
+    "L_equals_Inc_IncT": true,
+    "rank(Inc^T)_==_rank(L)": true,
+    "grad_map_injective": false,
+    "grad_map_surjective_onto_edge_space": false,
+    "ker(grad_map)_dim": 1,
+    "note": "ker(Inc^T) = ker(L) = constant-on-each-component functions (Delta-less states); grad map fails injectivity exactly when graph is disconnected or has isolated-constant sectors, and fails surjectivity onto the FULL edge space whenever independent cycles exist (m > rank(L), i.e. the graph is not a forest)."
+  },
+  "star_K1_5": {
+    "n": 6,
+    "m_edges": 5,
+    "L_equals_Inc_IncT": true,
+    "rank(Inc^T)_==_rank(L)": true,
+    "grad_map_injective": false,
+    "grad_map_surjective_onto_edge_space": true,
+    "ker(grad_map)_dim": 1,
+    "note": "ker(Inc^T) = ker(L) = constant-on-each-component functions (Delta-less states); grad map fails injectivity exactly when graph is disconnected or has isolated-constant sectors, and fails surjectivity onto the FULL edge space whenever independent cycles exist (m > rank(L), i.e. the graph is not a forest)."
+  }
+}

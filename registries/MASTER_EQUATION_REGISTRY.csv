@@ -173,3 +173,5 @@ EQ-171,MC,Master Cascade,17,R=exp(-βL)→Z=Tr(exp(-βL))→F=-k_BTlnZ,Step 16,M
 EQ-172,MC,Master Cascade,18,α=Φ_in/Φ_decay→U_α,Step 17,MASTER EQUATION MATRIX,SOURCE-CODED; see closure/status layer
 EQ-173,MC,Master Cascade,19,"lim U_α^n(Σ_0)→{Σ_chaos,Σ_persistent,Σ_equilibrium}",Step 18,MASTER EQUATION MATRIX,SOURCE-CODED; see closure/status layer
 EQ-174,MC,Master Cascade,20,"Γ=C∘T∘D, Π→Δ'",Step 19,MASTER EQUATION MATRIX,SOURCE-CODED; see closure/status layer
+EQ-PRF-PRIM-001,C0,C0,1,L = Inc * Inc^T,Graph Laplacian as Gram matrix of the discrete gradient (incidence operator),"EXT-001 (Godsil & Royle, Algebraic Graph Theory Ch.13)",PROVEN + verified exact on 9/9 families in PRF-PRIM-EXEC-2026-08-17
+EQ-PRF-PRIM-002,C0,C0,2,det(exp(-tL)) = exp(-t*trace(L)) = exp(-2t|E|),Determinant of the diffusion semigroup -- shows exp(-tL) is NOT volume-preserving for any graph with an edge,PRF-PRIM-EXEC-2026-08-17 (derived while testing tau candidate realizations),PROVEN + verified exact on 9/9 families; falsifies tau=exp(-tL) under PRIM-G-002's Liouville-condition definition

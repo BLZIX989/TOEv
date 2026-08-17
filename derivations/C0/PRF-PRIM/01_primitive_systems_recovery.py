@@ -1,0 +1,168 @@
+"""
+PRF-PRIM Phase 1 -- Recover exact primitive-system definitions from the source corpus.
+
+Every field below is transcribed VERBATIM from the corpus (SOURCE-004's embedded raw-text
+extraction of UCG Specification v5.docx, Sections 3.1-3.4 and 15; and the Combined Compiler
+Theories Whitepaper, Part IV Section 7.2 / paragraphs 540-553), cross-checked against
+registries/MASTER_PRIMITIVE_REGISTRY.csv and the PRF-PRIM proof-obligation text itself
+(registries/MASTER_PROOF_REGISTRY.csv). Nothing here is invented; where the corpus is silent
+on a field (e.g. explicit type/domain/codomain), that is recorded as "NOT SPECIFIED IN SOURCE"
+rather than filled in.
+
+Run: python3 01_primitive_systems_recovery.py
+Output: derivations/C0/PRF-PRIM/output/primitive_systems.json
+        derivations/C0/PRF-PRIM/output/primitive_systems.csv
+"""
+import json, csv, os
+
+OUT = os.path.join(os.path.dirname(__file__), 'output')
+os.makedirs(OUT, exist_ok=True)
+
+# PRF-PRIM (registries/MASTER_PROOF_REGISTRY.csv, source: UCG Specification v5.docx Table 39 Row 14)
+# names exactly THREE grammars. The corpus's primitive registry (Section 3 of the same document)
+# additionally documents a fourth set, PRIM-C, not named inside the PRF-PRIM text itself. The
+# master directive explicitly instructs investigating all four (A-D); this is preserved as a
+# documented scope note (see SCOPE_NOTE below), not silently reconciled.
+PRF_PRIM_TEXT = ("Primitive grammar reconciliation: three grammars ({D,T,C,Pi}; {D,T,C}+gradient; "
+                 "{D,tau,kappa,Theta,Pi,Omega}) developed independently. Not shown to be equivalent "
+                 "or reducible to one. Central open problem across all five compiler lines.")
+
+SCOPE_NOTE = ("PRF-PRIM's own text names 3 grammars (DTC/PRIM-G, DTC+gradient/PRIM-P, Extended/PRIM-X). "
+              "PRIM-C (Computational, B=(U,V,E)) is a 4th primitive set registered in the same source "
+              "document (UCG Spec Section 3.3) but not named inside the PRF-PRIM obligation text. The "
+              "master directive for this execution explicitly requires investigating PRIM-C as system C "
+              "alongside the three PRF-PRIM names it as A, B, D. Both facts are preserved without "
+              "silently merging them.")
+
+GRAMMARS = {
+    "A_DTC": {
+        "label": "A -- DTC / Organizational realization (PRIM-G)",
+        "source_id": "PRIM-G-001..004",
+        "source_document": "UCG Specification v5.docx, Section 3.1 (Table 6); also DER Registry v2, Part I Section 9",
+        "primitives": [
+            {"id": "PRIM-G-001", "symbol": "Delta (D)", "name": "Distinction",
+             "definition": "The minimal identifiable difference -- a closed orientable boundary separating interior from exterior. Formally: a hypersurface satisfying the homological closure condition d(d Omega) = 0.",
+             "type_hint_in_source": "hypersurface / boundary operator condition (d^2=0)"},
+            {"id": "PRIM-G-002", "symbol": "tau (T)", "name": "Transformation",
+             "definition": "Any lawful evolution acting on an established distinction, preserving phase-space volume (discrete Liouville condition). Requires a prior distinction to act on.",
+             "type_hint_in_source": "volume-preserving map (discrete Liouville condition)"},
+            {"id": "PRIM-G-003", "symbol": "kappa (C)", "name": "Constraint",
+             "definition": "The rules restricting which transformations are permissible. Formally: a projection operator P_kappa satisfying idempotency (P_kappa^2 = P_kappa).",
+             "type_hint_in_source": "idempotent projection operator"},
+            {"id": "PRIM-G-004", "symbol": "Pi (P)", "name": "Persistence",
+             "definition": "The retention of organizational identity across constrained transformations -- the kernel of an invariant operator surviving repeated application of tau under kappa.",
+             "type_hint_in_source": "kernel of an invariant operator (fixed-point subspace)"},
+        ],
+        "composition_law": "Gamma = kappa o tau o Delta  (BR-001, 'Grammar composition', CERTIFIED SPINE per corpus)",
+        "state_evolution": "Psi_{t+1} = kappa(tau(Delta(Psi_t)))  (DER-ORG-002, CERTIFIED)",
+        "recursion_status_in_source": "CERTIFIED (composition); fixed-point/closure properties of the recursion are OPEN (DER-ORG-006..009)",
+        "canonical_spine_position": "(Delta,tau,kappa,Pi) -> Gamma -> O -> Psi -> G -> L -> Spec(L) -> ... (MASTER_DEPENDENCIES.csv DEP-001..003)",
+        "alt_spine_in_same_source": "UCG Spec Table 21 'complete canonical dependency spine' reads (D,tau,kappa) < G < L < Spec(L) < ... -- OMITS Pi and the Gamma/O/Psi organizational-operator layer entirely, going directly from (D,tau,kappa) to the graph G. This is a genuine spine-variant discrepancy within the same source document (see RECON note).",
+        "existing_derivation_status": "CERTIFIED (as a labeling composition); NOT certified as the unique correct grammar",
+        "existing_closure_status": "C0 OPEN (per MASTER_CLOSURE_LAYERS_C0_C10.csv and MASTER_CURRENT_CHAT_CANONICAL_RULES.csv entry C0-001)",
+        "existing_verification_status": "SOURCE-REGISTERED / UNADJUDICATED (per DAG_02_EDGE_REGISTRY.csv status column on DEP-001)",
+    },
+    "B_Physical": {
+        "label": "B -- Physical realization (PRIM-P)",
+        "source_id": "PRIM-P-001..002",
+        "source_document": "UCG Specification v5.docx, Section 3.2 (Table 7); Part III Section 2 (gradient-based chain), Three-Layer Compiler Physical Layer",
+        "primitives": [
+            {"id": "PRIM-P-001", "symbol": "E", "name": "Energy",
+             "definition": "The capacity of a physical system to do work. Foundational input to the Physical Layer. All thermodynamic states derive from E.",
+             "type_hint_in_source": "scalar (capacity to do work)"},
+            {"id": "PRIM-P-002", "symbol": "nabla Phi (grad Phi)", "name": "Gradient",
+             "definition": "A nonzero spatial difference in an intensive variable creating a driving force. The physical realization of Distinction. Measurable; replaces the abstract Delta in the physics-first formulation.",
+             "type_hint_in_source": "vector field (gradient of a scalar potential)"},
+        ],
+        "composition_law": "NOT SPECIFIED AS A SINGLE COMPOSED OPERATOR IN SOURCE (unlike Gamma for grammar A). Source states only that grad(Phi) 'replaces the abstract Delta'; tau and kappa are inherited from the DTC set per Combined Compiler Theories Whitepaper para. 471 ('MDCL's compiler is built on the same three primitives ... Distinction, Transformation, and Constraint').",
+        "state_evolution": "NOT SPECIFIED IN SOURCE as an independent recursion; source explicitly treats this as {D,T,C}+gradient, i.e. tau and kappa are the SAME as grammar A, with only Delta replaced by grad(Phi).",
+        "recursion_status_in_source": "N/A -- this grammar does not register an independent evolution law distinct from A",
+        "canonical_spine_position": "NOT independently registered in MASTER_DEPENDENCIES.csv",
+        "existing_derivation_status": "SOURCE-REGISTERED",
+        "existing_closure_status": "OPEN (component of C0; explicitly named as one of the 3 grammars PRF-PRIM must reconcile)",
+        "existing_verification_status": "UNADJUDICATED",
+    },
+    "C_Computational": {
+        "label": "C -- Computational realization (PRIM-C)",
+        "source_id": "PRIM-C-001",
+        "source_document": "UCG Specification v5.docx, Section 3.3 (Table 8); SEIT bipartite substrate, DER Registry v2",
+        "primitives": [
+            {"id": "PRIM-C-001", "symbol": "B=(U,V,E)", "name": "Bipartite Substrate",
+             "definition": "An Abelian bipartite graph with disjoint vertex sets U and V and edge set E subset U x V. No metric, orientation, or background geometry assumed. The foundational input to the Computational Layer.",
+             "type_hint_in_source": "graph object (bipartite, Abelian, no metric/orientation)"},
+        ],
+        "composition_law": "NOT SPECIFIED IN SOURCE as a composed operator; PRIM-C is documented as a single foundational object, not a 4-part grammar. Downstream recovery (DER-SPC-001..006: G=(V,E) -> L=D-A -> Spec(L) -> K_t -> R) proceeds from a (non-bipartite) graph G, not explicitly from B.",
+        "state_evolution": "NOT SPECIFIED IN SOURCE",
+        "recursion_status_in_source": "N/A",
+        "canonical_spine_position": "Not on the canonical spine directly; DER-SPC-001 'Graph G=(V,E)' (a plain, non-bipartite graph) is the object actually used downstream, sourced from DER-ORG-001 not from PRIM-C-001.",
+        "existing_derivation_status": "SOURCE-REGISTERED",
+        "existing_closure_status": "OPEN (not explicitly named inside PRF-PRIM's own text; investigated here per this execution's explicit directive to include it as system C)",
+        "existing_verification_status": "UNADJUDICATED",
+    },
+    "D_Extended": {
+        "label": "D -- Extended MDCL v2.0 realization (PRIM-X)",
+        "source_id": "PRIM-X-001..006",
+        "source_document": "UCG Specification v5.docx, Section 3.4 (Table 9); Combined Compiler Theories Whitepaper Part IV Section 7.2 (paragraphs 540-553)",
+        "primitives": [
+            {"id": "PRIM-X-001", "symbol": "Delta", "name": "Distinction", "definition": "State distinguishability -- same as PRIM-G-001.", "type_hint_in_source": "same as PRIM-G-001"},
+            {"id": "PRIM-X-002", "symbol": "tau", "name": "Transformation", "definition": "Admissible evolution -- same as PRIM-G-002.", "type_hint_in_source": "same as PRIM-G-002"},
+            {"id": "PRIM-X-003", "symbol": "kappa", "name": "Constraint", "definition": "Restriction on admissible evolution -- same as PRIM-G-003.", "type_hint_in_source": "same as PRIM-G-003"},
+            {"id": "PRIM-X-004", "symbol": "Theta", "name": "Accessibility", "definition": "A reachability structure defining which states can follow which.", "type_hint_in_source": "relation (reachability structure)"},
+            {"id": "PRIM-X-005", "symbol": "Pi", "name": "Persistence", "definition": "Stable organizational realization -- same as PRIM-G-004.", "type_hint_in_source": "same as PRIM-G-004"},
+            {"id": "PRIM-X-006", "symbol": "Omega", "name": "Organizational State", "definition": "A certified organizational configuration -- the state variable for the organizational evolution equation.", "type_hint_in_source": "state variable (element of state space)"},
+        ],
+        "composition_law": "NOT given as a single closed-form composition in source (unlike Gamma for A); source states Omega 'has its own evolution law and variational structure' (para. 551) with 'an associated organizational action and Euler-Lagrange equation' (para. 553) -- the exact functional form is NOT captured in the extracted text corpus available to this session.",
+        "state_evolution": "Omega_{t+1} = [evolution law referencing Theta, Pi] (functional form not recovered from available extraction; flagged as an evidentiary gap, not fabricated)",
+        "recursion_status_in_source": "PARTIAL -- existence of an evolution law is asserted narratively; explicit closed form not present in the recovered text",
+        "canonical_spine_position": "Not on MASTER_DEPENDENCIES.csv spine; documented only in UCG Spec Section 3.4 and the whitepaper narrative",
+        "existing_derivation_status": "SOURCE-REGISTERED",
+        "existing_closure_status": "OPEN",
+        "existing_verification_status": "UNADJUDICATED",
+        "corpus_own_disagreement_note": ("Combined Compiler Theories Whitepaper para. 549 (verbatim): "
+            "\"All three sets agree on Distinction, Transformation, and Constraint as core primitives. "
+            "They disagree on whether Persistence is primitive or derived, and v2.0 alone adds "
+            "Accessibility and Organizational State. This paper does not adjudicate between the three "
+            "versions ... and records the disagreement rather than silently standardizing on one.\""),
+    },
+}
+
+SUPPLEMENTARY_CONTEXT = {
+    "T0_T20_hierarchy": {
+        "note": ("A structurally DIFFERENT construct -- the UDP v2.0 'Universal Organizational Hierarchy' "
+                 "(UCG Spec Table 14, T0-T20) -- registers a 21-tier sequence (Potential Space, Difference, "
+                 "Distinction, Identity, Boundary, State, Relation, Interaction, Transformation, Constraint, "
+                 "Selection, Organization, Persistence, Memory, Feedback, Adaptation, Emergence, Hierarchy, "
+                 "Evolution, Cross-Scale Coupling, Universality) with formal definitions for each tier, "
+                 "including a DIFFERENT and more concrete definition of Persistence than PRIM-G-004: "
+                 "'T12 Pi Persistence: Non-vanishing correlation: lim_{tau->inf} <O_G(tau_0),O_G(tau)> > 0'. "
+                 "This is NOT one of the grammars PRF-PRIM asks to reconcile (it is a derived tier hierarchy, "
+                 "not a competing primitive SET), so it is excluded from the primary A-D compatibility matrix "
+                 "per the directive's instruction not to invent additional primitive systems. It is used "
+                 "below only as supplementary evidence when testing candidate mappings for Pi (Phase 3)."),
+        "T12_definition": "Pi Persistence: Non-vanishing correlation: lim_{tau->inf} <O_G(tau_0),O_G(tau)> > 0",
+        "T9_definition": "C Constraint: Restriction: C(y)=0",
+        "T8_definition": "T Transformation: State update: T: y(tau_0) -> y(tau_1)",
+        "T2_definition": "D Distinction: Projection splitting state space: D: S_0 -> {0,1}",
+    },
+    "prior_elimination_audit_in_source": ("Combined Compiler Theories Whitepaper para. 473 (verbatim): "
+        "\"No additional primitive survived the elimination audits run against any of the eight imported "
+        "theories.\" -- i.e. the source material already ran an elimination audit for grammar A's 4 "
+        "primitives against 8 physical theories (string theory, Maxwell, GR, Schrodinger QM, Hamiltonian "
+        "mechanics, Navier-Stokes, reaction-diffusion, kinetic theory) and found all 4 necessary within "
+        "that test set. This is a PRIOR result, not re-derived here; Phase 5 of this execution performs an "
+        "INDEPENDENT elimination audit against the graph-theoretic realization instead, which is a "
+        "different (and narrower) test than the source's 8-theory audit."),
+}
+
+with open(os.path.join(OUT, 'primitive_systems.json'), 'w') as f:
+    json.dump({"PRF_PRIM_text": PRF_PRIM_TEXT, "scope_note": SCOPE_NOTE,
+               "grammars": GRAMMARS, "supplementary_context": SUPPLEMENTARY_CONTEXT}, f, indent=2)
+
+rows = [["Grammar", "Primitive_ID", "Symbol", "Name", "Definition", "Type_hint_in_source"]]
+for gkey, g in GRAMMARS.items():
+    for p in g["primitives"]:
+        rows.append([gkey, p["id"], p["symbol"], p["name"], p["definition"], p["type_hint_in_source"]])
+with open(os.path.join(OUT, 'primitive_systems.csv'), 'w', newline='') as f:
+    csv.writer(f).writerows(rows)
+
+print("Wrote primitive_systems.json and .csv --", sum(len(g['primitives']) for g in GRAMMARS.values()), "primitives across", len(GRAMMARS), "grammars")

@@ -1,0 +1,14 @@
+Grammar,Primitive_ID,Symbol,Name,Definition,Type_hint_in_source
+A_DTC,PRIM-G-001,Delta (D),Distinction,The minimal identifiable difference -- a closed orientable boundary separating interior from exterior. Formally: a hypersurface satisfying the homological closure condition d(d Omega) = 0.,hypersurface / boundary operator condition (d^2=0)
+A_DTC,PRIM-G-002,tau (T),Transformation,"Any lawful evolution acting on an established distinction, preserving phase-space volume (discrete Liouville condition). Requires a prior distinction to act on.",volume-preserving map (discrete Liouville condition)
+A_DTC,PRIM-G-003,kappa (C),Constraint,The rules restricting which transformations are permissible. Formally: a projection operator P_kappa satisfying idempotency (P_kappa^2 = P_kappa).,idempotent projection operator
+A_DTC,PRIM-G-004,Pi (P),Persistence,The retention of organizational identity across constrained transformations -- the kernel of an invariant operator surviving repeated application of tau under kappa.,kernel of an invariant operator (fixed-point subspace)
+B_Physical,PRIM-P-001,E,Energy,The capacity of a physical system to do work. Foundational input to the Physical Layer. All thermodynamic states derive from E.,scalar (capacity to do work)
+B_Physical,PRIM-P-002,nabla Phi (grad Phi),Gradient,A nonzero spatial difference in an intensive variable creating a driving force. The physical realization of Distinction. Measurable; replaces the abstract Delta in the physics-first formulation.,vector field (gradient of a scalar potential)
+C_Computational,PRIM-C-001,"B=(U,V,E)",Bipartite Substrate,"An Abelian bipartite graph with disjoint vertex sets U and V and edge set E subset U x V. No metric, orientation, or background geometry assumed. The foundational input to the Computational Layer.","graph object (bipartite, Abelian, no metric/orientation)"
+D_Extended,PRIM-X-001,Delta,Distinction,State distinguishability -- same as PRIM-G-001.,same as PRIM-G-001
+D_Extended,PRIM-X-002,tau,Transformation,Admissible evolution -- same as PRIM-G-002.,same as PRIM-G-002
+D_Extended,PRIM-X-003,kappa,Constraint,Restriction on admissible evolution -- same as PRIM-G-003.,same as PRIM-G-003
+D_Extended,PRIM-X-004,Theta,Accessibility,A reachability structure defining which states can follow which.,relation (reachability structure)
+D_Extended,PRIM-X-005,Pi,Persistence,Stable organizational realization -- same as PRIM-G-004.,same as PRIM-G-004
+D_Extended,PRIM-X-006,Omega,Organizational State,A certified organizational configuration -- the state variable for the organizational evolution equation.,state variable (element of state space)

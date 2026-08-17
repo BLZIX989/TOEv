@@ -1,0 +1,104 @@
+{
+  "A_DTC": {
+    "nodes": [
+      "Delta",
+      "tau",
+      "kappa",
+      "Pi",
+      "Gamma",
+      "Psi_t",
+      "Psi_t+1"
+    ],
+    "edges": [
+      [
+        "Delta",
+        "Gamma",
+        "composed_into"
+      ],
+      [
+        "tau",
+        "Gamma",
+        "composed_into"
+      ],
+      [
+        "kappa",
+        "Gamma",
+        "composed_into"
+      ],
+      [
+        "Psi_t",
+        "Delta",
+        "input_to"
+      ],
+      [
+        "Gamma",
+        "Psi_t+1",
+        "produces"
+      ],
+      [
+        "kappa",
+        "Pi",
+        "defines_via_kernel_(CANDIDATE, this DER)"
+      ]
+    ]
+  },
+  "B_Physical": {
+    "nodes": [
+      "E",
+      "grad(Phi)",
+      "tau_inherited",
+      "kappa_inherited"
+    ],
+    "edges": [
+      [
+        "grad(Phi)",
+        "E",
+        "Dirichlet_energy_(ADMITTED EXTERNAL, this DER)"
+      ]
+    ]
+  },
+  "C_Computational": {
+    "nodes": [
+      "B=(U,V,E)"
+    ],
+    "edges": []
+  },
+  "D_Extended": {
+    "nodes": [
+      "Delta",
+      "tau",
+      "kappa",
+      "Theta",
+      "Pi",
+      "Omega",
+      "Gamma_D?"
+    ],
+    "edges": [
+      [
+        "Delta",
+        "Gamma_D?",
+        "composed_into_(unspecified_exact_form)"
+      ],
+      [
+        "tau",
+        "Gamma_D?",
+        "composed_into_(unspecified_exact_form)"
+      ],
+      [
+        "kappa",
+        "Gamma_D?",
+        "composed_into_(unspecified_exact_form)"
+      ],
+      [
+        "Theta",
+        "Pi",
+        "reachability_coincides_with_ker(L)_(CALCULATED, this DER)"
+      ],
+      [
+        "Omega",
+        "Gamma_D?",
+        "state_variable_of"
+      ]
+    ]
+  }
+}

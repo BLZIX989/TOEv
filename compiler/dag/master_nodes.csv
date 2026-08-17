@@ -778,3 +778,6 @@ COSMO-DYN-013,COSMO_DYN_RESULT,Ξ,,CALCULATED/DEFINED,DOWNSTREAM_SCOPE,REGISTERE
 COSMO-DYN-014,COSMO_DYN_RESULT,Ξ(N_H),,CALCULATED/PRESERVED,DOWNSTREAM_SCOPE,REGISTERED,59_COSMO_DYN_EXECUTED_AND_OPEN,,Information ancestry unresolved
 COSMO-DYN-015,COSMO_DYN_RESULT,Horizon ancestry,,OPEN,DOWNSTREAM_SCOPE,REGISTERED,59_COSMO_DYN_EXECUTED_AND_OPEN,,P_H remains missing structural object
 COSMO-DYN-016,COSMO_DYN_RESULT,Expansion ancestry,,OPEN,DOWNSTREAM_SCOPE,REGISTERED,59_COSMO_DYN_EXECUTED_AND_OPEN,,Dynamical closure remains open
+LEMMA-AUT-PROJ-001,THEOREM,Automorphism-projector commutation,,CERTIFIED,,REGISTERED,PRF-PRIM-EXEC-2026-08-17,PRF-PRIM,Graph automorphisms commute with every spectral projector of L (proven general + verified 9/9 families)
+LEMMA-INC-001,THEOREM,L = Inc*Inc^T,,"CERTIFIED (external, admitted)",,REGISTERED,PRF-PRIM-EXEC-2026-08-17,PRF-PRIM,"Graph Laplacian is the Gram matrix of the discrete gradient/incidence operator (standard theorem, EXT-001)"
+DER-C0-PRIMGRAPH-001,DER,Graph-spectral primitive realization test,,CALCULATED/PARTIAL,,REGISTERED,PRF-PRIM-EXEC-2026-08-17,PRF-PRIM,"Tests candidate realizations of Delta,tau,kappa,Pi,Theta as graph-theoretic objects against PRF-PRIM"

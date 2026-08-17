@@ -1,0 +1,188 @@
+{
+  "K4": {
+    "n_nodes": 4,
+    "eigenvalues_sorted": [
+      0.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "ker_dim": 1,
+    "rank_L": 3,
+    "n_connected_components": 1,
+    "rank_L_equals_N_minus_components": true,
+    "P_ker_idempotency_error": 1.1102230246251565e-16,
+    "P_ker_symmetry_error": 0.0,
+    "lim_exp(-tL)_minus_P_ker_error_at_t=500": 1.3877787807814457e-14,
+    "degenerate_spectrum": true
+  },
+  "K33": {
+    "n_nodes": 6,
+    "eigenvalues_sorted": [
+      -0.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      6.0
+    ],
+    "ker_dim": 1,
+    "rank_L": 5,
+    "n_connected_components": 1,
+    "rank_L_equals_N_minus_components": true,
+    "P_ker_idempotency_error": 5.551115123125783e-17,
+    "P_ker_symmetry_error": 0.0,
+    "lim_exp(-tL)_minus_P_ker_error_at_t=500": 3.702593787124897e-14,
+    "degenerate_spectrum": true
+  },
+  "C6": {
+    "n_nodes": 6,
+    "eigenvalues_sorted": [
+      -0.0,
+      1.0,
+      1.0,
+      3.0,
+      3.0,
+      4.0
+    ],
+    "ker_dim": 1,
+    "rank_L": 5,
+    "n_connected_components": 1,
+    "rank_L_equals_N_minus_components": true,
+    "P_ker_idempotency_error": 1.1102230246251565e-16,
+    "P_ker_symmetry_error": 0.0,
+    "lim_exp(-tL)_minus_P_ker_error_at_t=500": 5.800915303666443e-15,
+    "degenerate_spectrum": true
+  },
+  "P5": {
+    "n_nodes": 5,
+    "eigenvalues_sorted": [
+      -0.0,
+      0.38196601,
+      1.38196601,
+      2.61803399,
+      3.61803399
+    ],
+    "ker_dim": 1,
+    "rank_L": 4,
+    "n_connected_components": 1,
+    "rank_L_equals_N_minus_components": true,
+    "P_ker_idempotency_error": 2.7755575615628914e-17,
+    "P_ker_symmetry_error": 0.0,
+    "lim_exp(-tL)_minus_P_ker_error_at_t=500": 4.579669976578771e-15,
+    "degenerate_spectrum": false
+  },
+  "disjoint_K4_K33": {
+    "n_nodes": 10,
+    "eigenvalues_sorted": [
+      -0.0,
+      0.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      4.0,
+      4.0,
+      4.0,
+      6.0
+    ],
+    "ker_dim": 2,
+    "rank_L": 8,
+    "n_connected_components": 2,
+    "rank_L_equals_N_minus_components": true,
+    "P_ker_idempotency_error": 1.1102230246251565e-16,
+    "P_ker_symmetry_error": 0.0,
+    "lim_exp(-tL)_minus_P_ker_error_at_t=500": 3.702593787124897e-14,
+    "degenerate_spectrum": true
+  },
+  "two_triangles_disjoint": {
+    "n_nodes": 6,
+    "eigenvalues_sorted": [
+      0.0,
+      0.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "ker_dim": 2,
+    "rank_L": 4,
+    "n_connected_components": 2,
+    "rank_L_equals_N_minus_components": true,
+    "P_ker_idempotency_error": 1.1102230246251565e-16,
+    "P_ker_symmetry_error": 0.0,
+    "lim_exp(-tL)_minus_P_ker_error_at_t=500": 0.0,
+    "degenerate_spectrum": true
+  },
+  "torus_4x4": {
+    "n_nodes": 16,
+    "eigenvalues_sorted": [
+      -0.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      6.0,
+      6.0,
+      6.0,
+      6.0,
+      8.0
+    ],
+    "ker_dim": 1,
+    "rank_L": 15,
+    "n_connected_components": 1,
+    "rank_L_equals_N_minus_components": true,
+    "P_ker_idempotency_error": 1.3877787807814457e-17,
+    "P_ker_symmetry_error": 0.0,
+    "lim_exp(-tL)_minus_P_ker_error_at_t=500": 5.420663917732327e-14,
+    "degenerate_spectrum": true
+  },
+  "petersen": {
+    "n_nodes": 10,
+    "eigenvalues_sorted": [
+      -0.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "ker_dim": 1,
+    "rank_L": 9,
+    "n_connected_components": 1,
+    "rank_L_equals_N_minus_components": true,
+    "P_ker_idempotency_error": 5.551115123125783e-17,
+    "P_ker_symmetry_error": 0.0,
+    "lim_exp(-tL)_minus_P_ker_error_at_t=500": 2.1524448889920222e-14,
+    "degenerate_spectrum": true
+  },
+  "star_K1_5": {
+    "n_nodes": 6,
+    "eigenvalues_sorted": [
+      -0.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      6.0
+    ],
+    "ker_dim": 1,
+    "rank_L": 5,
+    "n_connected_components": 1,
+    "rank_L_equals_N_minus_components": true,
+    "P_ker_idempotency_error": 2.7755575615628914e-17,
+    "P_ker_symmetry_error": 0.0,
+    "lim_exp(-tL)_minus_P_ker_error_at_t=500": 5.612177389480166e-14,
+    "degenerate_spectrum": true
+  }
+}

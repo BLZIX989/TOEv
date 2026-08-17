@@ -1,0 +1,25 @@
+READING 1 -- literal PRIM-G-001 formula, d(dOmega)=0, tested on the tetrahedron complex:
+  d1 : C1(edges, dim=6) -> C0(vertices, dim=4)   shape=(4, 6)
+  d2 : C2(faces, dim=4) -> C1(edges, dim=6)     shape=(6, 4)
+  d1 @ d2 = 0 ?  True   (max abs entry: 0.00e+00)
+  ==> PRIM-G-001's own formula IS satisfiable and verified exactly: d1 o d2 = 0.
+
+TYPE CHECK: is d1 (candidate Delta) an endomorphism of a single space X, as required
+by DER-ORG-002's Psi_{t+1}=kappa(tau(Delta(Psi_t)))?
+  domain dim = 6 (edge space C1)
+  codomain dim = 4 (vertex space C0)
+  domain == codomain ?  False
+  ==> FALSE for this (or any nontrivial) simplicial complex whenever #edges != #vertices.
+  ==> d1 CANNOT be composed with kappa,tau (both endomorphisms of the vertex space X)
+      to form kappa(tau(Delta(x))) for a fixed x in X, as DER-ORG-002 requires.
+
+READING 2 -- functionally required reading (Delta as an endomorphism of X, e.g. an
+idempotent 'distinguishing' projector D_hat: X->X with D_hat^2=D_hat, structurally
+IDENTICAL in type to kappa). This type-checks against DER-ORG-002 but is NOT the
+boundary-operator formula literally given in PRIM-G-001.
+
+CONCLUSION: TYPE MISMATCH confirmed between PRIM-G-001's stated definition of Delta
+(a boundary map between graded spaces) and DER-ORG-002's required usage of Delta
+(an endomorphism of the state space X). This is an internal inconsistency in the
+source corpus's own primitive definitions, not an artifact of this DER's realization
+choices -- it is demonstrated directly from the source formulas.

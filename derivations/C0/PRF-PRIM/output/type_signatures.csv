@@ -1,0 +1,14 @@
+Grammar,Primitive_ID,Symbol,Assigned_Type,Type_class_per_directive_vocabulary
+A_DTC,PRIM-G-001,Delta (D),relation / boundary-operator condition (asserts d^2=0 on some complex; NOT itself a vector/tensor -- a structural condition on an operator),vector
+A_DTC,PRIM-G-002,tau (T),operator (volume-preserving map on state space),operator
+A_DTC,PRIM-G-003,kappa (C),"operator (idempotent projector, P^2=P)",operator
+A_DTC,PRIM-G-004,Pi (P),"persistence operator (kernel / fixed-point subspace of an operator -- a SET-VALUED object, a subspace, not an operator itself)",operator
+B_Physical,PRIM-P-001,E,"scalar (energy, capacity to do work)",scalar
+B_Physical,PRIM-P-002,nabla Phi (grad Phi),vector (gradient of a scalar potential field),scalar
+C_Computational,PRIM-C-001,"B=(U,V,E)","graph object (bipartite graph, a SET-VALUED/relational object: (U,V,E))",relation
+D_Extended,PRIM-X-001,Delta,relation / boundary-operator condition (same as PRIM-G-001),operator
+D_Extended,PRIM-X-002,tau,operator (same as PRIM-G-002),operator
+D_Extended,PRIM-X-003,kappa,operator (same as PRIM-G-003),operator
+D_Extended,PRIM-X-004,Theta,"relation (reachability structure -- a subset of StatexState, i.e. a directed graph on the state space)",relation
+D_Extended,PRIM-X-005,Pi,persistence operator (same as PRIM-G-004),operator
+D_Extended,PRIM-X-006,Omega,"state transition (state variable -- an ELEMENT of the state space, not an operator on it)",operator

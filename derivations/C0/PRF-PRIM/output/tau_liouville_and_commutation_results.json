@@ -1,0 +1,137 @@
+{
+  "K4": {
+    "trace_L_(2|E|)": 12.0,
+    "n_edges": 6,
+    "tau2_det_exp(-tL)_at_various_t": {
+      "0.1": 0.301194211912202,
+      "1.0": 6.14421235332821e-06,
+      "5.0": 8.75651076269652e-27,
+      "50.0": 2.6503965530043108e-261
+    },
+    "tau2_liouville_condition_satisfied": false,
+    "n_automorphisms_checked": 24,
+    "tau1_all_dets_are_+-1": true,
+    "tau1_liouville_condition_satisfied": true,
+    "tau1_kappa_commutation_max_error": 1.6653345369377348e-16
+  },
+  "K33": {
+    "trace_L_(2|E|)": 18.0,
+    "n_edges": 9,
+    "tau2_det_exp(-tL)_at_various_t": {
+      "0.1": 0.16529888822158653,
+      "1.0": 1.522997974471263e-08,
+      "5.0": 8.194012623990515e-40,
+      "50.0": 0.0
+    },
+    "tau2_liouville_condition_satisfied": false,
+    "n_automorphisms_checked": 72,
+    "tau1_all_dets_are_+-1": true,
+    "tau1_liouville_condition_satisfied": true,
+    "tau1_kappa_commutation_max_error": 3.3306690738754696e-16
+  },
+  "C6": {
+    "trace_L_(2|E|)": 12.0,
+    "n_edges": 6,
+    "tau2_det_exp(-tL)_at_various_t": {
+      "0.1": 0.301194211912202,
+      "1.0": 6.14421235332821e-06,
+      "5.0": 8.75651076269652e-27,
+      "50.0": 2.6503965530043108e-261
+    },
+    "tau2_liouville_condition_satisfied": false,
+    "n_automorphisms_checked": 12,
+    "tau1_all_dets_are_+-1": true,
+    "tau1_liouville_condition_satisfied": true,
+    "tau1_kappa_commutation_max_error": 2.7755575615628914e-16
+  },
+  "P5": {
+    "trace_L_(2|E|)": 8.0,
+    "n_edges": 4,
+    "tau2_det_exp(-tL)_at_various_t": {
+      "0.1": 0.44932896411722156,
+      "1.0": 0.00033546262790251185,
+      "5.0": 4.248354255291589e-18,
+      "50.0": 1.9151695967140057e-174
+    },
+    "tau2_liouville_condition_satisfied": false,
+    "n_automorphisms_checked": 2,
+    "tau1_all_dets_are_+-1": true,
+    "tau1_liouville_condition_satisfied": true,
+    "tau1_kappa_commutation_max_error": 6.38378239159465e-16
+  },
+  "disjoint_K4_K33": {
+    "trace_L_(2|E|)": 30.0,
+    "n_edges": 15,
+    "tau2_det_exp(-tL)_at_various_t": {
+      "0.1": 0.049787068367863944,
+      "1.0": 9.357622968840175e-14,
+      "5.0": 7.175095973164411e-66,
+      "50.0": 0.0
+    },
+    "tau2_liouville_condition_satisfied": false,
+    "n_automorphisms_checked": 200,
+    "tau1_all_dets_are_+-1": true,
+    "tau1_liouville_condition_satisfied": true,
+    "tau1_kappa_commutation_max_error": 3.3306690738754696e-16
+  },
+  "two_triangles_disjoint": {
+    "trace_L_(2|E|)": 12.0,
+    "n_edges": 6,
+    "tau2_det_exp(-tL)_at_various_t": {
+      "0.1": 0.301194211912202,
+      "1.0": 6.14421235332821e-06,
+      "5.0": 8.75651076269652e-27,
+      "50.0": 2.6503965530043108e-261
+    },
+    "tau2_liouville_condition_satisfied": false,
+    "n_automorphisms_checked": 72,
+    "tau1_all_dets_are_+-1": true,
+    "tau1_liouville_condition_satisfied": true,
+    "tau1_kappa_commutation_max_error": 3.885780586188048e-16
+  },
+  "torus_4x4": {
+    "trace_L_(2|E|)": 64.0,
+    "n_edges": 32,
+    "tau2_det_exp(-tL)_at_various_t": {
+      "0.1": 0.001661557273173934,
+      "1.0": 1.603810890548638e-28,
+      "5.0": 1.0611231537463512e-139,
+      "50.0": 0.0
+    },
+    "tau2_liouville_condition_satisfied": false,
+    "n_automorphisms_checked": 200,
+    "tau1_all_dets_are_+-1": true,
+    "tau1_liouville_condition_satisfied": true,
+    "tau1_kappa_commutation_max_error": 1.5265566588595902e-16
+  },
+  "petersen": {
+    "trace_L_(2|E|)": 30.0,
+    "n_edges": 15,
+    "tau2_det_exp(-tL)_at_various_t": {
+      "0.1": 0.049787068367863944,
+      "1.0": 9.357622968840175e-14,
+      "5.0": 7.175095973164411e-66,
+      "50.0": 0.0
+    },
+    "tau2_liouville_condition_satisfied": false,
+    "n_automorphisms_checked": 120,
+    "tau1_all_dets_are_+-1": true,
+    "tau1_liouville_condition_satisfied": true,
+    "tau1_kappa_commutation_max_error": 3.3306690738754696e-16
+  },
+  "star_K1_5": {
+    "trace_L_(2|E|)": 10.0,
+    "n_edges": 5,
+    "tau2_det_exp(-tL)_at_various_t": {
+      "0.1": 0.36787944117144233,
+      "1.0": 4.5399929762484854e-05,
+      "5.0": 1.9287498479639178e-22,
+      "50.0": 7.124576406741286e-218
+    },
+    "tau2_liouville_condition_satisfied": false,
+    "n_automorphisms_checked": 120,
+    "tau1_all_dets_are_+-1": true,
+    "tau1_liouville_condition_satisfied": true,
+    "tau1_kappa_commutation_max_error": 1.942890293094024e-16
+  }
+}

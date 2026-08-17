@@ -1,0 +1,13 @@
+ADMITTED EXTERNAL INPUT: L = Inc * Inc^T for an oriented incidence matrix Inc of a graph.
+Source: standard spectral graph theory (e.g. Godsil & Royle, Algebraic Graph Theory, Ch.13).
+This is NOT claimed as a UOC-original derivation. Registered as EXT-001 (see registries update).
+
+K4: L=Inc*Inc^T EXACT: True | rank(grad)=3 vs rank(L)=3 | injective=False | surjective_onto_edges=False (m=6)
+K33: L=Inc*Inc^T EXACT: True | rank(grad)=5 vs rank(L)=5 | injective=False | surjective_onto_edges=False (m=9)
+C6: L=Inc*Inc^T EXACT: True | rank(grad)=5 vs rank(L)=5 | injective=False | surjective_onto_edges=False (m=6)
+P5: L=Inc*Inc^T EXACT: True | rank(grad)=4 vs rank(L)=4 | injective=False | surjective_onto_edges=True (m=4)
+disjoint_K4_K33: L=Inc*Inc^T EXACT: True | rank(grad)=8 vs rank(L)=8 | injective=False | surjective_onto_edges=False (m=15)
+two_triangles_disjoint: L=Inc*Inc^T EXACT: True | rank(grad)=4 vs rank(L)=4 | injective=False | surjective_onto_edges=False (m=6)
+torus_4x4: L=Inc*Inc^T EXACT: True | rank(grad)=15 vs rank(L)=15 | injective=False | surjective_onto_edges=False (m=32)
+petersen: L=Inc*Inc^T EXACT: True | rank(grad)=9 vs rank(L)=9 | injective=False | surjective_onto_edges=False (m=15)
+star_K1_5: L=Inc*Inc^T EXACT: True | rank(grad)=5 vs rank(L)=5 | injective=False | surjective_onto_edges=True (m=5)

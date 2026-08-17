@@ -1,0 +1,23 @@
+{
+  "primitive_node_ids_in_master_dag": [
+    "PRIM-001",
+    "PRIM-002",
+    "PRIM-003",
+    "PRIM-004",
+    "PRIM-005",
+    "PRIM-C-001",
+    "PRIM-G-001",
+    "PRIM-G-002",
+    "PRIM-G-003",
+    "PRIM-G-004",
+    "PRIM-P-001",
+    "PRIM-P-002",
+    "PRIM-X-001",
+    "PRIM-X-002",
+    "PRIM-X-003",
+    "PRIM-X-004",
+    "PRIM-X-005",
+    "PRIM-X-006"
+  ],
+  "note": "Confirms all PRIM-G/P/C/X-* IDs used by this DER are pre-existing canonical nodes in compiler/dag/master_nodes.csv, not invented by this execution."
+}

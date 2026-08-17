@@ -1,0 +1,146 @@
+{
+  "K4": {
+    "Delta_alt_1_complement_of_ker": {
+      "is_zero_map": true,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9999999999990009
+    },
+    "Delta_alt_2_single_vertex_indicator": {
+      "is_zero_map": false,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.8818505485684364
+    }
+  },
+  "K33": {
+    "Delta_alt_1_complement_of_ker": {
+      "is_zero_map": true,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9999999999990052
+    },
+    "Delta_alt_2_single_vertex_indicator": {
+      "is_zero_map": false,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9074454460944011
+    }
+  },
+  "C6": {
+    "Delta_alt_1_complement_of_ker": {
+      "is_zero_map": true,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9999999999991143
+    },
+    "Delta_alt_2_single_vertex_indicator": {
+      "is_zero_map": false,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.950195112890586
+    }
+  },
+  "P5": {
+    "Delta_alt_1_complement_of_ker": {
+      "is_zero_map": true,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9999999999991928
+    },
+    "Delta_alt_2_single_vertex_indicator": {
+      "is_zero_map": false,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9529398255300225
+    }
+  },
+  "disjoint_K4_K33": {
+    "Delta_alt_1_complement_of_ker": {
+      "is_zero_map": true,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 2,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9999999999992951
+    },
+    "Delta_alt_2_single_vertex_indicator": {
+      "is_zero_map": false,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 2,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9430392508375773
+    }
+  },
+  "two_triangles_disjoint": {
+    "Delta_alt_1_complement_of_ker": {
+      "is_zero_map": true,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 2,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9999999999992942
+    },
+    "Delta_alt_2_single_vertex_indicator": {
+      "is_zero_map": false,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 2,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9303593327858065
+    }
+  },
+  "torus_4x4": {
+    "Delta_alt_1_complement_of_ker": {
+      "is_zero_map": true,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9999999999990355
+    },
+    "Delta_alt_2_single_vertex_indicator": {
+      "is_zero_map": false,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9527341081064133
+    }
+  },
+  "petersen": {
+    "Delta_alt_1_complement_of_ker": {
+      "is_zero_map": true,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9999999999990424
+    },
+    "Delta_alt_2_single_vertex_indicator": {
+      "is_zero_map": false,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9708995989518783
+    }
+  },
+  "star_K1_5": {
+    "Delta_alt_1_complement_of_ker": {
+      "is_zero_map": true,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9999999999991944
+    },
+    "Delta_alt_2_single_vertex_indicator": {
+      "is_zero_map": false,
+      "fixed_point_subspace_dim": 0,
+      "ker_L_dim": 1,
+      "ker_L_subset_of_fixed_points_error": null,
+      "best_orthogonal_procrustes_residual_vs_exp(-1.0*L)": 0.9431036166561517
+    }
+  }
+}

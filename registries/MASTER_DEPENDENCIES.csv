@@ -1,0 +1,31 @@
+Dependency_ID,Parent,Child,Meaning,Status,Scope / Closure
+DEP-001,"(D,τ,κ,Π)",Γ,Primitive grammar → organizational action,CERTIFIED SPINE,C0 uniqueness/reconciliation open
+DEP-002,Γ,O,Organizational operator,CERTIFIED SPINE,Fixed-point closure open
+DEP-003,O,Ψ,State recursion,CERTIFIED SPINE,Compiler correspondence
+DEP-004,Ψ,G,Graph substrate,CERTIFIED/PARTIAL,Representation scope
+DEP-005,G,L,Graph Laplacian,CERTIFIED,Finite graph
+DEP-006,L,Spec(L),Spectral decomposition,CERTIFIED,Self-adjoint
+DEP-007,Spec(L),K_t,Heat semigroup,CERTIFIED,t>0
+DEP-008,K_t,d,Diffusion distance,CALCULATED,Nonzero spectrum
+DEP-009,d,g,Metric reconstruction,CALCULATED/SCOPED,Continuum
+DEP-010,g,∇,Levi-Civita connection,DERIVED,Smooth metric
+DEP-011,∇,Riemann,Curvature,DERIVED,Differentiability
+DEP-012,Riemann,Ricci,Contraction,DERIVED,Geometry
+DEP-013,Ricci,R,Scalar curvature,DERIVED,Geometry
+DEP-014,R,G_μν,Einstein tensor,DERIVED,Geometry
+DEP-015,G_μν,S_EH,Variational gravity,DERIVED/ADMITTED,Action
+DEP-016,S_EH,"A_μ,F_μν,D_μ,ψ,T_μν",Matter/gauge/quantum sectors,PARTIAL/VERSION DEPENDENT,Selection/integration
+DEP-017,Spec(L),Π_spectral,Persistence sector,PARTIAL,Functional/threshold open
+DEP-018,Π_spectral,Σ_H,Horizon selector,OPEN,Need organizational/causal boundary derivation
+DEP-019,Σ_H,P_H,Horizon projector,OPEN,Need P_H derivation
+DEP-020,"P_H,L",Z_H,Localized heat trace,CALCULATED GIVEN P_H,UOC generation open
+DEP-021,Z_H,A_H,Area,DERIVED/SCOPED,2D heat kernel
+DEP-022,A_H,N_H^UOC,Information count,OPEN,Independent functional
+DEP-023,N_H^UOC,Ξ,Cutoff ratio,CONDITIONAL,Non-circular mapping
+DEP-024,Ξ,Λ_*,Physical cutoff,DERIVED GIVEN ℓ_p,Absolute scale origin open
+DEP-025,Λ_*,ρ_vac,Vacuum density,DERIVED,3D DOS
+DEP-026,ρ_vac,Λ_cosm,Cosmological constant,DERIVED,ℓ_p² relation
+DEP-027,Λ_cosm,H,Friedmann,DERIVED/ADMITTED,Vacuum branch
+DEP-028,H,a(t),Scale factor,DERIVED,Constant vacuum → de Sitter
+DEP-029,Γ,ℓ_*,Absolute scale anchor,OPEN,Scale nonuniqueness
+DEP-030,Γ,dotL,Spectral dynamics,OPEN,Must generate H rather than insert it

@@ -1,0 +1,24 @@
+Source_Table,Operator_ID,Symbol,Name / Definition,Domain → Codomain,Key Property
+15,OP-ORG-001,D (Delta),Distinction,"P_OS -> {0,1}",Idempotent: D^2 = D
+15,OP-ORG-002,T (tau),Transformation,State x State -> State,Volume-preserving (Liouville)
+15,OP-ORG-003,C (kappa),Constraint,State space -> Constrained subspace,Projection: C^2 = C
+15,OP-ORG-004,Gamma = C o T o D,Organizational Action,State -> State,"Composition of OP-ORG-001,002,003"
+15,OP-ORG-005,U_alpha,Evolution Operator,Org. state space -> Org. state space,Parameterized by alpha = Phi_in/Phi_decay
+16,OP-CMP-001,L = D_deg - A,Graph Laplacian,"L^2(V,mu) -> L^2(V,mu)","Symmetric, positive semi-definite"
+16,OP-CMP-002,R = exp(-beta L),Persistence Filter,"L^2(V,mu) -> L^2(V,mu)",Strict contraction: ||R|| < 1 on ker(L)^perp
+16,OP-CMP-003,K_t = exp(-tL),Heat Kernel,"L^2(V,mu) -> L^2(V,mu)","K_0 = I, d/dt K_t = -L K_t"
+16,OP-CMP-004,D = sqrt(L),Dirac Operator,"L^2(M,S) -> L^2(M,S)",Self-adjoint; D^2 = L in scalar sector
+16,OP-CMP-005,nabla_mu,Covariant Derivative,Tensor fields -> Tensor fields,Metric compatible: nabla_a g_{bc} = 0
+16,OP-CMP-006,delta C_Pi,Euler-Lagrange,Functionals -> Field equations,delta C_Pi = 0 gives persistence field eq.
+17,OP-P0-001,"+,-,x,/",Arithmetic,Foundational algebraic operations on field structures,
+17,OP-P0-002,d_mu,Partial Derivative,Rate of change along one coordinate axis,
+17,OP-P0-003,nabla,Gradient,Maps scalar field to direction of steepest ascent,
+17,OP-P0-004,delta,Variation,Infinitesimal virtual displacement for extremal paths,
+17,OP-P0-005,Delta = nabla.nabla,Laplacian,Divergence of gradient; local smoothing,
+17,OP-P0-006,"exp, log",Exponential / Logarithm,Mutually inverse additive-multiplicative scaling,
+17,OP-P0-007,Tr,Trace,Basis-invariant sum of diagonal elements,
+17,OP-P0-008,Spec,Spectrum,Complete set of eigenvalues of a linear operator,
+17,OP-P0-009,O^dag,Adjoint,"Conjugate transpose: <Ou,v> = <u,O^dag v>",
+17,OP-P0-010,P (P^2=P),Projection,Idempotent operator onto a subspace,
+17,OP-P0-011,"[A,B]",Commutator,Non-commutativity measure: AB - BA,
+17,OP-P0-012,"x, +_direct",Tensor Product / Direct Sum,Combines separate spaces into joint spaces,

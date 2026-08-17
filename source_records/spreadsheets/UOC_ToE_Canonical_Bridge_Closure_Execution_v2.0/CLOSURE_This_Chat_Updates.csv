@@ -1,0 +1,17 @@
+Update Block,Canonical Update,Classification,Action
+Master closure architecture,Replace nine-program narrative with C0-C10 closure layers,ARCHITECTURAL,Use C0-C10 as master structure
+Status semantics,"Separate derivation status, closure status, registry status",GOVERNANCE,Apply three fields to every ledger node
+Certified spine,"Preserve (D,τ,κ,Π)<Γ<O<Ψ<G<L<Spec(L)<...",CERTIFIED SPINE,Do not demote because later universality remains open
+Primitive reconciliation,Treat competing grammars as a reconciliation problem,OPEN THEOREM,Derive equivalence/hierarchy/extension
+Fixed points,Do not assume Fix(Γ)=Fix(R),OPEN THEOREM,Derive correspondence morphism
+Persistence,"Preserve L, Spec, heat evolution, ker L, rank, embeddings, continuum calculations",CALCULATED/PRESERVED,Only persistence functional/threshold remain open
+Geometry,Preserve L_N→-Δ_g→K_g→d_g→g_ij for explicit family,CALCULATED/SCOPED,Do not relabel as open
+Lorentzian,Separate negative mode from Lorentzian spacetime,PARTIAL/OPEN,Complete signature chain
+Constants,Separate Planck relation from UOC scale generation,OPEN,Derive C_UOC or prove no-go
+Cosmology,Preserve all COSMO-DYN downstream calculations,CALCULATED/PARTIAL,Do not erase because ancestry is open
+Horizon,Treat P_H as genuine missing structural object,OPEN THEOREM,Derive projector from UOC data
+Information,Treat area recovery and information normalization separately,OPEN NORMALIZATION,Derive C_H/α=π or classify as convention/free/no-go
+Compiler,Treat compiler closure as parallel to physical closure,OPEN PARALLEL BRANCH,Implement/test executable UOC
+Biology,Do not use 'biology=0%' shorthand; distinguish mapping from reverse derivation,PARTIAL/OPEN,Derive adaptive/biological dynamics
+Validation,"Separate recovery, validation, prediction, falsification",GOVERNANCE,Run standardized cross-domain suite
+Final governing question,"Derived under what dependencies, with what scope, and with what closure status?",CANONICAL RULE,Apply to every future result

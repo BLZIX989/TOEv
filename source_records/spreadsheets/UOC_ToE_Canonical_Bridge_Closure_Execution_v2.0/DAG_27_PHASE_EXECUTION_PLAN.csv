@@ -1,0 +1,13 @@
+Phase,Program,Target,Status,Closure_Layer
+P0,Source synchronization,All source corpus + registries synchronized,DONE,v3 database + current chat
+P1,Canonical ontology,Primitive/grammar reconciliation,OPEN THEOREM,C0
+P2,Organizational closure,Fixed points / attractors / compiler closure,OPEN THEOREM,C1
+P3,Spectral/persistence,Persistence functional + threshold,PARTIAL/OPEN,C2
+P4,Geometry/Lorentzian,Continuum geometry + Lorentzian emergence,PARTIAL/OPEN,C3
+P5,Nature/constants,Constant generation + absolute scale,OPEN,C4
+P6,Gauge/matter,"Group, reps, generations, masses, couplings",PARTIAL/OPEN,C5
+P7,Quantum,Certified recovery + quantum geometry integration,PARTIAL/OPEN,C6
+P8,Cosmology,Scale + horizon + information closure; downstream relations preserved,PARTIAL/OPEN,C7
+P9,Biology,Reverse organizational recovery,OPEN,C8
+P10,Compiler,Executable UOC runtime and backends,OPEN,C9
+P11,Validation/falsification,"Cross-domain recovery, invariance, numerical and empirical tests",PARTIAL/OPEN,C10

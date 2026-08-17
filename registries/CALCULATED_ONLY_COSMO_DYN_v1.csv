@@ -1,0 +1,24 @@
+Chain / Test,Result,Status,Scope / Assumptions,Dependency Boundary,Numerical Value / Diagnostic
+COSMO-BRIDGE-003,rank(L)=N-c; sharp scalar cutoff equals rank only iff m_max=c,DERIVED/CALCULATED,Finite graph Laplacian; c connected components,Cutoff representation is not universal,"K4 counterexample: Spec={0,4,4,4}, rank=3 but scalar cutoff gives 1 or 4"
+COSMO-BRIDGE-004,N_bulk=Tr(I-P_kerL)=rank(L)=N-c,DERIVED/CALCULATED,PSD graph Laplacian,Does not derive horizon area,"K3,3: N_bulk=5"
+COSMO-BRIDGE-005,full nonzero diffusion embedding has dimension rank(L),DERIVED/CALCULATED,t>0 and all nonzero spectral modes retained,Embedding dimension is not an area law,"K3,3: d_spectral=5"
+COSMO-BRIDGE-006-1,L_N/h_N²→-Δ_T^d; λ_N(p)=|p|²+O(h_N²),CLOSED FOR TEST FAMILY,Periodic lattice refinement,Spatial continuum only,g_ij=δ_ij
+COSMO-BRIDGE-006-2,K_N→K_g→d_g→g_ij under joint heat-kernel scaling,CONDITIONAL/DERIVED,"N→∞, h_N→0, t→0; h_N²/t→0",Does not generate a(t),Flat torus test gives Euclidean spatial metric
+COSMO-DYN-001,H²=Λ/3=8πGρ_vac/3; a(t)=a0 exp(∫Hdt),DERIVED/ADMITTED,"Vacuum Einstein-Hilbert, k=0",Requires ρ_vac(t) input,Constant ρ_vac→de Sitter
+COSMO-DYN-002,L(a)=a^-2 L0; dotL=-2HL; dotλ_n=-2Hλ_n,DERIVED/CALCULATED,Homogeneous lattice rescaling; degenerate sectors remain unsplit,Does not derive H,Exact scaling relation
+COSMO-DYN-002-NORM,"Fixed comoving modes: E_spec∝a^-1, ρ∝a^-4; fixed physical cutoff continuum: E_spec∝a³, ρ∝a⁰",DERIVED/CALCULATED,Measure/cutoff/continuum prescription separated,Cutoff choice remains upstream,Radiation-like vs constant-density branches
+COSMO-DYN-005,dν/dλ=√λ/(4π²); ρ_vac=ħcΛ_*⁴/(16π²),DERIVED/CALCULATED,3D continuum density of states; physical cutoff,Λ_* remains to be selected,Λ_*≈4.02×10^4 m^-1; ħcΛ_*≈7.9 meV
+COSMO-DYN-005-CORRECTION,Xi=Λ_*ℓ_p≈6.50×10^-31; fourth power supplies ~10^-121 hierarchy,CALCULATED TARGET,ℓ_p≈1.616×10^-35 m,Observational target only,Corrected from erroneous 10^-13 ledger entry
+COSMO-DYN-007,A_H=4π lim tZ_H(t); joint window h_N²≪t≪L_H²,DERIVED/CALCULATED,"Explicit refinement family, 2D heat-kernel regime",Requires legitimate P_H/horizon subsystem,Spectral area coefficient recovered
+COSMO-DYN-007A,Z_H(ℓ_p²)≈A_H/(4πℓ_p²); N_BH=π Z_H(ℓ_p²),ALGEBRAICALLY DERIVED CONDITION,t*=αℓ_p² gives C_H/α=π for agreement,Does not derive π or t*=ℓ_p²,Normalization discrepancy is exact
+COSMO-DYN-010,Scale-nonuniqueness: L_H→s^-2L_H leaves λ ratios and scale-free spectral invariants unchanged; ℓ_*→sℓ_*,DERIVED/CONSTRUCTIVE,Scale-free spectral data,Requires external dimensional anchor for absolute length,Reusable UOC scale no-go
+COSMO-DYN-010A-4,Planck scale candidate ℓ_*=ℓ_p; t_*=ℓ_p²; N_spec=Z_H(ℓ_p²),CONDITIONAL,Planck scale admitted externally,UOC origin of ℓ_p unresolved,N_BH/N_spec=π
+COSMO-DYN-010A-5,Curvature scale ℓ_*~|R|^-1/2; Λ_*~√|R|,DERIVED DIAGNOSTIC / NO-GO FOR OBSERVED SCALE,Local curvature tied to cosmological branch,Produces Planck-order fixed point,H~ℓ_p^-1 diagnostic
+COSMO-DYN-010A-6,Horizon scale ℓ_*=H^-1; Λ_*=αH; H²=ℓ_p²Λ_*⁴/(6π),ALGEBRAICALLY DERIVED FIXED-POINT TEST,O(1) horizon selector assumed,Observation requires tiny/non-O(1) α,H(α) relation tests horizon selector
+COSMO-DYN-010A-7,Gap scale ℓ_*=λ_1^-1/2,DERIVED DIAGNOSTIC,"C_N×C_N, K3,3, periodic lattices/topologies",Does not naturally produce 10^122 horizon count,Z_H(λ_1^-1)=O(1)/geometry-scale
+COSMO-DYN-010A-8,UV scale ℓ_*=λ_max^-1/2→0 under refinement,DERIVED/CALCULATED,Refining graphs with λ_max→∞,Raw UV scale does not survive continuum,Renormalized finite combination remains an open test
+COSMO-DYN-010B-9,e^-tλ_c=ε ⇒ λ_c=(-ln ε)/t; Xi=√(-ln ε) ℓ_p/√t_*,DERIVED/FORMULATED,Persistence threshold definition,t_* and ε require internal generation,Tests whether Xi_obs can emerge
+COSMO-DYN-011-Weyl,N(Λ)~A_HΛ²/(4π); Z_H(t)~A_H/(4πt),DERIVED/CALCULATED,2D Weyl/heat asymptotics,Does not create 1/4 coefficient,Independent cross-check of area coefficient
+COSMO-DYN-012,Curved horizon heat kernel Z=A/(4πt)+χ/6+a2t+…,FORMULATED,General 2D horizon,Subleading topology/curvature expected not to change leading area coefficient,π issue becomes non-flat test
+COSMO-DYN-014,Λ_*=(2πΛ_cosm/ℓ_p²)^1/4; Xi=6^(1/4)π^(1/2)N_H^-1/4,ALGEBRAICALLY DERIVED,Downstream cosmological identities,Must obtain N_H before H/observation,Non-circular selector remains open
+COSMO-DYN-016,Full closure/falsification architecture,ARCHITECTURAL RESULT,No observational inputs upstream; dimensional/refinement/representation invariance required,Upstream scale/projector/information links remain critical,Final target Xi≈6.50e-31 only at last line

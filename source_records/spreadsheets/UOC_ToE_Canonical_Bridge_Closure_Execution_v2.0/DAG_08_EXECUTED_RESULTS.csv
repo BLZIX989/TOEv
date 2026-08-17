@@ -1,0 +1,8 @@
+ID,Object,Expression,Status,Scope_Note
+COSMO-DYN-010,dν/dλ,sqrt(λ)/(4π²),CALCULATED/PRESERVED,Downstream result retained
+COSMO-DYN-011,ρ_vac,ℏ c Λ_*^4/(16π²),CALCULATED/PRESERVED,Cutoff ancestry unresolved
+COSMO-DYN-012,Λ_cosm,ℓ_p² Λ_*^4/(2π),CALCULATED/PRESERVED,Scale ancestry unresolved
+COSMO-DYN-013,Ξ,Λ_*ℓ_p,CALCULATED/DEFINED,Dimensionless cutoff
+COSMO-DYN-014,Ξ(N_H),6^(1/4)π^(1/2)N_H^(-1/4),CALCULATED/PRESERVED,Information ancestry unresolved
+COSMO-DYN-015,Horizon ancestry,Γ→Σ_H→P_H→N_H^UOC→Ξ_UOC,OPEN,P_H remains missing structural object
+COSMO-DYN-016,Expansion ancestry,Γ→Ldot,OPEN,Dynamical closure remains open

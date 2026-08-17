@@ -1,0 +1,15 @@
+Triple_ID,Parent,Bridge,Child,Meaning,Domain
+TRI-001,EQ-001,BR-004,EQ-037,Spectral triple → graph Laplacian,NCG→SPEC
+TRI-002,EQ-040,BR-005,EQ-043,L→Spec(L),SPEC
+TRI-003,EQ-052,BR-007,EQ-054,Spec(L)→diffusion distance,SPEC→GEO
+TRI-004,EQ-054,BR-008,EQ-055,distance→metric,GEO
+TRI-005,EQ-055,BR-009,EQ-057,metric→connection,GEO
+TRI-006,EQ-057,BR-010,EQ-060,connection→curvature→Einstein tensor,GEO→CURV
+TRI-007,EQ-061,BR-014,EQ-063,persistence cost→Euler-Lagrange,PERS
+TRI-008,EQ-067,BR-015,EQ-068,zero-loss→geodesic,PERS→GR
+TRI-009,EQ-094,BR-016,EQ-095,R→Z→F,QM/TD
+TRI-010,EQ-154,BR-004,EQ-155,Master cascade graph step,MC
+TRI-011,COSMO-DYN-005,BR-020,COSMO-DYN-005,DOS→vacuum density,COSMO
+TRI-012,COSMO-DYN-007,BR-021,COSMO-DYN-007,heat trace→area,COSMO
+TRI-013,COSMO-DYN-007A,BR-022,COSMO-DYN-007A,spectral area count→BH count condition,COSMO
+TRI-014,COSMO-DYN-014,BR-023,COSMO-DYN-014,N_H→Ξ conditional map,COSMO

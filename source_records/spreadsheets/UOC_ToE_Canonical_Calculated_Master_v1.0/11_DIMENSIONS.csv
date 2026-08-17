@@ -1,0 +1,13 @@
+ID,Symbol,Object Class,Dimension,Status
+DIM-004,Π,persistence,dimensionless in normalized persistence forms; specific functionals may carry dimensions,SCOPED
+DIM-005,L,graph Laplacian,L^-2 in continuum physical realization,DERIVED/SCOPED
+DIM-006,λ,Laplacian eigenvalue,L^-2,DERIVED
+DIM-007,t,heat-kernel time,L^2 in diffusion normalization,DERIVED/CONVENTION DEPENDENT
+DIM-008,R,Ricci scalar,L^-2,DERIVED
+DIM-009,H,Hubble rate,T^-1,DERIVED/ADMITTED
+DIM-013,ℓ_p,Planck length,L; sqrt(ℏG/c^3),DERIVED FROM ROOT CONSTANTS
+DIM-015,Λ_cosm,cosmological constant,L^-2,DOWNSTREAM DERIVED GIVEN Λ_*
+DIM-016,Ξ,dimensionless cutoff ratio,1; Λ_*ℓ_p,DEFINED / TARGET
+DIM-017,A_H,horizon area,L^2,SPECTRAL GEOMETRY DERIVED FOR TEST FAMILY
+DIM-019,ρ_vac,vacuum energy density,M L^-1 T^-2,DOWNSTREAM DERIVED GIVEN Λ_*
+DIM-020,a(t),scale factor,dimensionless or normalized length convention,DOWNSTREAM

@@ -1,0 +1,21 @@
+Record_ID,Rule_or_Update,Canonical_Interpretation,Operational_Consequence
+CHAT-1,ARCH-001,Master closure,C0-C10
+CHAT-2,GOV-001,Three-axis status,Derivation / Closure / Registry
+CHAT-3,SPINE-001,Certified spine,"(D,τ,κ,Π)<Γ<O<Ψ<G<L<Spec(L)<K_t<d<g<∇<R<Rμν<R<Gμν<S<Aμ<Fμν<Dμ<ψ<Tμν<physics"
+CHAT-4,C0-001,Primitive reconciliation,"{Δ,τ,κ,Π} vs realization/graph/MDCL"
+CHAT-5,C1-001,Fixed points,Fix(Γ) vs Fix(R)
+CHAT-6,C2-001,Persistence,"L, Spec(L), heat evolution, ker L, rank, embeddings"
+CHAT-7,C3-001,Geometry,L_N→−Δ_g→K_g→d_g→g_ij
+CHAT-8,C3-002,Lorentzian,negative mode→indefinite→Lorentzian metric
+CHAT-9,C4-001,Nature spectrum,Spec(L) ?= Spec(Nature)
+CHAT-10,C4-002,Scale,"ℓ_p=sqrt(ℏG/c^3), ℓ*=C_UOCℓ_p"
+CHAT-11,C5-001,Gauge,Aμ→Fμν→Dμ→Yang-Mills
+CHAT-12,C5-002,Matter,"G_UOC ?= SU(3)×SU(2)×U(1), N_gen ?=3, masses"
+CHAT-13,C6-001,Quantum,Certified recovery + Born rule + quantum geometry
+CHAT-14,C7-001,COSMO-DYN,dν/dλ; ρvac; Λcosm; Ξ
+CHAT-15,C7-002,Horizon,Γ→Σ_H→P_H→N_H^UOC→Ξ_UOC
+CHAT-16,C7-003,Information,C_H/α=π
+CHAT-17,C8-001,Biology,mapping substantial; reverse derivation open
+CHAT-18,C9-001,Compiler,"normal form, confluence, typing, routing, runtime, H↔Ω"
+CHAT-19,C10-001,Validation,recovery≠validation≠prediction
+CHAT-20,RULE-001,Governing rule,"Derived under what dependencies, scope and closure status?"

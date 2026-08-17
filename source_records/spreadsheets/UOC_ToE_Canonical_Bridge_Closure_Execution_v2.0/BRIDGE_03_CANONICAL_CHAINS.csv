@@ -1,0 +1,10 @@
+Chain_ID,Name,Equation_Chain,Bridges,Status,Closure_Layer
+CHAIN-001,Core spectral geometry,G→L→Spec(L)→H(t)→D_t→D_{μν}→g_{μν}→∇→R→G_{μν},BR-004→BR-010,CERTIFIED THROUGH VACUUM TENSOR,C3
+CHAIN-002,Organizational persistence,Spec(L) / stochastic dynamics→P_ss→F→σ→Π_O,BR-011→BR-015 / DER-TRC-006,PARTIAL/PROPOSED PERSISTENCE CLOSURE,C1/C2
+CHAIN-003,Thermodynamic/statistical,R→Z→F→σ,BR-016,DERIVED,C2
+CHAIN-004,Discrete-continuum geometry,L_N/h_N²→-Δ_g; K_N→K_g→d_g→g_ij,BR-017→BR-018,TEST-FAMILY CLOSED / CONDITIONAL,C3
+CHAIN-005,Cosmological downstream,Spec(L)→DOS→ρ_vac→Λ_cosm→H→a,BR-020→BR-025,DOWNSTREAM CLOSED GIVEN INPUT,C7
+CHAIN-006,Cosmological upstream closure,Γ→Σ_H→P_H→Z_H→N_H→Ξ,BR-026→BR-023,OPEN,C7
+CHAIN-007,Absolute scale,Γ→ℓ_*→Λ_*→ρ_vac,BR-028→BR-024,OPEN UPSTREAM / DOWNSTREAM PRESERVED,C4/C7
+CHAIN-008,Universal spectral dynamics,Γ→dotL→homogeneous dotL=-2HL,BR-029→BR-019,OPEN UPSTREAM / HOMOGENEOUS RESULT PRESERVED,C7
+CHAIN-009,Quantum/gauge integration,L→D/D²→Dirac→spin/gauge/matter,BR-012 + QRC/GAU DERs,PARTIAL,C5/C6

@@ -1,0 +1,6 @@
+Role,Filename,Bytes,SHA256,Materialized_Modified
+v1 master,UOC_ToE_Canonical_Synchronization_Master_v1.0.xlsx,358987,4727f3850512787b042ad6c9d7b0d46fc98f746bdc7b0de7603e478b524fe971,2026-08-16T19:03:10
+closure DB,UOC_Master_Closure_Updated.xlsx,46545,4c65d28c01afc495c2ded8d4df672d09b88de152e99c8523094bb924cbcf4cfd,2026-08-16T19:03:10
+SEIT DB,UOC_SEIT_Combined_Master_Matrix.xlsx,29835,8ce73df5f60f95a39c4534a0a650baf3800a21164f7b8a65bb2a4d902fe2ae42,2026-08-16T19:03:10
+DER Registry,DER Registry v2.docx,33895,ef13776ae5fef5ec54af3d7e270970a9c5787d227b8ac5d1df2e7e143916269f,2026-08-16T19:03:10
+Master Equation Matrix,Master Equation Matrix.docx,27173,573a3c8107489e4f013bfad8a46ce493e00a0f2742a59d6613071b844e50f672,2026-08-16T19:03:10

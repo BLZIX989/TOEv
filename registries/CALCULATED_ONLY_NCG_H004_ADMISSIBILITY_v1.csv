@@ -1,0 +1,10 @@
+ID,Test,Equation / Object,Status,Result / Scope
+H-004.1,Vertex algebra,A_V=C^V,DERIVED/CALCULATED,Natural finite commutative graph algebra candidate.
+H-004.2,Source edge representation,M_E^(s)(a)_e=a_{s(e)},DERIVED/CALCULATED,Multiplicative algebra homomorphism.
+H-004.3,Target edge representation,M_E^(t)(a)_e=a_{t(e)},DERIVED/CALCULATED,Multiplicative algebra homomorphism.
+H-004.4,Midpoint representation test,M_E(a)_e=(a_s+a_t)/2,FALSIFIED,Generically M_E(ab)≠M_E(a)M_E(b).
+H-004.5,Discrete differential,"[D_G,π_s(a)] contains (da)_e=a_t-a_s",DERIVED/CALCULATED,Graph exterior derivative emerges in commutator.
+H-004.6,Bounded commutator,"[D_G,π(a)]∈B(H_G)",DERIVED,Automatic for finite-dimensional H_G.
+H-004.7,Grading compatibility,"[γ,π(a)]=0 and {γ,D_G}=0",DERIVED,Even finite differential structure.
+H-004.8,Naive real structure,J=K,CANDIDATE,"K²=1, but does not by itself define a canonical real spectral triple."
+H-004.9,Naive first-order test,"[[D_G,π_s(a)],Jπ_s(b)J^{-1}]",FALSIFIED,Generic nonzero result for the naive same-endpoint right action.

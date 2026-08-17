@@ -1,0 +1,5 @@
+ID,Prediction,Observable,Dependency,Status,Empirical Test
+PRED-001,UV dispersion,Δt(E) from spectral corrections,UOC spectral parameters → group velocity → observable delay,QUANTITATIVE CALCULATION REQUIRED,Existing bounds
+PRED-002,IR lensing,Φ_lens(r) from graph-spectral Green functions,Spectral Green function → lensing potential,QUANTITATIVE CALCULATION REQUIRED,Existing lensing constraints
+PRED-003,Quantum metric noise,S_h(f) / detector-noise floor,Quantum/spectral metric fluctuations → detector observable,QUANTITATIVE CALCULATION REQUIRED,LIGO/precision bounds
+PRED-004,Cosmological cutoff,Ξ_UOC≈6.50×10^-31,Independent N_H^UOC → Ξ → Λ_*,FINAL FALSIFICATION TARGET,Observation only at terminal comparison

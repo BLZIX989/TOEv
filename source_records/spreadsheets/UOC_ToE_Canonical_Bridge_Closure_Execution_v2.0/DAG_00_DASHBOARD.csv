@@ -1,0 +1,19 @@
+Metric,Value,Interpretation
+Workbook,UOC_ToE_Master_Dependency_DAG_Closure_v1.0.xlsx,Executable dependency/closure layer built from synchronized v3 database + closure DB + current-chat governance.
+Base synchronization workbook,UOC_ToE_Canonical_Synchronization_Master_v3.0.xlsx,All v3 sheets retained unchanged as synchronized archive.
+Canonical nodes,779,"Unified node universe including canonical nodes, equations, DERs, bridges, theorems, proofs, closure layers and COSMO-DYN results."
+Dependency edges,320,Explicit and source-preserving dependency relations.
+Internal DAG edges,106,Edges usable for topological analysis because both endpoints are canonical nodes.
+Topological nodes,779,Nodes admitted to the explicit dependency DAG.
+Cycle nodes,0,Nonempty means the explicit graph contains a cycle or unresolved topology.
+Equations,174,Canonical 174-equation matrix preserved.
+DER v2 entries,59,Current DER registry entries synchronized.
+Bridges,29,Bridge registry preserved.
+Variables,268,Variable registry preserved.
+Closure layers,11,C0–C10 closure architecture.
+Current governance invariant,DERIVATION STATUS ≠ CLOSURE STATUS ≠ REGISTRY STATUS,Hard classification rule.
+Primary purpose,Dependency-first closure execution,"Answer for every unresolved node: prerequisites, closure criterion, falsifier, unlocks."
+Synchronization signature,9d068063f97d4e696ff0ab3ba6fecac0ac6d8c3fce5e76472b2825597a989fed,SHA-256 over synchronized database counts and DAG construction inputs.
+Generated UTC,2026-08-16T19:12:52Z,Workbook generation timestamp.
+Bridge closure extension,v2.0,"Added BR-001–BR-029 master registry, execution plans, triples, chains, audit, frontier, dashboard and source evidence."
+Bridge records,29,All synchronized registered bridges are represented; no new bridge IDs invented.

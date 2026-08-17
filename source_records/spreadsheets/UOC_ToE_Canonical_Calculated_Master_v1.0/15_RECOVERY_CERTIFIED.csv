@@ -1,0 +1,4 @@
+Branch_ID,Branch_Name,Registry_Code,Core_Objects,Closure_Layer,Status,Authority
+BRANCH-02,Spectral Recovery,SPC,"G,L,Spec(L),K_t,R",C1-C2,CALCULATED / SCOPED,DER-SPC
+BRANCH-03,Geometry Recovery,GEO,"d,g,∇,Γ^c,Riemann,Ricci,R,G",C3,DERIVED / SCOPED,DER-GEO
+BRANCH-04,Variational Recovery,VAR,"C_Π,S,δS,EL",C2-C3,CERTIFIED / SCOPED,DER-VAR

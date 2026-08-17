@@ -1,0 +1,18 @@
+Source_ID,Filename,Type,Role,Synchronization_Status
+SRC-001,UOC_ToE_Canonical_Synchronization_Master_v2.0.xlsx,XLSX,Canonical synchronization predecessor,v2 master database
+SRC-002,UOC_Master_Closure_Updated.xlsx,XLSX,Closure database,Synchronized
+SRC-003,UOC_SEIT_Combined_Master_Matrix.xlsx,XLSX,SEIT master database,Synchronized
+SRC-004,ToE Gap Matrix.xlsx,XLSX,164-question gap database,Synchronized
+SRC-005,Combined Compiler Theories Whitepaper(2).docx,DOCX,Compiler/ToE source corpus,Synchronized
+SRC-006,SEIT Updated Whitepaper(1).docx,DOCX,SEIT source corpus,Synchronized
+SRC-007,Theory of Everything - Status Report(1).docx,DOCX,Project status source,Synchronized
+SRC-008,UCG Specification v5(1).docx,DOCX,Universal compiler grammar specification,Synchronized
+SRC-009,UCR UCCP UCA v1(1).docx,DOCX,Compiler recovery/UCCP/UCA source,Synchronized
+SRC-010,UQR UCA v2(1).docx,DOCX,Quantum recovery/UCA source,Synchronized
+SRC-011,UPG Canonical Reference.docx,DOCX,Canonical primitive/grammar reference,Synchronized
+SRC-012,CVR-001 Compiler Verification Report.docx,DOCX,Compiler verification source,Synchronized
+SRC-013,SEF SIT Specification v2.docx,DOCX,Spectral emergence specification,Synchronized
+SRC-014,Audit and Recommended Revisions.docx,DOCX,Audit/correction source,Synchronized
+SRC-015,DER Registry v2.docx,DOCX,Derivation registry,Synchronized
+SRC-016,DER Registry.docx,DOCX,Prior derivation registry,Version comparison
+SRC-017,Master Equation Matrix.docx,DOCX,Source equation corpus,Synchronized in v2

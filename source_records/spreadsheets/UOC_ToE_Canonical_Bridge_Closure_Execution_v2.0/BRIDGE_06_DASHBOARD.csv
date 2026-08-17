@@ -1,0 +1,10 @@
+Metric,Value,Interpretation
+Total registered bridges,29,BR-001 through BR-029 are source-registered in the synchronized database.
+Recovered/certified or derived,23,Existing mathematical work is preserved.
+Open / conditional / partial,8,"These are closure questions, not erased derivations."
+Remaining execution frontier,14,Bridge-level closure obligations requiring explicit next calculations.
+Bridge triples,14,Explicit equation→bridge→equation mappings preserved.
+Core certified chain,BR-004→BR-010,Graph→Laplacian→Spectrum→Heat→Diffusion→Metric→Connection→Curvature.
+Cosmological downstream,BR-020→BR-025,Preserved as downstream closed given their inputs.
+Cosmological upstream frontier,"BR-026, BR-027, BR-028, BR-029","Horizon selector, localized trace, absolute scale, universal spectral dynamics."
+Governance invariant,Derivation status ≠ closure status ≠ registry status,No relabeling of calculated work as open.

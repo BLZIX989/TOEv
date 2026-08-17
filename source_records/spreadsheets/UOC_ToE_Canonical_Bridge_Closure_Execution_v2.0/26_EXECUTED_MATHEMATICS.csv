@@ -1,0 +1,37 @@
+Result,Equation / Identity,Status,Scope / Notes
+Spectral evolution,R(t)=e^{-tL}; R(t)φ_n=e^{-tλ_n}φ_n,DERIVED,PSD L
+Persistent sector,lim_{t→∞}e^{-tL}=P_kerL; Π∞=ker L,DERIVED,Finite PSD graph
+Connected nullity,dim ker L=1 for connected graph,DERIVED,Standard graph Laplacian
+General nullity,dim ker L=c,DERIVED,c connected components
+Rank,rank L=N-c,DERIVED,Immediate from rank-nullity
+Bulk candidate,N_bulk=Tr(I-P_kerL)=rank L,DERIVED,No cutoff required
+Sharp-cutoff criterion,N_cut=rank L iff m_max=c,DERIVED,For scalar sharp cutoff
+Scale rescaling,L_H→s^-2L_H; λ_i→s^-2λ_i,DERIVED,Spectral scale transformation
+Scale-free invariants,"F(λ_i/λ_j,...) invariant under L_H rescaling",DERIVED,Cannot select absolute length
+Absolute scale transformation,ℓ_*→sℓ_* under physical length rescaling,DERIVED,Scale-selection no-go
+Periodic lattice eigenvalues,λ_N(p)=4h_N^-2 Σ sin²(h_Np_μ/2),DERIVED,Explicit periodic lattice
+Continuum expansion,λ_N(p)=|p|²+O(h_N²),DERIVED,h_N→0
+Spatial metric,g_ij=δ_ij,CALCULATED,Flat toroidal test family
+Homogeneous scaling,L(a)=a^-2L_0,DERIVED,B6 homogeneous rescaling
+Operator flow,dotL=-2HL,DERIVED,Homogeneous scaling
+Eigenvalue flow,dotλ_n=-2Hλ_n,DERIVED,Degenerate sectors unsplit in this scaling
+Fixed comoving spectral set,E_spec∝a^-1; ρ∝a^-4,DERIVED,With V_phys∝a³
+Fixed physical cutoff continuum,E_spec∝a³; ρ∝a⁰,DERIVED SCALING,Continuum density of states
+3D DOS,dν/dλ=√λ/(4π²),DERIVED,Flat 3D continuum
+Vacuum density,ρ_vac=ħcΛ_*⁴/(16π²),DERIVED,Physical cutoff prescription
+Cosmological constant,Λ_cosm=ℓ_p²Λ_*⁴/(2π),DERIVED,Using ℓ_p²=ħG/c³
+Dimensionless cutoff,Xi=Λ_*ℓ_p,DEFINED,Dimensionless
+Xi relation,Λ_cosm=Xi⁴/(2πℓ_p²),DERIVED,Downstream identity
+Horizon area heat trace,A_H=4π lim tZ_H(t),DERIVED,2D continuum heat-kernel regime
+Weyl area law coefficient,N(Λ)~A_HΛ²/(4π),DERIVED,2D Weyl asymptotic
+Spectral/BH ratio,N_BH=π Z_H(ℓ_p²),DERIVED CONDITION,If t*=ℓ_p²
+Information normalization condition,C_H/α=π for t*=αℓ_p²,ALGEBRAICALLY DERIVED,Not a UOC theorem yet
+Conditional Xi-count relation,Xi=6^(1/4)π^(1/2)N_H^-1/4,DERIVED,Conditional horizon-information branch
+Friedmann vacuum,H²=8πGρ_vac/3,DERIVED/ADMITTED,k=0 vacuum EH branch
+Scale-factor solution,a(t)=a0 exp(∫Hdt),DERIVED,Expanding vacuum branch
+Constant vacuum,ρ_vac=const→a∝e^{Ht},DERIVED,de Sitter branch
+Curvature-scale diagnostic,ℓ_*~|R|^-1/2→H~ℓ_p^-1,NO-GO DIAGNOSTIC,Observed cosmological scale not reproduced
+Gap-scale diagnostic,ℓ_*=λ_1^-1/2→Z_H(λ_1^-1)=O(1)/geometry-scale,NO-GO DIAGNOSTIC,Not 10^122 information scale
+UV scale,ℓ_*=λ_max^-1/2→0,DERIVED,Refinement limit
+Persistence threshold,e^{-tλ_c}=ε→λ_c=(-ln ε)/t,DERIVED,ε remains a selector unless derived
+Observed target,Xi_obs≈6.50×10^-31,OBSERVATIONAL TARGET,Not an upstream input

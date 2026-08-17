@@ -1,0 +1,9 @@
+Status,Meaning in source,Representative items
+Certified,Complete symbolic derivation + verification protocol (Combined Part 0),"MDCL v1.0, CMRC-001–019, VAL-004/005, UGAS–UTS, MDCL-0001, LOR-002"
+Candidate,Internally consistent but at least one proof obligation remains,"LOR-001; SEIT Γ, λ_c candidates"
+Open,Well-posed target without candidate proof,MDCL v2 Layer VII; gauge group; P_k; force count; N_sub; Lorentzian localization
+Retired,"Actively pursued then closed, reason recorded",Fisher route; signed Laplacian; balance theory; 166 Hz; 135 pc
+Research Objective,Long-term target not yet specific candidate,MDCL-0002; IOC Rank-k; Layers VIII–XIII
+Partial,SEIT v4 audit code for incomplete derivations,"D2, D3, Γ, λ_c, masses, couplings, RG, CMB"
+Empirical,External measurement input,"ħ, c, G_N"
+Undecidable,Likely blocked by known mathematical limitation,Graph reconstruction from spectrum

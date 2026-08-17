@@ -1,0 +1,7 @@
+Calculation,Formula,Value,Units / Interpretation
+Planck length,sqrt(hbar*G/c^3),1.616e-35,m (registered physical scale)
+Corrected cutoff,Lambda_*,4.02e4,m^-1
+Dimensionless cutoff,Xi=Lambda_* ell_p,,dimensionless
+Hierarchy,Xi^4,,dimensionless ~10^-121
+BH/spectral ratio,N_BH/N_spec,,exact asymptotic normalization ratio when t*=ell_p^2
+H-006 survivor count,COUNTIF,,finite test family

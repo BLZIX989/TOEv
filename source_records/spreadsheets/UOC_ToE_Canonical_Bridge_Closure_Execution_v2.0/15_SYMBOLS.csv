@@ -1,0 +1,31 @@
+USR ID,Symbol,Name,Type,First Admitted In
+USR-001,Delta,Distinction primitive,Organizational primitive,PRIM-G-001
+USR-002,tau,Transformation primitive,Organizational primitive,PRIM-G-002
+USR-003,kappa,Constraint primitive,Organizational primitive,PRIM-G-003
+USR-004,Pi,Persistence primitive,Organizational primitive,PRIM-G-004
+USR-005,Gamma,Organizational action,Composed operator,DER-ORG-002
+USR-006,"G=(V,E)",Distinction graph,Combinatorial object,DER-SPC-001
+USR-007,L=D-A,Graph Laplacian,"Linear operator on L^2(V,mu)",DER-SPC-002
+USR-008,"Spec(L)={lam_n,phi_n}",Laplacian spectrum,Eigenvalue-eigenfunction set,DER-SPC-003
+USR-009,K_t=exp(-tL),Heat kernel,"Operator on L^2(V,mu)",DER-SPC-004
+USR-010,R=exp(-beta L),Persistence filter,Contraction operator,DER-SPC-005
+USR-011,"d(i,j)",Diffusion distance,Metric on V,DER-GEO-001
+USR-012,g_{mu nu},Metric tensor,"Symmetric positive-definite (0,2) tensor",DER-GEO-001
+USR-013,Gamma^c_{ab},Christoffel symbols,Connection coefficients,DER-GEO-002
+USR-014,R^rho_{sig mu nu},Riemann tensor,"(1,3) curvature tensor",DER-GEO-003
+USR-015,R_{mu nu},Ricci tensor,"Symmetric (0,2) tensor",DER-GEO-004
+USR-016,R,Ricci scalar,Scalar field,DER-GEO-005
+USR-017,G_{mu nu},Einstein tensor,"Divergence-free (0,2) tensor",DER-GEO-006
+USR-018,A_mu,Gauge connection,U(1) connection 1-form,DER-GAU-001
+USR-019,F_{mu nu},Field strength,"(0,2) antisymmetric tensor",DER-GAU-002
+USR-020,D_mu,Covariant derivative,First-order differential operator,DER-GAU-003
+USR-021,psi,Spinor field,Section of spin bundle S,DER-QR-006
+USR-022,T_{mu nu},Stress-energy tensor,"Symmetric (0,2) tensor",DER-TRC-001
+USR-023,sigma,Entropy production rate,Non-negative scalar field,DER-TRC-004
+USR-024,Pi_O,Org. Persistence Functional,"Functional in [0,1]",DER-TRC-006 (OPEN)
+USR-025,alpha,Control parameter,Dimensionless scalar: Phi_in/Phi_decay,DER (bifurcation)
+USR-026,U_alpha,Evolution operator,Parameterized operator on org. states,DER-ORG-002
+USR-027,Omega,Master attractor,Fixed point of R^n,DER-SPC-005
+USR-028,D=sqrt(L),Dirac operator,"Self-adjoint operator on L^2(M,S)",DER-QR-006
+USR-029,S_EH,Einstein-Hilbert action,Diffeomorphism-invariant scalar functional,DER-VAR-004
+USR-030,C_Pi[y],Persistence Cost Functional,Real-valued functional on trajectories,DER-VAR-001

@@ -1,0 +1,175 @@
+Equation_ID,Source_Label,Section,Closure_Layer,Equation,Meaning,Authority,Status,Dependency_Interpretation
+EQ-001,NCG.1,NCG,C5,"(A, H, D)",Connes 1995,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-002,NCG.2,NCG,C5,"S = Tr( f(D/Lambda) ) + <psi, D psi>",Connes-Chamseddine,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-003,NCG.3,NCG,C5,D^2 = nabla* nabla + (1/4) R,Lichnerowicz,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-004,NCG.4,NCG,C5,Spec(D) = { lambda_i },Definition,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-005,NCG.5,NCG,C5,A = C^inf(M) x A_F,Standard Model,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-006,NCG.6,NCG,C5,"H = L^2(M,S) x H_F",Standard Model,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-007,NCG.7,NCG,C5,D = D_M x 1 + gamma^5 x D_F,Standard Model,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-008,NCG.8,NCG,C5,D_A = D + A + J A J^{-1},Inner fluctuations,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-009,NCG.9,NCG,C5,"A = sum_i a_i [D, b_i]",Definition,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-010,NCG.10,NCG,C5,S_B = Tr( f(D_A / Lambda) ),Spectral action,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-011,NCG.11,NCG,C5,"S_F = <J psi, D_A psi>",Spectral action,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-012,NCG.12,NCG,C5,S = S_B + S_F,Full action,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-013,NCG.13,NCG,C5,Tr(f(D/Lambda)) ~ sum_{n>=0} f_n Lambda^{4-n} a_n(D^2),Seeley-DeWitt,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-014,NCG.14,NCG,C5,f_n = INT_0^inf f(v) v^{n-1} dv,Definition,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-015,NCG.15,NCG,C5,"a_0, a_2, a_4, a_6, ...",Coefficients,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-016,NCG.16,NCG,C5,Lambda^4 a_0 + Lambda^2 a_2 + a_4 + O(Lambda^{-2}),Expansion,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-017,NCG.17,NCG,C5,K(t) = Tr(exp(-t D^2)),Heat kernel,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-018,NCG.18,NCG,C5,zeta_D(s) = Tr(D^{-s}),Zeta function,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-019,NCG.19,NCG,C5,S_zeta = zeta_D(0),Zeta action,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-020,NCG.20,NCG,C5,Index(D) = dim ker D - dim ker D^dag,Atiyah-Singer,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-021,NCG.21,NCG,C5,J^2 = +/- 1,Real structure,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-022,NCG.22,NCG,C5,J D = +/- D J,Real structure,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-023,NCG.23,NCG,C5,J gamma = +/- gamma J,Real structure,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-024,NCG.24,NCG,C5,gamma^2 = 1,Chirality,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-025,NCG.25,NCG,C5,"{gamma, D} = 0",Chirality,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-026,NCG.26,NCG,C5,A = C^inf(M) x (C + H + M_3(C)),SM algebra,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-027,NCG.27,NCG,C5,SU(3) x SU(2) x U(1),Gauge group,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-028,NCG.28,NCG,C5,g_1 = g_2 = g_3,Unification,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-029,NCG.29,NCG,C5,m_H ~ 125 GeV,Higgs mass,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-030,NCG.30,NCG,C5,m_nu = m_D^T M_R^{-1} m_D,Seesaw,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-031,NCG.31,NCG,C5,"dist(x,y) = sup{ |f(x)-f(y)| : ||[D,f]|| <= 1 }",Connes distance,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-032,NCG.32,NCG,C5,"[D, a]",Commutator,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-033,NCG.33,NCG,C5,"[[D,a],b] = 0",Order-one,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-034,NCG.34,NCG,C5,"[D, A] subset B(H)",Boundedness,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-035,NCG.35,NCG,C5,D^{-1},Propagator,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-036,NCG.36,NCG,C5,chi(D) = Tr(gamma exp(-t D^2)),Chiral trace,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-037,SP.1,SP,UNASSIGNED,"G = (V, E)",Definition,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-038,SP.2,SP,UNASSIGNED,L = D_deg - A,Graph Laplacian,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-039,SP.3,SP,UNASSIGNED,L phi = lambda phi,Eigenequation,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-040,SP.4,SP,UNASSIGNED,"Spec(L) = {lambda_1, lambda_2, ..., lambda_n}",Spectrum,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-041,SP.5,SP,UNASSIGNED,lambda_0 = 0,Ground state,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-042,SP.6,SP,UNASSIGNED,L 1 = 0,Kernel,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-043,SP.7,SP,UNASSIGNED,sum_i lambda_i = Tr(L),Trace,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-044,SP.8,SP,UNASSIGNED,phi_i^T L phi_j = lambda_i delta_{ij},Orthonormality,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-045,SP.9,SP,UNASSIGNED,L = B B^T,Incidence factorization,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-046,SP.10,SP,UNASSIGNED,L = U Lambda U^{-1},Diagonalization,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-047,SP.11,SP,UNASSIGNED,f(L) = U f(Lambda) U^{-1},Functional calculus,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-048,SP.12,SP,UNASSIGNED,Tr(f(L)) = sum_i f(lambda_i),Spectral trace,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-049,SP.13,SP,UNASSIGNED,Tr(exp(-t L)),Heat trace,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-050,SP.14,SP,UNASSIGNED,exp(-t L) phi_i = exp(-t lambda_i) phi_i,Heat semigroup,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-051,SP.15,SP,UNASSIGNED,det(L + eps I),Regularized det,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-052,SP.16,SP,UNASSIGNED,Delta = d^dag d + d d^dag,Hodge Laplacian,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-053,SP.17,SP,UNASSIGNED,D = d + delta,Dirac-Hodge,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-054,SP.18,SP,UNASSIGNED,d^2 = 0,Nilpotency,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-055,SP.19,SP,UNASSIGNED,Omega^k(M) = Lambda^k(T* M),k-forms,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-056,SP.20,SP,UNASSIGNED,H^k(M) = ker d / im d,de Rham cohomology,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-057,SP.21,SP,UNASSIGNED,Omega^k = H^k + im(d) + im(delta),Hodge decomposition,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-058,SP.22,SP,UNASSIGNED,Spec(Delta) = {mu_i},Hodge spectrum,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-059,SP.23,SP,UNASSIGNED,Tr(exp(-t Delta)),Hodge heat trace,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-060,SP.24,SP,UNASSIGNED,nabla^2 = nabla . nabla,Scalar Laplacian,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-061,SP.25,SP,UNASSIGNED,Delta_g = (1/sqrt|g|) d_i(sqrt|g| g^{ij} d_j),Riemannian Laplacian,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-062,GE.1,GE,UNASSIGNED,"d(i,j) = sqrt(sum_k (phi_k(i)-phi_k(j))^2 / lambda_k)",Diffusion distance,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-063,GE.2,GE,UNASSIGNED,g_{ab} = sum_k lambda_k^{-1} d_a phi_k d_b phi_k,Spectral metric,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-064,GE.3,GE,UNASSIGNED,ds^2 = g_{mu nu} dx^mu dx^nu,Line element,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-065,GE.4,GE,UNASSIGNED,g_{ab} = -d^2 S / dy^a dy^b,Hessian metric,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-066,GE.5,GE,UNASSIGNED,"<phi, psi> = INT_M phi* psi d_mu",Inner product,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-067,GE.6,GE,UNASSIGNED,"||psi||^2 = <psi, psi>",Norm,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-068,GE.7,GE,UNASSIGNED,Tr(A B) = Tr(B A),Cyclicity,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-069,GE.8,GE,UNASSIGNED,K(t) = Tr(exp(-t D^2)),Heat kernel trace,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-070,GE.9,GE,UNASSIGNED,(1/eps^2) L_{G_eps} -> Delta_g as eps->0,Continuum limit,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-071,GE.10,GE,UNASSIGNED,D_s = -2 lim_{t->0} d(ln P(t))/d(ln t),Spectral dimension,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-072,GE.11,GE,UNASSIGNED,nabla_mu V^nu = d_mu V^nu + Gamma^nu_{mu lam} V^lam,Covariant derivative,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-073,GE.12,GE,UNASSIGNED,nabla_a g_{bc} = 0,Metric compatibility,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-074,GE.13,GE,UNASSIGNED,nabla_mu T^{mu nu} = 0,Conservation,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-075,GE.14,GE,UNASSIGNED,Box = g^{mu nu} nabla_mu nabla_nu,D'Alembertian,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-076,PE.1,PE,UNASSIGNED,C_Pi[y] = INT(g_{ab} y'_a y'_b + 2 I_F) dt,Cost functional,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-077,PE.2,PE,UNASSIGNED,I_F = INT |psi|^2 |grad_x ln(|psi|^2/rho)|^2 dx,Fisher cost,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-078,PE.3,PE,UNASSIGNED,delta C_Pi = 0,Variational principle,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-079,PE.4,PE,UNASSIGNED,d/dt(dL/dy'_a) - dL/dy_a = 0,Euler-Lagrange,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-080,PE.5,PE,UNASSIGNED,delta S = 0,Action principle,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-081,PE.6,PE,UNASSIGNED,S = INT L dt,Action,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-082,PE.7,PE,UNASSIGNED,y''_c + Gamma^c_{ab} y'_a y'_b = -g^{ca} nabla_a I_F,Field equation,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-083,PE.8,PE,UNASSIGNED,y''_c + Gamma^c_{ab} y'_a y'_b = 0,GR limit,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-084,PE.9,PE,UNASSIGNED,D y'_a / dt = g^{ab} nabla_b I_F,Covariant form,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-085,PE.10,PE,UNASSIGNED,D/dt = y'_a nabla_a,Material derivative,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-086,PE.11,PE,UNASSIGNED,nabla_a I_F = dI_F / dy^a,Gradient,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-087,PE.12,PE,UNASSIGNED,delta Gamma = 0,Org action stationarity,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-088,PE.13,PE,UNASSIGNED,"Gamma[Sigma] = Phi(g, Delta, T)",Org action,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-089,CV.1,CV,UNASSIGNED,Gamma^c_{ab} = (1/2) g^{cd}(d_a g_{bd} + d_b g_{ad} - d_d g_{ab}),Christoffel,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-090,CV.2,CV,UNASSIGNED,R^a_{bcd} = d_c Gamma^a_{bd} - d_d Gamma^a_{bc} + Gamma^a_{ce} Gamma^e_{bd} - Gamma^a_{de} Gamma^e_{bc},Riemann tensor,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-091,CV.3,CV,UNASSIGNED,R_{ab} = R^c_{acb},Ricci tensor,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-092,CV.4,CV,UNASSIGNED,R = g^{ab} R_{ab},Ricci scalar,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-093,CV.5,CV,UNASSIGNED,G_{ab} = R_{ab} - (1/2) R g_{ab},Einstein tensor,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-094,CV.6,CV,UNASSIGNED,G_{mu nu} + Lambda g_{mu nu} = 8 pi G T_{mu nu},Einstein equations,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-095,CV.7,CV,UNASSIGNED,R_{abcd} R^{abcd},Kretschner scalar,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-096,CV.8,CV,UNASSIGNED,R_{ab} R^{ab},Ricci squared,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-097,CV.9,CV,UNASSIGNED,R^2,Ricci scalar squared,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-098,CV.10,CV,UNASSIGNED,C_{abcd} C^{abcd},Weyl squared,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-099,CV.11,CV,UNASSIGNED,INT_M R sqrt|g| d^4x,Einstein-Hilbert action,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-100,CV.12,CV,UNASSIGNED,sqrt|g| = sqrt|det(g_{mu nu})|,Volume element,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-101,PH.1,PH,UNASSIGNED,d rho/dt + nabla . (rho v) = 0,Continuity,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-102,PH.2,PH,UNASSIGNED,d phi/dt = D nabla^2 phi,Diffusion,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-103,PH.3,PH,UNASSIGNED,d phi/dt = D nabla^2 phi + R(phi),Reaction-diffusion,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-104,PH.4,PH,UNASSIGNED,rho(du/dt + u.nabla u) = -nabla p + mu nabla^2 u + f,Navier-Stokes,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-105,PH.5,PH,UNASSIGNED,nabla . E = rho / eps_0,Gauss electric,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-106,PH.6,PH,UNASSIGNED,nabla . B = 0,Gauss magnetic,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-107,PH.7,PH,UNASSIGNED,nabla x E = -dB/dt,Faraday,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-108,PH.8,PH,UNASSIGNED,nabla x B = mu_0 J + mu_0 eps_0 dE/dt,Ampere-Maxwell,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-109,PH.9,PH,UNASSIGNED,nabla p,Pressure gradient,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-110,PH.10,PH,UNASSIGNED,nabla T,Temperature gradient,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-111,PH.11,PH,UNASSIGNED,nabla mu,Chemical gradient,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-112,PH.12,PH,UNASSIGNED,nabla phi,Field gradient,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-113,PH.13,PH,UNASSIGNED,D[Omega] = nabla Omega,Distinction operator,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-114,QM.1,QM,UNASSIGNED,i hbar d psi/dt = H_hat psi,Schrodinger,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-115,QM.2,QM,UNASSIGNED,H_hat psi = E psi,Energy eigenvalue,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-116,QM.3,QM,UNASSIGNED,S = k_B ln W,Boltzmann entropy,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-117,QM.4,QM,UNASSIGNED,dS = delta Q / T,Clausius,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-118,QM.5,QM,UNASSIGNED,F = U - T S,Helmholtz free energy,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-119,QM.6,QM,UNASSIGNED,Delta G = Delta H - T Delta S,Gibbs free energy,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-120,QM.7,QM,UNASSIGNED,Z = Tr(exp(-beta L)),Partition function,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-121,QM.8,QM,UNASSIGNED,F = -k_B T ln Z,Free energy from Z,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-122,QM.9,QM,UNASSIGNED,S = -dF/dT,Entropy from F,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-123,QM.10,QM,UNASSIGNED,A = -ln Z,Spectral action,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-124,LH.1,LH,UNASSIGNED,delta S = 0,Principle of stationary action,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-125,LH.2,LH,UNASSIGNED,S = INT L dt,Action,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-126,LH.3,LH,UNASSIGNED,L = T - V,Lagrangian,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-127,LH.4,LH,UNASSIGNED,q_dot_i = dH/dp_i,Hamilton equation 1,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-128,LH.5,LH,UNASSIGNED,p_dot_i = -dH/dq_i,Hamilton equation 2,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-129,LH.6,LH,UNASSIGNED,"H(q,p) = T + V",Hamiltonian,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-130,LH.7,LH,UNASSIGNED,"{f,g} = sum_i (df/dq_i dg/dp_i - df/dp_i dg/dq_i)",Poisson bracket,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-131,LH.8,LH,UNASSIGNED,"dH/dt = {H,H} + dH/dt = dH/dt",Energy conservation,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-132,OD.1,OD,UNASSIGNED,Sigma_{n+1} = U_alpha(Sigma_n),Evolution operator,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-133,OD.2,OD,UNASSIGNED,U_alpha = P_{C(alpha)}[ T_alpha(B_n) ],Operator form,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-134,OD.3,OD,UNASSIGNED,Sigma*(alpha) = lim_{n->inf} U_alpha^n(Sigma_0),Attractor,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-135,OD.4,OD,UNASSIGNED,Psi_{t+1} = C(T(D Psi_t)),DTC iteration,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-136,OD.5,OD,UNASSIGNED,Gamma = C o T o D,DTC composition,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-137,OD.6,OD,UNASSIGNED,"Omega = (Sigma, Pi)",Org state,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-138,OD.7,OD,UNASSIGNED,alpha = Phi_in / Phi_decay,Control parameter,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-139,OD.8,OD,UNASSIGNED,alpha < alpha_minus => Sigma_chaos,Fragmentation,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-140,OD.9,OD,UNASSIGNED,alpha_minus <= alpha <= alpha_plus => Sigma_persistent,Persistence,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-141,OD.10,OD,UNASSIGNED,alpha > alpha_plus => Sigma_equilibrium,Frozen equilibrium,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-142,OD.11,OD,UNASSIGNED,dI/d_tau = 0,Persistence cond. 1,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-143,OD.12,OD,UNASSIGNED,Tr(rho L rho) > 0,Persistence cond. 2,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-144,OD.13,OD,UNASSIGNED,Phi_boundary = INT J_mu n^mu dS != 0,Persistence cond. 3,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-145,OD.14,OD,UNASSIGNED,d Omega/dt + nabla . J_Omega = Sigma_Omega,Org. continuity,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-146,OD.15,OD,UNASSIGNED,d Omega/dt = -nabla.J + D nabla^2 Omega + R(Omega) + C(Omega) + I(Omega),Full org. dynamics,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-147,RG.1,RG,UNASSIGNED,"for all X,Y in G*: X o Y in G*",Axiom 1 — Closure,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-148,RG.2,RG,UNASSIGNED,"G = {Delta, tau, kappa} is irreducible",Axiom 2 — Minimality,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-149,RG.3,RG,UNASSIGNED,"for all O, exists C: C(O) in G*",Axiom 3 — Completeness,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-150,RG.4,RG,UNASSIGNED,"(Delta, tau, not kappa) => not Pi",Axiom 4 — Consistency,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-151,RG.5,RG,UNASSIGNED,"for all O, exists unique minimal C(O) in G*",Axiom 5 — Canonical Form,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-152,RG.6,RG,UNASSIGNED,Pi => Delta' (G* is self-generating),Axiom 6 — Recursive Generativity,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-153,RG.7,RG,UNASSIGNED,"(Delta, tau, kappa) -> Pi",Persistence theorem,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-154,RG.8,RG,UNASSIGNED,"Pi -> Delta' -> (Delta',tau',kappa') -> Pi'",Generativity chain,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-155,MC.1,MC,C0-C7,"(A,H,D)",Input,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-156,MC.2,MC,C0-C7,"(A,H,D) -> Spec(D)",Step 1,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-157,MC.3,MC,C0-C7,Spec(D) -> L = D_deg - A,Step 2,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-158,MC.4,MC,C0-C7,"L -> Spec(L) = {lambda_i, phi_i}",Step 3,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-159,MC.5,MC,C0-C7,Spec(L) -> K_t = exp(-tL),Step 4,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-160,MC.6,MC,C0-C7,K_t -> K(t) ~ sum a_n t^{(n-m)/2},Step 5,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-161,MC.7,MC,C0-C7,"Spec(L) -> d(i,j) = sqrt(sum_k (phi_k(i)-phi_k(j))^2/lambda_k)",Step 6,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-162,MC.8,MC,C0-C7,"d(i,j) -> g_{ab} = sum_k lambda_k^{-1} d_a phi_k d_b phi_k",Step 7,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-163,MC.9,MC,C0-C7,g_{ab} -> Gamma^c_{ab},Step 8,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-164,MC.10,MC,C0-C7,Gamma -> R^a_{bcd} -> R_{ab} -> G_{ab},Step 9,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-165,MC.11,MC,C0-C7,G_{ab} -> G_{mu nu} + Lambda g_{mu nu} = 8 pi G T_{mu nu},Step 10,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-166,MC.12,MC,C0-C7,"S = Tr(f(D/Lambda)) + <psi, D psi>",Step 11,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-167,MC.13,MC,C0-C7,delta S = 0,Step 12,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-168,MC.14,MC,C0-C7,C_Pi[y] = INT(g_{ab} y'_a y'_b + 2 I_F) dt,Step 13,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-169,MC.15,MC,C0-C7,delta C_Pi = 0 => y''_c + Gamma^c_{ab} y'_a y'_b = -g^{ca} nabla_a I_F,Step 14,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-170,MC.16,MC,C0-C7,I_F = 0 => y''_c + Gamma^c_{ab} y'_a y'_b = 0,Step 15,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-171,MC.17,MC,C0-C7,R = exp(-beta L) => Z = Tr(exp(-beta L)) => F = -k_B T ln Z,Step 16,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-172,MC.18,MC,C0-C7,alpha = Phi_in/Phi_decay => U_alpha,Step 17,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-173,MC.19,MC,C0-C7,"lim U_alpha^n(Sigma_0) => {Sigma_chaos, Sigma_persistent, Sigma_equilibrium}",Step 18,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.
+EQ-174,MC.20,MC,C0-C7,"Gamma = C o T o D, Pi -> Delta'",Step 19,MASTER EQUATION MATRIX,SOURCE-CODED,Equation is source-coded; closure follows its layer and explicit DER links where present.

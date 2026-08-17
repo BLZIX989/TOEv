@@ -1,0 +1,15 @@
+Component,Target,Status,Dependency / Qualification
+Initial organizational kernel,"K_org→(Δ,τ,κ,Π)→Γ",PARTIAL / RECONCILIATION REQUIRED,Competing realizations remain
+Organizational closure,Γ→O→Ψ→G*,PARTIAL/CERTIFIED SPINE,Fixed-point uniqueness/correspondence remains
+Spectral substrate,G*→L→Spec(L),DERIVED/CALCULATED IN ESTABLISHED BRANCHES,Representation scope
+Continuum,Spec(L)→Δ_g→K_g→d_g→g,CALCULATED/SCOPED,Explicit refinement and heat-kernel conditions
+Relativistic spacetime,g→Lorentzian g_μν,OPEN/PARTIAL,Requires signature emergence
+Dynamics,g→E[g]→dynamics,PARTIAL/ADMITTED IN EH BRANCH,UOC generation of dynamics remains
+Matter/gauge,"{A_μ,ψ,T_μν}",PARTIAL,Group/representation/mass generation remains
+Quantum,Quantum + geometry + matter,PARTIAL,Born rule and quantum geometry integration
+Horizon,g/Π→Σ_H→P_H→Z_H→A_H,PARTIAL,Area calculation exists once horizon subsystem is supplied
+Information,A_H / spectrum→N_H^UOC,OPEN,C_H/α=π not internally derived
+Cosmological cutoff,N_H^UOC→Xi→Λ_*,CONDITIONAL,Non-circular selector required
+Cosmology,Λ_*→ρ_vac→Λ_cosm→H→a(t),DOWNSTREAM CLOSED GIVEN INPUT,Vacuum EH branch
+Compiler,Γ→IR→DAG→backend→prediction,ARCHITECTURALLY SPECIFIED / OPEN EXECUTION,Parallel closure
+Validation,Recovery→verification→falsification,PARTIAL/OPEN,Full suite not yet universally executed

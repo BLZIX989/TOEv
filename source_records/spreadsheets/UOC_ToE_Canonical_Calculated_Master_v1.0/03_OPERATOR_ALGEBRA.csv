@@ -1,0 +1,11 @@
+ID,Relation,Meaning,Layer,Source
+OPREL-001,D²=D,Distinction projection/idempotency,Organizational operator,PRIM-G-001
+OPREL-002,C²=C,Constraint projection/idempotency,Organizational operator,PRIM-G-003
+OPREL-003,Γ=C∘T∘D,Organizational composition,DTC grammar,DER-ORG-001/002
+OPREL-004,L=D_deg-A,Graph Laplacian construction,Spectral graph,DER-SPC-002
+OPREL-005,K_t=e^{-tL},Heat semigroup,Spectral evolution,DER-SPC-004
+OPREL-006,R=e^{-βL},Persistence filter,Spectral persistence,DER-SPC-005
+OPREL-007,D=√L,Dirac realization in scalar sector,Quantum/geometry bridge,DER-QR-006
+OPREL-008,"P²=P, P†=P",Projector conditions,Horizon/information candidate,COSMO-DYN-013
+OPREL-009,"[A,B]=AB-BA",Commutator,Operator algebra,UCG Phase 0
+OPREL-010,Tr(f(L))=Σf(λ_i),Spectral trace,Spectral invariant,Master Equation Matrix

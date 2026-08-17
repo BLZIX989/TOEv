@@ -1,0 +1,12 @@
+Layer,Name,Principal Objects,Closure Obligation,Status,Governance Rule
+C0,Primitive & grammar closure,"Δ,τ,κ,Π; competing primitive sets",Primitive minimality; grammar reconciliation,OPEN THEOREM,No silent reconciliation
+C1,Organizational / fixed-point closure,"Γ,O,Ψ,Fix",Correspondence among organizational and spectral fixed points,OPEN THEOREM,Do not identify Fix(Γ) with Fix(R) without proof
+C2,Persistence / statistical closure,"L,Spec,K_t,R,Z,F,I_F,Π",Derive universal persistence functional and threshold,PARTIAL / OPEN,Executed spectral/statistical mathematics preserved
+C3,Geometry / signature closure,"d,g,∇,curvature,signature",Complete discrete→continuum and Lorentzian emergence,PARTIAL / SCOPED,Negative mode ≠ Lorentzian proof
+C4,Physical scale / spectrum closure,"Spec(L),DOS,ℓ_p,Λ_*",Nature-spectrum map and absolute scale,OPEN,C_UOC must be derived or no-go
+C5,Gauge / matter closure,"A,F,D,ψ,T,gauge group,generations,masses",Unique gauge/matter selection and generation/mass derivation,OPEN / VERSION-SENSITIVE,Separate certified source results from canonical closure
+C6,Quantum integration closure,"H,D,ψ,probability,quantum geometry",Integrate quantum branch with UOC kernel,OPEN,Born-rule / quantum geometry obligations
+C7,Horizon / cosmology closure,"P_H,Z_H,A_H,N_H,Ξ,Λ_*,ρ_vac,H,a","Generate horizon selector, information count, cutoff without observational ancestry",OPEN / DOWNSTREAM CALCULATED,Firewall active
+C8,Biological reverse derivation,organization→replication/heredity/selection/adaptation,"Reverse derivation, not merely mapping",OPEN,Do not use biology=0% shorthand
+C9,Compiler execution closure,"normal form, IR, DAG, proofs, runtime","Termination, confluence, executable integration",OPEN PARALLEL,Compiler closure independent of physical closure
+C10,Validation / falsification closure,cross-domain tests and predictions,Standardized validation and empirical falsification suite,OPEN/PARTIAL,Recovery ≠ validation ≠ prediction

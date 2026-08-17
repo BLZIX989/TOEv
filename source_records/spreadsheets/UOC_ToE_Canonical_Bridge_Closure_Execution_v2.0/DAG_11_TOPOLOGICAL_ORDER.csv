@@ -1,0 +1,780 @@
+Topo_Index,Node_ID,Node_Type,Name,Parent_Count,Child_Count
+1,AX-SDR-001..005,DER,Strict Dependency Relation axioms,0,0
+2,BR-001,BRIDGE,Grammar composition,0,0
+3,BR-002,BRIDGE,Organizational evolution,0,0
+4,BR-003,BRIDGE,Organizational state to graph,0,0
+5,BR-005,BRIDGE,Spectral decomposition,0,0
+6,BR-006,BRIDGE,Spectrum to heat semigroup,0,0
+7,BR-007,BRIDGE,Spectrum to diffusion distance,0,0
+8,BR-008,BRIDGE,Distance to metric,0,0
+9,BR-009,BRIDGE,Metric to connection,0,0
+10,BR-010,BRIDGE,Curvature hierarchy,0,0
+11,BR-011,BRIDGE,Einstein tensor to field equation,0,0
+12,BR-012,BRIDGE,Graph Laplacian to Dirac,0,0
+13,BR-013,BRIDGE,Spectral persistence filter,0,0
+14,BR-014,BRIDGE,Persistence cost to field equation,0,0
+15,BR-015,BRIDGE,Zero informational-loss limit,0,0
+16,BR-016,BRIDGE,Statistical bridge,0,0
+17,BR-017,BRIDGE,Discrete-to-continuum bridge,0,0
+18,BR-018,BRIDGE,Heat-kernel geometric bridge,0,0
+19,BR-019,BRIDGE,Homogeneous scale evolution,0,0
+20,BR-020,BRIDGE,Spectral vacuum bridge,0,0
+21,BR-021,BRIDGE,Horizon heat-kernel area bridge,0,0
+22,BR-022,BRIDGE,Spectral/BH normalization bridge,0,0
+23,BR-023,BRIDGE,Information-to-cutoff bridge,0,0
+24,BR-024,BRIDGE,Cutoff to vacuum bridge,0,0
+25,BR-025,BRIDGE,Cosmological dynamics bridge,0,0
+26,BR-026,BRIDGE,Horizon selection bridge,0,0
+27,BR-027,BRIDGE,Localized heat trace,0,0
+28,BR-028,BRIDGE,Absolute scale bridge,0,0
+29,BR-029,BRIDGE,Universal spectral dynamics,0,0
+30,BRIDGE-PSI,INTERMEDIATE_ENDPOINT,PSI,0,1
+31,BRIDGE-R,INTERMEDIATE_ENDPOINT,R,0,1
+32,C0,CLOSURE_LAYER,Primitive & grammar reconciliation,0,4
+33,C1,CLOSURE_LAYER,Organizational / fixed-point closure,0,2
+34,C10,CLOSURE_LAYER,Validation/falsification,0,0
+35,C2,CLOSURE_LAYER,Persistence & spectral closure,0,2
+36,C3,CLOSURE_LAYER,Spectral→geometry→Lorentzian,0,1
+37,C4,CLOSURE_LAYER,Nature spectrum & constants,0,0
+38,C5,CLOSURE_LAYER,Gauge/representation/matter/generation,0,1
+39,C6,CLOSURE_LAYER,Quantum closure,0,0
+40,C7,CLOSURE_LAYER,Cosmological/horizon/information,0,4
+41,C8,CLOSURE_LAYER,Biological/adaptive,0,0
+42,C9,CLOSURE_LAYER,Compiler closure,0,0
+43,CMRC-001..019,DER,Conformal Math Recovery Core (complete),0,0
+44,COSMO-DYN-014,COSMO_DYN_RESULT,Ξ(N_H),0,0
+45,COSMO-DYN-015,COSMO_DYN_RESULT,Horizon ancestry,0,0
+46,COSMO-DYN-016,COSMO_DYN_RESULT,Expansion ancestry,0,0
+47,DEP-001,DEPENDENCY,Primitive grammar → organizational action,0,0
+48,DEP-002,DEPENDENCY,Organizational operator,0,0
+49,DEP-003,DEPENDENCY,State recursion,0,0
+50,DEP-004,DEPENDENCY,Graph substrate,0,0
+51,DEP-005,DEPENDENCY,Graph Laplacian,0,0
+52,DEP-006,DEPENDENCY,Spectral decomposition,0,0
+53,DEP-007,DEPENDENCY,Heat semigroup,0,0
+54,DEP-008,DEPENDENCY,Diffusion distance,0,0
+55,DEP-009,DEPENDENCY,Metric reconstruction,0,0
+56,DEP-010,DEPENDENCY,Levi-Civita connection,0,0
+57,DEP-011,DEPENDENCY,Curvature,0,0
+58,DEP-012,DEPENDENCY,Contraction,0,0
+59,DEP-013,DEPENDENCY,Scalar curvature,0,0
+60,DEP-014,DEPENDENCY,Einstein tensor,0,0
+61,DEP-015,DEPENDENCY,Variational gravity,0,0
+62,DEP-016,DEPENDENCY,Matter/gauge/quantum sectors,0,0
+63,DEP-017,DEPENDENCY,Persistence sector,0,0
+64,DEP-018,DEPENDENCY,Horizon selector,0,0
+65,DEP-019,DEPENDENCY,Horizon projector,0,0
+66,DEP-020,DEPENDENCY,Localized heat trace,0,0
+67,DEP-021,DEPENDENCY,Area,0,0
+68,DEP-022,DEPENDENCY,Information count,0,0
+69,DEP-023,DEPENDENCY,Cutoff ratio,0,0
+70,DEP-024,DEPENDENCY,Physical cutoff,0,0
+71,DEP-025,DEPENDENCY,Vacuum density,0,0
+72,DEP-026,DEPENDENCY,Cosmological constant,0,0
+73,DEP-027,DEPENDENCY,Friedmann,0,0
+74,DEP-028,DEPENDENCY,Scale factor,0,0
+75,DEP-029,DEPENDENCY,Absolute scale anchor,0,0
+76,DEP-030,DEPENDENCY,Spectral dynamics,0,0
+77,DER-SDR-001,DERIVATION,Strict Dependency Relation — Definition,0,3
+78,DER-SDR-005,DERIVATION,Recovery Admissibility,0,1
+79,EQ-001,EQUATION,NCG::1,0,0
+80,EQ-002,EQUATION,NCG::2,0,0
+81,EQ-003,EQUATION,NCG::3,0,0
+82,EQ-004,EQUATION,NCG::4,0,0
+83,EQ-005,EQUATION,NCG::5,0,0
+84,EQ-006,EQUATION,NCG::6,0,0
+85,EQ-007,EQUATION,NCG::7,0,0
+86,EQ-008,EQUATION,NCG::8,0,0
+87,EQ-009,EQUATION,NCG::9,0,0
+88,EQ-010,EQUATION,NCG::10,0,0
+89,EQ-011,EQUATION,NCG::11,0,0
+90,EQ-012,EQUATION,NCG::12,0,0
+91,EQ-013,EQUATION,NCG::13,0,0
+92,EQ-014,EQUATION,NCG::14,0,0
+93,EQ-015,EQUATION,NCG::15,0,0
+94,EQ-016,EQUATION,NCG::16,0,0
+95,EQ-017,EQUATION,NCG::17,0,0
+96,EQ-018,EQUATION,NCG::18,0,0
+97,EQ-019,EQUATION,NCG::19,0,0
+98,EQ-020,EQUATION,NCG::20,0,0
+99,EQ-021,EQUATION,NCG::21,0,0
+100,EQ-022,EQUATION,NCG::22,0,0
+101,EQ-023,EQUATION,NCG::23,0,0
+102,EQ-024,EQUATION,NCG::24,0,0
+103,EQ-025,EQUATION,NCG::25,0,0
+104,EQ-026,EQUATION,NCG::26,0,0
+105,EQ-027,EQUATION,NCG::27,0,0
+106,EQ-028,EQUATION,NCG::28,0,0
+107,EQ-029,EQUATION,NCG::29,0,0
+108,EQ-030,EQUATION,NCG::30,0,0
+109,EQ-031,EQUATION,NCG::31,0,0
+110,EQ-032,EQUATION,NCG::32,0,0
+111,EQ-033,EQUATION,NCG::33,0,0
+112,EQ-034,EQUATION,NCG::34,0,0
+113,EQ-035,EQUATION,NCG::35,0,0
+114,EQ-036,EQUATION,NCG::36,0,0
+115,EQ-037,EQUATION,Spectral Graph::1,0,0
+116,EQ-038,EQUATION,Spectral Graph::2,0,0
+117,EQ-039,EQUATION,Spectral Graph::3,0,0
+118,EQ-040,EQUATION,Spectral Graph::4,0,0
+119,EQ-041,EQUATION,Spectral Graph::5,0,0
+120,EQ-042,EQUATION,Spectral Graph::6,0,0
+121,EQ-043,EQUATION,Spectral Graph::7,0,0
+122,EQ-044,EQUATION,Spectral Graph::8,0,0
+123,EQ-045,EQUATION,Spectral Graph::9,0,0
+124,EQ-046,EQUATION,Spectral Graph::10,0,0
+125,EQ-047,EQUATION,Spectral Graph::11,0,0
+126,EQ-048,EQUATION,Spectral Graph::12,0,0
+127,EQ-049,EQUATION,Spectral Graph::13,0,0
+128,EQ-050,EQUATION,Spectral Graph::14,0,0
+129,EQ-051,EQUATION,Spectral Graph::15,0,0
+130,EQ-052,EQUATION,Spectral Graph::16,0,0
+131,EQ-053,EQUATION,Spectral Graph::17,0,0
+132,EQ-054,EQUATION,Spectral Graph::18,0,0
+133,EQ-055,EQUATION,Spectral Graph::19,0,0
+134,EQ-056,EQUATION,Spectral Graph::20,0,0
+135,EQ-057,EQUATION,Spectral Graph::21,0,0
+136,EQ-058,EQUATION,Spectral Graph::22,0,0
+137,EQ-059,EQUATION,Spectral Graph::23,0,0
+138,EQ-060,EQUATION,Spectral Graph::24,0,0
+139,EQ-061,EQUATION,Spectral Graph::25,0,0
+140,EQ-062,EQUATION,Emergent Geometry::1,0,0
+141,EQ-063,EQUATION,Emergent Geometry::2,0,0
+142,EQ-064,EQUATION,Emergent Geometry::3,0,0
+143,EQ-065,EQUATION,Emergent Geometry::4,0,0
+144,EQ-066,EQUATION,Emergent Geometry::5,0,0
+145,EQ-067,EQUATION,Emergent Geometry::6,0,0
+146,EQ-068,EQUATION,Emergent Geometry::7,0,0
+147,EQ-069,EQUATION,Emergent Geometry::8,0,0
+148,EQ-070,EQUATION,Emergent Geometry::9,0,0
+149,EQ-071,EQUATION,Emergent Geometry::10,0,0
+150,EQ-072,EQUATION,Emergent Geometry::11,0,0
+151,EQ-073,EQUATION,Emergent Geometry::12,0,0
+152,EQ-074,EQUATION,Emergent Geometry::13,0,0
+153,EQ-075,EQUATION,Emergent Geometry::14,0,0
+154,EQ-076,EQUATION,Persistence::1,0,0
+155,EQ-077,EQUATION,Persistence::2,0,0
+156,EQ-078,EQUATION,Persistence::3,0,0
+157,EQ-079,EQUATION,Persistence::4,0,0
+158,EQ-080,EQUATION,Persistence::5,0,0
+159,EQ-081,EQUATION,Persistence::6,0,0
+160,EQ-082,EQUATION,Persistence::7,0,0
+161,EQ-083,EQUATION,Persistence::8,0,0
+162,EQ-084,EQUATION,Persistence::9,0,0
+163,EQ-085,EQUATION,Persistence::10,0,0
+164,EQ-086,EQUATION,Persistence::11,0,0
+165,EQ-087,EQUATION,Persistence::12,0,0
+166,EQ-088,EQUATION,Persistence::13,0,0
+167,EQ-089,EQUATION,Curvature::1,0,0
+168,EQ-090,EQUATION,Curvature::2,0,0
+169,EQ-091,EQUATION,Curvature::3,0,0
+170,EQ-092,EQUATION,Curvature::4,0,0
+171,EQ-093,EQUATION,Curvature::5,0,0
+172,EQ-094,EQUATION,Curvature::6,0,0
+173,EQ-095,EQUATION,Curvature::7,0,0
+174,EQ-096,EQUATION,Curvature::8,0,0
+175,EQ-097,EQUATION,Curvature::9,0,0
+176,EQ-098,EQUATION,Curvature::10,0,0
+177,EQ-099,EQUATION,Curvature::11,0,0
+178,EQ-100,EQUATION,Curvature::12,0,0
+179,EQ-101,EQUATION,Classical Physics::1,0,0
+180,EQ-102,EQUATION,Classical Physics::2,0,0
+181,EQ-103,EQUATION,Classical Physics::3,0,0
+182,EQ-104,EQUATION,Classical Physics::4,0,0
+183,EQ-105,EQUATION,Classical Physics::5,0,0
+184,EQ-106,EQUATION,Classical Physics::6,0,0
+185,EQ-107,EQUATION,Classical Physics::7,0,0
+186,EQ-108,EQUATION,Classical Physics::8,0,0
+187,EQ-109,EQUATION,Classical Physics::9,0,0
+188,EQ-110,EQUATION,Classical Physics::10,0,0
+189,EQ-111,EQUATION,Classical Physics::11,0,0
+190,EQ-112,EQUATION,Classical Physics::12,0,0
+191,EQ-113,EQUATION,Classical Physics::13,0,0
+192,EQ-114,EQUATION,QM / Thermodynamics::1,0,0
+193,EQ-115,EQUATION,QM / Thermodynamics::2,0,0
+194,EQ-116,EQUATION,QM / Thermodynamics::3,0,0
+195,EQ-117,EQUATION,QM / Thermodynamics::4,0,0
+196,EQ-118,EQUATION,QM / Thermodynamics::5,0,0
+197,EQ-119,EQUATION,QM / Thermodynamics::6,0,0
+198,EQ-120,EQUATION,QM / Thermodynamics::7,0,0
+199,EQ-121,EQUATION,QM / Thermodynamics::8,0,0
+200,EQ-122,EQUATION,QM / Thermodynamics::9,0,0
+201,EQ-123,EQUATION,QM / Thermodynamics::10,0,0
+202,EQ-124,EQUATION,Lagrangian / Hamiltonian::1,0,0
+203,EQ-125,EQUATION,Lagrangian / Hamiltonian::2,0,0
+204,EQ-126,EQUATION,Lagrangian / Hamiltonian::3,0,0
+205,EQ-127,EQUATION,Lagrangian / Hamiltonian::4,0,0
+206,EQ-128,EQUATION,Lagrangian / Hamiltonian::5,0,0
+207,EQ-129,EQUATION,Lagrangian / Hamiltonian::6,0,0
+208,EQ-130,EQUATION,Lagrangian / Hamiltonian::7,0,0
+209,EQ-131,EQUATION,Lagrangian / Hamiltonian::8,0,0
+210,EQ-132,EQUATION,Organizational Dynamics::1,0,0
+211,EQ-133,EQUATION,Organizational Dynamics::2,0,0
+212,EQ-134,EQUATION,Organizational Dynamics::3,0,0
+213,EQ-135,EQUATION,Organizational Dynamics::4,0,0
+214,EQ-136,EQUATION,Organizational Dynamics::5,0,0
+215,EQ-137,EQUATION,Organizational Dynamics::6,0,0
+216,EQ-138,EQUATION,Organizational Dynamics::7,0,0
+217,EQ-139,EQUATION,Organizational Dynamics::8,0,0
+218,EQ-140,EQUATION,Organizational Dynamics::9,0,0
+219,EQ-141,EQUATION,Organizational Dynamics::10,0,0
+220,EQ-142,EQUATION,Organizational Dynamics::11,0,0
+221,EQ-143,EQUATION,Organizational Dynamics::12,0,0
+222,EQ-144,EQUATION,Organizational Dynamics::13,0,0
+223,EQ-145,EQUATION,Organizational Dynamics::14,0,0
+224,EQ-146,EQUATION,Organizational Dynamics::15,0,0
+225,EQ-147,EQUATION,Recursive Organizational Grammar::1,0,0
+226,EQ-148,EQUATION,Recursive Organizational Grammar::2,0,0
+227,EQ-149,EQUATION,Recursive Organizational Grammar::3,0,0
+228,EQ-150,EQUATION,Recursive Organizational Grammar::4,0,0
+229,EQ-151,EQUATION,Recursive Organizational Grammar::5,0,0
+230,EQ-152,EQUATION,Recursive Organizational Grammar::6,0,0
+231,EQ-153,EQUATION,Recursive Organizational Grammar::7,0,0
+232,EQ-154,EQUATION,Recursive Organizational Grammar::8,0,0
+233,EQ-155,EQUATION,Master Cascade::1,0,0
+234,EQ-156,EQUATION,Master Cascade::2,0,0
+235,EQ-157,EQUATION,Master Cascade::3,0,0
+236,EQ-158,EQUATION,Master Cascade::4,0,0
+237,EQ-159,EQUATION,Master Cascade::5,0,0
+238,EQ-160,EQUATION,Master Cascade::6,0,0
+239,EQ-161,EQUATION,Master Cascade::7,0,0
+240,EQ-162,EQUATION,Master Cascade::8,0,0
+241,EQ-163,EQUATION,Master Cascade::9,0,0
+242,EQ-164,EQUATION,Master Cascade::10,0,0
+243,EQ-165,EQUATION,Master Cascade::11,0,0
+244,EQ-166,EQUATION,Master Cascade::12,0,0
+245,EQ-167,EQUATION,Master Cascade::13,0,0
+246,EQ-168,EQUATION,Master Cascade::14,0,0
+247,EQ-169,EQUATION,Master Cascade::15,0,0
+248,EQ-170,EQUATION,Master Cascade::16,0,0
+249,EQ-171,EQUATION,Master Cascade::17,0,0
+250,EQ-172,EQUATION,Master Cascade::18,0,0
+251,EQ-173,EQUATION,Master Cascade::19,0,0
+252,EQ-174,EQUATION,Master Cascade::20,0,0
+253,EQSRC:CV.1,EQUATION,Christoffel,0,0
+254,EQSRC:CV.10,EQUATION,Weyl squared,0,0
+255,EQSRC:CV.11,EQUATION,Einstein-Hilbert action,0,0
+256,EQSRC:CV.12,EQUATION,Volume element,0,0
+257,EQSRC:CV.2,EQUATION,Riemann tensor,0,0
+258,EQSRC:CV.3,EQUATION,Ricci tensor,0,0
+259,EQSRC:CV.4,EQUATION,Ricci scalar,0,0
+260,EQSRC:CV.5,EQUATION,Einstein tensor,0,0
+261,EQSRC:CV.6,EQUATION,Einstein equations,0,0
+262,EQSRC:CV.7,EQUATION,Kretschner scalar,0,0
+263,EQSRC:CV.8,EQUATION,Ricci squared,0,0
+264,EQSRC:CV.9,EQUATION,Ricci scalar squared,0,0
+265,EQSRC:GE.1,EQUATION,Diffusion distance,0,0
+266,EQSRC:GE.10,EQUATION,Spectral dimension,0,0
+267,EQSRC:GE.11,EQUATION,Covariant derivative,0,0
+268,EQSRC:GE.12,EQUATION,Metric compatibility,0,0
+269,EQSRC:GE.13,EQUATION,Conservation,0,0
+270,EQSRC:GE.14,EQUATION,D'Alembertian,0,0
+271,EQSRC:GE.2,EQUATION,Spectral metric,0,0
+272,EQSRC:GE.3,EQUATION,Line element,0,0
+273,EQSRC:GE.4,EQUATION,Hessian metric,0,0
+274,EQSRC:GE.5,EQUATION,Inner product,0,0
+275,EQSRC:GE.6,EQUATION,Norm,0,0
+276,EQSRC:GE.7,EQUATION,Cyclicity,0,0
+277,EQSRC:GE.8,EQUATION,Heat kernel trace,0,0
+278,EQSRC:GE.9,EQUATION,Continuum limit,0,0
+279,EQSRC:LH.1,EQUATION,Principle of stationary action,0,0
+280,EQSRC:LH.2,EQUATION,Action,0,0
+281,EQSRC:LH.3,EQUATION,Lagrangian,0,0
+282,EQSRC:LH.4,EQUATION,Hamilton equation 1,0,0
+283,EQSRC:LH.5,EQUATION,Hamilton equation 2,0,0
+284,EQSRC:LH.6,EQUATION,Hamiltonian,0,0
+285,EQSRC:LH.7,EQUATION,Poisson bracket,0,0
+286,EQSRC:LH.8,EQUATION,Energy conservation,0,0
+287,EQSRC:MC.1,EQUATION,Input,0,0
+288,EQSRC:MC.10,EQUATION,Step 9,0,0
+289,EQSRC:MC.11,EQUATION,Step 10,0,0
+290,EQSRC:MC.12,EQUATION,Step 11,0,0
+291,EQSRC:MC.13,EQUATION,Step 12,0,0
+292,EQSRC:MC.14,EQUATION,Step 13,0,0
+293,EQSRC:MC.15,EQUATION,Step 14,0,0
+294,EQSRC:MC.16,EQUATION,Step 15,0,0
+295,EQSRC:MC.17,EQUATION,Step 16,0,0
+296,EQSRC:MC.18,EQUATION,Step 17,0,0
+297,EQSRC:MC.19,EQUATION,Step 18,0,0
+298,EQSRC:MC.2,EQUATION,Step 1,0,0
+299,EQSRC:MC.20,EQUATION,Step 19,0,0
+300,EQSRC:MC.3,EQUATION,Step 2,0,0
+301,EQSRC:MC.4,EQUATION,Step 3,0,0
+302,EQSRC:MC.5,EQUATION,Step 4,0,0
+303,EQSRC:MC.6,EQUATION,Step 5,0,0
+304,EQSRC:MC.7,EQUATION,Step 6,0,0
+305,EQSRC:MC.8,EQUATION,Step 7,0,0
+306,EQSRC:MC.9,EQUATION,Step 8,0,0
+307,EQSRC:NCG.1,EQUATION,Connes 1995,0,0
+308,EQSRC:NCG.10,EQUATION,Spectral action,0,0
+309,EQSRC:NCG.11,EQUATION,Spectral action,0,0
+310,EQSRC:NCG.12,EQUATION,Full action,0,0
+311,EQSRC:NCG.13,EQUATION,Seeley-DeWitt,0,0
+312,EQSRC:NCG.14,EQUATION,Definition,0,0
+313,EQSRC:NCG.15,EQUATION,Coefficients,0,0
+314,EQSRC:NCG.16,EQUATION,Expansion,0,0
+315,EQSRC:NCG.17,EQUATION,Heat kernel,0,0
+316,EQSRC:NCG.18,EQUATION,Zeta function,0,0
+317,EQSRC:NCG.19,EQUATION,Zeta action,0,0
+318,EQSRC:NCG.2,EQUATION,Connes-Chamseddine,0,0
+319,EQSRC:NCG.20,EQUATION,Atiyah-Singer,0,0
+320,EQSRC:NCG.21,EQUATION,Real structure,0,0
+321,EQSRC:NCG.22,EQUATION,Real structure,0,0
+322,EQSRC:NCG.23,EQUATION,Real structure,0,0
+323,EQSRC:NCG.24,EQUATION,Chirality,0,0
+324,EQSRC:NCG.25,EQUATION,Chirality,0,0
+325,EQSRC:NCG.26,EQUATION,SM algebra,0,0
+326,EQSRC:NCG.27,EQUATION,Gauge group,0,0
+327,EQSRC:NCG.28,EQUATION,Unification,0,0
+328,EQSRC:NCG.29,EQUATION,Higgs mass,0,0
+329,EQSRC:NCG.3,EQUATION,Lichnerowicz,0,0
+330,EQSRC:NCG.30,EQUATION,Seesaw,0,0
+331,EQSRC:NCG.31,EQUATION,Connes distance,0,0
+332,EQSRC:NCG.32,EQUATION,Commutator,0,0
+333,EQSRC:NCG.33,EQUATION,Order-one,0,0
+334,EQSRC:NCG.34,EQUATION,Boundedness,0,0
+335,EQSRC:NCG.35,EQUATION,Propagator,0,0
+336,EQSRC:NCG.36,EQUATION,Chiral trace,0,0
+337,EQSRC:NCG.4,EQUATION,Definition,0,0
+338,EQSRC:NCG.5,EQUATION,Standard Model,0,0
+339,EQSRC:NCG.6,EQUATION,Standard Model,0,0
+340,EQSRC:NCG.7,EQUATION,Standard Model,0,0
+341,EQSRC:NCG.8,EQUATION,Inner fluctuations,0,0
+342,EQSRC:NCG.9,EQUATION,Definition,0,0
+343,EQSRC:OD.1,EQUATION,Evolution operator,0,0
+344,EQSRC:OD.10,EQUATION,Frozen equilibrium,0,0
+345,EQSRC:OD.11,EQUATION,Persistence cond. 1,0,0
+346,EQSRC:OD.12,EQUATION,Persistence cond. 2,0,0
+347,EQSRC:OD.13,EQUATION,Persistence cond. 3,0,0
+348,EQSRC:OD.14,EQUATION,Org. continuity,0,0
+349,EQSRC:OD.15,EQUATION,Full org. dynamics,0,0
+350,EQSRC:OD.2,EQUATION,Operator form,0,0
+351,EQSRC:OD.3,EQUATION,Attractor,0,0
+352,EQSRC:OD.4,EQUATION,DTC iteration,0,0
+353,EQSRC:OD.5,EQUATION,DTC composition,0,0
+354,EQSRC:OD.6,EQUATION,Org state,0,0
+355,EQSRC:OD.7,EQUATION,Control parameter,0,0
+356,EQSRC:OD.8,EQUATION,Fragmentation,0,0
+357,EQSRC:OD.9,EQUATION,Persistence,0,0
+358,EQSRC:PE.1,EQUATION,Cost functional,0,0
+359,EQSRC:PE.10,EQUATION,Material derivative,0,0
+360,EQSRC:PE.11,EQUATION,Gradient,0,0
+361,EQSRC:PE.12,EQUATION,Org action stationarity,0,0
+362,EQSRC:PE.13,EQUATION,Org action,0,0
+363,EQSRC:PE.2,EQUATION,Fisher cost,0,0
+364,EQSRC:PE.3,EQUATION,Variational principle,0,0
+365,EQSRC:PE.4,EQUATION,Euler-Lagrange,0,0
+366,EQSRC:PE.5,EQUATION,Action principle,0,0
+367,EQSRC:PE.6,EQUATION,Action,0,0
+368,EQSRC:PE.7,EQUATION,Field equation,0,0
+369,EQSRC:PE.8,EQUATION,GR limit,0,0
+370,EQSRC:PE.9,EQUATION,Covariant form,0,0
+371,EQSRC:PH.1,EQUATION,Continuity,0,0
+372,EQSRC:PH.10,EQUATION,Temperature gradient,0,0
+373,EQSRC:PH.11,EQUATION,Chemical gradient,0,0
+374,EQSRC:PH.12,EQUATION,Field gradient,0,0
+375,EQSRC:PH.13,EQUATION,Distinction operator,0,0
+376,EQSRC:PH.2,EQUATION,Diffusion,0,0
+377,EQSRC:PH.3,EQUATION,Reaction-diffusion,0,0
+378,EQSRC:PH.4,EQUATION,Navier-Stokes,0,0
+379,EQSRC:PH.5,EQUATION,Gauss electric,0,0
+380,EQSRC:PH.6,EQUATION,Gauss magnetic,0,0
+381,EQSRC:PH.7,EQUATION,Faraday,0,0
+382,EQSRC:PH.8,EQUATION,Ampere-Maxwell,0,0
+383,EQSRC:PH.9,EQUATION,Pressure gradient,0,0
+384,EQSRC:QM.1,EQUATION,Schrodinger,0,0
+385,EQSRC:QM.10,EQUATION,Spectral action,0,0
+386,EQSRC:QM.2,EQUATION,Energy eigenvalue,0,0
+387,EQSRC:QM.3,EQUATION,Boltzmann entropy,0,0
+388,EQSRC:QM.4,EQUATION,Clausius,0,0
+389,EQSRC:QM.5,EQUATION,Helmholtz free energy,0,0
+390,EQSRC:QM.6,EQUATION,Gibbs free energy,0,0
+391,EQSRC:QM.7,EQUATION,Partition function,0,0
+392,EQSRC:QM.8,EQUATION,Free energy from Z,0,0
+393,EQSRC:QM.9,EQUATION,Entropy from F,0,0
+394,EQSRC:RG.1,EQUATION,Axiom 1 — Closure,0,0
+395,EQSRC:RG.2,EQUATION,Axiom 2 — Minimality,0,0
+396,EQSRC:RG.3,EQUATION,Axiom 3 — Completeness,0,0
+397,EQSRC:RG.4,EQUATION,Axiom 4 — Consistency,0,0
+398,EQSRC:RG.5,EQUATION,Axiom 5 — Canonical Form,0,0
+399,EQSRC:RG.6,EQUATION,Axiom 6 — Recursive Generativity,0,0
+400,EQSRC:RG.7,EQUATION,Persistence theorem,0,0
+401,EQSRC:RG.8,EQUATION,Generativity chain,0,0
+402,EQSRC:SP.1,EQUATION,Definition,0,0
+403,EQSRC:SP.10,EQUATION,Diagonalization,0,0
+404,EQSRC:SP.11,EQUATION,Functional calculus,0,0
+405,EQSRC:SP.12,EQUATION,Spectral trace,0,0
+406,EQSRC:SP.13,EQUATION,Heat trace,0,0
+407,EQSRC:SP.14,EQUATION,Heat semigroup,0,0
+408,EQSRC:SP.15,EQUATION,Regularized det,0,0
+409,EQSRC:SP.16,EQUATION,Hodge Laplacian,0,0
+410,EQSRC:SP.17,EQUATION,Dirac-Hodge,0,0
+411,EQSRC:SP.18,EQUATION,Nilpotency,0,0
+412,EQSRC:SP.19,EQUATION,k-forms,0,0
+413,EQSRC:SP.2,EQUATION,Graph Laplacian,0,0
+414,EQSRC:SP.20,EQUATION,de Rham cohomology,0,0
+415,EQSRC:SP.21,EQUATION,Hodge decomposition,0,0
+416,EQSRC:SP.22,EQUATION,Hodge spectrum,0,0
+417,EQSRC:SP.23,EQUATION,Hodge heat trace,0,0
+418,EQSRC:SP.24,EQUATION,Scalar Laplacian,0,0
+419,EQSRC:SP.25,EQUATION,Riemannian Laplacian,0,0
+420,EQSRC:SP.3,EQUATION,Eigenequation,0,0
+421,EQSRC:SP.4,EQUATION,Spectrum,0,0
+422,EQSRC:SP.5,EQUATION,Ground state,0,0
+423,EQSRC:SP.6,EQUATION,Kernel,0,0
+424,EQSRC:SP.7,EQUATION,Trace,0,0
+425,EQSRC:SP.8,EQUATION,Orthonormality,0,0
+426,EQSRC:SP.9,EQUATION,Incidence factorization,0,0
+427,"EXT::(Δ,τ,κ,Π)",INTERMEDIATE_ENDPOINT,"(Δ,τ,κ,Π)",0,1
+428,EXT::C_Π,INTERMEDIATE_ENDPOINT,C_Π,0,1
+429,EXT::I_F,INTERMEDIATE_ENDPOINT,I_F,0,1
+430,EXT::K_N,INTERMEDIATE_ENDPOINT,K_N,0,1
+431,EXT::L(a),INTERMEDIATE_ENDPOINT,L(a),0,1
+432,EXT::L_N/h_N²,INTERMEDIATE_ENDPOINT,L_N/h_N²,0,1
+433,EXT::N_H,INTERMEDIATE_ENDPOINT,N_H,0,1
+434,EXT::P_H,INTERMEDIATE_ENDPOINT,P_H,0,1
+435,EXT::Z_H(ℓ_p²),INTERMEDIATE_ENDPOINT,Z_H(ℓ_p²),0,1
+436,EXT::ρ_vac,INTERMEDIATE_ENDPOINT,ρ_vac,0,1
+437,GAP-001,GAP,What must exist for any physically observable universe to exist at all?,0,0
+438,GAP-002,GAP,What is the minimum ontological commitment required to formulate a fundamental physical theory?,0,0
+439,GAP-003,GAP,"Which entities or structures are genuinely fundamental, and which are emergent descriptions?",0,0
+440,GAP-004,GAP,Can the fundamental theory be formulated without presupposing spacetime?,0,0
+441,GAP-005,GAP,Can it be formulated without presupposing time?,0,0
+442,GAP-006,GAP,"Can it be formulated without presupposing matter, particles, fields, or quantum states?",0,0
+443,GAP-007,GAP,"Does the theory require an underlying substrate, or can physical reality be defined entirely relationally?",0,0
+444,GAP-008,GAP,What distinguishes physical existence from mathematical possibility?,0,0
+445,GAP-009,GAP,What determines which mathematically possible structures are physically realized?,0,0
+446,GAP-010,GAP,"Does the theory need to explain why something exists, or is existence itself a legitimate primitive?",0,0
+447,GAP-011,GAP,What organizational process is occurring at the deepest physically meaningful level?,0,0
+448,GAP-012,GAP,"What changes, and what remains invariant, during that process?",0,0
+449,GAP-013,GAP,What relationships are necessary for the process to occur?,0,0
+450,GAP-014,GAP,What structures can participate in the process?,0,0
+451,GAP-015,GAP,What structures can emerge from the process without being fundamental assumptions?,0,0
+452,GAP-016,GAP,Is there one universal organizational process underlying apparently different physical phenomena?,0,0
+453,GAP-017,GAP,"If multiple processes exist, what relates them?",0,0
+454,GAP-018,GAP,Can the fundamental process be expressed independently of any particular mathematical representation?,0,0
+455,GAP-019,GAP,What distinguishes a physical process from an arbitrary mathematical transformation?,0,0
+456,GAP-020,GAP,"Does the fundamental process possess a natural notion of composition, succession, or interaction without presupposing time?",0,0
+457,GAP-021,GAP,"What quantities, relationships, or structures must remain invariant under fundamental physical transformations?",0,0
+458,GAP-022,GAP,Which invariants are representation-independent?,0,0
+459,GAP-023,GAP,Which invariants are merely artifacts of a particular mathematical description?,0,0
+460,GAP-024,GAP,Can conservation laws be derived from deeper invariance principles?,0,0
+461,GAP-025,GAP,Can symmetries be derived rather than assumed?,0,0
+462,GAP-026,GAP,Can gauge invariance be derived from deeper structure?,0,0
+463,GAP-027,GAP,Can Lorentz invariance be derived rather than postulated?,0,0
+464,GAP-028,GAP,Can unitarity be derived rather than assumed?,0,0
+465,GAP-029,GAP,Can locality or an appropriate replacement for locality be derived?,0,0
+466,GAP-030,GAP,What is the smallest set of fundamental invariants from which known physical laws can emerge?,0,0
+467,GAP-031,GAP,What is the fundamental notion of physical transformation?,0,0
+468,GAP-032,GAP,What determines which transformations are physically admissible?,0,0
+469,GAP-033,GAP,What determines the dynamics of the fundamental system?,0,0
+470,GAP-034,GAP,Can the fundamental dynamics be expressed without a background spacetime?,0,0
+471,GAP-035,GAP,Can dynamics exist without a primitive time parameter?,0,0
+472,GAP-036,GAP,Can temporal evolution emerge from a deeper transformation structure?,0,0
+473,GAP-037,GAP,What mathematical object generates fundamental dynamics?,0,0
+474,GAP-038,GAP,"Does the theory require an action principle, Hamiltonian structure, path integral, transition operator, category, algebra, or something more fundamental?",0,0
+475,GAP-039,GAP,Can apparently different dynamical laws be derived as different limits of one fundamental law?,0,0
+476,GAP-040,GAP,"What determines the arrow of time, if time itself is emergent?",0,0
+477,GAP-041,GAP,Is spacetime fundamental or emergent?,0,0
+478,GAP-042,GAP,"If spacetime is emergent, what underlying structure generates it?",0,0
+479,GAP-043,GAP,What mechanism produces dimensionality?,0,0
+480,GAP-044,GAP,Why does effective spacetime have approximately 3+1 dimensions?,0,0
+481,GAP-045,GAP,Can locality emerge from a nonlocal or pre-geometric structure?,0,0
+482,GAP-046,GAP,Can causal structure emerge without assuming causality at the fundamental level?,0,0
+483,GAP-047,GAP,Can metric structure emerge from more primitive relationships?,0,0
+484,GAP-048,GAP,Can curvature emerge from organizational or relational structure?,0,0
+485,GAP-049,GAP,Can the Einstein field equations emerge from the deeper theory?,0,0
+486,GAP-050,GAP,Under what limit does the fundamental theory reproduce General Relativity?,0,0
+487,GAP-051,GAP,Why is nature quantum mechanical?,0,0
+488,GAP-052,GAP,Can the Hilbert-space structure of quantum theory be derived?,0,0
+489,GAP-053,GAP,Can complex amplitudes be derived?,0,0
+490,GAP-054,GAP,Can superposition be derived?,0,0
+491,GAP-055,GAP,Can entanglement be derived?,0,0
+492,GAP-056,GAP,Can the Born rule be derived?,0,0
+493,GAP-057,GAP,Can quantum probabilities be derived rather than assumed?,0,0
+494,GAP-058,GAP,Can unitarity emerge from deeper dynamics?,0,0
+495,GAP-059,GAP,Can measurement and classical definiteness emerge from the fundamental theory?,0,0
+496,GAP-060,GAP,Does quantum mechanics represent a fundamental level of reality or an effective preservation architecture?,0,0
+497,GAP-061,GAP,What is gravity fundamentally?,0,0
+498,GAP-062,GAP,"Is gravity a fundamental interaction, emergent geometry, collective phenomenon, or something else?",0,0
+499,GAP-063,GAP,Why does gravitational interaction correspond to spacetime geometry in General Relativity?,0,0
+500,GAP-064,GAP,Can the equivalence principle be derived?,0,0
+501,GAP-065,GAP,Can gravitational dynamics emerge from the same structure responsible for quantum behavior?,0,0
+502,GAP-066,GAP,Can black-hole entropy be derived from the underlying degrees of freedom?,0,0
+503,GAP-067,GAP,Can black-hole thermodynamics be derived?,0,0
+504,GAP-068,GAP,Can the Bekenstein-Hawking entropy formula be derived?,0,0
+505,GAP-069,GAP,Can Hawking radiation be recovered?,0,0
+506,GAP-070,GAP,Can the black-hole information problem be resolved without adding ad hoc assumptions?,0,0
+507,GAP-071,GAP,Can the Standard Model gauge structure be derived?,0,0
+508,GAP-072,GAP,Why is the gauge group SU(3)xSU(2)xU(1) the structure realized by nature?,0,0
+509,GAP-073,GAP,Can gauge symmetries emerge from deeper principles?,0,0
+510,GAP-074,GAP,Can the observed particle representations be derived?,0,0
+511,GAP-075,GAP,Can the number of particle generations be derived?,0,0
+512,GAP-076,GAP,Can fermionic statistics be derived?,0,0
+513,GAP-077,GAP,Can chirality be derived?,0,0
+514,GAP-078,GAP,Can the Higgs mechanism be derived?,0,0
+515,GAP-079,GAP,Can electroweak symmetry breaking be derived?,0,0
+516,GAP-080,GAP,Can the strong interaction and confinement be derived?,0,0
+517,GAP-081,GAP,Can neutrino masses and mixing be derived?,0,0
+518,GAP-082,GAP,Can the absence or presence of additional particles be predicted?,0,0
+519,GAP-083,GAP,Why do the fundamental dimensionless constants have their observed values?,0,0
+520,GAP-084,GAP,Which constants are genuinely fundamental?,0,0
+521,GAP-085,GAP,Which parameters can be derived from deeper structure?,0,0
+522,GAP-086,GAP,Can the fine-structure constant be predicted?,0,0
+523,GAP-087,GAP,Can particle mass ratios be predicted?,0,0
+524,GAP-088,GAP,Can gauge couplings be predicted?,0,0
+525,GAP-089,GAP,Can the cosmological constant be predicted?,0,0
+526,GAP-090,GAP,Can the number of free parameters in fundamental physics be reduced to zero or to a uniquely determined set?,0,0
+527,GAP-091,GAP,"If parameters cannot be derived, what determines their allowed values?",0,0
+528,GAP-092,GAP,Are quantum mechanics and General Relativity different manifestations of one underlying structure?,0,0
+529,GAP-093,GAP,Do gauge interactions and gravity arise from a common mathematical structure?,0,0
+530,GAP-094,GAP,Can matter and geometry emerge from the same underlying degrees of freedom?,0,0
+531,GAP-095,GAP,Can forces be understood as different manifestations of one organizational mechanism?,0,0
+532,GAP-096,GAP,Can apparently different mathematical descriptions be translated into a common preservation architecture?,0,0
+533,GAP-097,GAP,What mathematical equivalences connect currently separate theories?,0,0
+534,GAP-098,GAP,"Which differences between existing theories are physical, and which are representational?",0,0
+535,GAP-099,GAP,What is the minimal common structure capable of reproducing all established fundamental theories?,0,0
+536,GAP-100,GAP,"Does a genuinely unified theory require a single mathematical language, or can fundamentally different mathematical representations describe the same underlying structure?",0,0
+537,GAP-101,GAP,Is the fundamental theory mathematically well-defined?,0,0
+538,GAP-102,GAP,Does it possess a well-defined state space or equivalent fundamental structure?,0,0
+539,GAP-103,GAP,Are its dynamics well-defined?,0,0
+540,GAP-104,GAP,Is the theory internally consistent?,0,0
+541,GAP-105,GAP,Does it contain anomalies?,0,0
+542,GAP-106,GAP,Does it preserve unitarity?,0,0
+543,GAP-107,GAP,Does it preserve appropriate causality?,0,0
+544,GAP-108,GAP,Does it possess a sensible continuum limit?,0,0
+545,GAP-109,GAP,Does it possess a sensible classical limit?,0,0
+546,GAP-110,GAP,Does it reproduce ordinary quantum field theory where QFT is known to work?,0,0
+547,GAP-111,GAP,Does it reproduce General Relativity where GR is known to work?,0,0
+548,GAP-112,GAP,Does it avoid mathematical structures that have no physically meaningful interpretation?,0,0
+549,GAP-113,GAP,What is the precise limit in which the theory becomes quantum mechanics?,0,0
+550,GAP-114,GAP,What is the precise limit in which it becomes quantum field theory?,0,0
+551,GAP-115,GAP,What is the precise limit in which it becomes General Relativity?,0,0
+552,GAP-116,GAP,What is the precise limit in which it becomes classical mechanics?,0,0
+553,GAP-117,GAP,What is the precise limit in which it becomes thermodynamics?,0,0
+554,GAP-118,GAP,What is the precise limit in which it becomes statistical mechanics?,0,0
+555,GAP-119,GAP,Can all successful existing theories be recovered without independently inserting their fundamental assumptions?,0,0
+556,GAP-120,GAP,Which assumptions of established physics become theorems of the deeper theory?,0,0
+557,GAP-121,GAP,How does microscopic structure produce macroscopic physics?,0,0
+558,GAP-122,GAP,What survives coarse-graining?,0,0
+559,GAP-123,GAP,Can renormalization-group behavior emerge from the fundamental theory?,0,0
+560,GAP-124,GAP,Can universality classes be derived?,0,0
+561,GAP-125,GAP,Why do very different microscopic systems produce the same effective laws?,0,0
+562,GAP-126,GAP,Which physical laws are fixed-point structures?,0,0
+563,GAP-127,GAP,"Which quantities are relevant, irrelevant, or marginal at fundamental scales?",0,0
+564,GAP-128,GAP,"Can spacetime, particles, fields, and forces all be effective large-scale organizational structures?",0,0
+565,GAP-129,GAP,"Is information fundamental, emergent, or merely representational?",0,0
+566,GAP-130,GAP,What physical structure corresponds to information?,0,0
+567,GAP-131,GAP,Can entropy be derived from deeper organizational structure?,0,0
+568,GAP-132,GAP,Can the second law of thermodynamics be derived?,0,0
+569,GAP-133,GAP,Why does entropy increase in the observed direction of time?,0,0
+570,GAP-134,GAP,Can black-hole entropy and ordinary thermodynamic entropy be understood through the same mechanism?,0,0
+571,GAP-135,GAP,Can quantum entanglement entropy generate geometric structure?,0,0
+572,GAP-136,GAP,"Is there a universal relationship between information, geometry, and physical organization?",0,0
+573,GAP-137,GAP,Can the existence and properties of the early universe be derived?,0,0
+574,GAP-138,GAP,Why does the universe possess the observed large-scale structure?,0,0
+575,GAP-139,GAP,"Can inflation be derived, replaced, or shown unnecessary?",0,0
+576,GAP-140,GAP,Can the cosmological constant be explained?,0,0
+577,GAP-141,GAP,Can dark matter be derived as an emergent phenomenon or predicted as fundamental matter?,0,0
+578,GAP-142,GAP,Can dark energy be derived?,0,0
+579,GAP-143,GAP,Why is the universe approximately homogeneous and isotropic at large scales?,0,0
+580,GAP-144,GAP,What determines the initial conditions of the universe?,0,0
+581,GAP-145,GAP,Does the fundamental theory require an initial state at all?,0,0
+582,GAP-146,GAP,Can the apparent beginning of time emerge from a deeper timeless description?,0,0
+583,GAP-147,GAP,Why does this universe rather than another mathematically possible universe exist?,0,0
+584,GAP-148,GAP,Does the fundamental theory admit multiple consistent solutions?,0,0
+585,GAP-149,GAP,"If so, what selects the physical solution?",0,0
+586,GAP-150,GAP,Are physical constants uniquely determined?,0,0
+587,GAP-151,GAP,Are the laws of physics uniquely determined?,0,0
+588,GAP-152,GAP,Does mathematical consistency alone select the observed universe?,0,0
+589,GAP-153,GAP,"If not, what additional physical principle performs the selection?",0,0
+590,GAP-154,GAP,"Can anthropic reasoning be avoided, derived, or rigorously constrained?",0,0
+591,GAP-155,GAP,What does the theory predict that existing theories do not?,0,0
+592,GAP-156,GAP,Which prediction is experimentally distinguishable?,0,0
+593,GAP-157,GAP,What observable quantity differs from Standard Model + GR predictions?,0,0
+594,GAP-158,GAP,"At what energy, distance, time, or precision should the difference appear?",0,0
+595,GAP-159,GAP,What experiment could falsify the theory?,0,0
+596,GAP-160,GAP,What observation would conclusively rule out the theory?,0,0
+597,GAP-161,GAP,"Does the theory make risky predictions, or merely accommodate existing observations?",0,0
+598,GAP-162,GAP,Are its free parameters fitted or genuinely predicted?,0,0
+599,GAP-163,GAP,Can two competing theories produce the same observational consequences?,0,0
+600,GAP-164,GAP,"If so, what additional observation distinguishes them?",0,0
+601,OP-CMP-001,OPERATOR,Graph Laplacian,0,0
+602,OP-CMP-002,OPERATOR,Persistence Filter,0,0
+603,OP-CMP-003,OPERATOR,Heat Kernel,0,0
+604,OP-CMP-004,OPERATOR,Dirac Operator,0,0
+605,OP-CMP-005,OPERATOR,Covariant Derivative,0,0
+606,OP-CMP-006,OPERATOR,Euler-Lagrange,0,0
+607,OP-ORG-001,OPERATOR,Distinction,0,0
+608,OP-ORG-002,OPERATOR,Transformation,0,0
+609,OP-ORG-003,OPERATOR,Constraint,0,0
+610,OP-ORG-004,OPERATOR,Organizational Action,0,0
+611,OP-ORG-005,OPERATOR,Evolution Operator,0,0
+612,OP-P0-001,OPERATOR,Arithmetic,0,0
+613,OP-P0-002,OPERATOR,Partial Derivative,0,0
+614,OP-P0-003,OPERATOR,Gradient,0,0
+615,OP-P0-004,OPERATOR,Variation,0,0
+616,OP-P0-005,OPERATOR,Laplacian,0,0
+617,OP-P0-006,OPERATOR,Exponential / Logarithm,0,0
+618,OP-P0-007,OPERATOR,Trace,0,0
+619,OP-P0-008,OPERATOR,Spectrum,0,0
+620,OP-P0-009,OPERATOR,Adjoint,0,0
+621,OP-P0-010,OPERATOR,Projection,0,0
+622,OP-P0-011,OPERATOR,Commutator,0,0
+623,OP-P0-012,OPERATOR,Tensor Product / Direct Sum,0,0
+624,PRF-ATU,PROOF_OBLIGATION,DER-ORG-008,0,0
+625,PRF-BNAT,PROOF_OBLIGATION,Open,0,0
+626,PRF-BORN,PROOF_OBLIGATION,DER-ORG-006 (partial),0,0
+627,PRF-CONST,PROOF_OBLIGATION,Open,0,0
+628,PRF-FPE,PROOF_OBLIGATION,DER-ORG-006,0,0
+629,PRF-GEN,PROOF_OBLIGATION,Open,0,0
+630,PRF-LOR,PROOF_OBLIGATION,Open,0,0
+631,PRF-PRIM,PROOF_OBLIGATION,Open,0,0
+632,PRF-PiO,PROOF_OBLIGATION,DER-ORG-007 / DER-TRC-006,0,0
+633,PRF-ROG-3,PROOF_OBLIGATION,AX-ROG-3 (Completeness),0,0
+634,PRF-ROG-5,PROOF_OBLIGATION,AX-ROG-5 (Canonical Form),0,0
+635,PRF-SFP,PROOF_OBLIGATION,DER-SPC-006,0,0
+636,PRF-UGNT,PROOF_OBLIGATION,Part V UGNT,0,0
+637,PRIM-001,DERIVATION,Delta (Distinction),0,1
+638,PRIM-002,DERIVATION,tau (Transformation),0,0
+639,PRIM-003,DERIVATION,kappa (Constraint),0,0
+640,PRIM-004,DERIVATION,E (Energy),0,1
+641,PRIM-005,DERIVATION,B (Bipartite substrate),0,0
+642,PRIM-C-001,PRIMITIVE,Bipartite Substrate,0,0
+643,PRIM-P-001,PRIMITIVE,Energy,0,0
+644,PRIM-P-002,PRIMITIVE,Gradient,0,0
+645,PRIM-X-001,PRIMITIVE,Distinction,0,0
+646,PRIM-X-002,PRIMITIVE,Transformation,0,0
+647,PRIM-X-003,PRIMITIVE,Constraint,0,0
+648,PRIM-X-004,PRIMITIVE,Accessibility,0,0
+649,PRIM-X-005,PRIMITIVE,Persistence,0,0
+650,PRIM-X-006,PRIMITIVE,Organizational State,0,0
+651,RF-001,THEOREM,Well-Definedness: R: Graph_ARBS -> Field(M) exists as a covariant functor independent of graph approximation sequence,0,0
+652,RF-002,THEOREM,Functoriality: R(id_G)=id_{R(G)} and R(g o f)=R(g) o R(f),0,0
+653,RF-003,THEOREM,"Convergence: G_n ->^GH (M,g) => E_n ->^Mosco E => L_n ->^s.r. L => T_n(t) ->^s T(t)",0,0
+654,RF-004,THEOREM,Monoidal Preservation: R(G sqcup H) cong R(G) otimes R(H); pentagon + triangle coherence satisfied,0,0
+655,RF-005,THEOREM,Faithfulness and Conservatism: R is faithful and conservative but neither full nor essentially surjective,0,0
+656,RK-001,THEOREM,Kernel Algebra,0,0
+657,RK-002,THEOREM,Normal Forms,0,0
+658,RK-003,THEOREM,Kernel Decomposition,0,0
+659,THM-ANOM,DER,G_SM = SU(3)xSU(2)xU(1) derivation,0,0
+660,USR-001,SYMBOL,Distinction primitive,0,0
+661,USR-002,SYMBOL,Transformation primitive,0,0
+662,USR-003,SYMBOL,Constraint primitive,0,0
+663,USR-004,SYMBOL,Persistence primitive,0,0
+664,USR-005,SYMBOL,Organizational action,0,0
+665,USR-006,SYMBOL,Distinction graph,0,0
+666,USR-007,SYMBOL,Graph Laplacian,0,0
+667,USR-008,SYMBOL,Laplacian spectrum,0,0
+668,USR-009,SYMBOL,Heat kernel,0,0
+669,USR-010,SYMBOL,Persistence filter,0,0
+670,USR-011,SYMBOL,Diffusion distance,0,0
+671,USR-012,SYMBOL,Metric tensor,0,0
+672,USR-013,SYMBOL,Christoffel symbols,0,0
+673,USR-014,SYMBOL,Riemann tensor,0,0
+674,USR-015,SYMBOL,Ricci tensor,0,0
+675,USR-016,SYMBOL,Ricci scalar,0,0
+676,USR-017,SYMBOL,Einstein tensor,0,0
+677,USR-018,SYMBOL,Gauge connection,0,0
+678,USR-019,SYMBOL,Field strength,0,0
+679,USR-020,SYMBOL,Covariant derivative,0,0
+680,USR-021,SYMBOL,Spinor field,0,0
+681,USR-022,SYMBOL,Stress-energy tensor,0,0
+682,USR-023,SYMBOL,Entropy production rate,0,0
+683,USR-024,SYMBOL,Org. Persistence Functional,0,0
+684,USR-025,SYMBOL,Control parameter,0,0
+685,USR-026,SYMBOL,Evolution operator,0,0
+686,USR-027,SYMBOL,Master attractor,0,0
+687,USR-028,SYMBOL,Dirac operator,0,0
+688,USR-029,SYMBOL,Einstein-Hilbert action,0,0
+689,USR-030,SYMBOL,Persistence Cost Functional,0,0
+690,VAL-001,DER,"String Theory (bosonic, critical dim=26)",0,0
+691,VAL-002,DER,Maxwell Electrodynamics,0,0
+692,VAL-003,DER,GR Matter Coupling,0,0
+693,VAL-004,DER,Quantum Mechanics,0,0
+694,VAL-005,DER,Hamiltonian Mechanics,0,0
+695,BRIDGE-G,INTERMEDIATE_ENDPOINT,G,1,2
+696,EXT::Z→F,INTERMEDIATE_ENDPOINT,Z→F,1,0
+697,PRIM-G-001,PRIMITIVE,Distinction,1,0
+698,PRIM-G-002,PRIMITIVE,Transformation,1,0
+699,PRIM-G-003,PRIMITIVE,Constraint,1,0
+700,PRIM-G-004,PRIMITIVE,Persistence,1,0
+701,BR-004,BRIDGE,Graph to Laplacian,1,0
+702,COSMO-DYN-010,COSMO_DYN_RESULT,dν/dλ,1,0
+703,COSMO-DYN-011,COSMO_DYN_RESULT,ρ_vac,1,0
+704,COSMO-DYN-012,COSMO_DYN_RESULT,Λ_cosm,1,0
+705,COSMO-DYN-013,COSMO_DYN_RESULT,Ξ,1,0
+706,DER-SDR-002,DERIVATION,Irreflexivity,1,1
+707,DER-SDR-003,DERIVATION,Transitivity,1,1
+708,DER-SDR-004,DERIVATION,Acyclicity,1,0
+709,BRIDGE-GAMMA,INTERMEDIATE_ENDPOINT,GAMMA,1,4
+710,EXT::δC_Π=0,INTERMEDIATE_ENDPOINT,δC_Π=0,1,0
+711,EXT::geodesic,INTERMEDIATE_ENDPOINT,geodesic,1,0
+712,EXT::K_g→d_g→g_ij,INTERMEDIATE_ENDPOINT,K_g→d_g→g_ij,1,0
+713,EXT::-Δ_g,INTERMEDIATE_ENDPOINT,-Δ_g,1,0
+714,EXT::Ξ,INTERMEDIATE_ENDPOINT,Ξ,1,1
+715,EXT::Z_H,INTERMEDIATE_ENDPOINT,Z_H,1,1
+716,EXT::N_BH,INTERMEDIATE_ENDPOINT,N_BH,1,0
+717,EXT::Λ_cosm→H→a,INTERMEDIATE_ENDPOINT,Λ_cosm→H→a,1,0
+718,DER-TRC-001,DERIVATION,Internal Energy Recovery,1,1
+719,BRIDGE-L,INTERMEDIATE_ENDPOINT,L,1,3
+720,EXT::Einstein dynamics,INTERMEDIATE_ENDPOINT,Einstein dynamics,1,0
+721,DER-ORG-001,DERIVATION,Organizational Grammar Recovery,3,3
+722,EXT::O→Ψ,INTERMEDIATE_ENDPOINT,O→Ψ,1,0
+723,EXT::dotL,INTERMEDIATE_ENDPOINT,dotL,2,0
+724,EXT::Σ_H→P_H,INTERMEDIATE_ENDPOINT,Σ_H→P_H,1,0
+725,EXT::ℓ_*,INTERMEDIATE_ENDPOINT,ℓ_*,1,0
+726,EXT::Λ_*→ρ_vac,INTERMEDIATE_ENDPOINT,Λ_*→ρ_vac,1,0
+727,EXT::A_H,INTERMEDIATE_ENDPOINT,A_H,1,0
+728,DER-TRC-002,DERIVATION,Entropy Recovery,1,4
+729,BRIDGE-SPEC,INTERMEDIATE_ENDPOINT,SPEC,1,3
+730,EXT::D,INTERMEDIATE_ENDPOINT,D,1,0
+731,EXT::R=e^{-βL},INTERMEDIATE_ENDPOINT,R=e^{-βL},1,0
+732,DER-ORG-002,DERIVATION,Organizational State Evolution,1,1
+733,DER-SPC-001,DERIVATION,Organizational Graph Recovery,1,2
+734,DER-TRC-003,DERIVATION,Entropy Flux Recovery,1,2
+735,BRIDGE-D,INTERMEDIATE_ENDPOINT,D,1,1
+736,BRIDGE-KT,INTERMEDIATE_ENDPOINT,KT,1,0
+737,EXT::DOS→ρ_vac,INTERMEDIATE_ENDPOINT,DOS→ρ_vac,1,0
+738,DER-ORG-003,DERIVATION,Persistence / Fixed-Point Recovery,1,4
+739,DER-ORG-005,DERIVATION,Organizational Compiler Interface,2,1
+740,DER-SPC-002,DERIVATION,Laplacian Recovery,1,2
+741,DER-TRC-004,DERIVATION,Clausius-Duhem Recovery,2,0
+742,DER-TRC-005,DERIVATION,Fourier Heat Flux Recovery,1,0
+743,BRIDGE-GMETRIC,INTERMEDIATE_ENDPOINT,GMETRIC,1,1
+744,DER-ORG-004,DERIVATION,Recursive Organizational Distinction,1,0
+745,DER-ORG-007,DERIVATION,Organizational Persistence Functional Recovery,3,0
+746,DER-ORG-008,DERIVATION,Organizational Attractor Uniqueness,2,0
+747,DER-ORG-009,DERIVATION,Compiler Completeness Theorem,1,1
+748,DER-GAU-001,DERIVATION,Gauge Connection,1,3
+749,DER-SPC-003,DERIVATION,Spectrum Recovery,1,7
+750,BRIDGE-NABLA,INTERMEDIATE_ENDPOINT,NABLA,1,1
+751,DER-ORG-010,DERIVATION,Dependency Completeness Theorem,2,0
+752,DER-GAU-002,DERIVATION,Electromagnetic Curvature,1,1
+753,DER-GEO-001,DERIVATION,Metric Recovery,1,3
+754,DER-QR-001,DERIVATION,Hilbert Space Recovery,1,1
+755,DER-SPC-004,DERIVATION,Heat Kernel Recovery,1,0
+756,DER-SPC-005,DERIVATION,Spectral Persistence Operator,1,2
+757,DER-TRC-006,DERIVATION,Organizational Persistence Functional,3,0
+758,EXT::Riemann→Ricci→R→G,INTERMEDIATE_ENDPOINT,Riemann→Ricci→R→G,1,0
+759,DER-GEO-002,DERIVATION,Connection Recovery,1,2
+760,DER-QR-005,DERIVATION,Clifford Algebra Recovery,1,1
+761,DER-VAR-001,DERIVATION,Action Functional Recovery,2,1
+762,DER-QR-002,DERIVATION,Schrodinger Recovery,2,1
+763,DER-ORG-006,DERIVATION,Fixed-Point Equivalence Theorem,3,0
+764,DER-SPC-006,DERIVATION,Spectral Organizational Fixed Point,1,0
+765,DER-GAU-003,DERIVATION,Covariant Derivative,3,2
+766,DER-GEO-003,DERIVATION,Curvature Tensor Recovery,1,1
+767,DER-VAR-002,DERIVATION,Euler-Lagrange Recovery,1,1
+768,DER-QR-003,DERIVATION,Heisenberg Recovery,1,1
+769,DER-GAU-004,DERIVATION,Yang-Mills Recovery,2,0
+770,DER-QR-006,DERIVATION,Dirac Operator Recovery,2,1
+771,DER-GEO-004,DERIVATION,Ricci Tensor Recovery,1,1
+772,DER-VAR-003,DERIVATION,Legendre Transform Recovery,1,0
+773,DER-QR-004,DERIVATION,Uncertainty Structure,1,0
+774,DER-QR-007,DERIVATION,Spin Recovery,1,1
+775,DER-GEO-005,DERIVATION,Scalar Curvature Recovery,1,2
+776,DER-QR-008,DERIVATION,Magnetic Moment Recovery,2,0
+777,DER-GEO-006,DERIVATION,Einstein Tensor Recovery,1,1
+778,DER-VAR-004,DERIVATION,Einstein-Hilbert Action,1,1
+779,DER-VAR-005,DERIVATION,Einstein Equation Recovery from Variation,2,0

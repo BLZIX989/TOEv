@@ -1,0 +1,8 @@
+Correction_ID,Principle,Operational Rule,Why
+COR-001,Preserve executed results,Do not relabel CALCULATED as OPEN merely because ancestry remains unresolved.,Prevents loss of downstream work.
+COR-002,Separate statuses,"Track derivation status, closure status, and registry status independently.",Prevents category collapse.
+COR-003,Source fidelity,Do not silently reconcile conflicting source claims.,Preserve provenance and flag reconciliation.
+COR-004,No hidden observational input,Observed Λ/H/N_H cannot occur upstream of a purported UOC prediction.,Hard falsification invariant.
+COR-005,Bridge ≠ theorem,A bridge can be calculated/scoped while its universality remains open.,Prevents overclaiming.
+COR-006,Negative mode ≠ Lorentzian spacetime,Indefinite structure requires its own continuum/signature derivation.,Prevents category error.
+COR-007,Finite graph ≠ continuum automatically,Finite-graph asymptotics cannot be promoted without refinement analysis.,Preserves limit ordering.

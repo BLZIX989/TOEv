@@ -1,0 +1,6 @@
+ID,Statement,Equation,Status,Interpretation
+H-006-T1,Representation intertwining,Q M_E^(s)(a) Q^{-1}=M_E^(t)(a),DERIVED/CONSTRUCTIVE,Q must map source character of each edge to target character.
+H-006-T2,Incidence reversal,BQ=-B,DERIVED/CONSTRUCTIVE,"For loopless oriented edges, Qe must represent the reverse edge."
+H-006-T3,Reversal closure,BQ=-B and intertwining ⇒ E is closed under edge reversal,DERIVED UNDER CURRENT ASSUMPTIONS,Thus edge-reversal closure is stronger than degree balance.
+H-006-T4,Balance implication,E=E^rev ⇒ deg⁺(v)=deg⁻(v),DERIVED,Reverse pairing gives equal in/out degree.
+H-006-T5,Balance insufficiency,Balanced ⇒ real NCG structure,FALSIFIED,G3 and G4 are balanced but fail BQ=±B.

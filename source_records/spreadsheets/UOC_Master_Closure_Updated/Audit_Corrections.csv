@@ -1,0 +1,13 @@
+Correction,Previous Failure Mode,Canonical Correction,Operational Rule
+Preserve executed results,Calculated results were being relabeled OPEN when upstream ancestry was unresolved,Executed calculations remain CALCULATED/PARTIAL with scope,Never erase downstream calculations because an upstream theorem is open
+Separate closure dimensions,Multidimensional closure was compressed into cosmology,"Track derivation, closure, registry independently",Every ledger node has three statuses
+Do not assume fixed-point equivalence,Fix(Γ) and Fix(e^-βL) were treated as automatically identical,Require explicit correspondence morphism/theorem,Never equate fixed-point systems without proof
+Do not equate negative eigenvalue with Lorentzian spacetime,Signature was inferred too quickly,"Keep negative mode, indefinite form, continuum signature as separate dependencies",Require full Lorentzian chain
+Do not identify structural graph spectrum with physical Hamiltonian spectrum,NCG/graph branches risked conflation,Require explicit L→D or L→D² correspondence,"Spectral identity must be proved, not named"
+Do not promote proposed calculations to registry items,New UOC-0xx calculations were treated as existing entries,Mark genuinely new work PROPOSED until registry admission,Proposal ≠ result
+Do not treat Planck scale as UOC-derived,ℓ_p was silently imported as internal scale,Record ℓ_*=C_UOCℓ_p and test Γ→C_UOC,External constants retain their dependency classification
+Do not treat horizon area as information count,Heat kernel area coefficient was mistaken for BH entropy normalization,Separate A_H from N_H and test C_H/α=π,Area recovery ≠ information normalization
+Do not use observed H/Λ upstream,Potential circular Xi selector,"Require Λ_obs,H_obs,N_obs absent from ancestors of Xi_UOC",Observation only at final falsification line
+Do not treat finite graph asymptotics as continuum asymptotics,Finite λ_max saturation was extrapolated,Separate finite refinement from continuum density-of-states limits,Track N→∞ and a→∞ order/limits
+Do not force a cutoff to equal rank,Scalar cutoff failed on K4/C5,Use rank as a distinct spectral object; cutoff equivalence is conditional,Do not conflate N_cut and rank
+Compiler is parallel closure,Compiler completion was treated as downstream physics,Maintain separate compiler closure branch,Physical and compiler closure converge but are not identical

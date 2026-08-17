@@ -1,0 +1,8 @@
+System,ID,Calculated result,Status,Numerical / analytical evidence,Source
+"K3,3 v1.2",MDR-009-L,dC_T/dt=0 for ε=0,PROVED / NUMERICALLY VERIFIED,Analytic proof; numerical verification to 12 significant figures.,UPG Canonical Reference
+"K3,3 v1.3",MDR-009C-A,a0(∞)=ε/(6√6); C_T(∞)=ε⁴/6⁷,PROVED,Perturbation theory + numerics across 8 decades.,UPG Canonical Reference
+"K3,3 v1.3",MDR-009C-B,t_break≈1.48+(2/3)ln(1/ε),ASYMPTOTICALLY DERIVED,Three data points confirmed; residual −0.12.,UPG Canonical Reference
+"K3,3 v1.3",PO-NEW-5,∀ε>0 ∃ finite t_break,ADVANCE,Decay-rate argument; PHY-SIM-010.,UPG Canonical Reference
+ARBS-3 N=25,C-001a,D_spec and R_eff rank-equivalent,NUMERICALLY SUPPORTED,ρ=0.91 on ARBS-3; exact-isometry claim remains excluded from this calculated core.,UPG Canonical Reference
+ARBS-3,PHY-SIM-008-STRAT,Spectral shell stratification,DEMONSTRATED,"Four mode families: OUTER, MID, INNER, MIXED.",UPG Canonical Reference
+Maxwell,UCP-012-Maxwell,Spectral spine tested on Maxwell electrodynamics,TESTED / SUPPORTED,h² convergence confirmed.,UPG Canonical Reference

@@ -1,0 +1,21 @@
+Layer,Canonical object / relation,Status,Scope
+C0,"(Δ,τ,κ,Π) → Γ=κ∘τ∘Δ",CERTIFIED SPINE,Canonical organizational grammar realization; uniqueness not claimed here.
+C1,Γ → O → Ψ,CERTIFIED/PARTIAL,Recursive organizational evolution representation.
+C2,Ψ → G,CALCULATED/SCOPED,Graph substrate realization for admitted representations.
+C2,G → L=D-A,CERTIFIED,Finite symmetric PSD graph-Laplacian branch.
+C2,Lφ=λφ,CERTIFIED,Spectral theorem under self-adjoint finite-graph conditions.
+C2,e^{-tL},CERTIFIED,Heat semigroup / diffusion operator.
+C2,lim_{t→∞}e^{-tL}=P_kerL,DERIVED,Finite PSD graph.
+C3,Spec(L) → diffusion distance → metric,CALCULATED/SCOPED,Nonzero spectral modes; explicit continuum/refinement scope.
+C3,L_N/h_N² → -Δ_g,CLOSED FOR TEST FAMILY,Periodic refinement family.
+C3,K_N → K_g → d_g → g_ij,CONDITIONAL/DERIVED,Joint heat-kernel scaling h_N²/t→0.
+C3,g → ∇ → Riemann → Ricci → R → G,DERIVED,Riemannian differentiable metric scope.
+C4,Scale-free spectral invariance under L→s^{-2}L,DERIVED,Absolute scale cannot be selected from ratios alone.
+C5,B → L=BBᵀ → D_G,DERIVED/CALCULATED,Incidence Dirac construction.
+C5,"[D_G,π(a)] contains da",DERIVED/CALCULATED,Endpoint algebra representation.
+C6,D_G graded finite differential structure,DERIVED/CALCULATED,γD_G+D_Gγ=0; bounded commutators finite-dimensional.
+C7,dν/dλ=√λ/(4π²),DERIVED,Flat 3D continuum.
+C7,ρ_vac=ħcΛ_*⁴/(16π²),DERIVED/CALCULATED,Fixed physical cutoff + continuum DOS.
+C7,Λ_cosm=ℓ_p²Λ_*⁴/(2π),DERIVED,Downstream mapping given cutoff and Planck relation.
+C7,H²=8πGρ_vac/3,DERIVED/ADMITTED,k=0 vacuum EH branch.
+C7,a(t)=a₀exp(∫Hdt),DERIVED,Expanding vacuum branch.

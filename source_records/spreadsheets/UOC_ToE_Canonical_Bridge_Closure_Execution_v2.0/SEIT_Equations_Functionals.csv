@@ -1,0 +1,25 @@
+ID,Expression,Role,Source,Status
+E1,L=D−A,Graph Laplacian,SEIT / MDCL v2,Derived
+E2,e^{−βL},Heat kernel,SEIT,Derived
+E3,R(λ)=e^{−βλ},Spectral response,SEIT,Derived
+E4,D1(λ)=λ,Heat-kernel decay,SEIT,Derived
+E5,D2(λ)=βλ²,Entropy-production candidate,SEIT,Partial
+E6,D3(λ)=√λ,Cheeger leakage candidate,SEIT,Partial
+E7,Γ(λ)=Restoration/Degradation,Persistence ratio,SEIT,Partial
+E8,Γ(λ_c)=1,Persistence threshold,SEIT,Partial
+E9,Π={n:λ_n<λ_c},Persistence sector,SEIT,Partial
+E10,m_n=m_0√λ_n,Mass spectrum,SEIT,Partial
+E11,α_k=⟨ψ|P_k|ψ⟩,Coupling formula,SEIT,Partial
+E12,β<2/Λ_max,Gradient-descent stability bound,Part I,Derived within program
+E13,λ_min(H)≥m>0,Strict convexity,Part I,Derived within program
+E14,Ψ_{n+1}=Ψ_n−β∇𝒜[Ψ_n],Optimization dynamics,Part I,Derived within program
+E15,m0 at Planck: λ_c=1/ℓ_P²,Normalization condition,SEIT,Open
+E16,G_μν+Λg_μν=(8πG/c⁴)T_μν,Matter-coupled GR target,MDCL v2,Open target
+E17,∇_μT^{μν}=0,Matter conservation target,MDCL v2,Open target
+E18,d²x^μ/dτ²+Γ^μ_{αβ}(dx^α/dτ)(dx^β/dτ)=0,Geodesic target,MDCL v2,Open target
+E19,∇²Φ=4πGρ,Newtonian limit target,MDCL v2,Open target
+E20,Tr[Γ⁵ Δ²]=0,Anomaly consistency condition,SEIT,Partial
+E21,ind(D)=∫ ch(E)Td(TM),Atiyah–Singer correspondence,SEIT,Established mathematics
+E22,Z=Tr(e^{−β𝒪}); F=−kBT ln Z,Statistical structure,SEIT,Established mathematics
+E23,Θ(t)~(4πt)^{−n/2}Σa_k t^k,Heat-trace geometry,SEIT,Established mathematics
+E24,𝔘=Fix(𝒪opt),Compiler fixed point,Part I,Derived within program

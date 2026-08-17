@@ -1,0 +1,56 @@
+DER_ID,Title,Predecessors,Source_Status,Source_Table
+DER-SDR-001,Strict Dependency Relation — Definition,None (definitional),CERTIFIED,2
+DER-SDR-002,Irreflexivity,SDR-001,CERTIFIED,2
+DER-SDR-003,Transitivity,SDR-001,CERTIFIED,2
+DER-SDR-004,Acyclicity,SDR-001,CERTIFIED,2
+DER-SDR-005,Recovery Admissibility,SDR-001 through SDR-004,CERTIFIED,2
+DER-ORG-001,Organizational Grammar Recovery,"PRIM-001,002,003",CERTIFIED,9
+DER-ORG-002,Organizational State Evolution,ORG-001,CERTIFIED,9
+DER-ORG-003,Persistence / Fixed-Point Recovery,ORG-002,CERTIFIED,9
+DER-ORG-004,Recursive Organizational Distinction,ORG-003,CERTIFIED,9
+DER-ORG-005,Organizational Compiler Interface,"ORG-001, SPC-001",CERTIFIED,9
+DER-ORG-006,Fixed-Point Equivalence Theorem,"ORG-003, SPC-005",OPEN,9
+DER-ORG-007,Organizational Persistence Functional Recovery,"ORG-003, TRC-002",OPEN,9
+DER-ORG-008,Organizational Attractor Uniqueness,ORG-003,OPEN,9
+DER-ORG-009,Compiler Completeness Theorem,ORG-005,OPEN,9
+DER-ORG-010,Dependency Completeness Theorem,"SDR-005, ORG-009",OPEN,9
+DER-SPC-001,Organizational Graph Recovery,ORG-001,CERTIFIED,21
+DER-SPC-002,Laplacian Recovery,SPC-001,CERTIFIED,21
+DER-SPC-003,Spectrum Recovery,SPC-002,CERTIFIED,21
+DER-SPC-004,Heat Kernel Recovery,SPC-003,CERTIFIED,21
+DER-SPC-005,Spectral Persistence Operator,SPC-003,CERTIFIED,21
+DER-SPC-006,Spectral Organizational Fixed Point,SPC-005,OPEN,21
+DER-VAR-001,Action Functional Recovery,"GEO-001, SPC-003",CERTIFIED,29
+DER-VAR-002,Euler-Lagrange Recovery,VAR-001,CERTIFIED,29
+DER-VAR-003,Legendre Transform Recovery,VAR-002,CERTIFIED,29
+DER-VAR-004,Einstein-Hilbert Action,GEO-005,CERTIFIED,29
+DER-VAR-005,Einstein Equation Recovery from Variation,"VAR-004, GEO-006",CERTIFIED,29
+DER-GEO-001,Metric Recovery,SPC-003,CERTIFIED,36
+DER-GEO-002,Connection Recovery,GEO-001,CERTIFIED,36
+DER-GEO-003,Curvature Tensor Recovery,GEO-002,CERTIFIED,36
+DER-GEO-004,Ricci Tensor Recovery,GEO-003,CERTIFIED,36
+DER-GEO-005,Scalar Curvature Recovery,GEO-004,CERTIFIED,36
+DER-GEO-006,Einstein Tensor Recovery,GEO-005,CERTIFIED,36
+DER-GAU-001,Gauge Connection,SPC-002,CERTIFIED,44
+DER-GAU-002,Electromagnetic Curvature,GAU-001,CERTIFIED,44
+DER-GAU-003,Covariant Derivative,"GAU-001, GEO-002",CERTIFIED,44
+DER-GAU-004,Yang-Mills Recovery,"GAU-002, GAU-003",CERTIFIED,44
+DER-QR-001,Hilbert Space Recovery,SPC-003,CERTIFIED,50
+DER-QR-002,Schrodinger Recovery,"QR-001, SPC-003",CERTIFIED,50
+DER-QR-003,Heisenberg Recovery,QR-002,CERTIFIED,50
+DER-QR-004,Uncertainty Structure,QR-003,CERTIFIED,50
+DER-QR-005,Clifford Algebra Recovery,GEO-001,CERTIFIED,50
+DER-QR-006,Dirac Operator Recovery,"QR-005, GAU-003",CERTIFIED,50
+DER-QR-007,Spin Recovery,QR-006,CERTIFIED,50
+DER-QR-008,Magnetic Moment Recovery,"QR-007, GAU-001",CERTIFIED,50
+DER-TRC-001,Internal Energy Recovery,PRIM-004,CERTIFIED,60
+DER-TRC-002,Entropy Recovery,TRC-001,CERTIFIED,60
+DER-TRC-003,Entropy Flux Recovery,TRC-002,CERTIFIED,60
+DER-TRC-004,Clausius-Duhem Recovery,"TRC-002, TRC-003",CERTIFIED,60
+DER-TRC-005,Fourier Heat Flux Recovery,TRC-003,CERTIFIED,60
+DER-TRC-006,Organizational Persistence Functional,"TRC-002, SPC-003",OPEN,60
+PRIM-001,Delta (Distinction),None,CERTIFIED,67
+PRIM-002,tau (Transformation),None,CERTIFIED,67
+PRIM-003,kappa (Constraint),None,CERTIFIED,67
+PRIM-004,E (Energy),None,CERTIFIED,67
+PRIM-005,B (Bipartite substrate),None,CERTIFIED,67

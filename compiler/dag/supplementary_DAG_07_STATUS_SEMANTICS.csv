@@ -1,0 +1,8 @@
+Status,Definition,Permitted_Use,Governance_Rule
+CERTIFIED,Formally established and admitted,Canonical dependency,No universality inflation
+CALCULATED,Executed numerical/algebraic result,Usable within recorded scope,Do not relabel OPEN because ancestry is unresolved
+PARTIAL/CONDITIONAL,Established under explicit assumptions/family,Usable only with scope,Expose assumptions
+OPEN THEOREM,Specific proof obligation remains,Not certified,Record closure criterion and falsifier
+PROPOSED,Future calculation/program not executed,Planning only,No registry admission by implication
+FALSIFIED/NO-GO,Candidate failed specified test,Exclude from active route; retain history,Preserve failure provenance
+SOURCE-REGISTERED,"Present in source corpus, status not adjudicated",Reference only,Must receive status-layer classification

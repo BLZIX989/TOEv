@@ -1,0 +1,20 @@
+Parent,Child,Relation,Status
+"Δ,τ,κ,Π",Γ,Γ=κ∘τ∘Δ,CERTIFIED
+Γ,"O,Ψ",organizational recursion,CERTIFIED/PARTIAL
+Ψ,G,graph realization,CALCULATED/SCOPED
+G,B,oriented incidence,CALCULATED
+B,L,L=BBᵀ,DERIVED
+L,Spec(L),Lφ=λφ,CERTIFIED
+Spec(L),K_t,e^{-tL},CERTIFIED
+Spec(L),d,diffusion distance,CALCULATED/SCOPED
+d,g,spectral metric reconstruction,CALCULATED/SCOPED
+g,∇,Levi-Civita,DERIVED
+∇,"R,R_μν,R,G_μν",curvature contractions,DERIVED
+G_μν,Einstein dynamics,EH variation / field equation,DERIVED/ADMITTED
+B,D_G,incidence Dirac,DERIVED/CALCULATED
+"D_G,π",da,"[D_G,π(a)]",DERIVED/CALCULATED
+Spec(L),DOS,dν/dλ=√λ/(4π²),DERIVED
+"DOS,Λ_*",ρ_vac,ħcΛ_*⁴/(16π²),DERIVED/CALCULATED
+ρ_vac,Λ_cosm,ℓ_p²Λ_*⁴/(2π),DERIVED
+ρ_vac,H,H²=8πGρ/3,DERIVED/ADMITTED
+H,a(t),a₀exp(∫Hdt),DERIVED

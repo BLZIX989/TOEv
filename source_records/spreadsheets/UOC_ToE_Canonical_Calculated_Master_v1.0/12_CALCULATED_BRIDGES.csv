@@ -1,0 +1,26 @@
+Bridge_ID,From→To,Bridge Name,Mathematical Form,Derivation Status,Closure / Dependency Note
+BR-001,"(Δ,τ,κ,Π)→Γ",Grammar composition,Γ=κ∘τ∘Δ / DTC composition,CERTIFIED SPINE,C0 canonical uniqueness remains open
+BR-002,Γ→O→Ψ,Organizational evolution,Evolution operator / recursive state update,CERTIFIED/PARTIAL,Fixed-point closure remains open
+BR-003,Ψ→G,Organizational state to graph,Graph substrate realization,CALCULATED/SCOPED,Representation universality open
+BR-004,G→L,Graph to Laplacian,L=D-A,CERTIFIED,Graph assumptions
+BR-005,L→Spec(L),Spectral decomposition,Lφ=λφ,CERTIFIED,Self-adjoint/finite graph conditions
+BR-006,Spec(L)→K_t,Spectrum to heat semigroup,e^{-tL},CERTIFIED,PSD/self-adjoint
+BR-007,Spec(L)→d,Spectrum to diffusion distance,"d(i,j)=sqrt(Σ(...)/λ_k)",CALCULATED/SCOPED,Nonzero modes
+BR-008,d→g,Distance to metric,Spectral metric reconstruction,CALCULATED/SCOPED,Continuum/refinement assumptions
+BR-009,g→∇,Metric to connection,Levi-Civita compatibility,DERIVED,Riemannian scope
+BR-010,∇→Riemann→Ricci→R→G,Curvature hierarchy,Standard geometric contractions,DERIVED,Metric differentiability
+BR-011,G→Einstein dynamics,Einstein tensor to field equation,G_μν+Λg_μν=...,DERIVED/ADMITTED,Matter source/coupling status version-dependent
+BR-012,L→D,Graph Laplacian to Dirac,D=√L / spectral correspondence,CERTIFIED IN UCG SOURCE,Scope and NCG equivalence remain a distinct issue
+BR-013,L→R=e^{-βL},Spectral persistence filter,Contraction on ker(L)^⊥,CERTIFIED,Persistence interpretation open
+BR-014,C_Π→δC_Π=0,Persistence cost to field equation,Euler-Lagrange,CERTIFIED,Functional assumptions
+BR-015,I_F→geodesic,Zero informational-loss limit,I_F=0→geodesic,CERTIFIED,Model branch
+BR-016,R→Z→F,Statistical bridge,Partition/free-energy chain,DERIVED,β=1/k_BT convention
+BR-017,L_N/h_N²→-Δ_g,Discrete-to-continuum bridge,Explicit periodic refinement family,CLOSED FOR TEST FAMILY,Not universal yet
+BR-018,K_N→K_g→d_g→g_ij,Heat-kernel geometric bridge,Joint scaling limit,CONDITIONAL/DERIVED,h_N²/t→0
+BR-019,L(a)→dotL,Homogeneous scale evolution,L(a)=a^-2L0,DERIVED/CALCULATED,Homogeneous branch
+BR-020,Spec(L)→DOS→ρ_vac,Spectral vacuum bridge,dν/dλ→ρ_vac,DERIVED/CALCULATED,3D continuum physical cutoff
+BR-021,Z_H→A_H,Horizon heat-kernel area bridge,A_H=4π lim tZ_H,DERIVED/CALCULATED,Given legitimate horizon subsystem
+BR-022,Z_H(ℓ_p²)→N_BH,Spectral/BH normalization bridge,N_BH=πZ_H(ℓ_p²),ALGEBRAIC CONDITION,π origin not derived
+BR-023,N_H→Ξ,Information-to-cutoff bridge,Ξ=6^(1/4)π^(1/2)N_H^-1/4,CONDITIONAL DOWNSTREAM,Requires non-circular N_H
+BR-024,Ξ→Λ_*→ρ_vac,Cutoff to vacuum bridge,Λ_*=Ξ/ℓ_p; ρ_vac=...,DERIVED GIVEN Ξ,Scale anchor remains upstream
+BR-025,ρ_vac→Λ_cosm→H→a,Cosmological dynamics bridge,Friedmann/de Sitter,DOWNSTREAM CLOSED GIVEN INPUT,Vacuum branch

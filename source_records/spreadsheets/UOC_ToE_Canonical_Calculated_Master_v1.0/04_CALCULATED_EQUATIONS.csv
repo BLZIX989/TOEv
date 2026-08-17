@@ -1,0 +1,62 @@
+Calc_ID,Result / Bridge,Equation,Derivation Status,Scope / Note,Source
+CALC-001,Spectral evolution,R(t)=e^{-tL}; R(t)φ_n=e^{-tλ_n}φ_n,DERIVED,PSD L,26_EXECUTED_MATHEMATICS
+CALC-002,Persistent sector,lim_{t→∞}e^{-tL}=P_kerL; Π∞=ker L,DERIVED,Finite PSD graph,26_EXECUTED_MATHEMATICS
+CALC-003,Connected nullity,dim ker L=1 for connected graph,DERIVED,Standard graph Laplacian,26_EXECUTED_MATHEMATICS
+CALC-004,General nullity,dim ker L=c,DERIVED,c connected components,26_EXECUTED_MATHEMATICS
+CALC-005,Rank,rank L=N-c,DERIVED,Immediate from rank-nullity,26_EXECUTED_MATHEMATICS
+CALC-006,Bulk candidate,N_bulk=Tr(I-P_kerL)=rank L,DERIVED,No cutoff required,26_EXECUTED_MATHEMATICS
+CALC-007,Sharp-cutoff criterion,N_cut=rank L iff m_max=c,DERIVED,For scalar sharp cutoff,26_EXECUTED_MATHEMATICS
+CALC-008,Scale rescaling,L_H→s^-2L_H; λ_i→s^-2λ_i,DERIVED,Spectral scale transformation,26_EXECUTED_MATHEMATICS
+CALC-009,Scale-free invariants,"F(λ_i/λ_j,...) invariant under L_H rescaling",DERIVED,Cannot select absolute length,26_EXECUTED_MATHEMATICS
+CALC-010,Absolute scale transformation,ℓ_*→sℓ_* under physical length rescaling,DERIVED,Scale-selection no-go,26_EXECUTED_MATHEMATICS
+CALC-011,Periodic lattice eigenvalues,λ_N(p)=4h_N^-2 Σ sin²(h_Np_μ/2),DERIVED,Explicit periodic lattice,26_EXECUTED_MATHEMATICS
+CALC-012,Continuum expansion,λ_N(p)=|p|²+O(h_N²),DERIVED,h_N→0,26_EXECUTED_MATHEMATICS
+CALC-013,Spatial metric,g_ij=δ_ij,CALCULATED,Flat toroidal test family,26_EXECUTED_MATHEMATICS
+CALC-014,Homogeneous scaling,L(a)=a^-2L_0,DERIVED,B6 homogeneous rescaling,26_EXECUTED_MATHEMATICS
+CALC-015,Operator flow,dotL=-2HL,DERIVED,Homogeneous scaling,26_EXECUTED_MATHEMATICS
+CALC-016,Eigenvalue flow,dotλ_n=-2Hλ_n,DERIVED,Degenerate sectors unsplit in this scaling,26_EXECUTED_MATHEMATICS
+CALC-017,Fixed comoving spectral set,E_spec∝a^-1; ρ∝a^-4,DERIVED,With V_phys∝a³,26_EXECUTED_MATHEMATICS
+CALC-018,Fixed physical cutoff continuum,E_spec∝a³; ρ∝a⁰,DERIVED SCALING,Continuum density of states,26_EXECUTED_MATHEMATICS
+CALC-019,3D DOS,dν/dλ=√λ/(4π²),DERIVED,Flat 3D continuum,26_EXECUTED_MATHEMATICS
+CALC-020,Vacuum density,ρ_vac=ħcΛ_*⁴/(16π²),DERIVED,Physical cutoff prescription,26_EXECUTED_MATHEMATICS
+CALC-021,Cosmological constant,Λ_cosm=ℓ_p²Λ_*⁴/(2π),DERIVED,Using ℓ_p²=ħG/c³,26_EXECUTED_MATHEMATICS
+CALC-022,Dimensionless cutoff,Xi=Λ_*ℓ_p,DEFINED,Dimensionless,26_EXECUTED_MATHEMATICS
+CALC-023,Xi relation,Λ_cosm=Xi⁴/(2πℓ_p²),DERIVED,Downstream identity,26_EXECUTED_MATHEMATICS
+CALC-024,Horizon area heat trace,A_H=4π lim tZ_H(t),DERIVED,2D continuum heat-kernel regime,26_EXECUTED_MATHEMATICS
+CALC-025,Weyl area law coefficient,N(Λ)~A_HΛ²/(4π),DERIVED,2D Weyl asymptotic,26_EXECUTED_MATHEMATICS
+CALC-026,Spectral/BH ratio,N_BH=π Z_H(ℓ_p²),DERIVED CONDITION,If t*=ℓ_p²,26_EXECUTED_MATHEMATICS
+CALC-027,Information normalization condition,C_H/α=π for t*=αℓ_p²,ALGEBRAICALLY DERIVED,Not a UOC theorem yet,26_EXECUTED_MATHEMATICS
+CALC-028,Conditional Xi-count relation,Xi=6^(1/4)π^(1/2)N_H^-1/4,DERIVED,Conditional horizon-information branch,26_EXECUTED_MATHEMATICS
+CALC-029,Friedmann vacuum,H²=8πGρ_vac/3,DERIVED/ADMITTED,k=0 vacuum EH branch,26_EXECUTED_MATHEMATICS
+CALC-030,Scale-factor solution,a(t)=a0 exp(∫Hdt),DERIVED,Expanding vacuum branch,26_EXECUTED_MATHEMATICS
+CALC-031,Constant vacuum,ρ_vac=const→a∝e^{Ht},DERIVED,de Sitter branch,26_EXECUTED_MATHEMATICS
+CALC-032,Curvature-scale diagnostic,ℓ_*~|R|^-1/2→H~ℓ_p^-1,NO-GO DIAGNOSTIC,Observed cosmological scale not reproduced,26_EXECUTED_MATHEMATICS
+CALC-033,Gap-scale diagnostic,ℓ_*=λ_1^-1/2→Z_H(λ_1^-1)=O(1)/geometry-scale,NO-GO DIAGNOSTIC,Not 10^122 information scale,26_EXECUTED_MATHEMATICS
+CALC-034,UV scale,ℓ_*=λ_max^-1/2→0,DERIVED,Refinement limit,26_EXECUTED_MATHEMATICS
+CALC-035,Persistence threshold,e^{-tλ_c}=ε→λ_c=(-ln ε)/t,DERIVED,ε remains a selector unless derived,26_EXECUTED_MATHEMATICS
+CALC-036,Observed target,Xi_obs≈6.50×10^-31,OBSERVATIONAL TARGET,Not an upstream input,26_EXECUTED_MATHEMATICS
+BR-BR-001,Grammar composition,Γ=κ∘τ∘Δ / DTC composition,CERTIFIED SPINE,C0 canonical uniqueness remains open,22_BRIDGES
+BR-BR-002,Organizational evolution,Evolution operator / recursive state update,CERTIFIED/PARTIAL,Fixed-point closure remains open,22_BRIDGES
+BR-BR-003,Organizational state to graph,Graph substrate realization,CALCULATED/SCOPED,Representation universality open,22_BRIDGES
+BR-BR-004,Graph to Laplacian,L=D-A,CERTIFIED,Graph assumptions,22_BRIDGES
+BR-BR-005,Spectral decomposition,Lφ=λφ,CERTIFIED,Self-adjoint/finite graph conditions,22_BRIDGES
+BR-BR-006,Spectrum to heat semigroup,e^{-tL},CERTIFIED,PSD/self-adjoint,22_BRIDGES
+BR-BR-007,Spectrum to diffusion distance,"d(i,j)=sqrt(Σ(...)/λ_k)",CALCULATED/SCOPED,Nonzero modes,22_BRIDGES
+BR-BR-008,Distance to metric,Spectral metric reconstruction,CALCULATED/SCOPED,Continuum/refinement assumptions,22_BRIDGES
+BR-BR-009,Metric to connection,Levi-Civita compatibility,DERIVED,Riemannian scope,22_BRIDGES
+BR-BR-010,Curvature hierarchy,Standard geometric contractions,DERIVED,Metric differentiability,22_BRIDGES
+BR-BR-011,Einstein tensor to field equation,G_μν+Λg_μν=...,DERIVED/ADMITTED,Matter source/coupling status version-dependent,22_BRIDGES
+BR-BR-012,Graph Laplacian to Dirac,D=√L / spectral correspondence,CERTIFIED IN UCG SOURCE,Scope and NCG equivalence remain a distinct issue,22_BRIDGES
+BR-BR-013,Spectral persistence filter,Contraction on ker(L)^⊥,CERTIFIED,Persistence interpretation open,22_BRIDGES
+BR-BR-014,Persistence cost to field equation,Euler-Lagrange,CERTIFIED,Functional assumptions,22_BRIDGES
+BR-BR-015,Zero informational-loss limit,I_F=0→geodesic,CERTIFIED,Model branch,22_BRIDGES
+BR-BR-016,Statistical bridge,Partition/free-energy chain,DERIVED,β=1/k_BT convention,22_BRIDGES
+BR-BR-017,Discrete-to-continuum bridge,Explicit periodic refinement family,CLOSED FOR TEST FAMILY,Not universal yet,22_BRIDGES
+BR-BR-018,Heat-kernel geometric bridge,Joint scaling limit,CONDITIONAL/DERIVED,h_N²/t→0,22_BRIDGES
+BR-BR-019,Homogeneous scale evolution,L(a)=a^-2L0,DERIVED/CALCULATED,Homogeneous branch,22_BRIDGES
+BR-BR-020,Spectral vacuum bridge,dν/dλ→ρ_vac,DERIVED/CALCULATED,3D continuum physical cutoff,22_BRIDGES
+BR-BR-021,Horizon heat-kernel area bridge,A_H=4π lim tZ_H,DERIVED/CALCULATED,Given legitimate horizon subsystem,22_BRIDGES
+BR-BR-022,Spectral/BH normalization bridge,N_BH=πZ_H(ℓ_p²),ALGEBRAIC CONDITION,π origin not derived,22_BRIDGES
+BR-BR-023,Information-to-cutoff bridge,Ξ=6^(1/4)π^(1/2)N_H^-1/4,CONDITIONAL DOWNSTREAM,Requires non-circular N_H,22_BRIDGES
+BR-BR-024,Cutoff to vacuum bridge,Λ_*=Ξ/ℓ_p; ρ_vac=...,DERIVED GIVEN Ξ,Scale anchor remains upstream,22_BRIDGES
+BR-BR-025,Cosmological dynamics bridge,Friedmann/de Sitter,DOWNSTREAM CLOSED GIVEN INPUT,Vacuum branch,22_BRIDGES

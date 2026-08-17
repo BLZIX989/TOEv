@@ -1,0 +1,6 @@
+Source_Table,ID,Symbol,Name,Definition
+5,PRIM-G-001,Delta (D),Distinction,The minimal identifiable difference — a closed orientable boundary separating interior from exterior. Formally: a hypersurface satisfying the homological closure condition d(dΩ) = 0.
+5,PRIM-G-002,tau (T),Transformation,"Any lawful evolution acting on an established distinction, preserving phase-space volume (discrete Liouville condition). Requires a prior distinction to act on."
+5,PRIM-G-003,kappa (C),Constraint,The rules restricting which transformations are permissible. Formally: a projection operator P_kappa satisfying idempotency (P_kappa^2 = P_kappa).
+5,PRIM-G-004,Pi (P),Persistence,The retention of organizational identity across constrained transformations — the kernel of an invariant operator surviving repeated application of tau under kappa.
+8,PRIM-X-005,Pi,Persistence,Stable organizational realization — same as PRIM-G-004.

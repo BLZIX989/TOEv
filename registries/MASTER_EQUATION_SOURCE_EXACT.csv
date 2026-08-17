@@ -1,0 +1,175 @@
+Source_Label,Equation,Source_Meaning,Source_Table
+NCG.1,"(A, H, D)",Connes 1995,1
+NCG.2,"S = Tr( f(D/Lambda) ) + <psi, D psi>",Connes-Chamseddine,1
+NCG.3,D^2 = nabla* nabla + (1/4) R,Lichnerowicz,1
+NCG.4,Spec(D) = { lambda_i },Definition,1
+NCG.5,A = C^inf(M) x A_F,Standard Model,1
+NCG.6,"H = L^2(M,S) x H_F",Standard Model,1
+NCG.7,D = D_M x 1 + gamma^5 x D_F,Standard Model,1
+NCG.8,D_A = D + A + J A J^{-1},Inner fluctuations,1
+NCG.9,"A = sum_i a_i [D, b_i]",Definition,1
+NCG.10,S_B = Tr( f(D_A / Lambda) ),Spectral action,1
+NCG.11,"S_F = <J psi, D_A psi>",Spectral action,1
+NCG.12,S = S_B + S_F,Full action,1
+NCG.13,Tr(f(D/Lambda)) ~ sum_{n>=0} f_n Lambda^{4-n} a_n(D^2),Seeley-DeWitt,2
+NCG.14,f_n = INT_0^inf f(v) v^{n-1} dv,Definition,2
+NCG.15,"a_0, a_2, a_4, a_6, ...",Coefficients,2
+NCG.16,Lambda^4 a_0 + Lambda^2 a_2 + a_4 + O(Lambda^{-2}),Expansion,2
+NCG.17,K(t) = Tr(exp(-t D^2)),Heat kernel,2
+NCG.18,zeta_D(s) = Tr(D^{-s}),Zeta function,2
+NCG.19,S_zeta = zeta_D(0),Zeta action,2
+NCG.20,Index(D) = dim ker D - dim ker D^dag,Atiyah-Singer,2
+NCG.21,J^2 = +/- 1,Real structure,3
+NCG.22,J D = +/- D J,Real structure,3
+NCG.23,J gamma = +/- gamma J,Real structure,3
+NCG.24,gamma^2 = 1,Chirality,3
+NCG.25,"{gamma, D} = 0",Chirality,3
+NCG.26,A = C^inf(M) x (C + H + M_3(C)),SM algebra,3
+NCG.27,SU(3) x SU(2) x U(1),Gauge group,3
+NCG.28,g_1 = g_2 = g_3,Unification,3
+NCG.29,m_H ~ 125 GeV,Higgs mass,3
+NCG.30,m_nu = m_D^T M_R^{-1} m_D,Seesaw,3
+NCG.31,"dist(x,y) = sup{ |f(x)-f(y)| : ||[D,f]|| <= 1 }",Connes distance,4
+NCG.32,"[D, a]",Commutator,4
+NCG.33,"[[D,a],b] = 0",Order-one,4
+NCG.34,"[D, A] subset B(H)",Boundedness,4
+NCG.35,D^{-1},Propagator,4
+NCG.36,chi(D) = Tr(gamma exp(-t D^2)),Chiral trace,4
+SP.1,"G = (V, E)",Definition,6
+SP.2,L = D_deg - A,Graph Laplacian,6
+SP.3,L phi = lambda phi,Eigenequation,6
+SP.4,"Spec(L) = {lambda_1, lambda_2, ..., lambda_n}",Spectrum,6
+SP.5,lambda_0 = 0,Ground state,6
+SP.6,L 1 = 0,Kernel,6
+SP.7,sum_i lambda_i = Tr(L),Trace,6
+SP.8,phi_i^T L phi_j = lambda_i delta_{ij},Orthonormality,6
+SP.9,L = B B^T,Incidence factorization,6
+SP.10,L = U Lambda U^{-1},Diagonalization,6
+SP.11,f(L) = U f(Lambda) U^{-1},Functional calculus,6
+SP.12,Tr(f(L)) = sum_i f(lambda_i),Spectral trace,6
+SP.13,Tr(exp(-t L)),Heat trace,6
+SP.14,exp(-t L) phi_i = exp(-t lambda_i) phi_i,Heat semigroup,6
+SP.15,det(L + eps I),Regularized det,6
+SP.16,Delta = d^dag d + d d^dag,Hodge Laplacian,7
+SP.17,D = d + delta,Dirac-Hodge,7
+SP.18,d^2 = 0,Nilpotency,7
+SP.19,Omega^k(M) = Lambda^k(T* M),k-forms,7
+SP.20,H^k(M) = ker d / im d,de Rham cohomology,7
+SP.21,Omega^k = H^k + im(d) + im(delta),Hodge decomposition,7
+SP.22,Spec(Delta) = {mu_i},Hodge spectrum,7
+SP.23,Tr(exp(-t Delta)),Hodge heat trace,7
+SP.24,nabla^2 = nabla . nabla,Scalar Laplacian,7
+SP.25,Delta_g = (1/sqrt|g|) d_i(sqrt|g| g^{ij} d_j),Riemannian Laplacian,7
+GE.1,"d(i,j) = sqrt(sum_k (phi_k(i)-phi_k(j))^2 / lambda_k)",Diffusion distance,9
+GE.2,g_{ab} = sum_k lambda_k^{-1} d_a phi_k d_b phi_k,Spectral metric,9
+GE.3,ds^2 = g_{mu nu} dx^mu dx^nu,Line element,9
+GE.4,g_{ab} = -d^2 S / dy^a dy^b,Hessian metric,9
+GE.5,"<phi, psi> = INT_M phi* psi d_mu",Inner product,9
+GE.6,"||psi||^2 = <psi, psi>",Norm,9
+GE.7,Tr(A B) = Tr(B A),Cyclicity,9
+GE.8,K(t) = Tr(exp(-t D^2)),Heat kernel trace,9
+GE.9,(1/eps^2) L_{G_eps} -> Delta_g as eps->0,Continuum limit,9
+GE.10,D_s = -2 lim_{t->0} d(ln P(t))/d(ln t),Spectral dimension,9
+GE.11,nabla_mu V^nu = d_mu V^nu + Gamma^nu_{mu lam} V^lam,Covariant derivative,10
+GE.12,nabla_a g_{bc} = 0,Metric compatibility,10
+GE.13,nabla_mu T^{mu nu} = 0,Conservation,10
+GE.14,Box = g^{mu nu} nabla_mu nabla_nu,D'Alembertian,10
+PE.1,C_Pi[y] = INT(g_{ab} y'_a y'_b + 2 I_F) dt,Cost functional,12
+PE.2,I_F = INT |psi|^2 |grad_x ln(|psi|^2/rho)|^2 dx,Fisher cost,12
+PE.3,delta C_Pi = 0,Variational principle,12
+PE.4,d/dt(dL/dy'_a) - dL/dy_a = 0,Euler-Lagrange,12
+PE.5,delta S = 0,Action principle,12
+PE.6,S = INT L dt,Action,12
+PE.7,y''_c + Gamma^c_{ab} y'_a y'_b = -g^{ca} nabla_a I_F,Field equation,14
+PE.8,y''_c + Gamma^c_{ab} y'_a y'_b = 0,GR limit,14
+PE.9,D y'_a / dt = g^{ab} nabla_b I_F,Covariant form,14
+PE.10,D/dt = y'_a nabla_a,Material derivative,14
+PE.11,nabla_a I_F = dI_F / dy^a,Gradient,14
+PE.12,delta Gamma = 0,Org action stationarity,14
+PE.13,"Gamma[Sigma] = Phi(g, Delta, T)",Org action,14
+CV.1,Gamma^c_{ab} = (1/2) g^{cd}(d_a g_{bd} + d_b g_{ad} - d_d g_{ab}),Christoffel,16
+CV.2,R^a_{bcd} = d_c Gamma^a_{bd} - d_d Gamma^a_{bc} + Gamma^a_{ce} Gamma^e_{bd} - Gamma^a_{de} Gamma^e_{bc},Riemann tensor,16
+CV.3,R_{ab} = R^c_{acb},Ricci tensor,16
+CV.4,R = g^{ab} R_{ab},Ricci scalar,16
+CV.5,G_{ab} = R_{ab} - (1/2) R g_{ab},Einstein tensor,16
+CV.6,G_{mu nu} + Lambda g_{mu nu} = 8 pi G T_{mu nu},Einstein equations,16
+CV.7,R_{abcd} R^{abcd},Kretschner scalar,16
+CV.8,R_{ab} R^{ab},Ricci squared,16
+CV.9,R^2,Ricci scalar squared,16
+CV.10,C_{abcd} C^{abcd},Weyl squared,16
+CV.11,INT_M R sqrt|g| d^4x,Einstein-Hilbert action,16
+CV.12,sqrt|g| = sqrt|det(g_{mu nu})|,Volume element,16
+PH.1,d rho/dt + nabla . (rho v) = 0,Continuity,18
+PH.2,d phi/dt = D nabla^2 phi,Diffusion,18
+PH.3,d phi/dt = D nabla^2 phi + R(phi),Reaction-diffusion,18
+PH.4,rho(du/dt + u.nabla u) = -nabla p + mu nabla^2 u + f,Navier-Stokes,18
+PH.5,nabla . E = rho / eps_0,Gauss electric,18
+PH.6,nabla . B = 0,Gauss magnetic,18
+PH.7,nabla x E = -dB/dt,Faraday,18
+PH.8,nabla x B = mu_0 J + mu_0 eps_0 dE/dt,Ampere-Maxwell,18
+PH.9,nabla p,Pressure gradient,18
+PH.10,nabla T,Temperature gradient,18
+PH.11,nabla mu,Chemical gradient,18
+PH.12,nabla phi,Field gradient,18
+PH.13,D[Omega] = nabla Omega,Distinction operator,18
+QM.1,i hbar d psi/dt = H_hat psi,Schrodinger,20
+QM.2,H_hat psi = E psi,Energy eigenvalue,20
+QM.3,S = k_B ln W,Boltzmann entropy,20
+QM.4,dS = delta Q / T,Clausius,20
+QM.5,F = U - T S,Helmholtz free energy,20
+QM.6,Delta G = Delta H - T Delta S,Gibbs free energy,20
+QM.7,Z = Tr(exp(-beta L)),Partition function,20
+QM.8,F = -k_B T ln Z,Free energy from Z,20
+QM.9,S = -dF/dT,Entropy from F,20
+QM.10,A = -ln Z,Spectral action,20
+LH.1,delta S = 0,Principle of stationary action,22
+LH.2,S = INT L dt,Action,22
+LH.3,L = T - V,Lagrangian,22
+LH.4,q_dot_i = dH/dp_i,Hamilton equation 1,22
+LH.5,p_dot_i = -dH/dq_i,Hamilton equation 2,22
+LH.6,"H(q,p) = T + V",Hamiltonian,22
+LH.7,"{f,g} = sum_i (df/dq_i dg/dp_i - df/dp_i dg/dq_i)",Poisson bracket,22
+LH.8,"dH/dt = {H,H} + dH/dt = dH/dt",Energy conservation,22
+OD.1,Sigma_{n+1} = U_alpha(Sigma_n),Evolution operator,24
+OD.2,U_alpha = P_{C(alpha)}[ T_alpha(B_n) ],Operator form,24
+OD.3,Sigma*(alpha) = lim_{n->inf} U_alpha^n(Sigma_0),Attractor,24
+OD.4,Psi_{t+1} = C(T(D Psi_t)),DTC iteration,24
+OD.5,Gamma = C o T o D,DTC composition,24
+OD.6,"Omega = (Sigma, Pi)",Org state,24
+OD.7,alpha = Phi_in / Phi_decay,Control parameter,24
+OD.8,alpha < alpha_minus => Sigma_chaos,Fragmentation,24
+OD.9,alpha_minus <= alpha <= alpha_plus => Sigma_persistent,Persistence,24
+OD.10,alpha > alpha_plus => Sigma_equilibrium,Frozen equilibrium,24
+OD.11,dI/d_tau = 0,Persistence cond. 1,26
+OD.12,Tr(rho L rho) > 0,Persistence cond. 2,26
+OD.13,Phi_boundary = INT J_mu n^mu dS != 0,Persistence cond. 3,26
+OD.14,d Omega/dt + nabla . J_Omega = Sigma_Omega,Org. continuity,26
+OD.15,d Omega/dt = -nabla.J + D nabla^2 Omega + R(Omega) + C(Omega) + I(Omega),Full org. dynamics,26
+RG.1,"for all X,Y in G*: X o Y in G*",Axiom 1 — Closure,28
+RG.2,"G = {Delta, tau, kappa} is irreducible",Axiom 2 — Minimality,28
+RG.3,"for all O, exists C: C(O) in G*",Axiom 3 — Completeness,28
+RG.4,"(Delta, tau, not kappa) => not Pi",Axiom 4 — Consistency,28
+RG.5,"for all O, exists unique minimal C(O) in G*",Axiom 5 — Canonical Form,28
+RG.6,Pi => Delta' (G* is self-generating),Axiom 6 — Recursive Generativity,28
+RG.7,"(Delta, tau, kappa) -> Pi",Persistence theorem,28
+RG.8,"Pi -> Delta' -> (Delta',tau',kappa') -> Pi'",Generativity chain,28
+MC.1,"(A,H,D)",Input,31
+MC.2,"(A,H,D) -> Spec(D)",Step 1,31
+MC.3,Spec(D) -> L = D_deg - A,Step 2,31
+MC.4,"L -> Spec(L) = {lambda_i, phi_i}",Step 3,31
+MC.5,Spec(L) -> K_t = exp(-tL),Step 4,31
+MC.6,K_t -> K(t) ~ sum a_n t^{(n-m)/2},Step 5,31
+MC.7,"Spec(L) -> d(i,j) = sqrt(sum_k (phi_k(i)-phi_k(j))^2/lambda_k)",Step 6,31
+MC.8,"d(i,j) -> g_{ab} = sum_k lambda_k^{-1} d_a phi_k d_b phi_k",Step 7,31
+MC.9,g_{ab} -> Gamma^c_{ab},Step 8,31
+MC.10,Gamma -> R^a_{bcd} -> R_{ab} -> G_{ab},Step 9,31
+MC.11,G_{ab} -> G_{mu nu} + Lambda g_{mu nu} = 8 pi G T_{mu nu},Step 10,31
+MC.12,"S = Tr(f(D/Lambda)) + <psi, D psi>",Step 11,31
+MC.13,delta S = 0,Step 12,31
+MC.14,C_Pi[y] = INT(g_{ab} y'_a y'_b + 2 I_F) dt,Step 13,31
+MC.15,delta C_Pi = 0 => y''_c + Gamma^c_{ab} y'_a y'_b = -g^{ca} nabla_a I_F,Step 14,31
+MC.16,I_F = 0 => y''_c + Gamma^c_{ab} y'_a y'_b = 0,Step 15,31
+MC.17,R = exp(-beta L) => Z = Tr(exp(-beta L)) => F = -k_B T ln Z,Step 16,31
+MC.18,alpha = Phi_in/Phi_decay => U_alpha,Step 17,31
+MC.19,"lim U_alpha^n(Sigma_0) => {Sigma_chaos, Sigma_persistent, Sigma_equilibrium}",Step 18,31
+MC.20,"Gamma = C o T o D, Pi -> Delta'",Step 19,31

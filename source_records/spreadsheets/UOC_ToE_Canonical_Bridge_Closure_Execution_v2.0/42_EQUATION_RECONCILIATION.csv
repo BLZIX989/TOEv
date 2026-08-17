@@ -1,0 +1,175 @@
+Source_Label,Canonical_EQ_ID,Equation,Meaning,Match_Status,Authority
+NCG.1,UNMATCHED,"(A, H, D)",Connes 1995,SOURCE-ONLY,Master Equation Matrix
+NCG.2,UNMATCHED,"S = Tr( f(D/Lambda) ) + <psi, D psi>",Connes-Chamseddine,SOURCE-ONLY,Master Equation Matrix
+NCG.3,UNMATCHED,D^2 = nabla* nabla + (1/4) R,Lichnerowicz,SOURCE-ONLY,Master Equation Matrix
+NCG.4,UNMATCHED,Spec(D) = { lambda_i },Definition,SOURCE-ONLY,Master Equation Matrix
+NCG.5,UNMATCHED,A = C^inf(M) x A_F,Standard Model,SOURCE-ONLY,Master Equation Matrix
+NCG.6,UNMATCHED,"H = L^2(M,S) x H_F",Standard Model,SOURCE-ONLY,Master Equation Matrix
+NCG.7,UNMATCHED,D = D_M x 1 + gamma^5 x D_F,Standard Model,SOURCE-ONLY,Master Equation Matrix
+NCG.8,UNMATCHED,D_A = D + A + J A J^{-1},Inner fluctuations,SOURCE-ONLY,Master Equation Matrix
+NCG.9,UNMATCHED,"A = sum_i a_i [D, b_i]",Definition,SOURCE-ONLY,Master Equation Matrix
+NCG.10,UNMATCHED,S_B = Tr( f(D_A / Lambda) ),Spectral action,SOURCE-ONLY,Master Equation Matrix
+NCG.11,UNMATCHED,"S_F = <J psi, D_A psi>",Spectral action,SOURCE-ONLY,Master Equation Matrix
+NCG.12,UNMATCHED,S = S_B + S_F,Full action,SOURCE-ONLY,Master Equation Matrix
+NCG.13,UNMATCHED,Tr(f(D/Lambda)) ~ sum_{n>=0} f_n Lambda^{4-n} a_n(D^2),Seeley-DeWitt,SOURCE-ONLY,Master Equation Matrix
+NCG.14,UNMATCHED,f_n = INT_0^inf f(v) v^{n-1} dv,Definition,SOURCE-ONLY,Master Equation Matrix
+NCG.15,UNMATCHED,"a_0, a_2, a_4, a_6, ...",Coefficients,SOURCE-ONLY,Master Equation Matrix
+NCG.16,UNMATCHED,Lambda^4 a_0 + Lambda^2 a_2 + a_4 + O(Lambda^{-2}),Expansion,SOURCE-ONLY,Master Equation Matrix
+NCG.17,UNMATCHED,K(t) = Tr(exp(-t D^2)),Heat kernel,SOURCE-ONLY,Master Equation Matrix
+NCG.18,UNMATCHED,zeta_D(s) = Tr(D^{-s}),Zeta function,SOURCE-ONLY,Master Equation Matrix
+NCG.19,UNMATCHED,S_zeta = zeta_D(0),Zeta action,SOURCE-ONLY,Master Equation Matrix
+NCG.20,UNMATCHED,Index(D) = dim ker D - dim ker D^dag,Atiyah-Singer,SOURCE-ONLY,Master Equation Matrix
+NCG.21,UNMATCHED,J^2 = +/- 1,Real structure,SOURCE-ONLY,Master Equation Matrix
+NCG.22,UNMATCHED,J D = +/- D J,Real structure,SOURCE-ONLY,Master Equation Matrix
+NCG.23,UNMATCHED,J gamma = +/- gamma J,Real structure,SOURCE-ONLY,Master Equation Matrix
+NCG.24,UNMATCHED,gamma^2 = 1,Chirality,SOURCE-ONLY,Master Equation Matrix
+NCG.25,UNMATCHED,"{gamma, D} = 0",Chirality,SOURCE-ONLY,Master Equation Matrix
+NCG.26,UNMATCHED,A = C^inf(M) x (C + H + M_3(C)),SM algebra,SOURCE-ONLY,Master Equation Matrix
+NCG.27,UNMATCHED,SU(3) x SU(2) x U(1),Gauge group,SOURCE-ONLY,Master Equation Matrix
+NCG.28,UNMATCHED,g_1 = g_2 = g_3,Unification,SOURCE-ONLY,Master Equation Matrix
+NCG.29,UNMATCHED,m_H ~ 125 GeV,Higgs mass,SOURCE-ONLY,Master Equation Matrix
+NCG.30,UNMATCHED,m_nu = m_D^T M_R^{-1} m_D,Seesaw,SOURCE-ONLY,Master Equation Matrix
+NCG.31,UNMATCHED,"dist(x,y) = sup{ |f(x)-f(y)| : ||[D,f]|| <= 1 }",Connes distance,SOURCE-ONLY,Master Equation Matrix
+NCG.32,UNMATCHED,"[D, a]",Commutator,SOURCE-ONLY,Master Equation Matrix
+NCG.33,UNMATCHED,"[[D,a],b] = 0",Order-one,SOURCE-ONLY,Master Equation Matrix
+NCG.34,UNMATCHED,"[D, A] subset B(H)",Boundedness,SOURCE-ONLY,Master Equation Matrix
+NCG.35,UNMATCHED,D^{-1},Propagator,SOURCE-ONLY,Master Equation Matrix
+NCG.36,UNMATCHED,chi(D) = Tr(gamma exp(-t D^2)),Chiral trace,SOURCE-ONLY,Master Equation Matrix
+SP.1,UNMATCHED,"G = (V, E)",Definition,SOURCE-ONLY,Master Equation Matrix
+SP.2,UNMATCHED,L = D_deg - A,Graph Laplacian,SOURCE-ONLY,Master Equation Matrix
+SP.3,UNMATCHED,L phi = lambda phi,Eigenequation,SOURCE-ONLY,Master Equation Matrix
+SP.4,UNMATCHED,"Spec(L) = {lambda_1, lambda_2, ..., lambda_n}",Spectrum,SOURCE-ONLY,Master Equation Matrix
+SP.5,UNMATCHED,lambda_0 = 0,Ground state,SOURCE-ONLY,Master Equation Matrix
+SP.6,UNMATCHED,L 1 = 0,Kernel,SOURCE-ONLY,Master Equation Matrix
+SP.7,UNMATCHED,sum_i lambda_i = Tr(L),Trace,SOURCE-ONLY,Master Equation Matrix
+SP.8,UNMATCHED,phi_i^T L phi_j = lambda_i delta_{ij},Orthonormality,SOURCE-ONLY,Master Equation Matrix
+SP.9,UNMATCHED,L = B B^T,Incidence factorization,SOURCE-ONLY,Master Equation Matrix
+SP.10,UNMATCHED,L = U Lambda U^{-1},Diagonalization,SOURCE-ONLY,Master Equation Matrix
+SP.11,UNMATCHED,f(L) = U f(Lambda) U^{-1},Functional calculus,SOURCE-ONLY,Master Equation Matrix
+SP.12,UNMATCHED,Tr(f(L)) = sum_i f(lambda_i),Spectral trace,SOURCE-ONLY,Master Equation Matrix
+SP.13,UNMATCHED,Tr(exp(-t L)),Heat trace,SOURCE-ONLY,Master Equation Matrix
+SP.14,UNMATCHED,exp(-t L) phi_i = exp(-t lambda_i) phi_i,Heat semigroup,SOURCE-ONLY,Master Equation Matrix
+SP.15,UNMATCHED,det(L + eps I),Regularized det,SOURCE-ONLY,Master Equation Matrix
+SP.16,UNMATCHED,Delta = d^dag d + d d^dag,Hodge Laplacian,SOURCE-ONLY,Master Equation Matrix
+SP.17,UNMATCHED,D = d + delta,Dirac-Hodge,SOURCE-ONLY,Master Equation Matrix
+SP.18,UNMATCHED,d^2 = 0,Nilpotency,SOURCE-ONLY,Master Equation Matrix
+SP.19,UNMATCHED,Omega^k(M) = Lambda^k(T* M),k-forms,SOURCE-ONLY,Master Equation Matrix
+SP.20,UNMATCHED,H^k(M) = ker d / im d,de Rham cohomology,SOURCE-ONLY,Master Equation Matrix
+SP.21,UNMATCHED,Omega^k = H^k + im(d) + im(delta),Hodge decomposition,SOURCE-ONLY,Master Equation Matrix
+SP.22,UNMATCHED,Spec(Delta) = {mu_i},Hodge spectrum,SOURCE-ONLY,Master Equation Matrix
+SP.23,UNMATCHED,Tr(exp(-t Delta)),Hodge heat trace,SOURCE-ONLY,Master Equation Matrix
+SP.24,UNMATCHED,nabla^2 = nabla . nabla,Scalar Laplacian,SOURCE-ONLY,Master Equation Matrix
+SP.25,UNMATCHED,Delta_g = (1/sqrt|g|) d_i(sqrt|g| g^{ij} d_j),Riemannian Laplacian,SOURCE-ONLY,Master Equation Matrix
+GE.1,UNMATCHED,"d(i,j) = sqrt(sum_k (phi_k(i)-phi_k(j))^2 / lambda_k)",Diffusion distance,SOURCE-ONLY,Master Equation Matrix
+GE.2,UNMATCHED,g_{ab} = sum_k lambda_k^{-1} d_a phi_k d_b phi_k,Spectral metric,SOURCE-ONLY,Master Equation Matrix
+GE.3,UNMATCHED,ds^2 = g_{mu nu} dx^mu dx^nu,Line element,SOURCE-ONLY,Master Equation Matrix
+GE.4,UNMATCHED,g_{ab} = -d^2 S / dy^a dy^b,Hessian metric,SOURCE-ONLY,Master Equation Matrix
+GE.5,UNMATCHED,"<phi, psi> = INT_M phi* psi d_mu",Inner product,SOURCE-ONLY,Master Equation Matrix
+GE.6,UNMATCHED,"||psi||^2 = <psi, psi>",Norm,SOURCE-ONLY,Master Equation Matrix
+GE.7,UNMATCHED,Tr(A B) = Tr(B A),Cyclicity,SOURCE-ONLY,Master Equation Matrix
+GE.8,UNMATCHED,K(t) = Tr(exp(-t D^2)),Heat kernel trace,SOURCE-ONLY,Master Equation Matrix
+GE.9,UNMATCHED,(1/eps^2) L_{G_eps} -> Delta_g as eps->0,Continuum limit,SOURCE-ONLY,Master Equation Matrix
+GE.10,UNMATCHED,D_s = -2 lim_{t->0} d(ln P(t))/d(ln t),Spectral dimension,SOURCE-ONLY,Master Equation Matrix
+GE.11,UNMATCHED,nabla_mu V^nu = d_mu V^nu + Gamma^nu_{mu lam} V^lam,Covariant derivative,SOURCE-ONLY,Master Equation Matrix
+GE.12,UNMATCHED,nabla_a g_{bc} = 0,Metric compatibility,SOURCE-ONLY,Master Equation Matrix
+GE.13,UNMATCHED,nabla_mu T^{mu nu} = 0,Conservation,SOURCE-ONLY,Master Equation Matrix
+GE.14,UNMATCHED,Box = g^{mu nu} nabla_mu nabla_nu,D'Alembertian,SOURCE-ONLY,Master Equation Matrix
+PE.1,UNMATCHED,C_Pi[y] = INT(g_{ab} y'_a y'_b + 2 I_F) dt,Cost functional,SOURCE-ONLY,Master Equation Matrix
+PE.2,UNMATCHED,I_F = INT |psi|^2 |grad_x ln(|psi|^2/rho)|^2 dx,Fisher cost,SOURCE-ONLY,Master Equation Matrix
+PE.3,UNMATCHED,delta C_Pi = 0,Variational principle,SOURCE-ONLY,Master Equation Matrix
+PE.4,UNMATCHED,d/dt(dL/dy'_a) - dL/dy_a = 0,Euler-Lagrange,SOURCE-ONLY,Master Equation Matrix
+PE.5,UNMATCHED,delta S = 0,Action principle,SOURCE-ONLY,Master Equation Matrix
+PE.6,UNMATCHED,S = INT L dt,Action,SOURCE-ONLY,Master Equation Matrix
+PE.7,UNMATCHED,y''_c + Gamma^c_{ab} y'_a y'_b = -g^{ca} nabla_a I_F,Field equation,SOURCE-ONLY,Master Equation Matrix
+PE.8,UNMATCHED,y''_c + Gamma^c_{ab} y'_a y'_b = 0,GR limit,SOURCE-ONLY,Master Equation Matrix
+PE.9,UNMATCHED,D y'_a / dt = g^{ab} nabla_b I_F,Covariant form,SOURCE-ONLY,Master Equation Matrix
+PE.10,UNMATCHED,D/dt = y'_a nabla_a,Material derivative,SOURCE-ONLY,Master Equation Matrix
+PE.11,UNMATCHED,nabla_a I_F = dI_F / dy^a,Gradient,SOURCE-ONLY,Master Equation Matrix
+PE.12,UNMATCHED,delta Gamma = 0,Org action stationarity,SOURCE-ONLY,Master Equation Matrix
+PE.13,UNMATCHED,"Gamma[Sigma] = Phi(g, Delta, T)",Org action,SOURCE-ONLY,Master Equation Matrix
+CV.1,UNMATCHED,Gamma^c_{ab} = (1/2) g^{cd}(d_a g_{bd} + d_b g_{ad} - d_d g_{ab}),Christoffel,SOURCE-ONLY,Master Equation Matrix
+CV.2,UNMATCHED,R^a_{bcd} = d_c Gamma^a_{bd} - d_d Gamma^a_{bc} + Gamma^a_{ce} Gamma^e_{bd} - Gamma^a_{de} Gamma^e_{bc},Riemann tensor,SOURCE-ONLY,Master Equation Matrix
+CV.3,UNMATCHED,R_{ab} = R^c_{acb},Ricci tensor,SOURCE-ONLY,Master Equation Matrix
+CV.4,UNMATCHED,R = g^{ab} R_{ab},Ricci scalar,SOURCE-ONLY,Master Equation Matrix
+CV.5,UNMATCHED,G_{ab} = R_{ab} - (1/2) R g_{ab},Einstein tensor,SOURCE-ONLY,Master Equation Matrix
+CV.6,UNMATCHED,G_{mu nu} + Lambda g_{mu nu} = 8 pi G T_{mu nu},Einstein equations,SOURCE-ONLY,Master Equation Matrix
+CV.7,UNMATCHED,R_{abcd} R^{abcd},Kretschner scalar,SOURCE-ONLY,Master Equation Matrix
+CV.8,UNMATCHED,R_{ab} R^{ab},Ricci squared,SOURCE-ONLY,Master Equation Matrix
+CV.9,UNMATCHED,R^2,Ricci scalar squared,SOURCE-ONLY,Master Equation Matrix
+CV.10,UNMATCHED,C_{abcd} C^{abcd},Weyl squared,SOURCE-ONLY,Master Equation Matrix
+CV.11,UNMATCHED,INT_M R sqrt|g| d^4x,Einstein-Hilbert action,SOURCE-ONLY,Master Equation Matrix
+CV.12,UNMATCHED,sqrt|g| = sqrt|det(g_{mu nu})|,Volume element,SOURCE-ONLY,Master Equation Matrix
+PH.1,UNMATCHED,d rho/dt + nabla . (rho v) = 0,Continuity,SOURCE-ONLY,Master Equation Matrix
+PH.2,UNMATCHED,d phi/dt = D nabla^2 phi,Diffusion,SOURCE-ONLY,Master Equation Matrix
+PH.3,UNMATCHED,d phi/dt = D nabla^2 phi + R(phi),Reaction-diffusion,SOURCE-ONLY,Master Equation Matrix
+PH.4,UNMATCHED,rho(du/dt + u.nabla u) = -nabla p + mu nabla^2 u + f,Navier-Stokes,SOURCE-ONLY,Master Equation Matrix
+PH.5,UNMATCHED,nabla . E = rho / eps_0,Gauss electric,SOURCE-ONLY,Master Equation Matrix
+PH.6,UNMATCHED,nabla . B = 0,Gauss magnetic,SOURCE-ONLY,Master Equation Matrix
+PH.7,UNMATCHED,nabla x E = -dB/dt,Faraday,SOURCE-ONLY,Master Equation Matrix
+PH.8,UNMATCHED,nabla x B = mu_0 J + mu_0 eps_0 dE/dt,Ampere-Maxwell,SOURCE-ONLY,Master Equation Matrix
+PH.9,UNMATCHED,nabla p,Pressure gradient,SOURCE-ONLY,Master Equation Matrix
+PH.10,UNMATCHED,nabla T,Temperature gradient,SOURCE-ONLY,Master Equation Matrix
+PH.11,UNMATCHED,nabla mu,Chemical gradient,SOURCE-ONLY,Master Equation Matrix
+PH.12,UNMATCHED,nabla phi,Field gradient,SOURCE-ONLY,Master Equation Matrix
+PH.13,UNMATCHED,D[Omega] = nabla Omega,Distinction operator,SOURCE-ONLY,Master Equation Matrix
+QM.1,UNMATCHED,i hbar d psi/dt = H_hat psi,Schrodinger,SOURCE-ONLY,Master Equation Matrix
+QM.2,UNMATCHED,H_hat psi = E psi,Energy eigenvalue,SOURCE-ONLY,Master Equation Matrix
+QM.3,UNMATCHED,S = k_B ln W,Boltzmann entropy,SOURCE-ONLY,Master Equation Matrix
+QM.4,UNMATCHED,dS = delta Q / T,Clausius,SOURCE-ONLY,Master Equation Matrix
+QM.5,UNMATCHED,F = U - T S,Helmholtz free energy,SOURCE-ONLY,Master Equation Matrix
+QM.6,UNMATCHED,Delta G = Delta H - T Delta S,Gibbs free energy,SOURCE-ONLY,Master Equation Matrix
+QM.7,UNMATCHED,Z = Tr(exp(-beta L)),Partition function,SOURCE-ONLY,Master Equation Matrix
+QM.8,UNMATCHED,F = -k_B T ln Z,Free energy from Z,SOURCE-ONLY,Master Equation Matrix
+QM.9,UNMATCHED,S = -dF/dT,Entropy from F,SOURCE-ONLY,Master Equation Matrix
+QM.10,UNMATCHED,A = -ln Z,Spectral action,SOURCE-ONLY,Master Equation Matrix
+LH.1,UNMATCHED,delta S = 0,Principle of stationary action,SOURCE-ONLY,Master Equation Matrix
+LH.2,UNMATCHED,S = INT L dt,Action,SOURCE-ONLY,Master Equation Matrix
+LH.3,UNMATCHED,L = T - V,Lagrangian,SOURCE-ONLY,Master Equation Matrix
+LH.4,UNMATCHED,q_dot_i = dH/dp_i,Hamilton equation 1,SOURCE-ONLY,Master Equation Matrix
+LH.5,UNMATCHED,p_dot_i = -dH/dq_i,Hamilton equation 2,SOURCE-ONLY,Master Equation Matrix
+LH.6,UNMATCHED,"H(q,p) = T + V",Hamiltonian,SOURCE-ONLY,Master Equation Matrix
+LH.7,UNMATCHED,"{f,g} = sum_i (df/dq_i dg/dp_i - df/dp_i dg/dq_i)",Poisson bracket,SOURCE-ONLY,Master Equation Matrix
+LH.8,UNMATCHED,"dH/dt = {H,H} + dH/dt = dH/dt",Energy conservation,SOURCE-ONLY,Master Equation Matrix
+OD.1,UNMATCHED,Sigma_{n+1} = U_alpha(Sigma_n),Evolution operator,SOURCE-ONLY,Master Equation Matrix
+OD.2,UNMATCHED,U_alpha = P_{C(alpha)}[ T_alpha(B_n) ],Operator form,SOURCE-ONLY,Master Equation Matrix
+OD.3,UNMATCHED,Sigma*(alpha) = lim_{n->inf} U_alpha^n(Sigma_0),Attractor,SOURCE-ONLY,Master Equation Matrix
+OD.4,UNMATCHED,Psi_{t+1} = C(T(D Psi_t)),DTC iteration,SOURCE-ONLY,Master Equation Matrix
+OD.5,UNMATCHED,Gamma = C o T o D,DTC composition,SOURCE-ONLY,Master Equation Matrix
+OD.6,UNMATCHED,"Omega = (Sigma, Pi)",Org state,SOURCE-ONLY,Master Equation Matrix
+OD.7,UNMATCHED,alpha = Phi_in / Phi_decay,Control parameter,SOURCE-ONLY,Master Equation Matrix
+OD.8,UNMATCHED,alpha < alpha_minus => Sigma_chaos,Fragmentation,SOURCE-ONLY,Master Equation Matrix
+OD.9,UNMATCHED,alpha_minus <= alpha <= alpha_plus => Sigma_persistent,Persistence,SOURCE-ONLY,Master Equation Matrix
+OD.10,UNMATCHED,alpha > alpha_plus => Sigma_equilibrium,Frozen equilibrium,SOURCE-ONLY,Master Equation Matrix
+OD.11,UNMATCHED,dI/d_tau = 0,Persistence cond. 1,SOURCE-ONLY,Master Equation Matrix
+OD.12,UNMATCHED,Tr(rho L rho) > 0,Persistence cond. 2,SOURCE-ONLY,Master Equation Matrix
+OD.13,UNMATCHED,Phi_boundary = INT J_mu n^mu dS != 0,Persistence cond. 3,SOURCE-ONLY,Master Equation Matrix
+OD.14,UNMATCHED,d Omega/dt + nabla . J_Omega = Sigma_Omega,Org. continuity,SOURCE-ONLY,Master Equation Matrix
+OD.15,UNMATCHED,d Omega/dt = -nabla.J + D nabla^2 Omega + R(Omega) + C(Omega) + I(Omega),Full org. dynamics,SOURCE-ONLY,Master Equation Matrix
+RG.1,UNMATCHED,"for all X,Y in G*: X o Y in G*",Axiom 1 — Closure,SOURCE-ONLY,Master Equation Matrix
+RG.2,UNMATCHED,"G = {Delta, tau, kappa} is irreducible",Axiom 2 — Minimality,SOURCE-ONLY,Master Equation Matrix
+RG.3,UNMATCHED,"for all O, exists C: C(O) in G*",Axiom 3 — Completeness,SOURCE-ONLY,Master Equation Matrix
+RG.4,UNMATCHED,"(Delta, tau, not kappa) => not Pi",Axiom 4 — Consistency,SOURCE-ONLY,Master Equation Matrix
+RG.5,UNMATCHED,"for all O, exists unique minimal C(O) in G*",Axiom 5 — Canonical Form,SOURCE-ONLY,Master Equation Matrix
+RG.6,UNMATCHED,Pi => Delta' (G* is self-generating),Axiom 6 — Recursive Generativity,SOURCE-ONLY,Master Equation Matrix
+RG.7,UNMATCHED,"(Delta, tau, kappa) -> Pi",Persistence theorem,SOURCE-ONLY,Master Equation Matrix
+RG.8,UNMATCHED,"Pi -> Delta' -> (Delta',tau',kappa') -> Pi'",Generativity chain,SOURCE-ONLY,Master Equation Matrix
+MC.1,UNMATCHED,"(A,H,D)",Input,SOURCE-ONLY,Master Equation Matrix
+MC.2,UNMATCHED,"(A,H,D) -> Spec(D)",Step 1,SOURCE-ONLY,Master Equation Matrix
+MC.3,UNMATCHED,Spec(D) -> L = D_deg - A,Step 2,SOURCE-ONLY,Master Equation Matrix
+MC.4,UNMATCHED,"L -> Spec(L) = {lambda_i, phi_i}",Step 3,SOURCE-ONLY,Master Equation Matrix
+MC.5,UNMATCHED,Spec(L) -> K_t = exp(-tL),Step 4,SOURCE-ONLY,Master Equation Matrix
+MC.6,UNMATCHED,K_t -> K(t) ~ sum a_n t^{(n-m)/2},Step 5,SOURCE-ONLY,Master Equation Matrix
+MC.7,UNMATCHED,"Spec(L) -> d(i,j) = sqrt(sum_k (phi_k(i)-phi_k(j))^2/lambda_k)",Step 6,SOURCE-ONLY,Master Equation Matrix
+MC.8,UNMATCHED,"d(i,j) -> g_{ab} = sum_k lambda_k^{-1} d_a phi_k d_b phi_k",Step 7,SOURCE-ONLY,Master Equation Matrix
+MC.9,UNMATCHED,g_{ab} -> Gamma^c_{ab},Step 8,SOURCE-ONLY,Master Equation Matrix
+MC.10,UNMATCHED,Gamma -> R^a_{bcd} -> R_{ab} -> G_{ab},Step 9,SOURCE-ONLY,Master Equation Matrix
+MC.11,UNMATCHED,G_{ab} -> G_{mu nu} + Lambda g_{mu nu} = 8 pi G T_{mu nu},Step 10,SOURCE-ONLY,Master Equation Matrix
+MC.12,UNMATCHED,"S = Tr(f(D/Lambda)) + <psi, D psi>",Step 11,SOURCE-ONLY,Master Equation Matrix
+MC.13,UNMATCHED,delta S = 0,Step 12,SOURCE-ONLY,Master Equation Matrix
+MC.14,UNMATCHED,C_Pi[y] = INT(g_{ab} y'_a y'_b + 2 I_F) dt,Step 13,SOURCE-ONLY,Master Equation Matrix
+MC.15,UNMATCHED,delta C_Pi = 0 => y''_c + Gamma^c_{ab} y'_a y'_b = -g^{ca} nabla_a I_F,Step 14,SOURCE-ONLY,Master Equation Matrix
+MC.16,UNMATCHED,I_F = 0 => y''_c + Gamma^c_{ab} y'_a y'_b = 0,Step 15,SOURCE-ONLY,Master Equation Matrix
+MC.17,UNMATCHED,R = exp(-beta L) => Z = Tr(exp(-beta L)) => F = -k_B T ln Z,Step 16,SOURCE-ONLY,Master Equation Matrix
+MC.18,UNMATCHED,alpha = Phi_in/Phi_decay => U_alpha,Step 17,SOURCE-ONLY,Master Equation Matrix
+MC.19,UNMATCHED,"lim U_alpha^n(Sigma_0) => {Sigma_chaos, Sigma_persistent, Sigma_equilibrium}",Step 18,SOURCE-ONLY,Master Equation Matrix
+MC.20,UNMATCHED,"Gamma = C o T o D, Pi -> Delta'",Step 19,SOURCE-ONLY,Master Equation Matrix

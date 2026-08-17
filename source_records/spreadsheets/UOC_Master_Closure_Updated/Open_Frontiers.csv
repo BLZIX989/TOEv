@@ -1,0 +1,15 @@
+Priority,Frontier,Exact Missing Arrow,Required Input,Closure Test,Existing Results It Unlocks
+1,Primitive reconciliation,K_org→canonical Γ,Competing primitive realizations,Equivalence/hierarchy/embedding/extension theorem,All downstream derivations gain canonical ancestry
+2,Persistence functional,NEDS/TNDS→Π_O,"p*, σ, C, Spec(L)",Derive bounded persistence functional,Organizational persistence and threshold
+3,Spectral threshold,Dynamics→λ_c,Restoration/degradation functions,Unique λ_c and running,Cutoff/persistence/cosmology
+4,Lorentzian emergence,Spectral structure→signature,Negative mode/localization/continuum,"(-,+,+,+) derived",Relativistic cosmology and matter
+5,Nature spectrum,Spec(L)→physical spectrum,Precise physical representation,Representation-invariant correspondence,Masses/couplings
+6,Absolute scale,Γ→C_UOC→ℓ_*,Dimensionful anchor candidates,Derived unique C_UOC or no-go,Cutoff and Planck-scale interpretation
+7,Horizon selector,Γ/g/Π→Σ_H→P_H,Causal/geometric/persistence boundary,"Projector is canonical, Hermitian, idempotent, refinement-invariant",Z_H and A_H become UOC-generated
+8,Information normalization,"(P_H,L_H,t*)→C_H",Admissible spectral functional,"C_H/α=π derived, conventional, free, or impossible",N_H and Xi
+9,Dynamic operator law,Γ→dotL,Organizational dynamics,dotL|FLRW=-2HL without inserted H,Dynamic spectrum and cosmology
+10,Gauge/matter generation,Algebra→SM group/reps/masses,Spectral/NCG structure,Unique predictive particle sector,Known particle physics recovery
+11,Born rule,Persistence→|ψ|²,Quantum recovery + persistence,Unique probability measure or explicit alternative,Quantum interpretation
+12,Compiler closure,Γ→executable compiler,UCG architecture/registries,Independent end-to-end compilation,Universal Rosetta/UOC product
+13,Biological reverse derivation,Common kernel→life dynamics,Organizational biology mappings,Replication/heredity/selection/adaptation derived,Theory of organizational evolution
+14,Empirical prediction,UOC parameters→observable,Closed physical parameters,Quantitative prediction survives existing bounds,Scientific falsification

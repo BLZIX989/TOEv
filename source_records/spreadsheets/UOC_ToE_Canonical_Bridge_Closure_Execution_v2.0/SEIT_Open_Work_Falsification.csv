@@ -1,0 +1,22 @@
+Priority / ID,Problem,Dependency,Test / Method,Failure or Closure Condition,Current Status
+SEIT-1,Evaluate Γ projection integral,C_Π,Compute restoring and higher-mode projections,Finite computable Γ,Open
+SEIT-2,Prove Γ strictly decreasing,SEIT-1,Monotonicity proof,Unique λ_c,Open
+SEIT-3,Derive λ_c(β),SEIT-1/2,Root flow in β,RG-consistent running threshold,Open
+SEIT-4,Derive P_k,λ_c,Locate UTT slope transitions,Projectors derived,Open
+SEIT-5,Normalize m0,λ_c Planck,Unit audit,No free mass normalization,Open
+SEIT-6,Derive force count=3,P_k,Prove two transitions,Three sectors forced,Open
+SEIT-7,Derive gauge group,Graph Clifford structure,Select SM group and rule out alternatives,Unique SU(3)×SU(2)×U(1),Open
+SEIT-8,Close N_sub,Spectral dimension,Hubble-radius derivation,Independent n_s derivation,Open
+SEIT-9,Classify empirical inputs,All closure,Input audit,External/derived partition,Open
+F-1,UV photon delay,Spectral d'Alembertian,Gamma-ray time-of-flight,Observed delay absent / wrong scaling,Partial
+F-2,IR lensing,Graph Green function,Weak-lensing profile,Profile fails quantitative test,Partial
+F-3,Quantum metric noise,Discrete metric model,GW interferometer spectrum,Noise floor absent / wrong scaling,Partial
+F-4,Graph reconstruction,Inverse spectral map,Algorithmic reconstruction,Known undecidability boundary,Undecidable
+P-I,Dimensional explosion,Refinement R,lim max deg(v)=∞,Falsifies continuum dimension stability,Diagnostic
+P-II,Cochain rupture,Chain map,dR≠Rd,Falsifies discrete differential complex,Diagnostic
+P-III,Metric asymmetry,Hodge star,⋆R≠scaled R⋆,Falsifies self-adjoint spectral geometry,Diagnostic
+P-IV,Optimizer instability,Step size,β≥2/Λmax,Falsifies convergence,Diagnostic
+P-V,Attractor fragmentation,Convexity,λmin(H)≤0,Falsifies unique attractor,Diagnostic
+P-VI,Loss of precompactness,GH/doubling,lim C_n=∞,Falsifies smooth continuum limit,Diagnostic
+P-VII,Torsion singularity,Weitzenböck,Commutator identity fails,Falsifies intended GR limit,Diagnostic
+P-VIII,Index shattering,Fredholm stability,Infinite zero crossings,Falsifies topological stability,Diagnostic

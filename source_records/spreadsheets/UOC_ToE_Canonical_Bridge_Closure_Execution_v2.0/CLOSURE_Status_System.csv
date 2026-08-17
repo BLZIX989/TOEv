@@ -1,0 +1,13 @@
+Field,Allowed Value,Meaning,Example
+Derivation status,CERTIFIED,Formally admitted/proven in registry or certified recovery,QRC certified subbranches
+Derivation status,CALCULATED,Explicit mathematical/numerical calculation executed under stated scope,L_N/h_N²→-Δ_T^d
+Derivation status,PARTIAL/CONDITIONAL,Calculation exists but depends on explicit assumptions/branch,ρ_vac=ħcΛ_*⁴/(16π²)
+Derivation status,OPEN THEOREM,Proof obligation not yet closed,Γ→P_H
+Derivation status,PROPOSED,New calculation/program not yet established as a result,General information functional classification
+Derivation status,FALSIFIED/NO-GO,Candidate has been tested and rejected under its stated claim,Universal sharp cutoff=rank(L)
+Closure status,CLOSED / SCOPED,Closed for explicit assumptions/family,Periodic lattice continuum operator
+Closure status,OPEN,Upstream or universality gap remains,Absolute UOC scale
+Closure status,CONDITIONAL,Downstream result follows if named assumptions are admitted,Xi(N_H)
+Registry status,CERTIFIED,Formal registry item admitted,Certified QRC entries
+Registry status,OPEN,Registered proof obligation,Gauge group selection
+Registry status,PROPOSED,Not yet a registry result; candidate program,UOC-015-type new work

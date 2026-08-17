@@ -1,0 +1,17 @@
+Stage,Expression,Status,What must be true for full closure
+1,"K_org→(Δ,τ,κ,Π)",PARTIAL,Primitive realizations reconciled
+2,→Γ,CERTIFIED SPINE / C0 OPEN FOR UNIQUENESS,Canonical Γ established
+3,→O→Ψ→G*,PARTIAL/CERTIFIED SPINE,Organizational closure and fixed-point relations
+4,→L→Spec(L),DERIVED/CALCULATED,Spectral realization preserved
+5,→Π_spectral,PARTIAL,Persistence functional/threshold derived
+6,→continuum geometry,CALCULATED/SCOPED,Universal refinement theorem
+7,→Lorentzian g_μν,OPEN/PARTIAL,Signature emergence derived
+8,→dynamics,PARTIAL/ADMITTED,UOC variational/dynamical generation
+9,→gauge/matter/quantum,PARTIAL,"Selection, representations, masses, couplings, quantum integration"
+10,→Σ_H→P_H,OPEN,Horizon selector derived
+11,→Z_H→A_H,CALCULATED/SCOPED,"Given valid P_H, heat-kernel area recovery"
+12,→N_H^UOC,OPEN,Independent spectral information functional
+13,→Xi_UOC,CONDITIONAL,Non-circular mapping
+14,→Λ_*→ρ_vac,DERIVED GIVEN Xi,Spectral DOS/vacuum formula
+15,→Λ_cosm→H→a(t),DOWNSTREAM CLOSED GIVEN INPUT,Vacuum EH dynamics
+16,→predictions→falsification,OPEN/PARTIAL,Quantitative novel predictions and bounds

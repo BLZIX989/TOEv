@@ -1,0 +1,23 @@
+Order,Symbol/Object,Definition,Layer,Status
+01,Δ,Distinction,primitive,input
+02,τ,Transformation,primitive,input
+03,κ,Constraint,primitive,input
+04,Π,Persistence,state/evolution layer,retained state
+05,Γ,κ∘τ∘Δ,organizational generator,generated
+06,O,organizational operation,operator layer,generated
+07,Ψ,organizational state,state layer,generated
+08,G,graph realization,substrate,generated
+09,B,incidence matrix,first-order graph operator,generated/calculated
+10,L,BBᵀ or D-A,PSD Laplacian,calculated
+11,Spec(L),"{λ_i,φ_i}",spectral substrate,calculated
+12,K_t,e^{-tL},persistence/diffusion,calculated
+13,d,spectral diffusion distance,metric precursor,calculated
+14,g,continuum metric,geometry,scoped/derived
+15,∇,Levi-Civita connection,differential geometry,derived
+16,"R,R_μν,R,G_μν",curvature hierarchy,gravity geometry,derived
+17,S_EH,Einstein-Hilbert action,variational physics,admitted
+18,D_G,"[[0,B],[Bᵀ,0]]",discrete Dirac,calculated
+19,ρ_vac,ħcΛ_*⁴/(16π²),spectral vacuum branch,calculated
+20,Λ_cosm,ℓ_p²Λ_*⁴/(2π),cosmological constant mapping,derived
+21,H,√(8πGρ_vac/3),vacuum expansion rate,derived
+22,a(t),a₀exp(∫Hdt),scale factor,derived

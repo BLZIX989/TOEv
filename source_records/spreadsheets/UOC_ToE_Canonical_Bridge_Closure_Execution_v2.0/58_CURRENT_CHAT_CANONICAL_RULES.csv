@@ -1,0 +1,21 @@
+Update_ID,Topic,Objects,Required_Action,Classification,Registry_Treatment
+ARCH-001,Master closure,C0-C10,Replace nine-program narrative,ARCHITECTURAL,CANONICAL
+GOV-001,Three-axis status,Derivation / Closure / Registry,Keep execution and universality independent,GOVERNANCE,CANONICAL
+SPINE-001,Certified spine,"(D,τ,κ,Π)<Γ<O<Ψ<G<L<Spec(L)<K_t<d<g<∇<R<Rμν<R<Gμν<S<Aμ<Fμν<Dμ<ψ<Tμν<physics",Preserve without primitive uniqueness claim,CERTIFIED SPINE,CANONICAL
+C0-001,Primitive reconciliation,"{Δ,τ,κ,Π} vs realization/graph/MDCL",Derive equivalence/hierarchy/embedding/extension,OPEN THEOREM,OPEN
+C1-001,Fixed points,Fix(Γ) vs Fix(R),Derive morphism; do not assume equality,OPEN THEOREM,OPEN
+C2-001,Persistence,"L, Spec(L), heat evolution, ker L, rank, embeddings",Preserve executed results; derive persistence functional/threshold,CALCULATED/PARTIAL,CANONICAL
+C3-001,Geometry,L_N→−Δ_g→K_g→d_g→g_ij,Preserve explicit-family scope,CALCULATED/SCOPED,CANONICAL
+C3-002,Lorentzian,negative mode→indefinite→Lorentzian metric,Negative eigenvalue ≠ Lorentzian spacetime,PARTIAL/OPEN,OPEN
+C4-001,Nature spectrum,Spec(L) ?= Spec(Nature),Define representation and test,OPEN,OPEN
+C4-002,Scale,"ℓ_p=sqrt(ℏG/c^3), ℓ*=C_UOCℓ_p",Derive C_UOC or no-go,OPEN,OPEN
+C5-001,Gauge,Aμ→Fμν→Dμ→Yang-Mills,Keep group selection separate,SUBSTANTIAL/SELECTION OPEN,CANONICAL
+C5-002,Matter,"G_UOC ?= SU(3)×SU(2)×U(1), N_gen ?=3, masses",Separate gauge/representation/generation/mass obligations,OPEN,OPEN
+C6-001,Quantum,Certified recovery + Born rule + quantum geometry,Do not impose HΨ=0 as definition,PARTIAL/OPEN,OPEN
+C7-001,COSMO-DYN,dν/dλ; ρvac; Λcosm; Ξ,Preserve downstream calculations,CALCULATED/PARTIAL,CANONICAL
+C7-002,Horizon,Γ→Σ_H→P_H→N_H^UOC→Ξ_UOC,Derive structural selector/projector,OPEN,OPEN
+C7-003,Information,C_H/α=π,Derive or classify convention/free/no-go,OPEN NORMALIZATION,OPEN
+C8-001,Biology,mapping substantial; reverse derivation open,Derive fitness/replication/heredity/selection/adaptation,PARTIAL/OPEN,OPEN
+C9-001,Compiler,"normal form, confluence, typing, routing, runtime, H↔Ω",Parallel closure branch,OPEN PARALLEL,OPEN
+C10-001,Validation,recovery≠validation≠prediction,Cross-domain invariance/dimensional/numerical/falsification suite,OPEN/PARTIAL,OPEN
+RULE-001,Governing rule,"Derived under what dependencies, scope and closure status?",Apply to every future result,CANONICAL RULE,CANONICAL

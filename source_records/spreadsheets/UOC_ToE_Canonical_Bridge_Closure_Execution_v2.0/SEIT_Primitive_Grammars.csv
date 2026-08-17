@@ -1,0 +1,8 @@
+Version,Primitives,Composition / Role,Status,Unresolved Reconciliation
+Part I DTC,"Δ, τ, κ, Π",Γ ≡ 𝔠κ∘𝔗τ∘𝔗Δ,Framework / unreconciled,Relation to gradient chain and v2.0
+MDCL v1.0,"D, T, C (+Π)",Γ=C∘T∘D,Certified framework,Formal identity with DTC not proved
+MDCL v2.0,"Δ, τ, κ, Θ, Π, Ω",No single composition stated,Certified framework / extended,"Whether Θ,Ω are primitive; reconcile with v1.0"
+UDP Phase I,"Object, Relation, Operator, Constraint, State",Dependency reduction,Candidate methodology,Different alphabet from DTC/MDCL
+Part III gradient,"∇, κ, 𝒪, F, Wc, Π, Ψ, E",Eight-stage physical organization chain,Open / unreconciled,Reconcile with DTC
+Part V foundation,"D,T,C,Π",UGAS→UGCT→UGUP→UGNT→UGIT→UOLS→UTS→𝔐,Certified foundation with open UGNT theorems,Does not formalize DTC or v2.0
+SEIT.0,"Σ, Γ, Π",State→generator→persistence,Active physical hypothesis,Need independent validation

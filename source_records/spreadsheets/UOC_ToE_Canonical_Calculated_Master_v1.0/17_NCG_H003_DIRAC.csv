@@ -1,0 +1,6 @@
+ID,Object,Equation,Status,Scope
+H-003.1,Incidence factorization,L=BBᵀ,DERIVED,For oriented graph incidence matrix B.
+H-003.2,Discrete Hilbert space,H_G=C^V ⊕ C^E,DERIVED,dim H_G=n+m.
+H-003.3,Incidence Dirac,"D_G=[[0,B],[Bᵀ,0]]",DERIVED/CALCULATED,Self-adjoint for real B.
+H-003.4,Square,"D_G²=diag(BBᵀ,BᵀB)",DERIVED,Vertex block is L.
+H-003.5,Grading,"γ=diag(I_V,-I_E)",DERIVED,"{γ,D_G}=0."

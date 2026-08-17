@@ -1,0 +1,14 @@
+Source_Table,ID,Symbol,Name,Definition
+5,PRIM-G-001,Delta (D),Distinction,The minimal identifiable difference — a closed orientable boundary separating interior from exterior. Formally: a hypersurface satisfying the homological closure condition d(dΩ) = 0.
+5,PRIM-G-002,tau (T),Transformation,"Any lawful evolution acting on an established distinction, preserving phase-space volume (discrete Liouville condition). Requires a prior distinction to act on."
+5,PRIM-G-003,kappa (C),Constraint,The rules restricting which transformations are permissible. Formally: a projection operator P_kappa satisfying idempotency (P_kappa^2 = P_kappa).
+5,PRIM-G-004,Pi (P),Persistence,The retention of organizational identity across constrained transformations — the kernel of an invariant operator surviving repeated application of tau under kappa.
+6,PRIM-P-001,E,Energy,The capacity of a physical system to do work. Foundational input to the Physical Layer. All thermodynamic states derive from E.
+6,PRIM-P-002,nabla Phi,Gradient,A nonzero spatial difference in an intensive variable creating a driving force. The physical realization of Distinction. Measurable; replaces the abstract Delta in the physics-first formulation.
+7,PRIM-C-001,"B=(U,V,E)",Bipartite Substrate,"An Abelian bipartite graph with disjoint vertex sets U and V and edge set E ⊂ U×V. No metric, orientation, or background geometry assumed. The foundational input to the Computational Layer."
+8,PRIM-X-001,Delta,Distinction,State distinguishability — same as PRIM-G-001.
+8,PRIM-X-002,tau,Transformation,Admissible evolution — same as PRIM-G-002.
+8,PRIM-X-003,kappa,Constraint,Restriction on admissible evolution — same as PRIM-G-003.
+8,PRIM-X-004,Theta,Accessibility,A reachability structure defining which states can follow which.
+8,PRIM-X-005,Pi,Persistence,Stable organizational realization — same as PRIM-G-004.
+8,PRIM-X-006,Omega,Organizational State,A certified organizational configuration — the state variable for the organizational evolution equation.

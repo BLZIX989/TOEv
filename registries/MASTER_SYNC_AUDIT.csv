@@ -1,0 +1,10 @@
+Sync_ID,Operation,Disposition,Rule,Source
+SYNC-001,Existing spreadsheets imported wholesale,PRESERVED,No prior row is deleted or relabeled,UOC_Master_Closure_Updated; UOC_SEIT_Combined_Master_Matrix; ToE Gap Matrix
+SYNC-002,174 Master Equation Matrix equations reconstructed as canonical rows,PRESERVED,Section counts match source: 36+25+14+13+12+13+10+8+15+8+20=174,Master Equation Matrix
+SYNC-003,UCG DER registry retained with source statuses,PRESERVED,Version-sensitive disagreements remain source-specific,UCG Specification v5
+SYNC-004,Executed COSMO-DYN results retained,PRESERVED,Downstream calculations are not demoted merely because ancestry is open,Current chat + closure workbook
+SYNC-005,Three-field status semantics installed,CANONICAL UPDATE,Derivation / closure / registry status separated,Current chat
+SYNC-006,C0-C10 closure architecture installed,CANONICAL UPDATE,Nine-program narrative retired,Current chat
+SYNC-007,Observational-input firewall recorded,CANONICAL INVARIANT,Observed Λ/H/N cannot be upstream of Ξ prediction,Current chat
+SYNC-008,PROPOSED vs existing registry entries separated,CANONICAL UPDATE,New calculations are not silently registered as completed,Current chat
+SYNC-009,Source-version conflicts preserved,AUDIT RULE,Conflicting maturity claims remain traceable to source/version rather than silently reconciled,UCG vs latest master matrix

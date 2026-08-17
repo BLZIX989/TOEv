@@ -1,0 +1,8 @@
+Branch,Dependency Chain,Status / Interpretation
+Organizational spine,"(D,τ,κ,Π) < Γ < O < Ψ < G < L < Spec(L) < K_t < d < g < ∇ < R < R_μν < R < G_μν < S < A_μ < F_μν < D_μ < ψ < T_μν < physics",Certified/established spine; primitive uniqueness remains under C0
+Master mathematical chain,K_org→Γ→O→Ψ→G*→L→Spec(L)→shared mathematical substrate,Canonical target architecture
+Spectral geometry,G_N→L_N→-Δ_g→K_g→d_g→g_ij,Calculated for explicit periodic refinement; universality scope qualified
+Lorentzian branch,positive spectral structure→negative mode→localization→indefinite form→Lorentzian metric,Partial/candidate; negative eigenvalue alone is not Lorentzian spacetime
+Cosmological branch,ℓ_*→t_*→P_H→Z_H→A_H→N_H^UOC→Xi→Λ_*→ρ_vac→Λ_cosm→H→a(t),Downstream pieces calculated conditionally; upstream generation remains closure frontier
+Compiler branch,Γ→C_UOC→canonical IR→dependency DAG→domain backends→validation→falsification,"Parallel closure problem, not downstream physics"
+Validation commutativity,Independent branches recover common structures and agree in continuum/representation limits,Ultimate ToE/Compiler integration target

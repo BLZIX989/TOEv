@@ -1,0 +1,60 @@
+Entry ID,Statement (abbreviated),Direct Predecessors,Status
+PRIM-G-001,Delta (Distinction),None,CERTIFIED
+PRIM-G-002,tau (Transformation),None,CERTIFIED
+PRIM-G-003,kappa (Constraint),None,CERTIFIED
+PRIM-G-004,Pi (Persistence),None,CERTIFIED
+PRIM-P-001,E (Energy),None,CERTIFIED
+PRIM-C-001,"B=(U,V,E) (Bipartite substrate)",None,CERTIFIED
+AX-SDR-001..005,Strict Dependency Relation axioms,None,CERTIFIED
+DER-ORG-001,"Grammar G = {D,T,C}","PRIM-G-001,002,003",CERTIFIED
+DER-ORG-002,State evolution Psi_{t+1}=C(T(D Psi_t)),ORG-001,CERTIFIED
+DER-ORG-003,Persistence fixed point,ORG-002,CERTIFIED
+DER-ORG-004,Recursive generativity Pi=>Delta',ORG-003,CERTIFIED
+DER-ORG-005,Compiler interface,"ORG-001, SPC-001",CERTIFIED
+DER-ORG-006,Fixed-point equivalence theorem,"ORG-003, SPC-005",OPEN
+DER-ORG-007,Pi_O recovery (org. side),"ORG-003, TRC-002",OPEN
+DER-ORG-008,Attractor uniqueness,ORG-003,OPEN
+DER-ORG-009,Compiler completeness,ORG-005,OPEN
+DER-ORG-010,Dependency completeness,"SDR-005, ORG-009",OPEN
+DER-SPC-001,"Graph G=(V,E)",ORG-001,CERTIFIED
+DER-SPC-002,Laplacian L=D-A,SPC-001,CERTIFIED
+DER-SPC-003,Spectrum Spec(L),SPC-002,CERTIFIED
+DER-SPC-004,Heat kernel K_t,SPC-003,CERTIFIED
+DER-SPC-005,Persistence operator R,SPC-003,CERTIFIED
+DER-SPC-006,Spectral fixed point Omega,SPC-005,OPEN
+DER-VAR-001,Persistence Cost Functional,"GEO-001, SPC-003",CERTIFIED
+DER-VAR-002,Universal Persistence Field Equation,VAR-001,CERTIFIED
+DER-VAR-003,Legendre transform,VAR-002,CERTIFIED
+DER-VAR-004,Einstein-Hilbert action,GEO-005,CERTIFIED
+DER-VAR-005,Einstein field equations,"VAR-004, GEO-006",CERTIFIED
+DER-GEO-001,Spectral metric g_{ab},SPC-003,CERTIFIED
+DER-GEO-002,Levi-Civita connection Gamma^c_{ab},GEO-001,CERTIFIED
+DER-GEO-003,Riemann tensor R^rho_{sig ab},GEO-002,CERTIFIED
+DER-GEO-004,Ricci tensor R_{ab},GEO-003,CERTIFIED
+DER-GEO-005,Ricci scalar R,GEO-004,CERTIFIED
+DER-GEO-006,Einstein tensor G_{ab},GEO-005,CERTIFIED
+DER-GAU-001,Gauge connection A_mu,SPC-002,CERTIFIED
+DER-GAU-002,Field strength F_{ab},GAU-001,CERTIFIED
+DER-GAU-003,Covariant derivative D_mu,"GAU-001, GEO-002",CERTIFIED
+DER-GAU-004,Yang-Mills equations,"GAU-002, GAU-003",CERTIFIED
+DER-QR-001,Hilbert space H,SPC-003,CERTIFIED
+DER-QR-002,Schrodinger equation,"QR-001, SPC-003",CERTIFIED
+DER-QR-003,Heisenberg equation,QR-002,CERTIFIED
+DER-QR-004,Uncertainty relation,QR-003,CERTIFIED
+DER-QR-005,Clifford algebra,GEO-001,CERTIFIED
+DER-QR-006,Dirac operator,"QR-005, GAU-003",CERTIFIED
+DER-QR-007,Spin recovery,QR-006,CERTIFIED
+DER-QR-008,Magnetic moment,"QR-007, GAU-001",CERTIFIED
+DER-TRC-001,Internal energy (first law),PRIM-P-001,CERTIFIED
+DER-TRC-002,Entropy S=k_B ln W,TRC-001,CERTIFIED
+DER-TRC-003,Entropy flux J_s=J_q/T,TRC-002,CERTIFIED
+DER-TRC-004,Clausius-Duhem inequality,"TRC-002, TRC-003",CERTIFIED
+DER-TRC-005,Fourier heat flux J_q=-kappa nabla T,TRC-003,CERTIFIED
+DER-TRC-006,Pi_O (thermodynamic side),"TRC-002, SPC-003",OPEN
+CMRC-001..019,Conformal Math Recovery Core (complete),"PRIM-G-001,002,003",CERTIFIED
+VAL-001,"String Theory (bosonic, critical dim=26)",CMRC-001..019,CERTIFIED
+VAL-002,Maxwell Electrodynamics,DER-GAU-001..004,CERTIFIED
+VAL-003,GR Matter Coupling,"DER-VAR-005, DER-TRC-001",CERTIFIED
+VAL-004,Quantum Mechanics,DER-QR-001..006,CERTIFIED
+VAL-005,Hamiltonian Mechanics,"DER-VAR-003, DER-QR-001",CERTIFIED
+THM-ANOM,G_SM = SU(3)xSU(2)xU(1) derivation,DER-QR-006,CERTIFIED

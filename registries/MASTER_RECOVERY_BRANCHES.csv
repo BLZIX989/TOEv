@@ -1,0 +1,13 @@
+Branch_ID,Branch_Name,Registry_Code,Core_Objects,Closure_Layer,Status,Authority
+BRANCH-00,Primitive Recovery,PRIM,"Δ,τ,κ,Π",C0,CERTIFIED / RECONCILIATION OPEN,DTC / MDCL / UCG
+BRANCH-01,Organizational Recovery,ORG,"Γ,O,Ψ,Π,Ω",C0-C1,CERTIFIED / FIXED-POINT OPEN,DER-ORG
+BRANCH-02,Spectral Recovery,SPC,"G,L,Spec(L),K_t,R",C1-C2,CALCULATED / SCOPED,DER-SPC
+BRANCH-03,Geometry Recovery,GEO,"d,g,∇,Γ^c,Riemann,Ricci,R,G",C3,DERIVED / SCOPED,DER-GEO
+BRANCH-04,Variational Recovery,VAR,"C_Π,S,δS,EL",C2-C3,CERTIFIED / SCOPED,DER-VAR
+BRANCH-05,Gauge Recovery,GAU,"A_μ,F_μν,D_μ",C5,CERTIFIED SOURCE / SELECTION OPEN,DER-GAU
+BRANCH-06,Quantum Recovery,QR,"H,D,ψ,Schrödinger,Heisenberg",C6,CERTIFIED SOURCE / INTEGRATION OPEN,DER-QR
+BRANCH-07,Thermodynamic Recovery,TRC,"E,S,J,σ,Z,F",C2-C4,CERTIFIED / FUNCTIONAL OPEN,DER-TRC
+BRANCH-08,Cosmological Closure,COSMO-DYN,"P_H,Z_H,A_H,N_H,Ξ,Λ_*,ρ_vac,Λ_cosm,H,a",C7,CALCULATED DOWNSTREAM / UPSTREAM OPEN,Current chat
+BRANCH-09,Biological Recovery,BIO,"replication, heredity, selection, adaptation, fitness",C8,MAPPING PARTIAL / REVERSE DERIVATION OPEN,MDCL
+BRANCH-10,Compiler Integration,COMP,"parser, IR, DAG, type, dimensional, symbolic, numerical, proof, validation, falsification",C9,PARALLEL OPEN BRANCH,UOC/UCG
+BRANCH-11,Validation & Prediction,VAL,"recovery, validation, prediction, falsification",C10,OPEN/PARTIAL,Current architecture

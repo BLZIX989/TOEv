@@ -1,0 +1,780 @@
+Node_ID,Node_Type,Name,Ancestor_Count,Descendant_Count,Root_Flag,Leaf_Flag,Impact_Class
+PRIM-G-001,PRIMITIVE,Distinction,1,0,,LEAF,LOW
+PRIM-G-002,PRIMITIVE,Transformation,1,0,,LEAF,LOW
+PRIM-G-003,PRIMITIVE,Constraint,1,0,,LEAF,LOW
+PRIM-G-004,PRIMITIVE,Persistence,1,0,,LEAF,LOW
+PRIM-P-001,PRIMITIVE,Energy,0,0,ROOT,LEAF,LOW
+PRIM-P-002,PRIMITIVE,Gradient,0,0,ROOT,LEAF,LOW
+PRIM-C-001,PRIMITIVE,Bipartite Substrate,0,0,ROOT,LEAF,LOW
+PRIM-X-001,PRIMITIVE,Distinction,0,0,ROOT,LEAF,LOW
+PRIM-X-002,PRIMITIVE,Transformation,0,0,ROOT,LEAF,LOW
+PRIM-X-003,PRIMITIVE,Constraint,0,0,ROOT,LEAF,LOW
+PRIM-X-004,PRIMITIVE,Accessibility,0,0,ROOT,LEAF,LOW
+PRIM-X-005,PRIMITIVE,Persistence,0,0,ROOT,LEAF,LOW
+PRIM-X-006,PRIMITIVE,Organizational State,0,0,ROOT,LEAF,LOW
+USR-001,SYMBOL,Distinction primitive,0,0,ROOT,LEAF,LOW
+USR-002,SYMBOL,Transformation primitive,0,0,ROOT,LEAF,LOW
+USR-003,SYMBOL,Constraint primitive,0,0,ROOT,LEAF,LOW
+USR-004,SYMBOL,Persistence primitive,0,0,ROOT,LEAF,LOW
+USR-005,SYMBOL,Organizational action,0,0,ROOT,LEAF,LOW
+USR-006,SYMBOL,Distinction graph,0,0,ROOT,LEAF,LOW
+USR-007,SYMBOL,Graph Laplacian,0,0,ROOT,LEAF,LOW
+USR-008,SYMBOL,Laplacian spectrum,0,0,ROOT,LEAF,LOW
+USR-009,SYMBOL,Heat kernel,0,0,ROOT,LEAF,LOW
+USR-010,SYMBOL,Persistence filter,0,0,ROOT,LEAF,LOW
+USR-011,SYMBOL,Diffusion distance,0,0,ROOT,LEAF,LOW
+USR-012,SYMBOL,Metric tensor,0,0,ROOT,LEAF,LOW
+USR-013,SYMBOL,Christoffel symbols,0,0,ROOT,LEAF,LOW
+USR-014,SYMBOL,Riemann tensor,0,0,ROOT,LEAF,LOW
+USR-015,SYMBOL,Ricci tensor,0,0,ROOT,LEAF,LOW
+USR-016,SYMBOL,Ricci scalar,0,0,ROOT,LEAF,LOW
+USR-017,SYMBOL,Einstein tensor,0,0,ROOT,LEAF,LOW
+USR-018,SYMBOL,Gauge connection,0,0,ROOT,LEAF,LOW
+USR-019,SYMBOL,Field strength,0,0,ROOT,LEAF,LOW
+USR-020,SYMBOL,Covariant derivative,0,0,ROOT,LEAF,LOW
+USR-021,SYMBOL,Spinor field,0,0,ROOT,LEAF,LOW
+USR-022,SYMBOL,Stress-energy tensor,0,0,ROOT,LEAF,LOW
+USR-023,SYMBOL,Entropy production rate,0,0,ROOT,LEAF,LOW
+USR-024,SYMBOL,Org. Persistence Functional,0,0,ROOT,LEAF,LOW
+USR-025,SYMBOL,Control parameter,0,0,ROOT,LEAF,LOW
+USR-026,SYMBOL,Evolution operator,0,0,ROOT,LEAF,LOW
+USR-027,SYMBOL,Master attractor,0,0,ROOT,LEAF,LOW
+USR-028,SYMBOL,Dirac operator,0,0,ROOT,LEAF,LOW
+USR-029,SYMBOL,Einstein-Hilbert action,0,0,ROOT,LEAF,LOW
+USR-030,SYMBOL,Persistence Cost Functional,0,0,ROOT,LEAF,LOW
+OP-ORG-001,OPERATOR,Distinction,0,0,ROOT,LEAF,LOW
+OP-ORG-002,OPERATOR,Transformation,0,0,ROOT,LEAF,LOW
+OP-ORG-003,OPERATOR,Constraint,0,0,ROOT,LEAF,LOW
+OP-ORG-004,OPERATOR,Organizational Action,0,0,ROOT,LEAF,LOW
+OP-ORG-005,OPERATOR,Evolution Operator,0,0,ROOT,LEAF,LOW
+OP-CMP-001,OPERATOR,Graph Laplacian,0,0,ROOT,LEAF,LOW
+OP-CMP-002,OPERATOR,Persistence Filter,0,0,ROOT,LEAF,LOW
+OP-CMP-003,OPERATOR,Heat Kernel,0,0,ROOT,LEAF,LOW
+OP-CMP-004,OPERATOR,Dirac Operator,0,0,ROOT,LEAF,LOW
+OP-CMP-005,OPERATOR,Covariant Derivative,0,0,ROOT,LEAF,LOW
+OP-CMP-006,OPERATOR,Euler-Lagrange,0,0,ROOT,LEAF,LOW
+OP-P0-001,OPERATOR,Arithmetic,0,0,ROOT,LEAF,LOW
+OP-P0-002,OPERATOR,Partial Derivative,0,0,ROOT,LEAF,LOW
+OP-P0-003,OPERATOR,Gradient,0,0,ROOT,LEAF,LOW
+OP-P0-004,OPERATOR,Variation,0,0,ROOT,LEAF,LOW
+OP-P0-005,OPERATOR,Laplacian,0,0,ROOT,LEAF,LOW
+OP-P0-006,OPERATOR,Exponential / Logarithm,0,0,ROOT,LEAF,LOW
+OP-P0-007,OPERATOR,Trace,0,0,ROOT,LEAF,LOW
+OP-P0-008,OPERATOR,Spectrum,0,0,ROOT,LEAF,LOW
+OP-P0-009,OPERATOR,Adjoint,0,0,ROOT,LEAF,LOW
+OP-P0-010,OPERATOR,Projection,0,0,ROOT,LEAF,LOW
+OP-P0-011,OPERATOR,Commutator,0,0,ROOT,LEAF,LOW
+OP-P0-012,OPERATOR,Tensor Product / Direct Sum,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.1,EQUATION,Connes 1995,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.2,EQUATION,Connes-Chamseddine,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.3,EQUATION,Lichnerowicz,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.4,EQUATION,Definition,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.5,EQUATION,Standard Model,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.6,EQUATION,Standard Model,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.7,EQUATION,Standard Model,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.8,EQUATION,Inner fluctuations,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.9,EQUATION,Definition,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.10,EQUATION,Spectral action,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.11,EQUATION,Spectral action,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.12,EQUATION,Full action,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.13,EQUATION,Seeley-DeWitt,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.14,EQUATION,Definition,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.15,EQUATION,Coefficients,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.16,EQUATION,Expansion,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.17,EQUATION,Heat kernel,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.18,EQUATION,Zeta function,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.19,EQUATION,Zeta action,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.20,EQUATION,Atiyah-Singer,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.21,EQUATION,Real structure,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.22,EQUATION,Real structure,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.23,EQUATION,Real structure,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.24,EQUATION,Chirality,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.25,EQUATION,Chirality,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.26,EQUATION,SM algebra,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.27,EQUATION,Gauge group,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.28,EQUATION,Unification,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.29,EQUATION,Higgs mass,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.30,EQUATION,Seesaw,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.31,EQUATION,Connes distance,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.32,EQUATION,Commutator,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.33,EQUATION,Order-one,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.34,EQUATION,Boundedness,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.35,EQUATION,Propagator,0,0,ROOT,LEAF,LOW
+EQSRC:NCG.36,EQUATION,Chiral trace,0,0,ROOT,LEAF,LOW
+EQSRC:SP.1,EQUATION,Definition,0,0,ROOT,LEAF,LOW
+EQSRC:SP.2,EQUATION,Graph Laplacian,0,0,ROOT,LEAF,LOW
+EQSRC:SP.3,EQUATION,Eigenequation,0,0,ROOT,LEAF,LOW
+EQSRC:SP.4,EQUATION,Spectrum,0,0,ROOT,LEAF,LOW
+EQSRC:SP.5,EQUATION,Ground state,0,0,ROOT,LEAF,LOW
+EQSRC:SP.6,EQUATION,Kernel,0,0,ROOT,LEAF,LOW
+EQSRC:SP.7,EQUATION,Trace,0,0,ROOT,LEAF,LOW
+EQSRC:SP.8,EQUATION,Orthonormality,0,0,ROOT,LEAF,LOW
+EQSRC:SP.9,EQUATION,Incidence factorization,0,0,ROOT,LEAF,LOW
+EQSRC:SP.10,EQUATION,Diagonalization,0,0,ROOT,LEAF,LOW
+EQSRC:SP.11,EQUATION,Functional calculus,0,0,ROOT,LEAF,LOW
+EQSRC:SP.12,EQUATION,Spectral trace,0,0,ROOT,LEAF,LOW
+EQSRC:SP.13,EQUATION,Heat trace,0,0,ROOT,LEAF,LOW
+EQSRC:SP.14,EQUATION,Heat semigroup,0,0,ROOT,LEAF,LOW
+EQSRC:SP.15,EQUATION,Regularized det,0,0,ROOT,LEAF,LOW
+EQSRC:SP.16,EQUATION,Hodge Laplacian,0,0,ROOT,LEAF,LOW
+EQSRC:SP.17,EQUATION,Dirac-Hodge,0,0,ROOT,LEAF,LOW
+EQSRC:SP.18,EQUATION,Nilpotency,0,0,ROOT,LEAF,LOW
+EQSRC:SP.19,EQUATION,k-forms,0,0,ROOT,LEAF,LOW
+EQSRC:SP.20,EQUATION,de Rham cohomology,0,0,ROOT,LEAF,LOW
+EQSRC:SP.21,EQUATION,Hodge decomposition,0,0,ROOT,LEAF,LOW
+EQSRC:SP.22,EQUATION,Hodge spectrum,0,0,ROOT,LEAF,LOW
+EQSRC:SP.23,EQUATION,Hodge heat trace,0,0,ROOT,LEAF,LOW
+EQSRC:SP.24,EQUATION,Scalar Laplacian,0,0,ROOT,LEAF,LOW
+EQSRC:SP.25,EQUATION,Riemannian Laplacian,0,0,ROOT,LEAF,LOW
+EQSRC:GE.1,EQUATION,Diffusion distance,0,0,ROOT,LEAF,LOW
+EQSRC:GE.2,EQUATION,Spectral metric,0,0,ROOT,LEAF,LOW
+EQSRC:GE.3,EQUATION,Line element,0,0,ROOT,LEAF,LOW
+EQSRC:GE.4,EQUATION,Hessian metric,0,0,ROOT,LEAF,LOW
+EQSRC:GE.5,EQUATION,Inner product,0,0,ROOT,LEAF,LOW
+EQSRC:GE.6,EQUATION,Norm,0,0,ROOT,LEAF,LOW
+EQSRC:GE.7,EQUATION,Cyclicity,0,0,ROOT,LEAF,LOW
+EQSRC:GE.8,EQUATION,Heat kernel trace,0,0,ROOT,LEAF,LOW
+EQSRC:GE.9,EQUATION,Continuum limit,0,0,ROOT,LEAF,LOW
+EQSRC:GE.10,EQUATION,Spectral dimension,0,0,ROOT,LEAF,LOW
+EQSRC:GE.11,EQUATION,Covariant derivative,0,0,ROOT,LEAF,LOW
+EQSRC:GE.12,EQUATION,Metric compatibility,0,0,ROOT,LEAF,LOW
+EQSRC:GE.13,EQUATION,Conservation,0,0,ROOT,LEAF,LOW
+EQSRC:GE.14,EQUATION,D'Alembertian,0,0,ROOT,LEAF,LOW
+EQSRC:PE.1,EQUATION,Cost functional,0,0,ROOT,LEAF,LOW
+EQSRC:PE.2,EQUATION,Fisher cost,0,0,ROOT,LEAF,LOW
+EQSRC:PE.3,EQUATION,Variational principle,0,0,ROOT,LEAF,LOW
+EQSRC:PE.4,EQUATION,Euler-Lagrange,0,0,ROOT,LEAF,LOW
+EQSRC:PE.5,EQUATION,Action principle,0,0,ROOT,LEAF,LOW
+EQSRC:PE.6,EQUATION,Action,0,0,ROOT,LEAF,LOW
+EQSRC:PE.7,EQUATION,Field equation,0,0,ROOT,LEAF,LOW
+EQSRC:PE.8,EQUATION,GR limit,0,0,ROOT,LEAF,LOW
+EQSRC:PE.9,EQUATION,Covariant form,0,0,ROOT,LEAF,LOW
+EQSRC:PE.10,EQUATION,Material derivative,0,0,ROOT,LEAF,LOW
+EQSRC:PE.11,EQUATION,Gradient,0,0,ROOT,LEAF,LOW
+EQSRC:PE.12,EQUATION,Org action stationarity,0,0,ROOT,LEAF,LOW
+EQSRC:PE.13,EQUATION,Org action,0,0,ROOT,LEAF,LOW
+EQSRC:CV.1,EQUATION,Christoffel,0,0,ROOT,LEAF,LOW
+EQSRC:CV.2,EQUATION,Riemann tensor,0,0,ROOT,LEAF,LOW
+EQSRC:CV.3,EQUATION,Ricci tensor,0,0,ROOT,LEAF,LOW
+EQSRC:CV.4,EQUATION,Ricci scalar,0,0,ROOT,LEAF,LOW
+EQSRC:CV.5,EQUATION,Einstein tensor,0,0,ROOT,LEAF,LOW
+EQSRC:CV.6,EQUATION,Einstein equations,0,0,ROOT,LEAF,LOW
+EQSRC:CV.7,EQUATION,Kretschner scalar,0,0,ROOT,LEAF,LOW
+EQSRC:CV.8,EQUATION,Ricci squared,0,0,ROOT,LEAF,LOW
+EQSRC:CV.9,EQUATION,Ricci scalar squared,0,0,ROOT,LEAF,LOW
+EQSRC:CV.10,EQUATION,Weyl squared,0,0,ROOT,LEAF,LOW
+EQSRC:CV.11,EQUATION,Einstein-Hilbert action,0,0,ROOT,LEAF,LOW
+EQSRC:CV.12,EQUATION,Volume element,0,0,ROOT,LEAF,LOW
+EQSRC:PH.1,EQUATION,Continuity,0,0,ROOT,LEAF,LOW
+EQSRC:PH.2,EQUATION,Diffusion,0,0,ROOT,LEAF,LOW
+EQSRC:PH.3,EQUATION,Reaction-diffusion,0,0,ROOT,LEAF,LOW
+EQSRC:PH.4,EQUATION,Navier-Stokes,0,0,ROOT,LEAF,LOW
+EQSRC:PH.5,EQUATION,Gauss electric,0,0,ROOT,LEAF,LOW
+EQSRC:PH.6,EQUATION,Gauss magnetic,0,0,ROOT,LEAF,LOW
+EQSRC:PH.7,EQUATION,Faraday,0,0,ROOT,LEAF,LOW
+EQSRC:PH.8,EQUATION,Ampere-Maxwell,0,0,ROOT,LEAF,LOW
+EQSRC:PH.9,EQUATION,Pressure gradient,0,0,ROOT,LEAF,LOW
+EQSRC:PH.10,EQUATION,Temperature gradient,0,0,ROOT,LEAF,LOW
+EQSRC:PH.11,EQUATION,Chemical gradient,0,0,ROOT,LEAF,LOW
+EQSRC:PH.12,EQUATION,Field gradient,0,0,ROOT,LEAF,LOW
+EQSRC:PH.13,EQUATION,Distinction operator,0,0,ROOT,LEAF,LOW
+EQSRC:QM.1,EQUATION,Schrodinger,0,0,ROOT,LEAF,LOW
+EQSRC:QM.2,EQUATION,Energy eigenvalue,0,0,ROOT,LEAF,LOW
+EQSRC:QM.3,EQUATION,Boltzmann entropy,0,0,ROOT,LEAF,LOW
+EQSRC:QM.4,EQUATION,Clausius,0,0,ROOT,LEAF,LOW
+EQSRC:QM.5,EQUATION,Helmholtz free energy,0,0,ROOT,LEAF,LOW
+EQSRC:QM.6,EQUATION,Gibbs free energy,0,0,ROOT,LEAF,LOW
+EQSRC:QM.7,EQUATION,Partition function,0,0,ROOT,LEAF,LOW
+EQSRC:QM.8,EQUATION,Free energy from Z,0,0,ROOT,LEAF,LOW
+EQSRC:QM.9,EQUATION,Entropy from F,0,0,ROOT,LEAF,LOW
+EQSRC:QM.10,EQUATION,Spectral action,0,0,ROOT,LEAF,LOW
+EQSRC:LH.1,EQUATION,Principle of stationary action,0,0,ROOT,LEAF,LOW
+EQSRC:LH.2,EQUATION,Action,0,0,ROOT,LEAF,LOW
+EQSRC:LH.3,EQUATION,Lagrangian,0,0,ROOT,LEAF,LOW
+EQSRC:LH.4,EQUATION,Hamilton equation 1,0,0,ROOT,LEAF,LOW
+EQSRC:LH.5,EQUATION,Hamilton equation 2,0,0,ROOT,LEAF,LOW
+EQSRC:LH.6,EQUATION,Hamiltonian,0,0,ROOT,LEAF,LOW
+EQSRC:LH.7,EQUATION,Poisson bracket,0,0,ROOT,LEAF,LOW
+EQSRC:LH.8,EQUATION,Energy conservation,0,0,ROOT,LEAF,LOW
+EQSRC:OD.1,EQUATION,Evolution operator,0,0,ROOT,LEAF,LOW
+EQSRC:OD.2,EQUATION,Operator form,0,0,ROOT,LEAF,LOW
+EQSRC:OD.3,EQUATION,Attractor,0,0,ROOT,LEAF,LOW
+EQSRC:OD.4,EQUATION,DTC iteration,0,0,ROOT,LEAF,LOW
+EQSRC:OD.5,EQUATION,DTC composition,0,0,ROOT,LEAF,LOW
+EQSRC:OD.6,EQUATION,Org state,0,0,ROOT,LEAF,LOW
+EQSRC:OD.7,EQUATION,Control parameter,0,0,ROOT,LEAF,LOW
+EQSRC:OD.8,EQUATION,Fragmentation,0,0,ROOT,LEAF,LOW
+EQSRC:OD.9,EQUATION,Persistence,0,0,ROOT,LEAF,LOW
+EQSRC:OD.10,EQUATION,Frozen equilibrium,0,0,ROOT,LEAF,LOW
+EQSRC:OD.11,EQUATION,Persistence cond. 1,0,0,ROOT,LEAF,LOW
+EQSRC:OD.12,EQUATION,Persistence cond. 2,0,0,ROOT,LEAF,LOW
+EQSRC:OD.13,EQUATION,Persistence cond. 3,0,0,ROOT,LEAF,LOW
+EQSRC:OD.14,EQUATION,Org. continuity,0,0,ROOT,LEAF,LOW
+EQSRC:OD.15,EQUATION,Full org. dynamics,0,0,ROOT,LEAF,LOW
+EQSRC:RG.1,EQUATION,Axiom 1 — Closure,0,0,ROOT,LEAF,LOW
+EQSRC:RG.2,EQUATION,Axiom 2 — Minimality,0,0,ROOT,LEAF,LOW
+EQSRC:RG.3,EQUATION,Axiom 3 — Completeness,0,0,ROOT,LEAF,LOW
+EQSRC:RG.4,EQUATION,Axiom 4 — Consistency,0,0,ROOT,LEAF,LOW
+EQSRC:RG.5,EQUATION,Axiom 5 — Canonical Form,0,0,ROOT,LEAF,LOW
+EQSRC:RG.6,EQUATION,Axiom 6 — Recursive Generativity,0,0,ROOT,LEAF,LOW
+EQSRC:RG.7,EQUATION,Persistence theorem,0,0,ROOT,LEAF,LOW
+EQSRC:RG.8,EQUATION,Generativity chain,0,0,ROOT,LEAF,LOW
+EQSRC:MC.1,EQUATION,Input,0,0,ROOT,LEAF,LOW
+EQSRC:MC.2,EQUATION,Step 1,0,0,ROOT,LEAF,LOW
+EQSRC:MC.3,EQUATION,Step 2,0,0,ROOT,LEAF,LOW
+EQSRC:MC.4,EQUATION,Step 3,0,0,ROOT,LEAF,LOW
+EQSRC:MC.5,EQUATION,Step 4,0,0,ROOT,LEAF,LOW
+EQSRC:MC.6,EQUATION,Step 5,0,0,ROOT,LEAF,LOW
+EQSRC:MC.7,EQUATION,Step 6,0,0,ROOT,LEAF,LOW
+EQSRC:MC.8,EQUATION,Step 7,0,0,ROOT,LEAF,LOW
+EQSRC:MC.9,EQUATION,Step 8,0,0,ROOT,LEAF,LOW
+EQSRC:MC.10,EQUATION,Step 9,0,0,ROOT,LEAF,LOW
+EQSRC:MC.11,EQUATION,Step 10,0,0,ROOT,LEAF,LOW
+EQSRC:MC.12,EQUATION,Step 11,0,0,ROOT,LEAF,LOW
+EQSRC:MC.13,EQUATION,Step 12,0,0,ROOT,LEAF,LOW
+EQSRC:MC.14,EQUATION,Step 13,0,0,ROOT,LEAF,LOW
+EQSRC:MC.15,EQUATION,Step 14,0,0,ROOT,LEAF,LOW
+EQSRC:MC.16,EQUATION,Step 15,0,0,ROOT,LEAF,LOW
+EQSRC:MC.17,EQUATION,Step 16,0,0,ROOT,LEAF,LOW
+EQSRC:MC.18,EQUATION,Step 17,0,0,ROOT,LEAF,LOW
+EQSRC:MC.19,EQUATION,Step 18,0,0,ROOT,LEAF,LOW
+EQSRC:MC.20,EQUATION,Step 19,0,0,ROOT,LEAF,LOW
+DER-SDR-001,DERIVATION,Strict Dependency Relation — Definition,0,43,ROOT,,HIGH
+DER-SDR-002,DERIVATION,Irreflexivity,1,40,,,HIGH
+DER-SDR-003,DERIVATION,Transitivity,1,40,,,HIGH
+DER-SDR-004,DERIVATION,Acyclicity,1,0,,LEAF,LOW
+DER-SDR-005,DERIVATION,Recovery Admissibility,0,1,ROOT,,LOW
+DER-ORG-001,DERIVATION,Organizational Grammar Recovery,4,39,,,HIGH
+DER-ORG-002,DERIVATION,Organizational State Evolution,5,5,,,LOW
+DER-ORG-003,DERIVATION,Persistence / Fixed-Point Recovery,6,4,,,LOW
+DER-ORG-004,DERIVATION,Recursive Organizational Distinction,7,0,,LEAF,LOW
+DER-ORG-005,DERIVATION,Organizational Compiler Interface,6,2,,,LOW
+DER-ORG-006,DERIVATION,Fixed-Point Equivalence Theorem,12,0,,LEAF,LOW
+DER-ORG-007,DERIVATION,Organizational Persistence Functional Recovery,11,0,,LEAF,LOW
+DER-ORG-008,DERIVATION,Organizational Attractor Uniqueness,8,0,,LEAF,LOW
+DER-ORG-009,DERIVATION,Compiler Completeness Theorem,7,1,,,LOW
+DER-ORG-010,DERIVATION,Dependency Completeness Theorem,9,0,,LEAF,LOW
+DER-SPC-001,DERIVATION,Organizational Graph Recovery,5,33,,,HIGH
+DER-SPC-002,DERIVATION,Laplacian Recovery,6,29,,,HIGH
+DER-SPC-003,DERIVATION,Spectrum Recovery,7,26,,,HIGH
+DER-SPC-004,DERIVATION,Heat Kernel Recovery,8,0,,LEAF,LOW
+DER-SPC-005,DERIVATION,Spectral Persistence Operator,8,2,,,LOW
+DER-SPC-006,DERIVATION,Spectral Organizational Fixed Point,9,0,,LEAF,LOW
+DER-VAR-001,DERIVATION,Action Functional Recovery,9,2,,,LOW
+DER-VAR-002,DERIVATION,Euler-Lagrange Recovery,10,1,,,LOW
+DER-VAR-003,DERIVATION,Legendre Transform Recovery,11,0,,LEAF,LOW
+DER-VAR-004,DERIVATION,Einstein-Hilbert Action,13,1,,,LOW
+DER-VAR-005,DERIVATION,Einstein Equation Recovery from Variation,15,0,,LEAF,LOW
+DER-GEO-001,DERIVATION,Metric Recovery,8,16,,,MEDIUM
+DER-GEO-002,DERIVATION,Connection Recovery,9,11,,,MEDIUM
+DER-GEO-003,DERIVATION,Curvature Tensor Recovery,10,5,,,LOW
+DER-GEO-004,DERIVATION,Ricci Tensor Recovery,11,4,,,LOW
+DER-GEO-005,DERIVATION,Scalar Curvature Recovery,12,3,,,LOW
+DER-GEO-006,DERIVATION,Einstein Tensor Recovery,13,1,,,LOW
+DER-GAU-001,DERIVATION,Gauge Connection,7,6,,,LOW
+DER-GAU-002,DERIVATION,Electromagnetic Curvature,8,1,,,LOW
+DER-GAU-003,DERIVATION,Covariant Derivative,12,4,,,LOW
+DER-GAU-004,DERIVATION,Yang-Mills Recovery,14,0,,LEAF,LOW
+DER-QR-001,DERIVATION,Hilbert Space Recovery,8,3,,,LOW
+DER-QR-002,DERIVATION,Schrodinger Recovery,9,2,,,LOW
+DER-QR-003,DERIVATION,Heisenberg Recovery,10,1,,,LOW
+DER-QR-004,DERIVATION,Uncertainty Structure,11,0,,LEAF,LOW
+DER-QR-005,DERIVATION,Clifford Algebra Recovery,9,3,,,LOW
+DER-QR-006,DERIVATION,Dirac Operator Recovery,14,2,,,LOW
+DER-QR-007,DERIVATION,Spin Recovery,15,1,,,LOW
+DER-QR-008,DERIVATION,Magnetic Moment Recovery,16,0,,LEAF,LOW
+DER-TRC-001,DERIVATION,Internal Energy Recovery,1,6,,,LOW
+DER-TRC-002,DERIVATION,Entropy Recovery,2,5,,,LOW
+DER-TRC-003,DERIVATION,Entropy Flux Recovery,3,2,,,LOW
+DER-TRC-004,DERIVATION,Clausius-Duhem Recovery,4,0,,LEAF,LOW
+DER-TRC-005,DERIVATION,Fourier Heat Flux Recovery,4,0,,LEAF,LOW
+DER-TRC-006,DERIVATION,Organizational Persistence Functional,12,0,,LEAF,LOW
+PRIM-001,DERIVATION,Delta (Distinction),0,40,ROOT,,HIGH
+PRIM-002,DERIVATION,tau (Transformation),0,0,ROOT,LEAF,LOW
+PRIM-003,DERIVATION,kappa (Constraint),0,0,ROOT,LEAF,LOW
+PRIM-004,DERIVATION,E (Energy),0,7,ROOT,,LOW
+PRIM-005,DERIVATION,B (Bipartite substrate),0,0,ROOT,LEAF,LOW
+BR-001,BRIDGE,Grammar composition,0,0,ROOT,LEAF,LOW
+BR-002,BRIDGE,Organizational evolution,0,0,ROOT,LEAF,LOW
+BR-003,BRIDGE,Organizational state to graph,0,0,ROOT,LEAF,LOW
+BR-004,BRIDGE,Graph to Laplacian,1,0,,LEAF,LOW
+BR-005,BRIDGE,Spectral decomposition,0,0,ROOT,LEAF,LOW
+BR-006,BRIDGE,Spectrum to heat semigroup,0,0,ROOT,LEAF,LOW
+BR-007,BRIDGE,Spectrum to diffusion distance,0,0,ROOT,LEAF,LOW
+BR-008,BRIDGE,Distance to metric,0,0,ROOT,LEAF,LOW
+BR-009,BRIDGE,Metric to connection,0,0,ROOT,LEAF,LOW
+BR-010,BRIDGE,Curvature hierarchy,0,0,ROOT,LEAF,LOW
+BR-011,BRIDGE,Einstein tensor to field equation,0,0,ROOT,LEAF,LOW
+BR-012,BRIDGE,Graph Laplacian to Dirac,0,0,ROOT,LEAF,LOW
+BR-013,BRIDGE,Spectral persistence filter,0,0,ROOT,LEAF,LOW
+BR-014,BRIDGE,Persistence cost to field equation,0,0,ROOT,LEAF,LOW
+BR-015,BRIDGE,Zero informational-loss limit,0,0,ROOT,LEAF,LOW
+BR-016,BRIDGE,Statistical bridge,0,0,ROOT,LEAF,LOW
+BR-017,BRIDGE,Discrete-to-continuum bridge,0,0,ROOT,LEAF,LOW
+BR-018,BRIDGE,Heat-kernel geometric bridge,0,0,ROOT,LEAF,LOW
+BR-019,BRIDGE,Homogeneous scale evolution,0,0,ROOT,LEAF,LOW
+BR-020,BRIDGE,Spectral vacuum bridge,0,0,ROOT,LEAF,LOW
+BR-021,BRIDGE,Horizon heat-kernel area bridge,0,0,ROOT,LEAF,LOW
+BR-022,BRIDGE,Spectral/BH normalization bridge,0,0,ROOT,LEAF,LOW
+BR-023,BRIDGE,Information-to-cutoff bridge,0,0,ROOT,LEAF,LOW
+BR-024,BRIDGE,Cutoff to vacuum bridge,0,0,ROOT,LEAF,LOW
+BR-025,BRIDGE,Cosmological dynamics bridge,0,0,ROOT,LEAF,LOW
+BR-026,BRIDGE,Horizon selection bridge,0,0,ROOT,LEAF,LOW
+BR-027,BRIDGE,Localized heat trace,0,0,ROOT,LEAF,LOW
+BR-028,BRIDGE,Absolute scale bridge,0,0,ROOT,LEAF,LOW
+BR-029,BRIDGE,Universal spectral dynamics,0,0,ROOT,LEAF,LOW
+DEP-001,DEPENDENCY,Primitive grammar → organizational action,0,0,ROOT,LEAF,LOW
+DEP-002,DEPENDENCY,Organizational operator,0,0,ROOT,LEAF,LOW
+DEP-003,DEPENDENCY,State recursion,0,0,ROOT,LEAF,LOW
+DEP-004,DEPENDENCY,Graph substrate,0,0,ROOT,LEAF,LOW
+DEP-005,DEPENDENCY,Graph Laplacian,0,0,ROOT,LEAF,LOW
+DEP-006,DEPENDENCY,Spectral decomposition,0,0,ROOT,LEAF,LOW
+DEP-007,DEPENDENCY,Heat semigroup,0,0,ROOT,LEAF,LOW
+DEP-008,DEPENDENCY,Diffusion distance,0,0,ROOT,LEAF,LOW
+DEP-009,DEPENDENCY,Metric reconstruction,0,0,ROOT,LEAF,LOW
+DEP-010,DEPENDENCY,Levi-Civita connection,0,0,ROOT,LEAF,LOW
+DEP-011,DEPENDENCY,Curvature,0,0,ROOT,LEAF,LOW
+DEP-012,DEPENDENCY,Contraction,0,0,ROOT,LEAF,LOW
+DEP-013,DEPENDENCY,Scalar curvature,0,0,ROOT,LEAF,LOW
+DEP-014,DEPENDENCY,Einstein tensor,0,0,ROOT,LEAF,LOW
+DEP-015,DEPENDENCY,Variational gravity,0,0,ROOT,LEAF,LOW
+DEP-016,DEPENDENCY,Matter/gauge/quantum sectors,0,0,ROOT,LEAF,LOW
+DEP-017,DEPENDENCY,Persistence sector,0,0,ROOT,LEAF,LOW
+DEP-018,DEPENDENCY,Horizon selector,0,0,ROOT,LEAF,LOW
+DEP-019,DEPENDENCY,Horizon projector,0,0,ROOT,LEAF,LOW
+DEP-020,DEPENDENCY,Localized heat trace,0,0,ROOT,LEAF,LOW
+DEP-021,DEPENDENCY,Area,0,0,ROOT,LEAF,LOW
+DEP-022,DEPENDENCY,Information count,0,0,ROOT,LEAF,LOW
+DEP-023,DEPENDENCY,Cutoff ratio,0,0,ROOT,LEAF,LOW
+DEP-024,DEPENDENCY,Physical cutoff,0,0,ROOT,LEAF,LOW
+DEP-025,DEPENDENCY,Vacuum density,0,0,ROOT,LEAF,LOW
+DEP-026,DEPENDENCY,Cosmological constant,0,0,ROOT,LEAF,LOW
+DEP-027,DEPENDENCY,Friedmann,0,0,ROOT,LEAF,LOW
+DEP-028,DEPENDENCY,Scale factor,0,0,ROOT,LEAF,LOW
+DEP-029,DEPENDENCY,Absolute scale anchor,0,0,ROOT,LEAF,LOW
+DEP-030,DEPENDENCY,Spectral dynamics,0,0,ROOT,LEAF,LOW
+GAP-001,GAP,What must exist for any physically observable universe to exist at all?,0,0,ROOT,LEAF,LOW
+GAP-002,GAP,What is the minimum ontological commitment required to formulate a fundamental physical theory?,0,0,ROOT,LEAF,LOW
+GAP-003,GAP,"Which entities or structures are genuinely fundamental, and which are emergent descriptions?",0,0,ROOT,LEAF,LOW
+GAP-004,GAP,Can the fundamental theory be formulated without presupposing spacetime?,0,0,ROOT,LEAF,LOW
+GAP-005,GAP,Can it be formulated without presupposing time?,0,0,ROOT,LEAF,LOW
+GAP-006,GAP,"Can it be formulated without presupposing matter, particles, fields, or quantum states?",0,0,ROOT,LEAF,LOW
+GAP-007,GAP,"Does the theory require an underlying substrate, or can physical reality be defined entirely relationally?",0,0,ROOT,LEAF,LOW
+GAP-008,GAP,What distinguishes physical existence from mathematical possibility?,0,0,ROOT,LEAF,LOW
+GAP-009,GAP,What determines which mathematically possible structures are physically realized?,0,0,ROOT,LEAF,LOW
+GAP-010,GAP,"Does the theory need to explain why something exists, or is existence itself a legitimate primitive?",0,0,ROOT,LEAF,LOW
+GAP-011,GAP,What organizational process is occurring at the deepest physically meaningful level?,0,0,ROOT,LEAF,LOW
+GAP-012,GAP,"What changes, and what remains invariant, during that process?",0,0,ROOT,LEAF,LOW
+GAP-013,GAP,What relationships are necessary for the process to occur?,0,0,ROOT,LEAF,LOW
+GAP-014,GAP,What structures can participate in the process?,0,0,ROOT,LEAF,LOW
+GAP-015,GAP,What structures can emerge from the process without being fundamental assumptions?,0,0,ROOT,LEAF,LOW
+GAP-016,GAP,Is there one universal organizational process underlying apparently different physical phenomena?,0,0,ROOT,LEAF,LOW
+GAP-017,GAP,"If multiple processes exist, what relates them?",0,0,ROOT,LEAF,LOW
+GAP-018,GAP,Can the fundamental process be expressed independently of any particular mathematical representation?,0,0,ROOT,LEAF,LOW
+GAP-019,GAP,What distinguishes a physical process from an arbitrary mathematical transformation?,0,0,ROOT,LEAF,LOW
+GAP-020,GAP,"Does the fundamental process possess a natural notion of composition, succession, or interaction without presupposing time?",0,0,ROOT,LEAF,LOW
+GAP-021,GAP,"What quantities, relationships, or structures must remain invariant under fundamental physical transformations?",0,0,ROOT,LEAF,LOW
+GAP-022,GAP,Which invariants are representation-independent?,0,0,ROOT,LEAF,LOW
+GAP-023,GAP,Which invariants are merely artifacts of a particular mathematical description?,0,0,ROOT,LEAF,LOW
+GAP-024,GAP,Can conservation laws be derived from deeper invariance principles?,0,0,ROOT,LEAF,LOW
+GAP-025,GAP,Can symmetries be derived rather than assumed?,0,0,ROOT,LEAF,LOW
+GAP-026,GAP,Can gauge invariance be derived from deeper structure?,0,0,ROOT,LEAF,LOW
+GAP-027,GAP,Can Lorentz invariance be derived rather than postulated?,0,0,ROOT,LEAF,LOW
+GAP-028,GAP,Can unitarity be derived rather than assumed?,0,0,ROOT,LEAF,LOW
+GAP-029,GAP,Can locality or an appropriate replacement for locality be derived?,0,0,ROOT,LEAF,LOW
+GAP-030,GAP,What is the smallest set of fundamental invariants from which known physical laws can emerge?,0,0,ROOT,LEAF,LOW
+GAP-031,GAP,What is the fundamental notion of physical transformation?,0,0,ROOT,LEAF,LOW
+GAP-032,GAP,What determines which transformations are physically admissible?,0,0,ROOT,LEAF,LOW
+GAP-033,GAP,What determines the dynamics of the fundamental system?,0,0,ROOT,LEAF,LOW
+GAP-034,GAP,Can the fundamental dynamics be expressed without a background spacetime?,0,0,ROOT,LEAF,LOW
+GAP-035,GAP,Can dynamics exist without a primitive time parameter?,0,0,ROOT,LEAF,LOW
+GAP-036,GAP,Can temporal evolution emerge from a deeper transformation structure?,0,0,ROOT,LEAF,LOW
+GAP-037,GAP,What mathematical object generates fundamental dynamics?,0,0,ROOT,LEAF,LOW
+GAP-038,GAP,"Does the theory require an action principle, Hamiltonian structure, path integral, transition operator, category, algebra, or something more fundamental?",0,0,ROOT,LEAF,LOW
+GAP-039,GAP,Can apparently different dynamical laws be derived as different limits of one fundamental law?,0,0,ROOT,LEAF,LOW
+GAP-040,GAP,"What determines the arrow of time, if time itself is emergent?",0,0,ROOT,LEAF,LOW
+GAP-041,GAP,Is spacetime fundamental or emergent?,0,0,ROOT,LEAF,LOW
+GAP-042,GAP,"If spacetime is emergent, what underlying structure generates it?",0,0,ROOT,LEAF,LOW
+GAP-043,GAP,What mechanism produces dimensionality?,0,0,ROOT,LEAF,LOW
+GAP-044,GAP,Why does effective spacetime have approximately 3+1 dimensions?,0,0,ROOT,LEAF,LOW
+GAP-045,GAP,Can locality emerge from a nonlocal or pre-geometric structure?,0,0,ROOT,LEAF,LOW
+GAP-046,GAP,Can causal structure emerge without assuming causality at the fundamental level?,0,0,ROOT,LEAF,LOW
+GAP-047,GAP,Can metric structure emerge from more primitive relationships?,0,0,ROOT,LEAF,LOW
+GAP-048,GAP,Can curvature emerge from organizational or relational structure?,0,0,ROOT,LEAF,LOW
+GAP-049,GAP,Can the Einstein field equations emerge from the deeper theory?,0,0,ROOT,LEAF,LOW
+GAP-050,GAP,Under what limit does the fundamental theory reproduce General Relativity?,0,0,ROOT,LEAF,LOW
+GAP-051,GAP,Why is nature quantum mechanical?,0,0,ROOT,LEAF,LOW
+GAP-052,GAP,Can the Hilbert-space structure of quantum theory be derived?,0,0,ROOT,LEAF,LOW
+GAP-053,GAP,Can complex amplitudes be derived?,0,0,ROOT,LEAF,LOW
+GAP-054,GAP,Can superposition be derived?,0,0,ROOT,LEAF,LOW
+GAP-055,GAP,Can entanglement be derived?,0,0,ROOT,LEAF,LOW
+GAP-056,GAP,Can the Born rule be derived?,0,0,ROOT,LEAF,LOW
+GAP-057,GAP,Can quantum probabilities be derived rather than assumed?,0,0,ROOT,LEAF,LOW
+GAP-058,GAP,Can unitarity emerge from deeper dynamics?,0,0,ROOT,LEAF,LOW
+GAP-059,GAP,Can measurement and classical definiteness emerge from the fundamental theory?,0,0,ROOT,LEAF,LOW
+GAP-060,GAP,Does quantum mechanics represent a fundamental level of reality or an effective preservation architecture?,0,0,ROOT,LEAF,LOW
+GAP-061,GAP,What is gravity fundamentally?,0,0,ROOT,LEAF,LOW
+GAP-062,GAP,"Is gravity a fundamental interaction, emergent geometry, collective phenomenon, or something else?",0,0,ROOT,LEAF,LOW
+GAP-063,GAP,Why does gravitational interaction correspond to spacetime geometry in General Relativity?,0,0,ROOT,LEAF,LOW
+GAP-064,GAP,Can the equivalence principle be derived?,0,0,ROOT,LEAF,LOW
+GAP-065,GAP,Can gravitational dynamics emerge from the same structure responsible for quantum behavior?,0,0,ROOT,LEAF,LOW
+GAP-066,GAP,Can black-hole entropy be derived from the underlying degrees of freedom?,0,0,ROOT,LEAF,LOW
+GAP-067,GAP,Can black-hole thermodynamics be derived?,0,0,ROOT,LEAF,LOW
+GAP-068,GAP,Can the Bekenstein-Hawking entropy formula be derived?,0,0,ROOT,LEAF,LOW
+GAP-069,GAP,Can Hawking radiation be recovered?,0,0,ROOT,LEAF,LOW
+GAP-070,GAP,Can the black-hole information problem be resolved without adding ad hoc assumptions?,0,0,ROOT,LEAF,LOW
+GAP-071,GAP,Can the Standard Model gauge structure be derived?,0,0,ROOT,LEAF,LOW
+GAP-072,GAP,Why is the gauge group SU(3)xSU(2)xU(1) the structure realized by nature?,0,0,ROOT,LEAF,LOW
+GAP-073,GAP,Can gauge symmetries emerge from deeper principles?,0,0,ROOT,LEAF,LOW
+GAP-074,GAP,Can the observed particle representations be derived?,0,0,ROOT,LEAF,LOW
+GAP-075,GAP,Can the number of particle generations be derived?,0,0,ROOT,LEAF,LOW
+GAP-076,GAP,Can fermionic statistics be derived?,0,0,ROOT,LEAF,LOW
+GAP-077,GAP,Can chirality be derived?,0,0,ROOT,LEAF,LOW
+GAP-078,GAP,Can the Higgs mechanism be derived?,0,0,ROOT,LEAF,LOW
+GAP-079,GAP,Can electroweak symmetry breaking be derived?,0,0,ROOT,LEAF,LOW
+GAP-080,GAP,Can the strong interaction and confinement be derived?,0,0,ROOT,LEAF,LOW
+GAP-081,GAP,Can neutrino masses and mixing be derived?,0,0,ROOT,LEAF,LOW
+GAP-082,GAP,Can the absence or presence of additional particles be predicted?,0,0,ROOT,LEAF,LOW
+GAP-083,GAP,Why do the fundamental dimensionless constants have their observed values?,0,0,ROOT,LEAF,LOW
+GAP-084,GAP,Which constants are genuinely fundamental?,0,0,ROOT,LEAF,LOW
+GAP-085,GAP,Which parameters can be derived from deeper structure?,0,0,ROOT,LEAF,LOW
+GAP-086,GAP,Can the fine-structure constant be predicted?,0,0,ROOT,LEAF,LOW
+GAP-087,GAP,Can particle mass ratios be predicted?,0,0,ROOT,LEAF,LOW
+GAP-088,GAP,Can gauge couplings be predicted?,0,0,ROOT,LEAF,LOW
+GAP-089,GAP,Can the cosmological constant be predicted?,0,0,ROOT,LEAF,LOW
+GAP-090,GAP,Can the number of free parameters in fundamental physics be reduced to zero or to a uniquely determined set?,0,0,ROOT,LEAF,LOW
+GAP-091,GAP,"If parameters cannot be derived, what determines their allowed values?",0,0,ROOT,LEAF,LOW
+GAP-092,GAP,Are quantum mechanics and General Relativity different manifestations of one underlying structure?,0,0,ROOT,LEAF,LOW
+GAP-093,GAP,Do gauge interactions and gravity arise from a common mathematical structure?,0,0,ROOT,LEAF,LOW
+GAP-094,GAP,Can matter and geometry emerge from the same underlying degrees of freedom?,0,0,ROOT,LEAF,LOW
+GAP-095,GAP,Can forces be understood as different manifestations of one organizational mechanism?,0,0,ROOT,LEAF,LOW
+GAP-096,GAP,Can apparently different mathematical descriptions be translated into a common preservation architecture?,0,0,ROOT,LEAF,LOW
+GAP-097,GAP,What mathematical equivalences connect currently separate theories?,0,0,ROOT,LEAF,LOW
+GAP-098,GAP,"Which differences between existing theories are physical, and which are representational?",0,0,ROOT,LEAF,LOW
+GAP-099,GAP,What is the minimal common structure capable of reproducing all established fundamental theories?,0,0,ROOT,LEAF,LOW
+GAP-100,GAP,"Does a genuinely unified theory require a single mathematical language, or can fundamentally different mathematical representations describe the same underlying structure?",0,0,ROOT,LEAF,LOW
+GAP-101,GAP,Is the fundamental theory mathematically well-defined?,0,0,ROOT,LEAF,LOW
+GAP-102,GAP,Does it possess a well-defined state space or equivalent fundamental structure?,0,0,ROOT,LEAF,LOW
+GAP-103,GAP,Are its dynamics well-defined?,0,0,ROOT,LEAF,LOW
+GAP-104,GAP,Is the theory internally consistent?,0,0,ROOT,LEAF,LOW
+GAP-105,GAP,Does it contain anomalies?,0,0,ROOT,LEAF,LOW
+GAP-106,GAP,Does it preserve unitarity?,0,0,ROOT,LEAF,LOW
+GAP-107,GAP,Does it preserve appropriate causality?,0,0,ROOT,LEAF,LOW
+GAP-108,GAP,Does it possess a sensible continuum limit?,0,0,ROOT,LEAF,LOW
+GAP-109,GAP,Does it possess a sensible classical limit?,0,0,ROOT,LEAF,LOW
+GAP-110,GAP,Does it reproduce ordinary quantum field theory where QFT is known to work?,0,0,ROOT,LEAF,LOW
+GAP-111,GAP,Does it reproduce General Relativity where GR is known to work?,0,0,ROOT,LEAF,LOW
+GAP-112,GAP,Does it avoid mathematical structures that have no physically meaningful interpretation?,0,0,ROOT,LEAF,LOW
+GAP-113,GAP,What is the precise limit in which the theory becomes quantum mechanics?,0,0,ROOT,LEAF,LOW
+GAP-114,GAP,What is the precise limit in which it becomes quantum field theory?,0,0,ROOT,LEAF,LOW
+GAP-115,GAP,What is the precise limit in which it becomes General Relativity?,0,0,ROOT,LEAF,LOW
+GAP-116,GAP,What is the precise limit in which it becomes classical mechanics?,0,0,ROOT,LEAF,LOW
+GAP-117,GAP,What is the precise limit in which it becomes thermodynamics?,0,0,ROOT,LEAF,LOW
+GAP-118,GAP,What is the precise limit in which it becomes statistical mechanics?,0,0,ROOT,LEAF,LOW
+GAP-119,GAP,Can all successful existing theories be recovered without independently inserting their fundamental assumptions?,0,0,ROOT,LEAF,LOW
+GAP-120,GAP,Which assumptions of established physics become theorems of the deeper theory?,0,0,ROOT,LEAF,LOW
+GAP-121,GAP,How does microscopic structure produce macroscopic physics?,0,0,ROOT,LEAF,LOW
+GAP-122,GAP,What survives coarse-graining?,0,0,ROOT,LEAF,LOW
+GAP-123,GAP,Can renormalization-group behavior emerge from the fundamental theory?,0,0,ROOT,LEAF,LOW
+GAP-124,GAP,Can universality classes be derived?,0,0,ROOT,LEAF,LOW
+GAP-125,GAP,Why do very different microscopic systems produce the same effective laws?,0,0,ROOT,LEAF,LOW
+GAP-126,GAP,Which physical laws are fixed-point structures?,0,0,ROOT,LEAF,LOW
+GAP-127,GAP,"Which quantities are relevant, irrelevant, or marginal at fundamental scales?",0,0,ROOT,LEAF,LOW
+GAP-128,GAP,"Can spacetime, particles, fields, and forces all be effective large-scale organizational structures?",0,0,ROOT,LEAF,LOW
+GAP-129,GAP,"Is information fundamental, emergent, or merely representational?",0,0,ROOT,LEAF,LOW
+GAP-130,GAP,What physical structure corresponds to information?,0,0,ROOT,LEAF,LOW
+GAP-131,GAP,Can entropy be derived from deeper organizational structure?,0,0,ROOT,LEAF,LOW
+GAP-132,GAP,Can the second law of thermodynamics be derived?,0,0,ROOT,LEAF,LOW
+GAP-133,GAP,Why does entropy increase in the observed direction of time?,0,0,ROOT,LEAF,LOW
+GAP-134,GAP,Can black-hole entropy and ordinary thermodynamic entropy be understood through the same mechanism?,0,0,ROOT,LEAF,LOW
+GAP-135,GAP,Can quantum entanglement entropy generate geometric structure?,0,0,ROOT,LEAF,LOW
+GAP-136,GAP,"Is there a universal relationship between information, geometry, and physical organization?",0,0,ROOT,LEAF,LOW
+GAP-137,GAP,Can the existence and properties of the early universe be derived?,0,0,ROOT,LEAF,LOW
+GAP-138,GAP,Why does the universe possess the observed large-scale structure?,0,0,ROOT,LEAF,LOW
+GAP-139,GAP,"Can inflation be derived, replaced, or shown unnecessary?",0,0,ROOT,LEAF,LOW
+GAP-140,GAP,Can the cosmological constant be explained?,0,0,ROOT,LEAF,LOW
+GAP-141,GAP,Can dark matter be derived as an emergent phenomenon or predicted as fundamental matter?,0,0,ROOT,LEAF,LOW
+GAP-142,GAP,Can dark energy be derived?,0,0,ROOT,LEAF,LOW
+GAP-143,GAP,Why is the universe approximately homogeneous and isotropic at large scales?,0,0,ROOT,LEAF,LOW
+GAP-144,GAP,What determines the initial conditions of the universe?,0,0,ROOT,LEAF,LOW
+GAP-145,GAP,Does the fundamental theory require an initial state at all?,0,0,ROOT,LEAF,LOW
+GAP-146,GAP,Can the apparent beginning of time emerge from a deeper timeless description?,0,0,ROOT,LEAF,LOW
+GAP-147,GAP,Why does this universe rather than another mathematically possible universe exist?,0,0,ROOT,LEAF,LOW
+GAP-148,GAP,Does the fundamental theory admit multiple consistent solutions?,0,0,ROOT,LEAF,LOW
+GAP-149,GAP,"If so, what selects the physical solution?",0,0,ROOT,LEAF,LOW
+GAP-150,GAP,Are physical constants uniquely determined?,0,0,ROOT,LEAF,LOW
+GAP-151,GAP,Are the laws of physics uniquely determined?,0,0,ROOT,LEAF,LOW
+GAP-152,GAP,Does mathematical consistency alone select the observed universe?,0,0,ROOT,LEAF,LOW
+GAP-153,GAP,"If not, what additional physical principle performs the selection?",0,0,ROOT,LEAF,LOW
+GAP-154,GAP,"Can anthropic reasoning be avoided, derived, or rigorously constrained?",0,0,ROOT,LEAF,LOW
+GAP-155,GAP,What does the theory predict that existing theories do not?,0,0,ROOT,LEAF,LOW
+GAP-156,GAP,Which prediction is experimentally distinguishable?,0,0,ROOT,LEAF,LOW
+GAP-157,GAP,What observable quantity differs from Standard Model + GR predictions?,0,0,ROOT,LEAF,LOW
+GAP-158,GAP,"At what energy, distance, time, or precision should the difference appear?",0,0,ROOT,LEAF,LOW
+GAP-159,GAP,What experiment could falsify the theory?,0,0,ROOT,LEAF,LOW
+GAP-160,GAP,What observation would conclusively rule out the theory?,0,0,ROOT,LEAF,LOW
+GAP-161,GAP,"Does the theory make risky predictions, or merely accommodate existing observations?",0,0,ROOT,LEAF,LOW
+GAP-162,GAP,Are its free parameters fitted or genuinely predicted?,0,0,ROOT,LEAF,LOW
+GAP-163,GAP,Can two competing theories produce the same observational consequences?,0,0,ROOT,LEAF,LOW
+GAP-164,GAP,"If so, what additional observation distinguishes them?",0,0,ROOT,LEAF,LOW
+EQ-001,EQUATION,NCG::1,0,0,ROOT,LEAF,LOW
+EQ-002,EQUATION,NCG::2,0,0,ROOT,LEAF,LOW
+EQ-003,EQUATION,NCG::3,0,0,ROOT,LEAF,LOW
+EQ-004,EQUATION,NCG::4,0,0,ROOT,LEAF,LOW
+EQ-005,EQUATION,NCG::5,0,0,ROOT,LEAF,LOW
+EQ-006,EQUATION,NCG::6,0,0,ROOT,LEAF,LOW
+EQ-007,EQUATION,NCG::7,0,0,ROOT,LEAF,LOW
+EQ-008,EQUATION,NCG::8,0,0,ROOT,LEAF,LOW
+EQ-009,EQUATION,NCG::9,0,0,ROOT,LEAF,LOW
+EQ-010,EQUATION,NCG::10,0,0,ROOT,LEAF,LOW
+EQ-011,EQUATION,NCG::11,0,0,ROOT,LEAF,LOW
+EQ-012,EQUATION,NCG::12,0,0,ROOT,LEAF,LOW
+EQ-013,EQUATION,NCG::13,0,0,ROOT,LEAF,LOW
+EQ-014,EQUATION,NCG::14,0,0,ROOT,LEAF,LOW
+EQ-015,EQUATION,NCG::15,0,0,ROOT,LEAF,LOW
+EQ-016,EQUATION,NCG::16,0,0,ROOT,LEAF,LOW
+EQ-017,EQUATION,NCG::17,0,0,ROOT,LEAF,LOW
+EQ-018,EQUATION,NCG::18,0,0,ROOT,LEAF,LOW
+EQ-019,EQUATION,NCG::19,0,0,ROOT,LEAF,LOW
+EQ-020,EQUATION,NCG::20,0,0,ROOT,LEAF,LOW
+EQ-021,EQUATION,NCG::21,0,0,ROOT,LEAF,LOW
+EQ-022,EQUATION,NCG::22,0,0,ROOT,LEAF,LOW
+EQ-023,EQUATION,NCG::23,0,0,ROOT,LEAF,LOW
+EQ-024,EQUATION,NCG::24,0,0,ROOT,LEAF,LOW
+EQ-025,EQUATION,NCG::25,0,0,ROOT,LEAF,LOW
+EQ-026,EQUATION,NCG::26,0,0,ROOT,LEAF,LOW
+EQ-027,EQUATION,NCG::27,0,0,ROOT,LEAF,LOW
+EQ-028,EQUATION,NCG::28,0,0,ROOT,LEAF,LOW
+EQ-029,EQUATION,NCG::29,0,0,ROOT,LEAF,LOW
+EQ-030,EQUATION,NCG::30,0,0,ROOT,LEAF,LOW
+EQ-031,EQUATION,NCG::31,0,0,ROOT,LEAF,LOW
+EQ-032,EQUATION,NCG::32,0,0,ROOT,LEAF,LOW
+EQ-033,EQUATION,NCG::33,0,0,ROOT,LEAF,LOW
+EQ-034,EQUATION,NCG::34,0,0,ROOT,LEAF,LOW
+EQ-035,EQUATION,NCG::35,0,0,ROOT,LEAF,LOW
+EQ-036,EQUATION,NCG::36,0,0,ROOT,LEAF,LOW
+EQ-037,EQUATION,Spectral Graph::1,0,0,ROOT,LEAF,LOW
+EQ-038,EQUATION,Spectral Graph::2,0,0,ROOT,LEAF,LOW
+EQ-039,EQUATION,Spectral Graph::3,0,0,ROOT,LEAF,LOW
+EQ-040,EQUATION,Spectral Graph::4,0,0,ROOT,LEAF,LOW
+EQ-041,EQUATION,Spectral Graph::5,0,0,ROOT,LEAF,LOW
+EQ-042,EQUATION,Spectral Graph::6,0,0,ROOT,LEAF,LOW
+EQ-043,EQUATION,Spectral Graph::7,0,0,ROOT,LEAF,LOW
+EQ-044,EQUATION,Spectral Graph::8,0,0,ROOT,LEAF,LOW
+EQ-045,EQUATION,Spectral Graph::9,0,0,ROOT,LEAF,LOW
+EQ-046,EQUATION,Spectral Graph::10,0,0,ROOT,LEAF,LOW
+EQ-047,EQUATION,Spectral Graph::11,0,0,ROOT,LEAF,LOW
+EQ-048,EQUATION,Spectral Graph::12,0,0,ROOT,LEAF,LOW
+EQ-049,EQUATION,Spectral Graph::13,0,0,ROOT,LEAF,LOW
+EQ-050,EQUATION,Spectral Graph::14,0,0,ROOT,LEAF,LOW
+EQ-051,EQUATION,Spectral Graph::15,0,0,ROOT,LEAF,LOW
+EQ-052,EQUATION,Spectral Graph::16,0,0,ROOT,LEAF,LOW
+EQ-053,EQUATION,Spectral Graph::17,0,0,ROOT,LEAF,LOW
+EQ-054,EQUATION,Spectral Graph::18,0,0,ROOT,LEAF,LOW
+EQ-055,EQUATION,Spectral Graph::19,0,0,ROOT,LEAF,LOW
+EQ-056,EQUATION,Spectral Graph::20,0,0,ROOT,LEAF,LOW
+EQ-057,EQUATION,Spectral Graph::21,0,0,ROOT,LEAF,LOW
+EQ-058,EQUATION,Spectral Graph::22,0,0,ROOT,LEAF,LOW
+EQ-059,EQUATION,Spectral Graph::23,0,0,ROOT,LEAF,LOW
+EQ-060,EQUATION,Spectral Graph::24,0,0,ROOT,LEAF,LOW
+EQ-061,EQUATION,Spectral Graph::25,0,0,ROOT,LEAF,LOW
+EQ-062,EQUATION,Emergent Geometry::1,0,0,ROOT,LEAF,LOW
+EQ-063,EQUATION,Emergent Geometry::2,0,0,ROOT,LEAF,LOW
+EQ-064,EQUATION,Emergent Geometry::3,0,0,ROOT,LEAF,LOW
+EQ-065,EQUATION,Emergent Geometry::4,0,0,ROOT,LEAF,LOW
+EQ-066,EQUATION,Emergent Geometry::5,0,0,ROOT,LEAF,LOW
+EQ-067,EQUATION,Emergent Geometry::6,0,0,ROOT,LEAF,LOW
+EQ-068,EQUATION,Emergent Geometry::7,0,0,ROOT,LEAF,LOW
+EQ-069,EQUATION,Emergent Geometry::8,0,0,ROOT,LEAF,LOW
+EQ-070,EQUATION,Emergent Geometry::9,0,0,ROOT,LEAF,LOW
+EQ-071,EQUATION,Emergent Geometry::10,0,0,ROOT,LEAF,LOW
+EQ-072,EQUATION,Emergent Geometry::11,0,0,ROOT,LEAF,LOW
+EQ-073,EQUATION,Emergent Geometry::12,0,0,ROOT,LEAF,LOW
+EQ-074,EQUATION,Emergent Geometry::13,0,0,ROOT,LEAF,LOW
+EQ-075,EQUATION,Emergent Geometry::14,0,0,ROOT,LEAF,LOW
+EQ-076,EQUATION,Persistence::1,0,0,ROOT,LEAF,LOW
+EQ-077,EQUATION,Persistence::2,0,0,ROOT,LEAF,LOW
+EQ-078,EQUATION,Persistence::3,0,0,ROOT,LEAF,LOW
+EQ-079,EQUATION,Persistence::4,0,0,ROOT,LEAF,LOW
+EQ-080,EQUATION,Persistence::5,0,0,ROOT,LEAF,LOW
+EQ-081,EQUATION,Persistence::6,0,0,ROOT,LEAF,LOW
+EQ-082,EQUATION,Persistence::7,0,0,ROOT,LEAF,LOW
+EQ-083,EQUATION,Persistence::8,0,0,ROOT,LEAF,LOW
+EQ-084,EQUATION,Persistence::9,0,0,ROOT,LEAF,LOW
+EQ-085,EQUATION,Persistence::10,0,0,ROOT,LEAF,LOW
+EQ-086,EQUATION,Persistence::11,0,0,ROOT,LEAF,LOW
+EQ-087,EQUATION,Persistence::12,0,0,ROOT,LEAF,LOW
+EQ-088,EQUATION,Persistence::13,0,0,ROOT,LEAF,LOW
+EQ-089,EQUATION,Curvature::1,0,0,ROOT,LEAF,LOW
+EQ-090,EQUATION,Curvature::2,0,0,ROOT,LEAF,LOW
+EQ-091,EQUATION,Curvature::3,0,0,ROOT,LEAF,LOW
+EQ-092,EQUATION,Curvature::4,0,0,ROOT,LEAF,LOW
+EQ-093,EQUATION,Curvature::5,0,0,ROOT,LEAF,LOW
+EQ-094,EQUATION,Curvature::6,0,0,ROOT,LEAF,LOW
+EQ-095,EQUATION,Curvature::7,0,0,ROOT,LEAF,LOW
+EQ-096,EQUATION,Curvature::8,0,0,ROOT,LEAF,LOW
+EQ-097,EQUATION,Curvature::9,0,0,ROOT,LEAF,LOW
+EQ-098,EQUATION,Curvature::10,0,0,ROOT,LEAF,LOW
+EQ-099,EQUATION,Curvature::11,0,0,ROOT,LEAF,LOW
+EQ-100,EQUATION,Curvature::12,0,0,ROOT,LEAF,LOW
+EQ-101,EQUATION,Classical Physics::1,0,0,ROOT,LEAF,LOW
+EQ-102,EQUATION,Classical Physics::2,0,0,ROOT,LEAF,LOW
+EQ-103,EQUATION,Classical Physics::3,0,0,ROOT,LEAF,LOW
+EQ-104,EQUATION,Classical Physics::4,0,0,ROOT,LEAF,LOW
+EQ-105,EQUATION,Classical Physics::5,0,0,ROOT,LEAF,LOW
+EQ-106,EQUATION,Classical Physics::6,0,0,ROOT,LEAF,LOW
+EQ-107,EQUATION,Classical Physics::7,0,0,ROOT,LEAF,LOW
+EQ-108,EQUATION,Classical Physics::8,0,0,ROOT,LEAF,LOW
+EQ-109,EQUATION,Classical Physics::9,0,0,ROOT,LEAF,LOW
+EQ-110,EQUATION,Classical Physics::10,0,0,ROOT,LEAF,LOW
+EQ-111,EQUATION,Classical Physics::11,0,0,ROOT,LEAF,LOW
+EQ-112,EQUATION,Classical Physics::12,0,0,ROOT,LEAF,LOW
+EQ-113,EQUATION,Classical Physics::13,0,0,ROOT,LEAF,LOW
+EQ-114,EQUATION,QM / Thermodynamics::1,0,0,ROOT,LEAF,LOW
+EQ-115,EQUATION,QM / Thermodynamics::2,0,0,ROOT,LEAF,LOW
+EQ-116,EQUATION,QM / Thermodynamics::3,0,0,ROOT,LEAF,LOW
+EQ-117,EQUATION,QM / Thermodynamics::4,0,0,ROOT,LEAF,LOW
+EQ-118,EQUATION,QM / Thermodynamics::5,0,0,ROOT,LEAF,LOW
+EQ-119,EQUATION,QM / Thermodynamics::6,0,0,ROOT,LEAF,LOW
+EQ-120,EQUATION,QM / Thermodynamics::7,0,0,ROOT,LEAF,LOW
+EQ-121,EQUATION,QM / Thermodynamics::8,0,0,ROOT,LEAF,LOW
+EQ-122,EQUATION,QM / Thermodynamics::9,0,0,ROOT,LEAF,LOW
+EQ-123,EQUATION,QM / Thermodynamics::10,0,0,ROOT,LEAF,LOW
+EQ-124,EQUATION,Lagrangian / Hamiltonian::1,0,0,ROOT,LEAF,LOW
+EQ-125,EQUATION,Lagrangian / Hamiltonian::2,0,0,ROOT,LEAF,LOW
+EQ-126,EQUATION,Lagrangian / Hamiltonian::3,0,0,ROOT,LEAF,LOW
+EQ-127,EQUATION,Lagrangian / Hamiltonian::4,0,0,ROOT,LEAF,LOW
+EQ-128,EQUATION,Lagrangian / Hamiltonian::5,0,0,ROOT,LEAF,LOW
+EQ-129,EQUATION,Lagrangian / Hamiltonian::6,0,0,ROOT,LEAF,LOW
+EQ-130,EQUATION,Lagrangian / Hamiltonian::7,0,0,ROOT,LEAF,LOW
+EQ-131,EQUATION,Lagrangian / Hamiltonian::8,0,0,ROOT,LEAF,LOW
+EQ-132,EQUATION,Organizational Dynamics::1,0,0,ROOT,LEAF,LOW
+EQ-133,EQUATION,Organizational Dynamics::2,0,0,ROOT,LEAF,LOW
+EQ-134,EQUATION,Organizational Dynamics::3,0,0,ROOT,LEAF,LOW
+EQ-135,EQUATION,Organizational Dynamics::4,0,0,ROOT,LEAF,LOW
+EQ-136,EQUATION,Organizational Dynamics::5,0,0,ROOT,LEAF,LOW
+EQ-137,EQUATION,Organizational Dynamics::6,0,0,ROOT,LEAF,LOW
+EQ-138,EQUATION,Organizational Dynamics::7,0,0,ROOT,LEAF,LOW
+EQ-139,EQUATION,Organizational Dynamics::8,0,0,ROOT,LEAF,LOW
+EQ-140,EQUATION,Organizational Dynamics::9,0,0,ROOT,LEAF,LOW
+EQ-141,EQUATION,Organizational Dynamics::10,0,0,ROOT,LEAF,LOW
+EQ-142,EQUATION,Organizational Dynamics::11,0,0,ROOT,LEAF,LOW
+EQ-143,EQUATION,Organizational Dynamics::12,0,0,ROOT,LEAF,LOW
+EQ-144,EQUATION,Organizational Dynamics::13,0,0,ROOT,LEAF,LOW
+EQ-145,EQUATION,Organizational Dynamics::14,0,0,ROOT,LEAF,LOW
+EQ-146,EQUATION,Organizational Dynamics::15,0,0,ROOT,LEAF,LOW
+EQ-147,EQUATION,Recursive Organizational Grammar::1,0,0,ROOT,LEAF,LOW
+EQ-148,EQUATION,Recursive Organizational Grammar::2,0,0,ROOT,LEAF,LOW
+EQ-149,EQUATION,Recursive Organizational Grammar::3,0,0,ROOT,LEAF,LOW
+EQ-150,EQUATION,Recursive Organizational Grammar::4,0,0,ROOT,LEAF,LOW
+EQ-151,EQUATION,Recursive Organizational Grammar::5,0,0,ROOT,LEAF,LOW
+EQ-152,EQUATION,Recursive Organizational Grammar::6,0,0,ROOT,LEAF,LOW
+EQ-153,EQUATION,Recursive Organizational Grammar::7,0,0,ROOT,LEAF,LOW
+EQ-154,EQUATION,Recursive Organizational Grammar::8,0,0,ROOT,LEAF,LOW
+EQ-155,EQUATION,Master Cascade::1,0,0,ROOT,LEAF,LOW
+EQ-156,EQUATION,Master Cascade::2,0,0,ROOT,LEAF,LOW
+EQ-157,EQUATION,Master Cascade::3,0,0,ROOT,LEAF,LOW
+EQ-158,EQUATION,Master Cascade::4,0,0,ROOT,LEAF,LOW
+EQ-159,EQUATION,Master Cascade::5,0,0,ROOT,LEAF,LOW
+EQ-160,EQUATION,Master Cascade::6,0,0,ROOT,LEAF,LOW
+EQ-161,EQUATION,Master Cascade::7,0,0,ROOT,LEAF,LOW
+EQ-162,EQUATION,Master Cascade::8,0,0,ROOT,LEAF,LOW
+EQ-163,EQUATION,Master Cascade::9,0,0,ROOT,LEAF,LOW
+EQ-164,EQUATION,Master Cascade::10,0,0,ROOT,LEAF,LOW
+EQ-165,EQUATION,Master Cascade::11,0,0,ROOT,LEAF,LOW
+EQ-166,EQUATION,Master Cascade::12,0,0,ROOT,LEAF,LOW
+EQ-167,EQUATION,Master Cascade::13,0,0,ROOT,LEAF,LOW
+EQ-168,EQUATION,Master Cascade::14,0,0,ROOT,LEAF,LOW
+EQ-169,EQUATION,Master Cascade::15,0,0,ROOT,LEAF,LOW
+EQ-170,EQUATION,Master Cascade::16,0,0,ROOT,LEAF,LOW
+EQ-171,EQUATION,Master Cascade::17,0,0,ROOT,LEAF,LOW
+EQ-172,EQUATION,Master Cascade::18,0,0,ROOT,LEAF,LOW
+EQ-173,EQUATION,Master Cascade::19,0,0,ROOT,LEAF,LOW
+EQ-174,EQUATION,Master Cascade::20,0,0,ROOT,LEAF,LOW
+AX-SDR-001..005,DER,Strict Dependency Relation axioms,0,0,ROOT,LEAF,LOW
+CMRC-001..019,DER,Conformal Math Recovery Core (complete),0,0,ROOT,LEAF,LOW
+VAL-001,DER,"String Theory (bosonic, critical dim=26)",0,0,ROOT,LEAF,LOW
+VAL-002,DER,Maxwell Electrodynamics,0,0,ROOT,LEAF,LOW
+VAL-003,DER,GR Matter Coupling,0,0,ROOT,LEAF,LOW
+VAL-004,DER,Quantum Mechanics,0,0,ROOT,LEAF,LOW
+VAL-005,DER,Hamiltonian Mechanics,0,0,ROOT,LEAF,LOW
+THM-ANOM,DER,G_SM = SU(3)xSU(2)xU(1) derivation,0,0,ROOT,LEAF,LOW
+RF-001,THEOREM,Well-Definedness: R: Graph_ARBS -> Field(M) exists as a covariant functor independent of graph approximation sequence,0,0,ROOT,LEAF,LOW
+RF-002,THEOREM,Functoriality: R(id_G)=id_{R(G)} and R(g o f)=R(g) o R(f),0,0,ROOT,LEAF,LOW
+RF-003,THEOREM,"Convergence: G_n ->^GH (M,g) => E_n ->^Mosco E => L_n ->^s.r. L => T_n(t) ->^s T(t)",0,0,ROOT,LEAF,LOW
+RF-004,THEOREM,Monoidal Preservation: R(G sqcup H) cong R(G) otimes R(H); pentagon + triangle coherence satisfied,0,0,ROOT,LEAF,LOW
+RF-005,THEOREM,Faithfulness and Conservatism: R is faithful and conservative but neither full nor essentially surjective,0,0,ROOT,LEAF,LOW
+RK-001,THEOREM,Kernel Algebra,0,0,ROOT,LEAF,LOW
+RK-002,THEOREM,Normal Forms,0,0,ROOT,LEAF,LOW
+RK-003,THEOREM,Kernel Decomposition,0,0,ROOT,LEAF,LOW
+PRF-ROG-3,PROOF_OBLIGATION,AX-ROG-3 (Completeness),0,0,ROOT,LEAF,LOW
+PRF-ROG-5,PROOF_OBLIGATION,AX-ROG-5 (Canonical Form),0,0,ROOT,LEAF,LOW
+PRF-FPE,PROOF_OBLIGATION,DER-ORG-006,0,0,ROOT,LEAF,LOW
+PRF-PiO,PROOF_OBLIGATION,DER-ORG-007 / DER-TRC-006,0,0,ROOT,LEAF,LOW
+PRF-ATU,PROOF_OBLIGATION,DER-ORG-008,0,0,ROOT,LEAF,LOW
+PRF-SFP,PROOF_OBLIGATION,DER-SPC-006,0,0,ROOT,LEAF,LOW
+PRF-UGNT,PROOF_OBLIGATION,Part V UGNT,0,0,ROOT,LEAF,LOW
+PRF-BORN,PROOF_OBLIGATION,DER-ORG-006 (partial),0,0,ROOT,LEAF,LOW
+PRF-LOR,PROOF_OBLIGATION,Open,0,0,ROOT,LEAF,LOW
+PRF-GEN,PROOF_OBLIGATION,Open,0,0,ROOT,LEAF,LOW
+PRF-CONST,PROOF_OBLIGATION,Open,0,0,ROOT,LEAF,LOW
+PRF-BNAT,PROOF_OBLIGATION,Open,0,0,ROOT,LEAF,LOW
+PRF-PRIM,PROOF_OBLIGATION,Open,0,0,ROOT,LEAF,LOW
+C0,CLOSURE_LAYER,Primitive & grammar reconciliation,0,4,ROOT,,LOW
+C1,CLOSURE_LAYER,Organizational / fixed-point closure,0,2,ROOT,,LOW
+C2,CLOSURE_LAYER,Persistence & spectral closure,0,2,ROOT,,LOW
+C3,CLOSURE_LAYER,Spectral→geometry→Lorentzian,0,1,ROOT,,LOW
+C4,CLOSURE_LAYER,Nature spectrum & constants,0,0,ROOT,LEAF,LOW
+C5,CLOSURE_LAYER,Gauge/representation/matter/generation,0,5,ROOT,,LOW
+C6,CLOSURE_LAYER,Quantum closure,0,0,ROOT,LEAF,LOW
+C7,CLOSURE_LAYER,Cosmological/horizon/information,0,4,ROOT,,LOW
+C8,CLOSURE_LAYER,Biological/adaptive,0,0,ROOT,LEAF,LOW
+C9,CLOSURE_LAYER,Compiler closure,0,0,ROOT,LEAF,LOW
+C10,CLOSURE_LAYER,Validation/falsification,0,0,ROOT,LEAF,LOW
+"EXT::(Δ,τ,κ,Π)",INTERMEDIATE_ENDPOINT,"(Δ,τ,κ,Π)",0,5,ROOT,,LOW
+BRIDGE-GAMMA,INTERMEDIATE_ENDPOINT,GAMMA,1,4,,,LOW
+EXT::O→Ψ,INTERMEDIATE_ENDPOINT,O→Ψ,2,0,,LEAF,LOW
+BRIDGE-PSI,INTERMEDIATE_ENDPOINT,PSI,0,12,ROOT,,MEDIUM
+BRIDGE-G,INTERMEDIATE_ENDPOINT,G,1,11,,,MEDIUM
+BRIDGE-L,INTERMEDIATE_ENDPOINT,L,2,9,,,LOW
+BRIDGE-SPEC,INTERMEDIATE_ENDPOINT,SPEC,3,6,,,LOW
+BRIDGE-KT,INTERMEDIATE_ENDPOINT,KT,4,0,,LEAF,LOW
+BRIDGE-D,INTERMEDIATE_ENDPOINT,D,4,3,,,LOW
+BRIDGE-GMETRIC,INTERMEDIATE_ENDPOINT,GMETRIC,5,2,,,LOW
+BRIDGE-NABLA,INTERMEDIATE_ENDPOINT,NABLA,6,1,,,LOW
+EXT::Riemann→Ricci→R→G,INTERMEDIATE_ENDPOINT,Riemann→Ricci→R→G,7,0,,LEAF,LOW
+EXT::Einstein dynamics,INTERMEDIATE_ENDPOINT,Einstein dynamics,2,0,,LEAF,LOW
+EXT::D,INTERMEDIATE_ENDPOINT,D,3,0,,LEAF,LOW
+EXT::R=e^{-βL},INTERMEDIATE_ENDPOINT,R=e^{-βL},3,0,,LEAF,LOW
+EXT::C_Π,INTERMEDIATE_ENDPOINT,C_Π,0,1,ROOT,,LOW
+EXT::δC_Π=0,INTERMEDIATE_ENDPOINT,δC_Π=0,1,0,,LEAF,LOW
+EXT::I_F,INTERMEDIATE_ENDPOINT,I_F,0,1,ROOT,,LOW
+EXT::geodesic,INTERMEDIATE_ENDPOINT,geodesic,1,0,,LEAF,LOW
+BRIDGE-R,INTERMEDIATE_ENDPOINT,R,0,1,ROOT,,LOW
+EXT::Z→F,INTERMEDIATE_ENDPOINT,Z→F,1,0,,LEAF,LOW
+EXT::L_N/h_N²,INTERMEDIATE_ENDPOINT,L_N/h_N²,0,1,ROOT,,LOW
+EXT::-Δ_g,INTERMEDIATE_ENDPOINT,-Δ_g,1,0,,LEAF,LOW
+EXT::K_N,INTERMEDIATE_ENDPOINT,K_N,0,1,ROOT,,LOW
+EXT::K_g→d_g→g_ij,INTERMEDIATE_ENDPOINT,K_g→d_g→g_ij,1,0,,LEAF,LOW
+EXT::L(a),INTERMEDIATE_ENDPOINT,L(a),0,1,ROOT,,LOW
+EXT::dotL,INTERMEDIATE_ENDPOINT,dotL,3,0,,LEAF,LOW
+EXT::DOS→ρ_vac,INTERMEDIATE_ENDPOINT,DOS→ρ_vac,4,0,,LEAF,LOW
+EXT::Z_H,INTERMEDIATE_ENDPOINT,Z_H,1,1,,,LOW
+EXT::A_H,INTERMEDIATE_ENDPOINT,A_H,2,0,,LEAF,LOW
+EXT::Z_H(ℓ_p²),INTERMEDIATE_ENDPOINT,Z_H(ℓ_p²),0,1,ROOT,,LOW
+EXT::N_BH,INTERMEDIATE_ENDPOINT,N_BH,1,0,,LEAF,LOW
+EXT::N_H,INTERMEDIATE_ENDPOINT,N_H,0,2,ROOT,,LOW
+EXT::Ξ,INTERMEDIATE_ENDPOINT,Ξ,1,1,,,LOW
+EXT::Λ_*→ρ_vac,INTERMEDIATE_ENDPOINT,Λ_*→ρ_vac,2,0,,LEAF,LOW
+EXT::ρ_vac,INTERMEDIATE_ENDPOINT,ρ_vac,0,1,ROOT,,LOW
+EXT::Λ_cosm→H→a,INTERMEDIATE_ENDPOINT,Λ_cosm→H→a,1,0,,LEAF,LOW
+EXT::Σ_H→P_H,INTERMEDIATE_ENDPOINT,Σ_H→P_H,2,0,,LEAF,LOW
+EXT::P_H,INTERMEDIATE_ENDPOINT,P_H,0,2,ROOT,,LOW
+EXT::ℓ_*,INTERMEDIATE_ENDPOINT,ℓ_*,2,0,,LEAF,LOW
+COSMO-DYN-010,COSMO_DYN_RESULT,dν/dλ,1,0,,LEAF,LOW
+COSMO-DYN-011,COSMO_DYN_RESULT,ρ_vac,1,0,,LEAF,LOW
+COSMO-DYN-012,COSMO_DYN_RESULT,Λ_cosm,1,0,,LEAF,LOW
+COSMO-DYN-013,COSMO_DYN_RESULT,Ξ,1,0,,LEAF,LOW
+COSMO-DYN-014,COSMO_DYN_RESULT,Ξ(N_H),0,0,ROOT,LEAF,LOW
+COSMO-DYN-015,COSMO_DYN_RESULT,Horizon ancestry,0,0,ROOT,LEAF,LOW
+COSMO-DYN-016,COSMO_DYN_RESULT,Expansion ancestry,0,0,ROOT,LEAF,LOW

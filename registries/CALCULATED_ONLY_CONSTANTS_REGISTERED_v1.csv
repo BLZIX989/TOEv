@@ -1,0 +1,18 @@
+Constant_ID,Symbol,UCCP_Type,Meaning,Source Status,Dependency,Dimensions,Value,Source Notes
+PHYS-007,mu_0,T,Vacuum permeability,"CANDIDATE Derivation / Notes: Sets the magnetic scale of free space. Related to eps_0 and c by mu_0 = 1/(eps_0 c^2). AUDIT: With fixed c (via SI definition), mu_0 may be derived from eps_0 and c rather than being independent. UCA node: (T, 0, OPEN-AUDIT, [M L T^{-2} A^{-2}], 1.257e-6 H/m, U(1)_EM)","None Status: CANDIDATE Derivation / Notes: Sets the magnetic scale of free space. Related to eps_0 and c by mu_0 = 1/(eps_0 c^2). AUDIT: With fixed c (via SI definition), mu_0 may be derived from eps_0 and c rather than being independent. UCA node: (T, 0, OPEN-AUDIT, [M L T^{-2} A^{-2}], 1.257e-6 H/m, U(1)_EM)",M L T^{-2} A^{-2},1.257e-6 H/m,"Meaning: Vacuum permeability Primitive: Yes — Root | Dependency: None Status: CANDIDATE Derivation / Notes: Sets the magnetic scale of free space. Related to eps_0 and c by mu_0 = 1/(eps_0 c^2). AUDIT: With fixed c (via SI definition), mu_0 may be derived from eps_0 and c rather than being independent. UCA node: (T, 0, OPEN-AUDIT, [M L T^{-2} A^{-2}], 1.257e-6 H/m, U(1)_EM)"
+PHYS-001,,,,,,,,
+PHYS-002,,,,,,,,
+PHYS-003,,,,,,,,
+PHYS-004,,,,,,,,
+PHYS-005,,,,,,,,
+PHYS-008,,,,,,,,
+PHYS-009,,,,,,,,
+PHYS-010,,,,,,,,
+PHYS-N_sub,N_sub (spectral trace,,,,,,,
+PHYS-m_{aP},m_{aP} (Persistence,,,,,,,
+PHYS-m_p/m_e,m_p/m_e (mass,,,,,,,
+PHYS-007,,,,,,,,mu_0
+PHYS-011,,,,,,,,v_H
+PHYS-012,,,,,,,,m_e
+PHYS-015,,,,,,,,g_W
+PHYS-013,,,,,,,,m_p/m_e

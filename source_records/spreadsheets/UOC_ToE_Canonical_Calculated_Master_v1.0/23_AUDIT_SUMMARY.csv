@@ -1,0 +1,12 @@
+Metric,Value,Interpretation
+Synchronized canonical nodes,779,Latest canonical DAG snapshot
+Dependency edges,320,Explicit + source-preserving relations
+Internal DAG edges,106,Canonical endpoints
+Canonical equations in source matrix,174,Preserved source corpus count
+DER v2 entries,59,Latest synchronized registry count
+Variables,268,Canonical variable registry count
+Registered bridges,29,BR-001 through BR-029
+Closure layers,11,C0-C10
+Calculated bridge records retained here,25,All registered bridges excluding OPEN/PROPOSED entries
+Current-chat H-006 test graphs,5,"Single edge, bidirected pair, directed cycle, balanced asymmetric graph, branching graph"
+H-006 surviving graph witness,G2,Bidirected edge pair

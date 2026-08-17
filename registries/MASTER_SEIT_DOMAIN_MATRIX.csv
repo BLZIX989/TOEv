@@ -1,0 +1,14 @@
+Domain,Input / Substrate,Operator / Compiler Mechanism,Constraint / Selection,Output / Target,Status in source
+Classical Mechanics,"Phase space (x,p)",Liouville operator,Hamiltonian structure,Liouville spectrum,Correspondence
+Statistical Mechanics,Ensemble,Transfer operator,Measure / ensemble constraints,Partition spectrum,Correspondence
+Thermodynamics,State manifold,Hessian / Legendre,Stability,Eigenvalues,Correspondence
+Quantum Mechanics,Hilbert space |ψ⟩,Hamiltonian H,Self-adjointness / quantization,Energy spectrum,Certified branch + SEIT correspondence
+General Relativity,"(M,g) / graph geometry",Laplace-Beltrami / curvature,Divergence-free symmetric tensor,Einstein tensor / vacuum GR,Vacuum certified; matter open
+Gauge Theory,"Principal bundle (P,A)",Gauge Laplacian Δ_A,Gauge invariance,Gauge spectrum / Yang–Mills,Gauge derivation open in SEIT
+String Theory,Worldsheet Σ,Polyakov / conformal operators,Virasoro / BRST,β(g)=0→R_μν=0,Certified branch with explicit assumptions
+Maxwell,Graph plaquettes / Wilson action,Γ-convergence,Gauge invariance,Maxwell field equations,Summary-level certified/ready
+Continuum Mechanics,Relational/continuum structure,Compiler operators,Continuum constraints,Continuum laws,Summary-level certified/ready
+Kinetic Theory,State distribution / dynamics,Compiler operators,Kinetic constraints,Kinetic laws,Summary-level certified/ready
+Evolutionary Biology,Genetic/phenotypic coordinate space,Mutation networks / NESS limits,Autopoietic/homeostatic constraints,Metabolic homeostasis & genomes,Master matrix / conceptual
+Neuroscience,Synaptic/axonal connectivity,Directed spiking / FEP,Prediction error minimization,World models,Master matrix / conceptual
+Socioeconomics,Behavioral variation,Transaction flows,Law / market infrastructure,Hyper-organization,Master matrix / conceptual

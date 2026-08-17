@@ -1,0 +1,12 @@
+Delta_ID,Change,Coverage,Rationale,Disposition
+V2-001,Exact DER Registry source restored,105 raw rows / 55 unique DER IDs,v1 DER sheet was a compact extraction; v2 retains exact source registry and provenance,PRESERVED + EXPANDED
+V2-002,Exact Master Equation Matrix source restored,174 source-labelled equations,v1 canonical equations retained; v2 adds source-exact representation and reconciliation,PRESERVED + EXPANDED
+V2-003,ToE Gap Matrix normalized,164 questions / 17 sections,Converted embedded source sheet into queryable canonical table,EXPANDED
+V2-004,Canonical Node Registry,Unified primitives/symbols/objects/operators/equations/DER/bridges/dependencies/gaps,Provides one node-level namespace for compiler ingestion,NEW
+V2-005,DER Dependency Edge Registry,Predecessor strings expanded to edge rows,Makes DAG executable rather than prose-only,NEW
+V2-006,Recovery Branch Registry,12 branches across C0-C10,"Separates recovery, cosmology, biology, compiler and validation tracks",NEW
+V2-007,C0-C10 canonical matrix,10 closure layers with obligations,Makes closure criteria explicit,NEW
+V2-008,Equation lineage,174 equations mapped to canonical IDs and layers,Links mathematical corpus to closure architecture,NEW
+V2-009,Variable registry,Symbols + constants + equation-referenced tokens,Provides compiler-facing variable inventory,NEW
+V2-010,Source hash registry,SHA256 for synchronized source files,Adds reproducible synchronization provenance,NEW
+V2-011,Status preservation rule,Executed downstream calculations retained,No-go/open ancestry does not erase calculations,CANONICAL

@@ -1,0 +1,14 @@
+PRF ID,For,Missing,Closes
+PRF-ROG-3,AX-ROG-3 (Completeness),Formal proof that every organizational phenomenon has a G* representation. No counterexample found; neither exhaustive enumeration nor abstract spanning argument constructed.,DER-ORG-009
+PRF-ROG-5,AX-ROG-5 (Canonical Form),Uniqueness proof for the minimal DTC representation. Requires showing no two distinct canonical forms represent the same organizational system.,DER-ORG-009
+PRF-FPE,DER-ORG-006,"Equivalence of Banach, spectral, least fixed point, and ROG closure formulations of persistence. Common fixed point assumed throughout framework but not proven.",DER-ORG-006
+PRF-PiO,DER-ORG-007 / DER-TRC-006,"Rigorous derivation of Pi_O = f(sigma, C, Spec(L)) from TNDS first principles. Coupling equation proposed; stationary distribution of Fokker-Planck equation approach outlined but not executed.",Both ORG-007 and TRC-006
+PRF-ATU,DER-ORG-008,Uniqueness of organizational attractor for each alpha. Banach theorem gives uniqueness given completeness and c<1; proof that c<1 holds uniformly across all initial conditions needed.,DER-ORG-008
+PRF-SFP,DER-SPC-006,Spectral fixed point uniqueness for disconnected graphs. Unique under connectedness assumption; general case open.,DER-SPC-006
+PRF-UGNT,Part V UGNT,Termination and confluence of the rewrite system for grammar normal forms. Both required for UGNT normal-form theorem; neither proven.,Part V §4
+PRF-BORN,DER-ORG-006 (partial),Born rule uniqueness: R-invariant measure on Pi is unique and equals |psi|^2. Existence outlined; Gleason's theorem approach not yet executed.,Open
+PRF-LOR,Open,Lorentz signature: maximum spectral compression direction is timelike. Argument sketched in SEIT Phase III; rigorous connection between compression functional and g_{tt}<0 not constructed.,Open
+PRF-GEN,Open,Three fermion generations: N_c=3 does not constrain generation count. Extension of representation theory analysis required.,Open
+PRF-CONST,Open,"Universal constants c,G,hbar as fixed points of Seeley-DeWitt coefficient ratios. Pipeline defined; explicit computation of fixed-point functions f_k not performed.",Open
+PRF-BNAT,Open,B_Nature: identify M such that Spec(L)=Spec(Nature). Cubitt-Perez Garcia-Wolf undecidability may apply for infinite L. Fundamental open problem.,Open
+PRF-PRIM,Open,"Primitive grammar reconciliation: three grammars ({D,T,C,Pi}; {D,T,C}+gradient; {D,tau,kappa,Theta,Pi,Omega}) developed independently. Not shown to be equivalent or reducible to one. Central open problem across all five compiler lines.",Open

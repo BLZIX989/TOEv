@@ -1,0 +1,102 @@
+DER_ID,Comparison,Title_v1,Title_v2,Predecessors_v1,Predecessors_v2,Status_v1,Status_v2
+DER-GAU-001,NEW_IN_V2,,Gauge Connection,,SPC-002,,CERTIFIED
+DER-GAU-002,NEW_IN_V2,,Electromagnetic Curvature,,GAU-001,,CERTIFIED
+DER-GAU-003,NEW_IN_V2,,Covariant Derivative,,"GAU-001, GEO-002",,CERTIFIED
+DER-GAU-004,NEW_IN_V2,,Yang-Mills Recovery,,"GAU-002, GAU-003",,CERTIFIED
+DER-GEO-001,NEW_IN_V2,,Metric Recovery,,SPC-003,,CERTIFIED
+DER-GEO-002,NEW_IN_V2,,Connection Recovery,,GEO-001,,CERTIFIED
+DER-GEO-003,NEW_IN_V2,,Curvature Tensor Recovery,,GEO-002,,CERTIFIED
+DER-GEO-004,NEW_IN_V2,,Ricci Tensor Recovery,,GEO-003,,CERTIFIED
+DER-GEO-005,NEW_IN_V2,,Scalar Curvature Recovery,,GEO-004,,CERTIFIED
+DER-GEO-006,NEW_IN_V2,,Einstein Tensor Recovery,,GEO-005,,CERTIFIED
+DER-ORG-001,NEW_IN_V2,,Organizational Grammar Recovery,,"PRIM-001,002,003",,CERTIFIED
+DER-ORG-002,NEW_IN_V2,,Organizational State Evolution,,ORG-001,,CERTIFIED
+DER-ORG-003,NEW_IN_V2,,Persistence / Fixed-Point Recovery,,ORG-002,,CERTIFIED
+DER-ORG-004,NEW_IN_V2,,Recursive Organizational Distinction,,ORG-003,,CERTIFIED
+DER-ORG-005,NEW_IN_V2,,Organizational Compiler Interface,,"ORG-001, SPC-001",,CERTIFIED
+DER-ORG-006,NEW_IN_V2,,Fixed-Point Equivalence Theorem,,"ORG-003, SPC-005",,OPEN
+DER-ORG-007,NEW_IN_V2,,Organizational Persistence Functional Recovery,,"ORG-003, TRC-002",,OPEN
+DER-ORG-008,NEW_IN_V2,,Organizational Attractor Uniqueness,,ORG-003,,OPEN
+DER-ORG-009,NEW_IN_V2,,Compiler Completeness Theorem,,ORG-005,,OPEN
+DER-ORG-010,NEW_IN_V2,,Dependency Completeness Theorem,,"SDR-005, ORG-009",,OPEN
+DER-QR-001,NEW_IN_V2,,Hilbert Space Recovery,,SPC-003,,CERTIFIED
+DER-QR-002,NEW_IN_V2,,Schrodinger Recovery,,"QR-001, SPC-003",,CERTIFIED
+DER-QR-003,NEW_IN_V2,,Heisenberg Recovery,,QR-002,,CERTIFIED
+DER-QR-004,NEW_IN_V2,,Uncertainty Structure,,QR-003,,CERTIFIED
+DER-QR-005,NEW_IN_V2,,Clifford Algebra Recovery,,GEO-001,,CERTIFIED
+DER-QR-006,NEW_IN_V2,,Dirac Operator Recovery,,"QR-005, GAU-003",,CERTIFIED
+DER-QR-007,NEW_IN_V2,,Spin Recovery,,QR-006,,CERTIFIED
+DER-QR-008,NEW_IN_V2,,Magnetic Moment Recovery,,"QR-007, GAU-001",,CERTIFIED
+DER-SDR-001,NEW_IN_V2,,Strict Dependency Relation — Definition,,None (definitional),,CERTIFIED
+DER-SDR-002,NEW_IN_V2,,Irreflexivity,,SDR-001,,CERTIFIED
+DER-SDR-003,NEW_IN_V2,,Transitivity,,SDR-001,,CERTIFIED
+DER-SDR-004,NEW_IN_V2,,Acyclicity,,SDR-001,,CERTIFIED
+DER-SDR-005,NEW_IN_V2,,Recovery Admissibility,,SDR-001 through SDR-004,,CERTIFIED
+DER-SPC-001,NEW_IN_V2,,Organizational Graph Recovery,,ORG-001,,CERTIFIED
+DER-SPC-002,NEW_IN_V2,,Laplacian Recovery,,SPC-001,,CERTIFIED
+DER-SPC-003,NEW_IN_V2,,Spectrum Recovery,,SPC-002,,CERTIFIED
+DER-SPC-004,NEW_IN_V2,,Heat Kernel Recovery,,SPC-003,,CERTIFIED
+DER-SPC-005,NEW_IN_V2,,Spectral Persistence Operator,,SPC-003,,CERTIFIED
+DER-SPC-006,NEW_IN_V2,,Spectral Organizational Fixed Point,,SPC-005,,OPEN
+DER-TRC-001,NEW_IN_V2,,Internal Energy Recovery,,PRIM-004,,CERTIFIED
+DER-TRC-002,NEW_IN_V2,,Entropy Recovery,,TRC-001,,CERTIFIED
+DER-TRC-003,NEW_IN_V2,,Entropy Flux Recovery,,TRC-002,,CERTIFIED
+DER-TRC-004,NEW_IN_V2,,Clausius-Duhem Recovery,,"TRC-002, TRC-003",,CERTIFIED
+DER-TRC-005,NEW_IN_V2,,Fourier Heat Flux Recovery,,TRC-003,,CERTIFIED
+DER-TRC-006,NEW_IN_V2,,Organizational Persistence Functional,,"TRC-002, SPC-003",,OPEN
+DER-VAR-001,NEW_IN_V2,,Action Functional Recovery,,"GEO-001, SPC-003",,CERTIFIED
+DER-VAR-002,NEW_IN_V2,,Euler-Lagrange Recovery,,VAR-001,,CERTIFIED
+DER-VAR-003,NEW_IN_V2,,Legendre Transform Recovery,,VAR-002,,CERTIFIED
+DER-VAR-004,NEW_IN_V2,,Einstein-Hilbert Action,,GEO-005,,CERTIFIED
+DER-VAR-005,NEW_IN_V2,,Einstein Equation Recovery from Variation,,"VAR-004, GEO-006",,CERTIFIED
+DG-001,REMOVED_IN_V2,Gamma^c_{ab} = Christoffel symbols,,GEO-006,,CERTIFIED,
+DG-002,REMOVED_IN_V2,R^rho_{sig mu nu} = Riemann tensor,,DG-001,,CERTIFIED,
+DG-003,REMOVED_IN_V2,R_{mu nu} = Ricci tensor,,DG-002,,CERTIFIED,
+DG-004,REMOVED_IN_V2,R = Ricci scalar,,DG-003,,CERTIFIED,
+DG-005,REMOVED_IN_V2,G_{mu nu} = Einstein tensor,,DG-004,,CERTIFIED,
+EM-001,REMOVED_IN_V2,A_mu = gauge connection,,GEO-001,,CERTIFIED,
+EM-002,REMOVED_IN_V2,F_{mu nu} = field strength,,EM-001,,CERTIFIED,
+EM-003,REMOVED_IN_V2,Maxwell equations,,EM-002,,CERTIFIED,
+GEO-001,REMOVED_IN_V2,L = D_deg - A,,ORG-005,,CERTIFIED,
+GEO-002,REMOVED_IN_V2,"Spec(L) = {lambda_n, phi_n}",,GEO-001,,CERTIFIED,
+GEO-003,REMOVED_IN_V2,K_t = exp(-tL),,GEO-002,,CERTIFIED,
+GEO-004,REMOVED_IN_V2,(1/eps^2) L -> Delta_g,,GEO-003,,CERTIFIED,
+GEO-005,REMOVED_IN_V2,"d(i,j) = diffusion distance",,GEO-002,,CERTIFIED,
+GEO-006,REMOVED_IN_V2,g_{mu nu} = spectral metric,,GEO-005,,CERTIFIED,
+OPEN-001,REMOVED_IN_V2,Born rule P = |psi|^2,,"GEO-002, ORG-003",,OPEN,
+OPEN-002,REMOVED_IN_V2,"Lorentz signature (-,+,+,+)",,GEO-006,,OPEN,
+OPEN-003,REMOVED_IN_V2,Pi_O rigorous derivation,,"TD-004, GEO-002",,OPEN,
+OPEN-004,REMOVED_IN_V2,Three fermion generations,,TD-006,,OPEN,
+OPEN-005,REMOVED_IN_V2,Universal constants as fixed points,,GEO-003,,OPEN,
+OPEN-006,REMOVED_IN_V2,B_Nature identification,,GEO-002,,OPEN,
+ORG-001,REMOVED_IN_V2,"G = {Delta,tau,kappa} is irreducible",,"PRIM-001,002,003",,CERTIFIED,
+ORG-002,REMOVED_IN_V2,Gamma = C o T o D,,ORG-001,,CERTIFIED,
+ORG-003,REMOVED_IN_V2,Pi = lim Gamma^n Psi_0,,ORG-002,,CERTIFIED,
+ORG-004,REMOVED_IN_V2,Pi => Delta' (Recursive Generativity),,ORG-003,,CERTIFIED,
+ORG-005,REMOVED_IN_V2,"G = (V,E) from {Delta_i}",,ORG-001,,CERTIFIED,
+PRIM-001,CHANGED,Delta (Distinction),Delta (Distinction),None (primitive),None,CERTIFIED,CERTIFIED
+PRIM-002,CHANGED,tau (Transformation),tau (Transformation),None (primitive),None,CERTIFIED,CERTIFIED
+PRIM-003,CHANGED,kappa (Constraint),kappa (Constraint),None (primitive),None,CERTIFIED,CERTIFIED
+PRIM-004,CHANGED,E (Energy),E (Energy),None (primitive),None,CERTIFIED,CERTIFIED
+PRIM-005,CHANGED,"B = (U,V,E) (Bipartite substrate)",B (Bipartite substrate),None (primitive),None,CERTIFIED,CERTIFIED
+QM-001,REMOVED_IN_V2,Gamma matrices,,GEO-006,,CERTIFIED,
+QM-002,REMOVED_IN_V2,Dirac operator D_mu,,"QM-001, EM-001",,CERTIFIED,
+QM-003,REMOVED_IN_V2,Dirac equation,,QM-002,,CERTIFIED,
+QM-004,REMOVED_IN_V2,Schrodinger equation,,GEO-002,,CERTIFIED,
+SDR-001,REMOVED_IN_V2,prec is defined on D x D,,None (definitional),,CERTIFIED,
+SDR-002,REMOVED_IN_V2,Irreflexivity,,SDR-001,,CERTIFIED,
+SDR-003,REMOVED_IN_V2,Transitivity,,SDR-001,,CERTIFIED,
+SDR-004,REMOVED_IN_V2,Acyclicity,,SDR-001,,CERTIFIED,
+SDR-005,REMOVED_IN_V2,Recovery admissibility,,SDR-001 through SDR-004,,CERTIFIED,
+TD-001,REMOVED_IN_V2,T_{mu nu} = stress-energy tensor,,VAR-004,,CERTIFIED,
+TD-002,REMOVED_IN_V2,"S(E,V,N) from E",,PRIM-004,,CERTIFIED,
+TD-003,REMOVED_IN_V2,Onsager flux-force relations,,TD-002,,CERTIFIED,
+TD-004,REMOVED_IN_V2,sigma = entropy production >= 0,,TD-003,,CERTIFIED,
+TD-005,REMOVED_IN_V2,"Pi_O = f(sigma,C,Spec(L))",,"TD-004, GEO-002",,OPEN,
+TD-006,REMOVED_IN_V2,G_SM = SU(3) x SU(2) x U(1),,QM-002,,CERTIFIED,
+VAR-001,REMOVED_IN_V2,C_Pi[y] = persistence functional,,GEO-006,,CERTIFIED,
+VAR-002,REMOVED_IN_V2,Field equation (Euler-Lagrange),,"VAR-001, DG-001",,CERTIFIED,
+VAR-003,REMOVED_IN_V2,Geodesic (I_F = 0 limit),,VAR-002,,CERTIFIED,
+VAR-004,REMOVED_IN_V2,S_EH = Einstein-Hilbert action,,DG-004,,CERTIFIED,
+VAR-005,REMOVED_IN_V2,Einstein field equations,,"VAR-004, DG-005",,CERTIFIED,
+VAR-006,REMOVED_IN_V2,Spectral action principle,,GEO-002,,CERTIFIED,

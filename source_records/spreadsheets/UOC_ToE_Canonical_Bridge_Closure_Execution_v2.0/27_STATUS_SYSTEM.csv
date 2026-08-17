@@ -1,0 +1,8 @@
+ID,Field,Meaning,Allowed / Rule
+S_D,Derivation Status,What has actually been mathematically calculated/proven?,CERTIFIED / DERIVED / CALCULATED / ALGEBRAICALLY DERIVED / CONDITIONAL / FORMULATED / NO-GO / etc.
+S_C,Closure Status,How universal/canonical is the result?,CLOSED / SCOPED / CONDITIONAL / OPEN / RECONCILIATION OPEN
+S_R,Registry Status,"Is the object certified, open, candidate or newly proposed?",CERTIFIED / OPEN / CANDIDATE / PROPOSED / FALSIFIED
+RULE-001,Governance rule,Never erase an executed calculation because its upstream ancestry remains unresolved.,ACTIVE
+RULE-002,Governance rule,New calculations receive PROPOSED status until executed and registered.,ACTIVE
+RULE-003,Governance rule,"Scope must be explicit for finite graph, continuum, asymptotic, homogeneous, curved, boundary, etc.",ACTIVE
+RULE-004,Observational firewall,"Λ_obs,H_obs,N_H^obs may not occur in ancestors of Xi_UOC.",ACTIVE

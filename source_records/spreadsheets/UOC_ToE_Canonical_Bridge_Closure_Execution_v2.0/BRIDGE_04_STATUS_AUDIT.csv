@@ -1,0 +1,30 @@
+Bridge_ID,Derivation_Evidence,Universal_Closure,Registry_Entry,Derivation_Status,Closure_Status,Audit_Rule
+BR-001,YES,YES,YES,CERTIFIED SPINE,C0 canonical uniqueness remains open,Preserve existing calculation; closure audit only at stated scope.
+BR-002,YES,NO,YES,CERTIFIED/PARTIAL,Fixed-point closure remains open,Preserve existing calculation; closure audit only at stated scope.
+BR-003,YES,YES,YES,CALCULATED/SCOPED,Representation universality open,Preserve existing calculation; closure audit only at stated scope.
+BR-004,YES,YES,YES,CERTIFIED,Graph assumptions,Preserve existing calculation; closure audit only at stated scope.
+BR-005,YES,YES,YES,CERTIFIED,Self-adjoint/finite graph conditions,Preserve existing calculation; closure audit only at stated scope.
+BR-006,YES,YES,YES,CERTIFIED,Functional calculus / semigroup assumptions,Preserve existing calculation; closure audit only at stated scope.
+BR-007,YES,YES,YES,CERTIFIED,Depends on spectral heat kernel,Preserve existing calculation; closure audit only at stated scope.
+BR-008,YES,YES,YES,CERTIFIED,Metric reconstruction assumptions,Preserve existing calculation; closure audit only at stated scope.
+BR-009,YES,YES,YES,CERTIFIED,Levi-Civita assumptions,Preserve existing calculation; closure audit only at stated scope.
+BR-010,YES,YES,YES,CERTIFIED,Bianchi identities / curvature conventions,Preserve existing calculation; closure audit only at stated scope.
+BR-011,YES,YES,YES,CERTIFIED/SCOPED,Matter coupling is a separate closure boundary in current matrix,Preserve existing calculation; closure audit only at stated scope.
+BR-012,YES,YES,YES,CERTIFIED/SCOPED,Exact spectral correspondence remains an integration question,Preserve existing calculation; closure audit only at stated scope.
+BR-013,YES,YES,YES,CERTIFIED/PROPOSED DEPENDING BRANCH,Persistence interpretation and FP spectral correspondence remain open,Preserve existing calculation; closure audit only at stated scope.
+BR-014,YES,YES,YES,CERTIFIED/SCOPED,Functional assumptions,Preserve existing calculation; closure audit only at stated scope.
+BR-015,YES,YES,YES,CERTIFIED,Model branch,Preserve existing calculation; closure audit only at stated scope.
+BR-016,YES,YES,YES,DERIVED,β=1/(k_BT) convention,Preserve existing calculation; closure audit only at stated scope.
+BR-017,YES,NO,YES,CLOSED FOR TEST FAMILY,Not universal yet,Preserve existing calculation; closure audit only at stated scope.
+BR-018,YES,NO,YES,CONDITIONAL/DERIVED,h_N²/t→0,Preserve existing calculation; closure audit only at stated scope.
+BR-019,YES,YES,YES,DERIVED/CALCULATED,Homogeneous branch,Preserve existing calculation; closure audit only at stated scope.
+BR-020,YES,YES,YES,DERIVED/CALCULATED,3D continuum physical cutoff,Preserve existing calculation; closure audit only at stated scope.
+BR-021,YES,YES,YES,DERIVED/CALCULATED,Given legitimate horizon subsystem,Preserve existing calculation; closure audit only at stated scope.
+BR-022,YES,YES,YES,ALGEBRAIC CONDITION,Origin of π not derived,Preserve existing calculation; closure audit only at stated scope.
+BR-023,NO,NO,YES,CONDITIONAL DOWNSTREAM,Requires non-circular N_H,Preserve existing calculation; closure audit only at stated scope.
+BR-024,YES,YES,YES,DERIVED GIVEN Ξ,Scale anchor remains upstream,Preserve existing calculation; closure audit only at stated scope.
+BR-025,YES,YES,YES,DOWNSTREAM CLOSED GIVEN INPUT,Vacuum branch,Preserve existing calculation; closure audit only at stated scope.
+BR-026,NO,NO,YES,OPEN,UOC horizon selector not yet generated,Preserve existing calculation; closure audit only at stated scope.
+BR-027,NO,NO,YES,OPEN AS UOC DERIVATION,Depends on P_H,Preserve existing calculation; closure audit only at stated scope.
+BR-028,NO,NO,YES,OPEN,Scale nonuniqueness theorem; C_UOC unresolved,Preserve existing calculation; closure audit only at stated scope.
+BR-029,NO,NO,YES,OPEN,Must generate H / homogeneous -2HL branch,Preserve existing calculation; closure audit only at stated scope.

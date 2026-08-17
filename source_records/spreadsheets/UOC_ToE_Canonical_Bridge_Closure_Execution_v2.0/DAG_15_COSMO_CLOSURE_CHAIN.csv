@@ -1,0 +1,13 @@
+Chain_ID,Object,Role,Status,Dependency_Note
+COSMO-ROOT,Γ,Organizational grammar,OPEN ANCESTRY,Scale anchor / horizon selector / information normalization remain upstream
+COSMO-001,ℓ_*,Absolute scale anchor,OPEN,Must be derived or explicitly admitted
+COSMO-002,P_H,Horizon projector,OPEN,Must be generated from UOC/organizational data
+COSMO-003,Z_H,Localized heat trace,CALCULATED/PRESERVED,Given legitimate P_H
+COSMO-004,A_H,Spectral area,DERIVED/SCOPED,Heat-kernel/Weyl limit in demonstrated refinement regime
+COSMO-005,N_H^UOC,Independent information functional,OPEN,Cannot import A/(4ℓ_p²) as input
+COSMO-006,Ξ_UOC,Dimensionless cutoff,OPEN,Must be downstream of N_H without observational input
+COSMO-007,Λ_*,Physical spectral cutoff,CONDITIONAL,Λ_*=Ξ/ℓ_p
+COSMO-008,ρ_vac,Vacuum density,CALCULATED/PRESERVED,ρ=ℏcΛ_*⁴/(16π²)
+COSMO-009,Λ_cosm,Cosmological constant,CALCULATED/PRESERVED,Λ_cosm=ℓ_p²Λ_*⁴/(2π)
+COSMO-010,H,Hubble rate,DERIVED,Vacuum Friedmann branch
+COSMO-011,a(t),Scale factor,DERIVED,Constant-vacuum branch gives exponential expansion

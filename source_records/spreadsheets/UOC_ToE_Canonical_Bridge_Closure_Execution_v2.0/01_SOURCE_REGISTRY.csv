@@ -1,0 +1,12 @@
+Source,Type,Tables/Sheets,Rows,Sync Method,Role
+UOC_Master_Closure_Updated.xlsx,XLSX,12,252,Imported wholesale,Project database
+UOC_SEIT_Combined_Master_Matrix.xlsx,XLSX,7,193,Imported wholesale,Project database
+ToE Gap Matrix.xlsx,XLSX,2,171,Imported wholesale,Project database
+UCG Specification v5(1).docx,DOCX,58,413,Structured tables + paragraphs extracted,Project source
+UCR UCCP UCA v1(1).docx,DOCX,46,109,Structured tables + paragraphs extracted,Project source
+UQR UCA v2(1).docx,DOCX,35,172,Structured tables + paragraphs extracted,Project source
+UPG Canonical Reference.docx,DOCX,16,148,Structured tables + paragraphs extracted,Project source
+SEIT Updated Whitepaper(1).docx,DOCX,18,117,Structured tables + paragraphs extracted,Project source
+Combined Compiler Theories Whitepaper(2).docx,DOCX,22,261,Structured tables + paragraphs extracted,Project source
+Theory of Everything - Status Report(1).docx,DOCX,0,0,Structured tables + paragraphs extracted,Project source
+CURRENT CHAT,CHAT,1,0,COSMO-DYN-010..016 + corrected C0-C10 architecture + status semantics,Canonical update layer

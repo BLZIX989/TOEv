@@ -1,0 +1,6 @@
+Graph,Family,|V|,|E|,B,L=BBᵀ,Spec(L),Real-structure result,Reason
+G1,single directed edge,2,1,"[[-1], [1]]","[[1, -1], [-1, 1]]","[0.0, 2.0]",NO-GO,source/target character multiplicities differ; no Q
+G2,bidirected edge pair,2,2,"[[-1, 1], [1, -1]]","[[2, -2], [-2, 2]]","[0.0, 4.0]",CLOSED,reverse-edge permutation Q exists; BQ=-B; Q²=I
+G3,directed 3-cycle,3,3,"[[-1, 0, 1], [1, -1, 0], [0, 1, -1]]","[[2, -1, -1], [-1, 2, -1], [-1, -1, 2]]","[-0.0, 3.0, 3.0]",NO-GO,character-compatible Q exists but BQ=±B fails
+G4,balanced non-symmetric graph,4,6,"[[-1, 0, 0, 1, -1, 1], [1, -1, 0, 0, 0, 0], [0, 1, -1, 0, 1, -1], [0, 0, 1, -1, 0, 0]]","[[4, -1, -2, -1], [-1, 2, -1, 0], [-2, -1, 4, -1], [-1, 0, -1, 2]]","[0.0, 2.0, 4.0, 6.0]",NO-GO,balanced/Eulerian but not edge-reversal closed
+G5,unbalanced branching graph,3,2,"[[-1, -1], [1, 0], [0, 1]]","[[2, -1, -1], [-1, 1, 0], [-1, 0, 1]]","[-0.0, 1.0, 3.0]",NO-GO,source/target character multiplicities differ

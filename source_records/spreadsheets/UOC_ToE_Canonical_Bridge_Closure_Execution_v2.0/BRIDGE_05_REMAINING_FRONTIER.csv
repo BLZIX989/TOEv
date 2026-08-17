@@ -1,0 +1,15 @@
+Frontier_ID,Bridge_ID,Layer,Problem,Dependency_and_Unlock,Status
+FRONT-001,BR-001,C0,Primitive reconciliation,Depends on competing grammar realizations; unlocks canonical Γ,OPEN
+FRONT-002,BR-002,C1,Fixed-point correspondence,Depends on Γ→O→Ψ; unlocks organizational closure,OPEN
+FRONT-003,BR-003,C0/C3,Representation map Ψ→G,Depends on state representation; unlocks graph universality tests,OPEN/SCOPED
+FRONT-004,BR-011,C5,Matter coupling,Depends on matter/quantum/gauge recovery and conservation,OPEN/SCOPED
+FRONT-005,BR-012,C5/C6,L→D spectral correspondence,Depends on graph spectrum and NCG Dirac structure,OPEN/SCOPED
+FRONT-006,BR-013,C1/C2,FP spectral correspondence,Depends on stochastic generator and spectral gap,PROPOSED/PARTIAL
+FRONT-007,BR-017,C3,Continuum universality,Depends on refinement family analysis,PARTIAL
+FRONT-008,BR-018,C3,Heat-kernel joint limit,Depends on BR-017 and heat-kernel asymptotics,PARTIAL
+FRONT-009,BR-022,C7,BH normalization origin,Depends on independent N_H functional,OPEN
+FRONT-010,BR-023,C7,Information cutoff,Depends on independently generated N_H,CONDITIONAL
+FRONT-011,BR-026,C7,Horizon selector,Depends on Γ/persistence and recovered geometry,OPEN
+FRONT-012,BR-027,C7,Localized horizon trace,Depends on BR-026,OPEN
+FRONT-013,BR-028,C4/C7,Absolute scale,Depends on dimensionful invariant selection,OPEN
+FRONT-014,BR-029,C7,Universal spectral evolution,Depends on Γ/O/Ψ dynamics and homogeneous scaling,OPEN

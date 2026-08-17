@@ -1,0 +1,49 @@
+NX-001 — TYPED Γ-STATE INSTANTIATION & SPECTRAL DESCENT,,,,,,,
+,,,,,,,
+Purpose,"Execute the finite typed realization required by BR-001 → BR-002: instantiate Δ, τ, κ, Π; compute Γ and Ψ-iteration; solve Γ(Ψ*)=Ψ*; then descend Ψ*→G→L→Spec(L)→e^(-tL).",,,,,,
+,,,,,,,
+Order,Object,Equation / Definition,Input,Output,Status,Dependency,Next Unlock
+1,Finite state space,"X={0,1}^{3×3}, |X|=512",—,512 typed states,DERIVED,PRIM-001..003,Γ realization
+2,Distinction,Δ(A)ij=1[Aij≠0],A∈X,Δ(A)∈X,DERIVED,PRIM-001,τ
+3,Transformation,τ(B)=B∨(B∘B),B=Δ(A),τ(B)∈X,DERIVED,PRIM-002,κ
+4,Constraint,κ(C)=C∨Cᵀ∨I,C=τΔ(A),κ(C)∈X,DERIVED,PRIM-003,Γ
+5,Compiler functional,Γ=κ∘τ∘Δ,A∈X,Γ(A)∈X,DERIVED,BR-001,Iteration
+6,Persistence,Π(A)=1 iff Γ(A)=A,A∈X,"Π(A)∈{0,1}",PROPOSED REALIZATION,PRIM-PERSISTENCE,Fixed points
+7,Recursion,Ψn+1=Γ(Ψn),512 initial states,Fixed point ≤2 iterations,EXHAUSTIVE,BR-002,Fix(Γ)
+8,Fixed-point theorem,Γ(A)=A ⇔ A is an equivalence relation,A∈X,5 fixed points,PROVED IN REALIZATION,BR-001/002,Graph
+9,Graph extraction,"GΨ*=(VΨ*,EΨ*)",Ψ*,5 graph realizations,EXECUTED,BR-003,Laplacian
+10,Laplacian,L=D−A,GΨ*,5 L matrices,EXECUTED,BR-004,Spectrum
+11,Spectrum,Lφi=λiφi,L,"{0,0,0}, {0,0,2}, {0,3,3}",EXECUTED,BR-005,Heat
+12,Heat semigroup,Kt=e^(−tL),Spec(L),5 heat-kernel families,EXECUTED,BR-006,Fixed-set comparison
+13,Semigroup fixed set,"Fix(Kt)=ker L, t>0",L PSD,ker L,PROVED UNDER PSD FINITE CONDITIONS,BR-002,Typed correspondence
+14,Organizational/spectral invariant,#blocks(Ψ*)=#components(GΨ*)=dim ker L,Ψ*→G→L,Verified for all 5 Ψ*,VERIFIED IN REALIZATION,BR-002,NX-001B
+,,,,,,,
+,,,,,,,
+NX-001 KEY RESULTS,,,,,CANONICAL SCOPE,,
+State-space size,512,,,,"NX-001 is an executable finite realization, not a universal closure theorem.",,
+Fixed points,5,,,,BR-001 canonical uniqueness remains OPEN.,,
+Maximum iterations,2,,,,BR-002 universal fixed-point correspondence remains OPEN.,,
+States fixed at n=0,5,,,,The finite correspondence established here is block count ↔ graph components ↔ dim ker(L).,,
+States fixed at n=1,459,,,,"Next decisive calculation: NX-001B, a second admissible Γ realization and extensional-equivalence test.",,
+States fixed at n=2,48,,,,,,
+Fixed graph types,3,,,,,,
+Spectral types,3,,,,,,
+,,,,,,,
+,,,,,,,
+WORKSHEET MAP,,,,,,,
+NX001_00_README,"Scope, realization assumptions, and governance",,,,,,
+NX001_01_DERIVATION,Formal derivation and fixed-point theorem,,,,,,
+NX001_02_OPERATORS,"Typed definitions of Δ, τ, κ, Γ, Π",,,,,,
+NX001_03_STATE_SWEEP,Exhaustive 512-state computation,,,,,,
+NX001_04_ITERATION_TRACE,Every Γ iteration by initial state,,,,,,
+NX001_05_FIXED_POINTS,Five fixed states and basin structure,,,,,,
+NX001_06_GRAPH_EXTRACTION,Ψ*→G mapping,,,,,,
+NX001_07_LAPLACIANS,G→L calculations,,,,,,
+NX001_08_SPECTRA,L→Spec(L),,,,,,
+NX001_09_HEAT_KERNELS,e^(−tL) calculations,,,,,,
+NX001_10_CORRESPONDENCE,Type-correct organizational/spectral correspondence,,,,,,
+NX001_11_DEPENDENCIES,Dependency ledger,,,,,,
+NX001_12_AUDIT,Proof obligations and audit results,,,,,,
+NX001_13_RESULTS,Summary metrics,,,,,,
+NX001_14_NEXT_UNLOCK,Post-NX-001 execution sequence,,,,,,
+NX001_15_AUDIT_CORRECTION,Mathematical correction record,,,,,,

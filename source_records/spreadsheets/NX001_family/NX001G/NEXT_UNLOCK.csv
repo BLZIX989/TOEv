@@ -1,0 +1,5 @@
+Priority,Next calculation,Dependency,Closure criterion,Failure criterion
+1,NX-001G-R — Restricted graph-functor class,NX-001G,Specify necessary/sufficient conditions under which semantic-equivalent encodings are Laplacian-isospectral,No nontrivial admissible class can be stated
+2,NX-001H — Dirac/spectral bridge,NX-001G,Determine whether D_L or another spectral object survives the restricted representation class,Representation-dependent Dirac spectra
+3,NX-001I — Heat-kernel continuum descent,NX-001G + B6,Same continuum coefficients/metric limit for equivalent realizations,Different continuum limits
+4,NX-001J — Primitive morphism,C0 + NX-001G,Semantics-preserving morphism Γ_A↔Γ_B plus invariant-preserving descent,No compositional morphism

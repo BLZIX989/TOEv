@@ -1,0 +1,5 @@
+Item,Statement,Status,Evidence
+T1,"For every A∈{0,1}^{4×4}, Γ_A*(A)=Γ_B*(A).",PROVED FOR 4×4 DOMAIN,Exhaustive test: 65536/65536 terminal outputs agree.
+T2,Γ_A=Γ_B as one-step maps.,FALSIFIED,13664/65536 one-step mismatches.
+T3,The two realizations induce identical fixed-point basin partitions.,VERIFIED,All fixed-point basins agree.
+T4,C0 canonicality is universally established.,OPEN,Finite 3×3 and 4×4 extensional agreement does not quantify over all domains/realizations.

@@ -1,0 +1,6 @@
+Priority,Next calculation,Dependency,Closure criterion
+1,NX-001C — third independent Γ realization,NX-001B,Terminal normal form agrees across all 512 states.
+2,Generalize state cardinality n=4,NX-001B,Extensional equivalence survives beyond 3 elements.
+3,Primitive-equivalence mapping,C0,Show Δ/τ/κ realization and closure algorithm are related by an explicit semantics-preserving map.
+4,Graph/Laplacian descent under Γ_B,NX-001B,Same spectral objects follow from the independent realization.
+5,Cross-domain realization test,C0,Same canonical semantics survives a non-graph domain.

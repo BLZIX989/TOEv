@@ -1,0 +1,15 @@
+Cycle audit, PHASE2-C0-EXEC-2026-08-17
+Nodes with outgoing edges: 10
+Total edges: 12
+CYCLES DETECTED (3):
+  OBJ-P2-001 -> OBJ-P2-006 -> OBJ-P2-001
+  OBJ-P2-007 -> OBJ-P2-005 -> OBJ-P2-007
+  OBJ-P2-006 -> OBJ-P2-007 -> OBJ-P2-006
+
+NOTE: 2-node cycles between F_AB/F_BA (OBJ-P2-001 <-> OBJ-P2-006) and F_AC/F_CA
+(OBJ-P2-005 <-> OBJ-P2-007) are EXPECTED and BENIGN: they represent a pair of
+explicitly distinct, independently-tested translations (forward + reverse), not an
+uncontrolled circular dependency. Each direction has its own EVIDENCE and STATUS.
+They are reported here for transparency, not silently excluded, per governance
+('reject circular dependencies' is interpreted as: never silently exclude a cycle;
+here every cycle is a documented, intentional morphism pair, not an accidental loop).

@@ -1,0 +1,12 @@
+Audit_ID,Test,Calculation,Result,Admission,Failure Condition,Status
+A001,Closure Γ:X→X,"Δ,τ,κ maps binary matrices to binary matrices",PASS,Admissible realization,Operator leaves X,PASS
+A002,Exhaustive state coverage,2^9 states enumerated,512/512,Complete finite test family,Missing state,PASS
+A003,Fixed-point characterization,Γ(A)=A iff A equivalence relation,PASS for n=3 realization,Theorem scope is this realization,Non-equivalence fixed point,PASS
+A004,Iteration termination,All 512 states reach a fixed point,512/512; max 2 iterations,Finite realization only,Cycle/nontermination,PASS
+A005,Fixed-point count,Enumerated fixed states,5,Finite realization only,Count ≠ 5,PASS
+A006,Graph extraction,Ψ*→simple undirected G,5/5 valid,BR-003 scoped,Non-graph output,PASS
+A007,Laplacian PSD,L=D-A,5/5 PSD,BR-004 assumptions,Negative eigenvalue,PASS
+A008,Spectral decomposition,Lφ=λφ,5/5 diagonalizable,BR-005 assumptions,Residual > tolerance,PASS
+A009,Semigroup fixed set,"Fix(e^{-tL})=ker L, t>0",5/5 dimension match,Finite PSD case,Mismatch,PASS
+A010,Universal BR-001 closure,Finite realization only,NOT CLOSED,Requires equivalence across all admitted realizations,Second inequivalent realization,OPEN
+A011,Universal BR-002 closure,Finite realization only,NOT CLOSED,Requires typed map theorem across admitted class,Correspondence failure,OPEN

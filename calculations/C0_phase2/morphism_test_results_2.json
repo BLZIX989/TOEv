@@ -1,0 +1,509 @@
+{
+  "TEST_5_spectral_preservation_F_AB": {
+    "per_family": {
+      "K4": {
+        "n": 4,
+        "m": 6,
+        "nonzero_spectrum_L_vertex": [
+          4.0,
+          4.0,
+          4.0
+        ],
+        "nonzero_spectrum_L_edge": [
+          4.0,
+          4.0,
+          4.0
+        ],
+        "nonzero_spectrum_preserved_by_F_AB": true,
+        "zero_eigenvalue_multiplicity_L_vertex_(dim_ker_Delta^T)": 1,
+        "zero_eigenvalue_multiplicity_L_edge_(dim_ker_Delta)": 3,
+        "zero_multiplicity_difference": 2,
+        "predicted_difference_(m-n)": 2,
+        "prediction_matches": true
+      },
+      "K33": {
+        "n": 6,
+        "m": 9,
+        "nonzero_spectrum_L_vertex": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          6.0
+        ],
+        "nonzero_spectrum_L_edge": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          6.0
+        ],
+        "nonzero_spectrum_preserved_by_F_AB": true,
+        "zero_eigenvalue_multiplicity_L_vertex_(dim_ker_Delta^T)": 1,
+        "zero_eigenvalue_multiplicity_L_edge_(dim_ker_Delta)": 4,
+        "zero_multiplicity_difference": 3,
+        "predicted_difference_(m-n)": 3,
+        "prediction_matches": true
+      },
+      "C6": {
+        "n": 6,
+        "m": 6,
+        "nonzero_spectrum_L_vertex": [
+          1.0,
+          1.0,
+          3.0,
+          3.0,
+          4.0
+        ],
+        "nonzero_spectrum_L_edge": [
+          1.0,
+          1.0,
+          3.0,
+          3.0,
+          4.0
+        ],
+        "nonzero_spectrum_preserved_by_F_AB": true,
+        "zero_eigenvalue_multiplicity_L_vertex_(dim_ker_Delta^T)": 1,
+        "zero_eigenvalue_multiplicity_L_edge_(dim_ker_Delta)": 1,
+        "zero_multiplicity_difference": 0,
+        "predicted_difference_(m-n)": 0,
+        "prediction_matches": true
+      },
+      "P5": {
+        "n": 5,
+        "m": 4,
+        "nonzero_spectrum_L_vertex": [
+          0.381966,
+          1.381966,
+          2.618034,
+          3.618034
+        ],
+        "nonzero_spectrum_L_edge": [
+          0.381966,
+          1.381966,
+          2.618034,
+          3.618034
+        ],
+        "nonzero_spectrum_preserved_by_F_AB": true,
+        "zero_eigenvalue_multiplicity_L_vertex_(dim_ker_Delta^T)": 1,
+        "zero_eigenvalue_multiplicity_L_edge_(dim_ker_Delta)": 0,
+        "zero_multiplicity_difference": -1,
+        "predicted_difference_(m-n)": -1,
+        "prediction_matches": true
+      },
+      "disjoint_K4_K33": {
+        "n": 10,
+        "m": 15,
+        "nonzero_spectrum_L_vertex": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          4.0,
+          4.0,
+          4.0,
+          6.0
+        ],
+        "nonzero_spectrum_L_edge": [
+          3.0,
+          3.0,
+          3.0,
+          3.0,
+          4.0,
+          4.0,
+          4.0,
+          6.0
+        ],
+        "nonzero_spectrum_preserved_by_F_AB": true,
+        "zero_eigenvalue_multiplicity_L_vertex_(dim_ker_Delta^T)": 2,
+        "zero_eigenvalue_multiplicity_L_edge_(dim_ker_Delta)": 7,
+        "zero_multiplicity_difference": 5,
+        "predicted_difference_(m-n)": 5,
+        "prediction_matches": true
+      },
+      "two_triangles_disjoint": {
+        "n": 6,
+        "m": 6,
+        "nonzero_spectrum_L_vertex": [
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "nonzero_spectrum_L_edge": [
+          3.0,
+          3.0,
+          3.0,
+          3.0
+        ],
+        "nonzero_spectrum_preserved_by_F_AB": true,
+        "zero_eigenvalue_multiplicity_L_vertex_(dim_ker_Delta^T)": 2,
+        "zero_eigenvalue_multiplicity_L_edge_(dim_ker_Delta)": 2,
+        "zero_multiplicity_difference": 0,
+        "predicted_difference_(m-n)": 0,
+        "prediction_matches": true
+      },
+      "torus_4x4": {
+        "n": 16,
+        "m": 32,
+        "nonzero_spectrum_L_vertex": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          8.0
+        ],
+        "nonzero_spectrum_L_edge": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          4.0,
+          6.0,
+          6.0,
+          6.0,
+          6.0,
+          8.0
+        ],
+        "nonzero_spectrum_preserved_by_F_AB": true,
+        "zero_eigenvalue_multiplicity_L_vertex_(dim_ker_Delta^T)": 1,
+        "zero_eigenvalue_multiplicity_L_edge_(dim_ker_Delta)": 17,
+        "zero_multiplicity_difference": 16,
+        "predicted_difference_(m-n)": 16,
+        "prediction_matches": true
+      },
+      "petersen": {
+        "n": 10,
+        "m": 15,
+        "nonzero_spectrum_L_vertex": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "nonzero_spectrum_L_edge": [
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          2.0,
+          5.0,
+          5.0,
+          5.0,
+          5.0
+        ],
+        "nonzero_spectrum_preserved_by_F_AB": true,
+        "zero_eigenvalue_multiplicity_L_vertex_(dim_ker_Delta^T)": 1,
+        "zero_eigenvalue_multiplicity_L_edge_(dim_ker_Delta)": 6,
+        "zero_multiplicity_difference": 5,
+        "predicted_difference_(m-n)": 5,
+        "prediction_matches": true
+      },
+      "star_K1_5": {
+        "n": 6,
+        "m": 5,
+        "nonzero_spectrum_L_vertex": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          6.0
+        ],
+        "nonzero_spectrum_L_edge": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          6.0
+        ],
+        "nonzero_spectrum_preserved_by_F_AB": true,
+        "zero_eigenvalue_multiplicity_L_vertex_(dim_ker_Delta^T)": 1,
+        "zero_eigenvalue_multiplicity_L_edge_(dim_ker_Delta)": 0,
+        "zero_multiplicity_difference": -1,
+        "predicted_difference_(m-n)": -1,
+        "prediction_matches": true
+      },
+      "K3_NEW": {
+        "n": 3,
+        "m": 3,
+        "nonzero_spectrum_L_vertex": [
+          3.0,
+          3.0
+        ],
+        "nonzero_spectrum_L_edge": [
+          3.0,
+          3.0
+        ],
+        "nonzero_spectrum_preserved_by_F_AB": true,
+        "zero_eigenvalue_multiplicity_L_vertex_(dim_ker_Delta^T)": 1,
+        "zero_eigenvalue_multiplicity_L_edge_(dim_ker_Delta)": 1,
+        "zero_multiplicity_difference": 0,
+        "predicted_difference_(m-n)": 0,
+        "prediction_matches": true
+      }
+    },
+    "n_families_nonzero_spectrum_preserved": 10,
+    "n_families_zero_mult_prediction_matches": 10,
+    "n_families_total": 10
+  },
+  "TEST_5b_tetrahedron_2complex_d2_level": {
+    "d2_shape": [
+      6,
+      4
+    ],
+    "L_edge_side_shape": [
+      6,
+      6
+    ],
+    "L_face_side_shape": [
+      4,
+      4
+    ],
+    "nonzero_spectrum_L_edge_side": [
+      4.0,
+      4.0,
+      4.0
+    ],
+    "nonzero_spectrum_L_face_side": [
+      4.0,
+      4.0,
+      4.0
+    ],
+    "nonzero_spectrum_preserved": true,
+    "zero_mult_edge_side": 3,
+    "zero_mult_face_side": 1,
+    "conclusion": "The nonzero-spectrum-transport law tested in TEST 5 for the vertex/edge (d1) level ALSO holds exactly at the edge/face (d2) level of a genuinely different complex -- evidence this is a general linear-algebra fact about F_AB's adjoint-pair construction (true for ANY d, at any graded level), not a graph-specific accident."
+  },
+  "TEST_6_heat_semigroup_preservation": {
+    "K4": {
+      "t": 0.37,
+      "heat_eigs_nonzero_block_vertex": [
+        0.22763769,
+        0.22763769,
+        0.22763769
+      ],
+      "heat_eigs_nonzero_block_edge": [
+        0.22763769,
+        0.22763769,
+        0.22763769
+      ],
+      "match": true
+    },
+    "K3_NEW": {
+      "t": 0.37,
+      "heat_eigs_nonzero_block_vertex": [
+        0.32955896,
+        0.32955896
+      ],
+      "heat_eigs_nonzero_block_edge": [
+        0.32955896,
+        0.32955896
+      ],
+      "match": true
+    }
+  },
+  "TEST_7_F_CA_kernel_to_partition": {
+    "per_family": {
+      "K4": {
+        "n_components_(original_Theta)": 1,
+        "dim_ker(L)_numeric": 1,
+        "indicator_vectors_all_in_ker(L)": true,
+        "indicator_basis_size_matches_ker_dim": true,
+        "F_CA_recovered_partition_equals_original_Theta": true
+      },
+      "K33": {
+        "n_components_(original_Theta)": 1,
+        "dim_ker(L)_numeric": 1,
+        "indicator_vectors_all_in_ker(L)": true,
+        "indicator_basis_size_matches_ker_dim": true,
+        "F_CA_recovered_partition_equals_original_Theta": true
+      },
+      "C6": {
+        "n_components_(original_Theta)": 1,
+        "dim_ker(L)_numeric": 1,
+        "indicator_vectors_all_in_ker(L)": true,
+        "indicator_basis_size_matches_ker_dim": true,
+        "F_CA_recovered_partition_equals_original_Theta": true
+      },
+      "P5": {
+        "n_components_(original_Theta)": 1,
+        "dim_ker(L)_numeric": 1,
+        "indicator_vectors_all_in_ker(L)": true,
+        "indicator_basis_size_matches_ker_dim": true,
+        "F_CA_recovered_partition_equals_original_Theta": true
+      },
+      "disjoint_K4_K33": {
+        "n_components_(original_Theta)": 2,
+        "dim_ker(L)_numeric": 2,
+        "indicator_vectors_all_in_ker(L)": true,
+        "indicator_basis_size_matches_ker_dim": true,
+        "F_CA_recovered_partition_equals_original_Theta": true
+      },
+      "two_triangles_disjoint": {
+        "n_components_(original_Theta)": 2,
+        "dim_ker(L)_numeric": 2,
+        "indicator_vectors_all_in_ker(L)": true,
+        "indicator_basis_size_matches_ker_dim": true,
+        "F_CA_recovered_partition_equals_original_Theta": true
+      },
+      "torus_4x4": {
+        "n_components_(original_Theta)": 1,
+        "dim_ker(L)_numeric": 1,
+        "indicator_vectors_all_in_ker(L)": true,
+        "indicator_basis_size_matches_ker_dim": true,
+        "F_CA_recovered_partition_equals_original_Theta": true
+      },
+      "petersen": {
+        "n_components_(original_Theta)": 1,
+        "dim_ker(L)_numeric": 1,
+        "indicator_vectors_all_in_ker(L)": true,
+        "indicator_basis_size_matches_ker_dim": true,
+        "F_CA_recovered_partition_equals_original_Theta": true
+      },
+      "star_K1_5": {
+        "n_components_(original_Theta)": 1,
+        "dim_ker(L)_numeric": 1,
+        "indicator_vectors_all_in_ker(L)": true,
+        "indicator_basis_size_matches_ker_dim": true,
+        "F_CA_recovered_partition_equals_original_Theta": true
+      },
+      "K3_NEW": {
+        "n_components_(original_Theta)": 1,
+        "dim_ker(L)_numeric": 1,
+        "indicator_vectors_all_in_ker(L)": true,
+        "indicator_basis_size_matches_ker_dim": true,
+        "F_CA_recovered_partition_equals_original_Theta": true
+      }
+    },
+    "n_families_recovered_exactly": 10,
+    "n_families_total": 10
+  },
+  "TEST_8_F_BA_involution": {
+    "per_family": {
+      "K4": {
+        "F_AB_then_F_BA_equals_identity": true
+      },
+      "K33": {
+        "F_AB_then_F_BA_equals_identity": true
+      },
+      "C6": {
+        "F_AB_then_F_BA_equals_identity": true
+      },
+      "P5": {
+        "F_AB_then_F_BA_equals_identity": true
+      },
+      "disjoint_K4_K33": {
+        "F_AB_then_F_BA_equals_identity": true
+      },
+      "two_triangles_disjoint": {
+        "F_AB_then_F_BA_equals_identity": true
+      },
+      "torus_4x4": {
+        "F_AB_then_F_BA_equals_identity": true
+      },
+      "petersen": {
+        "F_AB_then_F_BA_equals_identity": true
+      },
+      "star_K1_5": {
+        "F_AB_then_F_BA_equals_identity": true
+      },
+      "K3_NEW": {
+        "F_AB_then_F_BA_equals_identity": true
+      }
+    },
+    "n_families_ok": 10,
+    "n_families_total": 10
+  },
+  "TEST_9_F_BC_F_CB_triviality": {
+    "per_family": {
+      "K4": {
+        "F_BC_composite_defined_via": "F_AC( F_BA(grad(Phi)) ) = F_AC(Delta) -- factors entirely through the shared adjacency matrix / Delta=Inc, never revisits grad(Phi)'s own entries after the F_BA step.",
+        "genuinely_uses_gradient-specific_information": false
+      },
+      "K33": {
+        "F_BC_composite_defined_via": "F_AC( F_BA(grad(Phi)) ) = F_AC(Delta) -- factors entirely through the shared adjacency matrix / Delta=Inc, never revisits grad(Phi)'s own entries after the F_BA step.",
+        "genuinely_uses_gradient-specific_information": false
+      },
+      "C6": {
+        "F_BC_composite_defined_via": "F_AC( F_BA(grad(Phi)) ) = F_AC(Delta) -- factors entirely through the shared adjacency matrix / Delta=Inc, never revisits grad(Phi)'s own entries after the F_BA step.",
+        "genuinely_uses_gradient-specific_information": false
+      },
+      "P5": {
+        "F_BC_composite_defined_via": "F_AC( F_BA(grad(Phi)) ) = F_AC(Delta) -- factors entirely through the shared adjacency matrix / Delta=Inc, never revisits grad(Phi)'s own entries after the F_BA step.",
+        "genuinely_uses_gradient-specific_information": false
+      },
+      "disjoint_K4_K33": {
+        "F_BC_composite_defined_via": "F_AC( F_BA(grad(Phi)) ) = F_AC(Delta) -- factors entirely through the shared adjacency matrix / Delta=Inc, never revisits grad(Phi)'s own entries after the F_BA step.",
+        "genuinely_uses_gradient-specific_information": false
+      },
+      "two_triangles_disjoint": {
+        "F_BC_composite_defined_via": "F_AC( F_BA(grad(Phi)) ) = F_AC(Delta) -- factors entirely through the shared adjacency matrix / Delta=Inc, never revisits grad(Phi)'s own entries after the F_BA step.",
+        "genuinely_uses_gradient-specific_information": false
+      },
+      "torus_4x4": {
+        "F_BC_composite_defined_via": "F_AC( F_BA(grad(Phi)) ) = F_AC(Delta) -- factors entirely through the shared adjacency matrix / Delta=Inc, never revisits grad(Phi)'s own entries after the F_BA step.",
+        "genuinely_uses_gradient-specific_information": false
+      },
+      "petersen": {
+        "F_BC_composite_defined_via": "F_AC( F_BA(grad(Phi)) ) = F_AC(Delta) -- factors entirely through the shared adjacency matrix / Delta=Inc, never revisits grad(Phi)'s own entries after the F_BA step.",
+        "genuinely_uses_gradient-specific_information": false
+      },
+      "star_K1_5": {
+        "F_BC_composite_defined_via": "F_AC( F_BA(grad(Phi)) ) = F_AC(Delta) -- factors entirely through the shared adjacency matrix / Delta=Inc, never revisits grad(Phi)'s own entries after the F_BA step.",
+        "genuinely_uses_gradient-specific_information": false
+      },
+      "K3_NEW": {
+        "F_BC_composite_defined_via": "F_AC( F_BA(grad(Phi)) ) = F_AC(Delta) -- factors entirely through the shared adjacency matrix / Delta=Inc, never revisits grad(Phi)'s own entries after the F_BA step.",
+        "genuinely_uses_gradient-specific_information": false
+      }
+    },
+    "conclusion": "F_BC and F_CB are well-defined ONLY as composites through A (F_BC=F_AC.F_BA, F_CB=F_AB.F_CA); neither uses any information specific to grad(Phi) or Theta/Omega that is not already recoverable from the shared underlying graph/Delta. This is a genuine finding: no DIRECT B<->C translation exists in the corpus or was constructible here; only an indirect, A-mediated, and in that precise sense TRIVIAL one. Classified as SCOPE-DEPENDENT (holds only in the indirect/composite sense, not as an independent morphism)."
+  },
+  "TEST_10_fixed_point_preservation_Gamma_A_vs_Gamma_B": {
+    "per_family": {
+      "C6": {
+        "n": 6,
+        "m": 6,
+        "dim_Fix(Gamma_A)_(ker_L_vertex)": 1,
+        "dim_Fix(Gamma_B)_(ker_L_edge)": 1,
+        "fixed_point_dims_equal": true
+      },
+      "two_triangles_disjoint": {
+        "n": 6,
+        "m": 6,
+        "dim_Fix(Gamma_A)_(ker_L_vertex)": 2,
+        "dim_Fix(Gamma_B)_(ker_L_edge)": 2,
+        "fixed_point_dims_equal": true
+      },
+      "K3_NEW": {
+        "n": 3,
+        "m": 3,
+        "dim_Fix(Gamma_A)_(ker_L_vertex)": 1,
+        "dim_Fix(Gamma_B)_(ker_L_edge)": 1,
+        "fixed_point_dims_equal": true
+      }
+    },
+    "n_families_matched": 3,
+    "n_families_typechecking_(n=m)": 3
+  }
+}

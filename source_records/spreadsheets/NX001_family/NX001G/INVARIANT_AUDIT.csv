@@ -1,0 +1,10 @@
+Invariant,Functor A behavior,Functor B behavior,Preserved across A/B?,Semantic status
+Terminal partition / block structure,Same input partition,Same input partition,True,SEMANTIC
+Number of equivalence classes c,c,c,True,SEMANTIC
+Connected-component count of encoded graph,c,c,True,SEMANTIC ONLY FOR THESE FUNCTORS
+Vertex count,3,3+c,False,REPRESENTATION-DEPENDENT
+Laplacian spectrum,Clique spectrum,Incidence spectrum,False,REPRESENTATION-DEPENDENT
+Kernel dimension,c,c,True,PRESERVED IN THIS TEST CLASS
+Laplacian rank,3-c,3,False,REPRESENTATION-DEPENDENT
+Spectral gap,2 for nontrivial clique blocks,1 for nontrivial incidence blocks,False,REPRESENTATION-DEPENDENT
+Heat trace Tr(e^{-tL}),Depends on clique spectrum,Depends on incidence spectrum,False,REPRESENTATION-DEPENDENT

@@ -1,0 +1,19 @@
+Base graph,Permutation,Spectral multiset base,Spectral multiset relabeled,Trace check at t=.25,Trace check at t=1,Status
+Empty K1⊔K1⊔K1,"(0, 1, 2)","(np.float64(0.0), np.float64(0.0), np.float64(0.0))","(np.float64(0.0), np.float64(0.0), np.float64(0.0))",1,1,VERIFIED
+Empty K1⊔K1⊔K1,"(0, 2, 1)","(np.float64(0.0), np.float64(0.0), np.float64(0.0))","(np.float64(0.0), np.float64(0.0), np.float64(0.0))",1,1,VERIFIED
+Empty K1⊔K1⊔K1,"(1, 0, 2)","(np.float64(0.0), np.float64(0.0), np.float64(0.0))","(np.float64(0.0), np.float64(0.0), np.float64(0.0))",1,1,VERIFIED
+Empty K1⊔K1⊔K1,"(1, 2, 0)","(np.float64(0.0), np.float64(0.0), np.float64(0.0))","(np.float64(0.0), np.float64(0.0), np.float64(0.0))",1,1,VERIFIED
+Empty K1⊔K1⊔K1,"(2, 0, 1)","(np.float64(0.0), np.float64(0.0), np.float64(0.0))","(np.float64(0.0), np.float64(0.0), np.float64(0.0))",1,1,VERIFIED
+Empty K1⊔K1⊔K1,"(2, 1, 0)","(np.float64(0.0), np.float64(0.0), np.float64(0.0))","(np.float64(0.0), np.float64(0.0), np.float64(0.0))",1,1,VERIFIED
+Single edge K1⊔K2,"(0, 1, 2)","(np.float64(0.0), np.float64(0.0), np.float64(2.0))","(np.float64(0.0), np.float64(0.0), np.float64(2.0))",1,1,VERIFIED
+Single edge K1⊔K2,"(0, 2, 1)","(np.float64(0.0), np.float64(0.0), np.float64(2.0))","(np.float64(0.0), np.float64(0.0), np.float64(2.0))",1,1,VERIFIED
+Single edge K1⊔K2,"(1, 0, 2)","(np.float64(0.0), np.float64(0.0), np.float64(2.0))","(np.float64(0.0), np.float64(0.0), np.float64(2.0))",1,1,VERIFIED
+Single edge K1⊔K2,"(1, 2, 0)","(np.float64(0.0), np.float64(0.0), np.float64(2.0))","(np.float64(0.0), np.float64(0.0), np.float64(2.0))",1,1,VERIFIED
+Single edge K1⊔K2,"(2, 0, 1)","(np.float64(0.0), np.float64(0.0), np.float64(2.0))","(np.float64(0.0), np.float64(0.0), np.float64(2.0))",1,1,VERIFIED
+Single edge K1⊔K2,"(2, 1, 0)","(np.float64(0.0), np.float64(0.0), np.float64(2.0))","(np.float64(0.0), np.float64(0.0), np.float64(2.0))",1,1,VERIFIED
+Triangle K3,"(0, 1, 2)","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))",1,1,VERIFIED
+Triangle K3,"(0, 2, 1)","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))",1,1,VERIFIED
+Triangle K3,"(1, 0, 2)","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))",1,1,VERIFIED
+Triangle K3,"(1, 2, 0)","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))",1,1,VERIFIED
+Triangle K3,"(2, 0, 1)","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))",1,1,VERIFIED
+Triangle K3,"(2, 1, 0)","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))","(np.float64(-0.0), np.float64(3.0), np.float64(3.0))",1,1,VERIFIED

@@ -1,0 +1,12 @@
+NX-001G THEOREM AUDIT,
+Claim tested,"For any two graph functors encoding the same Γ terminal semantics, Spec(L) is identical."
+Counterexample state,Partition 12|3 (P2)
+Functor A graph,K2 ⊔ K1
+Functor A spectrum,"{0,0,2}"
+Functor B graph,"K1,2 ⊔ K2"
+Functor B spectrum,"{0,0,1,2,3}"
+Conclusion,Spec(L_A) ≠ Spec(L_B) despite identical terminal partition semantics.
+Falsified statement,Unrestricted semantic-equivalence ⇒ raw Laplacian spectral-equivalence.
+Surviving statement,NX-001F F7 remains true only under a fixed graph encoding or a restricted representation class that preserves the relevant spectral object.
+Important correction,"Kernel multiplicity / component count survives this particular alternative encoding, but rank does not."
+Closure status,NX-001G EXECUTED; broader spectral invariance is FALSIFIED for unrestricted graph-functor choice.

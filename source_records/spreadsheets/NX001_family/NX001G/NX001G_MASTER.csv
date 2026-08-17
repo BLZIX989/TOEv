@@ -1,0 +1,10 @@
+NX-001G — INDEPENDENT GRAPH EXTRACTION / SPECTRAL INVARIANCE ATTACK,
+Target,Test whether raw Laplacian spectrum is a semantic invariant of the Γ terminal state under an independent admissible graph representation.
+Semantic domain,"Equivalence relations on V={1,2,3}; five terminal normal forms."
+Graph functor A,Clique graph: one vertex per original element; each equivalence block becomes a clique.
+Graph functor B,Incidence graph: original elements plus one block-node per equivalence class; incidence edges encode membership.
+Key distinction,"Both encode the same terminal partition, but they are not the same graph construction."
+Primary test,Spec(L_A) ?= Spec(L_B)
+Secondary tests,"component count, kernel dimension, rank, heat trace, spectral gap, vertex count."
+Expected theorem boundary,"If any semantic-equivalent state gives different spectra, raw Spec(L) is representation-dependent under the broader graph-functor class."
+Status,EXECUTED CALCULATION — finite n=3 counterexample to unrestricted spectral invariance.

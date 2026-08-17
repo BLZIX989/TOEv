@@ -1,0 +1,6 @@
+Operator,Domain,Codomain,Definition,Excel / algorithm implementation,Role
+Δ,X,X,Δ(A)_ij = 1 if A_ij ≠ 0 else 0,,Distinction
+τ,X,X,"τ(B)=B∨(B∘B), where (B∘B)_ij=1 iff ∃k: B_ik B_kj=1",Boolean matrix product + MAX,Transformation
+κ,X,X,κ(C)=C∨Cᵀ∨I,,Constraint
+Γ,X,X,Γ=κ∘τ∘Δ,"Apply Δ, then τ, then κ",Compiler functional
+Π,X,"{0,1}",Π(A)=1 iff Γ(A)=A,,Persistence / admissibility state

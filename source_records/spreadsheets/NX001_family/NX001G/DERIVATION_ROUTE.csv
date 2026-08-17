@@ -1,0 +1,10 @@
+Step,Formal object,Calculation,Result,Status
+1,Γ terminal semantics,Γ_A*(A)=Γ_B*(A)=Eq(A),Same partition semantics,INHERITED/CLOSED
+2,Graph functor A,Eq(A) → clique graph,G_A,DERIVED
+3,Graph functor B,Eq(A) → incidence graph,G_B,DERIVED
+4,Non-equivalence of representations,G_A not isomorphic to G_B for P2,Different vertex counts / degree structure,DERIVED
+5,Laplacians,L_A=D_A-A_A; L_B=D_B-A_B,Two different operators,DERIVED
+6,Spectra,"Diagonalize L_A,L_B",Different eigenvalue multisets,FALSIFICATION
+7,Semantic invariant audit,"Compare c, ker dimension, rank, gap, heat trace",Only selected invariants survive,CALCULATED
+8,Theorem boundary,Raw Spec(L) is not invariant under unrestricted graph functors,Representation dependence established,CLOSED FOR TEST CLASS
+9,Next target,Define restricted admissible functor class or a canonical spectral quotient,Recover meaningful semantic spectral invariants,OPEN

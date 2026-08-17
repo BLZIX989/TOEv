@@ -1,0 +1,6 @@
+Case,Formula,t→0,t→∞,P_kernel trace,rank = N−c,Interpretation
+K1⊔K1⊔K1,3,3,3,3,0,No active nonzero spectral modes
+K1⊔K2,2+e^{-2t},3,2,2,1,One nonzero mode
+K3,1+2e^{-3t},3,1,1,2,Two active nonzero modes
+,,,,,,
+General,c+Σ_j(m_j−1)e^{-m_jt},n,c,c,n−c,Z(0)−Z(∞)=rank(L)

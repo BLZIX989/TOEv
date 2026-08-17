@@ -1,0 +1,5 @@
+Priority,Calculation,Purpose,Closure criterion
+1,NX-001D — n=5 targeted/randomized equivalence test,Probe beyond exhaustive 4×4 without 2^25 full enumeration.,"No semantic mismatch in a registered adversarial sample, or a constructive mismatch."
+2,NX-001E — formal algebraic proof of normal-form equivalence,Replace finite evidence with a theorem for arbitrary finite n.,Prove both operators compute reflexive-symmetric-transitive closure.
+3,Independent spectral descent,Run Ψ*→G→L→Spec(L) from Γ_B.,Spectral outputs are invariant under realization.
+4,Primitive equivalence mapping,Relate Δ/τ/κ implementation to closure algorithm by semantics-preserving morphism.,Explicit C0 mapping with dependency preservation.

@@ -1,0 +1,13 @@
+UPSTREAM,OPERATOR,DOWNSTREAM,EVIDENCE,STATUS,SCOPE,PROVENANCE
+OBJ-P2-001,"compose-with(kappa,tau)",OBJ-P2-009,derivations/C0/PRF-PRIM/05_composition_type_check.py,FALSIFIED,"all graphs/complexes, n!=m",PHASE2-C0-EXEC-2026-08-17
+OBJ-P2-002,"compose-with(kappa,tau)",OBJ-P2-010,source_records/spreadsheets/NX001_family/,CALCULATED-DERIVED,"X={0,1}^(kxk), k=3,4",PHASE2-C0-EXEC-2026-08-17
+OBJ-P2-006,"compose-with(kappa,tau)",OBJ-P2-011,calculations/C0_phase2/morphism_tests.py TEST 2,CALCULATED-CONDITIONAL,n=m graph families only (3/10),PHASE2-C0-EXEC-2026-08-17
+OBJ-P2-007,compose-with(...),OBJ-P2-012,derivations/C0/DER-P2-001_grammar_typing.md,OPEN,no formula exists in corpus,PHASE2-C0-EXEC-2026-08-17
+OBJ-P2-001,F_AB(transpose),OBJ-P2-006,"calculations/C0_phase2/morphism_tests_2.py TEST 5, TEST 5b",CALCULATED,rank+nonzero-spectrum: unconditional (10/10 graphs + tetrahedron d2); kernel: conditional n=m,PHASE2-C0-EXEC-2026-08-17
+OBJ-P2-006,F_BA(transpose),OBJ-P2-001,calculations/C0_phase2/morphism_tests_2.py TEST 8,CALCULATED,"unconditional, trivial involution (10/10)",PHASE2-C0-EXEC-2026-08-17
+OBJ-P2-005,F_AC(cardinality),OBJ-P2-007,calculations/C0_phase2/morphism_tests.py TEST 3,CALCULATED,unconditional (10/10),PHASE2-C0-EXEC-2026-08-17
+OBJ-P2-007,F_CA(canonical-basis),OBJ-P2-005,calculations/C0_phase2/morphism_tests_2.py TEST 7,CALCULATED,"unconditional, EXACT reconstruction (10/10)",PHASE2-C0-EXEC-2026-08-17
+OBJ-P2-006,F_BC(composite=F_AC.F_BA),OBJ-P2-007,calculations/C0_phase2/morphism_tests_2.py TEST 9,OPEN,"only indirect/trivial, all 10 families",PHASE2-C0-EXEC-2026-08-17
+OBJ-P2-007,F_CB(composite=F_AB.F_CA),OBJ-P2-006,calculations/C0_phase2/morphism_tests_2.py TEST 9,OPEN,"only indirect/trivial, all 10 families",PHASE2-C0-EXEC-2026-08-17
+OBJ-P2-001,textual-identification(source-declared),OBJ-P2-007,"PRF-PRIM finding: G_C's Delta,tau,kappa,Pi declared 'same as' G_A's",CONFIRMED,"corpus-wide (source-text assertion, independently checked consistent)",PHASE2-C0-EXEC-2026-08-17
+OBJ-P2-008,type-comparison,OBJ-P2-005,"calculations/C0_phase2/morphism_tests.py TEST 4 (Omega~Psi finding, graph + NX001 domains)",OPEN,Omega vs Psi type-identity unresolved in every domain tested,PHASE2-C0-EXEC-2026-08-17

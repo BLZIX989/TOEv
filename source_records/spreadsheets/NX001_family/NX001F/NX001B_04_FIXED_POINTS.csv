@@ -1,0 +1,6 @@
+Fixed_Point,GammaA_Basin,GammaB_Basin,Basin_Equal,Meaning
+100010001,8,8,True,Same terminal equivalence-class normal form
+100011011,24,24,True,Same terminal equivalence-class normal form
+101010101,24,24,True,Same terminal equivalence-class normal form
+110110001,24,24,True,Same terminal equivalence-class normal form
+111111111,432,432,True,Same terminal equivalence-class normal form

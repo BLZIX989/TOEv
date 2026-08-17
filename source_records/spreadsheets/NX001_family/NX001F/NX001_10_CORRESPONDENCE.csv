@@ -1,0 +1,6 @@
+Fixed_ID,Psi_star,State_Fixed_Point,Partition_Block_Count,dim_ker(L),dim_Fix(exp(-tL)),Correspondence_Invariant,Status
+FP-001,100010001,1,3,3,3,Partition blocks = connected components = dim ker(L),VERIFIED IN THIS REALIZATION
+FP-002,100011011,1,2,2,2,Partition blocks = connected components = dim ker(L),VERIFIED IN THIS REALIZATION
+FP-003,101010101,1,2,2,2,Partition blocks = connected components = dim ker(L),VERIFIED IN THIS REALIZATION
+FP-004,110110001,1,2,2,2,Partition blocks = connected components = dim ker(L),VERIFIED IN THIS REALIZATION
+FP-005,111111111,1,1,1,1,Partition blocks = connected components = dim ker(L),VERIFIED IN THIS REALIZATION

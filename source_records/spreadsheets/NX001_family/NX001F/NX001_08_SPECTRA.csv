@@ -1,0 +1,6 @@
+Fixed_ID,lambda_0,lambda_1,lambda_2,Spectral_Gap,Zero_Multiplicity,PSD_Check,Eigenvalue_Equation
+FP-001,0,0,0,0,3,1,L φ_i = λ_i φ_i
+FP-002,0,0,2,2,2,1,L φ_i = λ_i φ_i
+FP-003,0,0,2,2,2,1,L φ_i = λ_i φ_i
+FP-004,0,0,2,2,2,1,L φ_i = λ_i φ_i
+FP-005,0,3,3,3,1,1,L φ_i = λ_i φ_i

@@ -1,0 +1,8 @@
+Step,Calculation,Input,Output / test,Status
+1,Construct Γ_B(A) for representative states,A,Ψ*_B,READY
+2,Extract G_{Ψ*_B},Ψ*_B,Graph G_B,READY
+3,Calculate L_B=D_B−A_B,G_B,L_B,READY
+4,Calculate Spec(L_B),L_B,Eigenvalues/eigenspaces,READY
+5,Compare with Γ_A branch,"Spec(L_A), Spec(L_B)",Spectral equivalence,CRITICAL NEXT TEST
+6,Compare heat semigroups,"L_A,L_B",e^{-tL_A} vs e^{-tL_B},NEXT
+7,Compare continuum/refinement behavior,Sequences of realizations,Representation-invariant spectral branch,OPEN

@@ -1,0 +1,14 @@
+NX-001F — SPECTRAL DESCENT / REALIZATION EQUIVALENCE,,,,,,,
+,,,,,,,
+Target,"Prove that terminal extensional equivalence of Γ-realizations survives the descent Ψ*→G→L→Spec(L), and quantify the stronger representation-invariance result under vertex relabeling.",,,,,,
+,,,,,,,
+Core chain,Γ_A* (A) = Γ_B* (A) = Eq(A)  →  G_A ≃ G_B  →  L_A ≃ L_B  →  Spec(L_A)=Spec(L_B)  →  Z_A(t)=Z_B(t),,,,,,
+,,,,,,,
+ID,Statement,Result,Scope,Status,Dependency,Falsification,Notes
+F1,Terminal-state identity,Γ_A*(A)=Γ_B*(A)=Eq(A),Finite binary relations,CLOSED,NX-001E,Construct a terminal mismatch,Formal theorem from NX-001E
+F2,Graph extraction,Eq(A)→ union of clique components,Fixed graph encoding,DERIVED,F1,Different graph under same encoding,Blocks of Eq(A) define connected components
+F3,Laplacian equivalence,L_B = P L_A P^T under vertex relabeling,Permutation-equivalent representations,CLOSED,F2,Find non-similar L under pure relabeling,Orthogonal similarity
+F4,Spectral invariance,Spec(L_A)=Spec(L_B),Permutation-equivalent graphs,CLOSED,F3,Different eigenvalue multiset,Similarity preserves characteristic polynomial
+F5,Heat-trace invariance,Tr(e^{-tL_A})=Tr(e^{-tL_B}),All t≥0,CLOSED,F4,Different heat trace,Trace is similarity invariant
+F6,Kernel/rank invariance,dim ker L = number of equivalence blocks; rank L=n-c,Finite equivalence graphs,CLOSED,F2,Mismatch with component count,Clique-block spectrum
+F7,Universal cross-realization spectral equivalence,Any admissible realization with same terminal semantics has same spectrum under same graph encoding,All admissible UOC realizations,OPEN,F1–F6,Construct alternative representation changing spectral construction,Requires broader representation class

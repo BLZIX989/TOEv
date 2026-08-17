@@ -1,0 +1,10 @@
+Bridge,Dependency,Result,Status,Scope,What remains
+BR-NX-E1,Γ_A* = Γ_B*,Same terminal equivalence relation,CLOSED,Finite relational class,Generalization to arbitrary admissible realizations
+BR-NX-E2,Eq(A)→G,Terminal relation determines union-of-cliques graph,CLOSED,Fixed graph extraction,Alternative graph encodings
+BR-NX-E3,G→L,Laplacian determined by graph,CLOSED,Undirected graph encoding,Nonstandard UOC graph constructions
+BR-NX-E4,L→Spec(L),Spectrum invariant under vertex relabeling,CLOSED,Permutation-equivalent representations,Broader representation invariance
+BR-NX-E5,L→Z(t),Heat trace invariant under similarity,CLOSED,Permutation-equivalent representations,Continuum/refinement invariance
+BR-NX-E6,Spec→rank/kernel,rank=n−c; ker dim=c,CLOSED,Equivalence graphs,Physical interpretation
+BR-NX-E7,Γ realization→spectral branch,Same terminal semantics + same extraction ⇒ same spectrum,CLOSED,Registered realization class,Independent alternative extraction rules
+BR-NX-E8,Spectral branch→continuum geometry,L_N→−Δ_g,CALCULATED elsewhere,Explicit periodic refinement family,Universality across geometries
+BR-NX-E9,Spectral branch→cosmological information,Spec→N_H→Xi,PARTIAL/CONDITIONAL,COSMO-DYN branch,"Scale, projector, normalization ancestry"

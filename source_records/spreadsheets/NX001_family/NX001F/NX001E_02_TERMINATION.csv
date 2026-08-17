@@ -1,0 +1,6 @@
+Quantity,Result,Derivation
+Maximum possible relation entries,|V|²,Binary relation on V has one bit per ordered pair.
+Γ_A chain,A⊆Γ_A(A)⊆Γ_A²(A)⊆…,Extensivity.
+Strict-growth steps,≤|V|²−|A|,Each strict step adds at least one ordered pair.
+Termination,Finite,No infinite strictly ascending chain exists in finite power set P(V×V).
+Γ_B termination,One closure computation,Warshall-style finite transitive closure.

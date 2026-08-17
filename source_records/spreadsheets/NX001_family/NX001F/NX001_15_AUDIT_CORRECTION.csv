@@ -1,0 +1,4 @@
+Audit correction,Reason,Canonical correction
+Do not write dim Fix(Γ),"The NX-001 state space is a finite set of binary relations, not a declared vector space, and Γ is not declared linear.",Use cardinality / individual fixed-state language for Fix(Γ). Compare each Ψ* to ker(L) through an explicit map or invariant.
+Valid correspondence result,Every fixed Ψ* is an equivalence relation whose blocks are graph connected components.,"For every fixed state in this realization: block_count(Ψ*) = dim ker(L) = dim Fix(e^{-tL}), t>0."
+Status,Finite realization does not prove global BR-001/BR-002 closure.,NX-001 remains a PROPOSED CALCULATION; BR-001 and BR-002 remain OPEN at universal scope.

@@ -1,0 +1,253 @@
+{
+  "test_family_size": 10,
+  "TEST_1_F_AB_adjoint_relationship": {
+    "K4": {
+      "n_vertices": 4,
+      "m_edges": 6,
+      "rank(Inc)_=_rank(grad^T)": 3,
+      "rank(Inc^T)_=_rank(grad)": 3,
+      "ranks_equal_(ALWAYS_true_for_a_matrix_and_its_transpose)": true,
+      "dim_ker(Inc)_(edge-space_kernel)": 3,
+      "dim_ker(Inc^T)_(vertex-space_kernel_=_ker(L)_dimension)": 1,
+      "kernels_equal_dimension": false,
+      "note": "Delta and grad(Phi) are ADJOINT (transpose) operators, not identical, when Delta is realized as the boundary map Inc and grad(Phi) as Inc^T. Their ranks are always equal (a matrix and its transpose share rank); their KERNEL DIMENSIONS differ whenever n != m (vertex count != edge count), related by rank-nullity, not by direct equality."
+    },
+    "K33": {
+      "n_vertices": 6,
+      "m_edges": 9,
+      "rank(Inc)_=_rank(grad^T)": 5,
+      "rank(Inc^T)_=_rank(grad)": 5,
+      "ranks_equal_(ALWAYS_true_for_a_matrix_and_its_transpose)": true,
+      "dim_ker(Inc)_(edge-space_kernel)": 4,
+      "dim_ker(Inc^T)_(vertex-space_kernel_=_ker(L)_dimension)": 1,
+      "kernels_equal_dimension": false,
+      "note": "Delta and grad(Phi) are ADJOINT (transpose) operators, not identical, when Delta is realized as the boundary map Inc and grad(Phi) as Inc^T. Their ranks are always equal (a matrix and its transpose share rank); their KERNEL DIMENSIONS differ whenever n != m (vertex count != edge count), related by rank-nullity, not by direct equality."
+    },
+    "C6": {
+      "n_vertices": 6,
+      "m_edges": 6,
+      "rank(Inc)_=_rank(grad^T)": 5,
+      "rank(Inc^T)_=_rank(grad)": 5,
+      "ranks_equal_(ALWAYS_true_for_a_matrix_and_its_transpose)": true,
+      "dim_ker(Inc)_(edge-space_kernel)": 1,
+      "dim_ker(Inc^T)_(vertex-space_kernel_=_ker(L)_dimension)": 1,
+      "kernels_equal_dimension": true,
+      "note": "Delta and grad(Phi) are ADJOINT (transpose) operators, not identical, when Delta is realized as the boundary map Inc and grad(Phi) as Inc^T. Their ranks are always equal (a matrix and its transpose share rank); their KERNEL DIMENSIONS differ whenever n != m (vertex count != edge count), related by rank-nullity, not by direct equality."
+    },
+    "P5": {
+      "n_vertices": 5,
+      "m_edges": 4,
+      "rank(Inc)_=_rank(grad^T)": 4,
+      "rank(Inc^T)_=_rank(grad)": 4,
+      "ranks_equal_(ALWAYS_true_for_a_matrix_and_its_transpose)": true,
+      "dim_ker(Inc)_(edge-space_kernel)": 0,
+      "dim_ker(Inc^T)_(vertex-space_kernel_=_ker(L)_dimension)": 1,
+      "kernels_equal_dimension": false,
+      "note": "Delta and grad(Phi) are ADJOINT (transpose) operators, not identical, when Delta is realized as the boundary map Inc and grad(Phi) as Inc^T. Their ranks are always equal (a matrix and its transpose share rank); their KERNEL DIMENSIONS differ whenever n != m (vertex count != edge count), related by rank-nullity, not by direct equality."
+    },
+    "disjoint_K4_K33": {
+      "n_vertices": 10,
+      "m_edges": 15,
+      "rank(Inc)_=_rank(grad^T)": 8,
+      "rank(Inc^T)_=_rank(grad)": 8,
+      "ranks_equal_(ALWAYS_true_for_a_matrix_and_its_transpose)": true,
+      "dim_ker(Inc)_(edge-space_kernel)": 7,
+      "dim_ker(Inc^T)_(vertex-space_kernel_=_ker(L)_dimension)": 2,
+      "kernels_equal_dimension": false,
+      "note": "Delta and grad(Phi) are ADJOINT (transpose) operators, not identical, when Delta is realized as the boundary map Inc and grad(Phi) as Inc^T. Their ranks are always equal (a matrix and its transpose share rank); their KERNEL DIMENSIONS differ whenever n != m (vertex count != edge count), related by rank-nullity, not by direct equality."
+    },
+    "two_triangles_disjoint": {
+      "n_vertices": 6,
+      "m_edges": 6,
+      "rank(Inc)_=_rank(grad^T)": 4,
+      "rank(Inc^T)_=_rank(grad)": 4,
+      "ranks_equal_(ALWAYS_true_for_a_matrix_and_its_transpose)": true,
+      "dim_ker(Inc)_(edge-space_kernel)": 2,
+      "dim_ker(Inc^T)_(vertex-space_kernel_=_ker(L)_dimension)": 2,
+      "kernels_equal_dimension": true,
+      "note": "Delta and grad(Phi) are ADJOINT (transpose) operators, not identical, when Delta is realized as the boundary map Inc and grad(Phi) as Inc^T. Their ranks are always equal (a matrix and its transpose share rank); their KERNEL DIMENSIONS differ whenever n != m (vertex count != edge count), related by rank-nullity, not by direct equality."
+    },
+    "torus_4x4": {
+      "n_vertices": 16,
+      "m_edges": 32,
+      "rank(Inc)_=_rank(grad^T)": 15,
+      "rank(Inc^T)_=_rank(grad)": 15,
+      "ranks_equal_(ALWAYS_true_for_a_matrix_and_its_transpose)": true,
+      "dim_ker(Inc)_(edge-space_kernel)": 17,
+      "dim_ker(Inc^T)_(vertex-space_kernel_=_ker(L)_dimension)": 1,
+      "kernels_equal_dimension": false,
+      "note": "Delta and grad(Phi) are ADJOINT (transpose) operators, not identical, when Delta is realized as the boundary map Inc and grad(Phi) as Inc^T. Their ranks are always equal (a matrix and its transpose share rank); their KERNEL DIMENSIONS differ whenever n != m (vertex count != edge count), related by rank-nullity, not by direct equality."
+    },
+    "petersen": {
+      "n_vertices": 10,
+      "m_edges": 15,
+      "rank(Inc)_=_rank(grad^T)": 9,
+      "rank(Inc^T)_=_rank(grad)": 9,
+      "ranks_equal_(ALWAYS_true_for_a_matrix_and_its_transpose)": true,
+      "dim_ker(Inc)_(edge-space_kernel)": 6,
+      "dim_ker(Inc^T)_(vertex-space_kernel_=_ker(L)_dimension)": 1,
+      "kernels_equal_dimension": false,
+      "note": "Delta and grad(Phi) are ADJOINT (transpose) operators, not identical, when Delta is realized as the boundary map Inc and grad(Phi) as Inc^T. Their ranks are always equal (a matrix and its transpose share rank); their KERNEL DIMENSIONS differ whenever n != m (vertex count != edge count), related by rank-nullity, not by direct equality."
+    },
+    "star_K1_5": {
+      "n_vertices": 6,
+      "m_edges": 5,
+      "rank(Inc)_=_rank(grad^T)": 5,
+      "rank(Inc^T)_=_rank(grad)": 5,
+      "ranks_equal_(ALWAYS_true_for_a_matrix_and_its_transpose)": true,
+      "dim_ker(Inc)_(edge-space_kernel)": 0,
+      "dim_ker(Inc^T)_(vertex-space_kernel_=_ker(L)_dimension)": 1,
+      "kernels_equal_dimension": false,
+      "note": "Delta and grad(Phi) are ADJOINT (transpose) operators, not identical, when Delta is realized as the boundary map Inc and grad(Phi) as Inc^T. Their ranks are always equal (a matrix and its transpose share rank); their KERNEL DIMENSIONS differ whenever n != m (vertex count != edge count), related by rank-nullity, not by direct equality."
+    },
+    "K3_NEW": {
+      "n_vertices": 3,
+      "m_edges": 3,
+      "rank(Inc)_=_rank(grad^T)": 2,
+      "rank(Inc^T)_=_rank(grad)": 2,
+      "ranks_equal_(ALWAYS_true_for_a_matrix_and_its_transpose)": true,
+      "dim_ker(Inc)_(edge-space_kernel)": 1,
+      "dim_ker(Inc^T)_(vertex-space_kernel_=_ker(L)_dimension)": 1,
+      "kernels_equal_dimension": true,
+      "note": "Delta and grad(Phi) are ADJOINT (transpose) operators, not identical, when Delta is realized as the boundary map Inc and grad(Phi) as Inc^T. Their ranks are always equal (a matrix and its transpose share rank); their KERNEL DIMENSIONS differ whenever n != m (vertex count != edge count), related by rank-nullity, not by direct equality."
+    }
+  },
+  "TEST_2_Gamma_B_typing": {
+    "per_family": {
+      "K4": {
+        "n_vertices": 4,
+        "m_edges": 6,
+        "grad(Phi)_codomain_dim_(edge_space)": 6,
+        "kappa/tau_domain_dim_(vertex_space,_per_PRF-PRIM_realization)": 4,
+        "Gamma_B_=_kappa.tau.grad(Phi)_type-checks_(codomain=domain)?": false
+      },
+      "K33": {
+        "n_vertices": 6,
+        "m_edges": 9,
+        "grad(Phi)_codomain_dim_(edge_space)": 9,
+        "kappa/tau_domain_dim_(vertex_space,_per_PRF-PRIM_realization)": 6,
+        "Gamma_B_=_kappa.tau.grad(Phi)_type-checks_(codomain=domain)?": false
+      },
+      "C6": {
+        "n_vertices": 6,
+        "m_edges": 6,
+        "grad(Phi)_codomain_dim_(edge_space)": 6,
+        "kappa/tau_domain_dim_(vertex_space,_per_PRF-PRIM_realization)": 6,
+        "Gamma_B_=_kappa.tau.grad(Phi)_type-checks_(codomain=domain)?": true
+      },
+      "P5": {
+        "n_vertices": 5,
+        "m_edges": 4,
+        "grad(Phi)_codomain_dim_(edge_space)": 4,
+        "kappa/tau_domain_dim_(vertex_space,_per_PRF-PRIM_realization)": 5,
+        "Gamma_B_=_kappa.tau.grad(Phi)_type-checks_(codomain=domain)?": false
+      },
+      "disjoint_K4_K33": {
+        "n_vertices": 10,
+        "m_edges": 15,
+        "grad(Phi)_codomain_dim_(edge_space)": 15,
+        "kappa/tau_domain_dim_(vertex_space,_per_PRF-PRIM_realization)": 10,
+        "Gamma_B_=_kappa.tau.grad(Phi)_type-checks_(codomain=domain)?": false
+      },
+      "two_triangles_disjoint": {
+        "n_vertices": 6,
+        "m_edges": 6,
+        "grad(Phi)_codomain_dim_(edge_space)": 6,
+        "kappa/tau_domain_dim_(vertex_space,_per_PRF-PRIM_realization)": 6,
+        "Gamma_B_=_kappa.tau.grad(Phi)_type-checks_(codomain=domain)?": true
+      },
+      "torus_4x4": {
+        "n_vertices": 16,
+        "m_edges": 32,
+        "grad(Phi)_codomain_dim_(edge_space)": 32,
+        "kappa/tau_domain_dim_(vertex_space,_per_PRF-PRIM_realization)": 16,
+        "Gamma_B_=_kappa.tau.grad(Phi)_type-checks_(codomain=domain)?": false
+      },
+      "petersen": {
+        "n_vertices": 10,
+        "m_edges": 15,
+        "grad(Phi)_codomain_dim_(edge_space)": 15,
+        "kappa/tau_domain_dim_(vertex_space,_per_PRF-PRIM_realization)": 10,
+        "Gamma_B_=_kappa.tau.grad(Phi)_type-checks_(codomain=domain)?": false
+      },
+      "star_K1_5": {
+        "n_vertices": 6,
+        "m_edges": 5,
+        "grad(Phi)_codomain_dim_(edge_space)": 5,
+        "kappa/tau_domain_dim_(vertex_space,_per_PRF-PRIM_realization)": 6,
+        "Gamma_B_=_kappa.tau.grad(Phi)_type-checks_(codomain=domain)?": false
+      },
+      "K3_NEW": {
+        "n_vertices": 3,
+        "m_edges": 3,
+        "grad(Phi)_codomain_dim_(edge_space)": 3,
+        "kappa/tau_domain_dim_(vertex_space,_per_PRF-PRIM_realization)": 3,
+        "Gamma_B_=_kappa.tau.grad(Phi)_type-checks_(codomain=domain)?": true
+      }
+    },
+    "n_families_typecheck_ok_(n_vertices==m_edges)": 3,
+    "n_families_total": 10
+  },
+  "TEST_3_F_AC_theta_pi_correspondence": {
+    "per_family": {
+      "K4": {
+        "Theta_reachability_classes": 1,
+        "dim_ker(L)_(Pi_realization)": 1,
+        "F_AC(Theta)_=_Pi_well-defined_(classes==ker_dim)?": true
+      },
+      "K33": {
+        "Theta_reachability_classes": 1,
+        "dim_ker(L)_(Pi_realization)": 1,
+        "F_AC(Theta)_=_Pi_well-defined_(classes==ker_dim)?": true
+      },
+      "C6": {
+        "Theta_reachability_classes": 1,
+        "dim_ker(L)_(Pi_realization)": 1,
+        "F_AC(Theta)_=_Pi_well-defined_(classes==ker_dim)?": true
+      },
+      "P5": {
+        "Theta_reachability_classes": 1,
+        "dim_ker(L)_(Pi_realization)": 1,
+        "F_AC(Theta)_=_Pi_well-defined_(classes==ker_dim)?": true
+      },
+      "disjoint_K4_K33": {
+        "Theta_reachability_classes": 2,
+        "dim_ker(L)_(Pi_realization)": 2,
+        "F_AC(Theta)_=_Pi_well-defined_(classes==ker_dim)?": true
+      },
+      "two_triangles_disjoint": {
+        "Theta_reachability_classes": 2,
+        "dim_ker(L)_(Pi_realization)": 2,
+        "F_AC(Theta)_=_Pi_well-defined_(classes==ker_dim)?": true
+      },
+      "torus_4x4": {
+        "Theta_reachability_classes": 1,
+        "dim_ker(L)_(Pi_realization)": 1,
+        "F_AC(Theta)_=_Pi_well-defined_(classes==ker_dim)?": true
+      },
+      "petersen": {
+        "Theta_reachability_classes": 1,
+        "dim_ker(L)_(Pi_realization)": 1,
+        "F_AC(Theta)_=_Pi_well-defined_(classes==ker_dim)?": true
+      },
+      "star_K1_5": {
+        "Theta_reachability_classes": 1,
+        "dim_ker(L)_(Pi_realization)": 1,
+        "F_AC(Theta)_=_Pi_well-defined_(classes==ker_dim)?": true
+      },
+      "K3_NEW": {
+        "Theta_reachability_classes": 1,
+        "dim_ker(L)_(Pi_realization)": 1,
+        "F_AC(Theta)_=_Pi_well-defined_(classes==ker_dim)?": true
+      }
+    },
+    "n_families_well_defined": 10,
+    "n_families_total": 10
+  },
+  "TEST_4_nonlgraph_structure_NX001": {
+    "grad(Phi)_on_X": "NOT MEANINGFULLY INSTANTIABLE without additional structure: grad(Phi) as realized in the graph case (Inc^T, a linear map from vertex-space to edge-space) presupposes an incidence structure (vertices+edges) that X={0,1}^{3x3} (a set of binary RELATIONS, not a single graph) does not carry. No natural incidence/edge structure exists on the SET of 512 relation-states itself (as opposed to on the individual relations, which ARE graphs and were already handled by the graph-based tests above).",
+    "Theta_on_X": "PARTIALLY INSTANTIABLE: the reachability relation Theta CAN be applied directly to X itself, since X's dynamics (iteration of Gamma) already IS a directed transition system (each state A has a successor Gamma(A)). NX001's own iteration trace (NX001_04_ITERATION_TRACE) is exactly this: a reachability/accessibility structure on X. The 'reachability classes' of THIS structure are the BASINS OF ATTRACTION (5 basins, matching the 5 fixed points) -- a genuinely different but well-defined instantiation of Theta's 'reachability structure defining which states can follow which' definition, applied at the STATE level rather than the graph-vertex level.",
+    "Omega_on_X": "DIRECTLY INSTANTIABLE: Omega ('a certified organizational configuration -- the state variable for the organizational evolution equation') maps naturally onto elements of X itself (Omega = Psi_t = A in X). This is consistent with PRF-PRIM's PRF-PRIM-OMEGA-PSI finding that Omega and Psi could not be distinguished as different TYPES of object -- here, on a genuinely non-graph structure, Omega and Psi remain indistinguishable as well (same conclusion, independent domain).",
+    "conclusion": "G_C's Theta and Omega instantiate naturally on the non-graph NX001 relational system (Theta as basin-reachability, Omega as the state itself); G_B's grad(Phi) does NOT, because it specifically presupposes an incidence/edge structure that this particular non-graph domain lacks. This is a genuine, domain-dependent finding: G_B's primitive set is LESS portable across domains than G_C's, at least for this one non-graph test case."
+  }
+}

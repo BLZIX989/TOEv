@@ -1,0 +1,6 @@
+Component,Γ_A,Γ_B,Independence basis
+Input domain,3×3 binary relations,3×3 binary relations,Same extensional domain
+Reflexivity,κ adds I,Closure initialization adds I,Different implementation
+Symmetry,κ adds transpose,Closure initialization adds transpose,Different implementation
+Transitivity,τ adds one Boolean square; then κ,Warshall closure to all path lengths,Algorithmically independent
+Fixed semantics,Equivalence-relation normal form,Equivalence-relation normal form,Common semantic target

@@ -1,0 +1,6 @@
+Item,Statement,Status,Evidence / calculation
+T1,"For every A∈X, Γ_A*(A)=Γ_B*(A).","PROVED FOR X={0,1}^{3×3}",Exhaustive 512-state comparison: 512/512 terminal outputs equal.
+T2,Γ_A=Γ_B as one-step functions.,FALSIFIED,48/512 one-step outputs differ.
+T3,The two realizations have the same five fixed points.,VERIFIED,Fixed-point sets and basin sizes agree exactly.
+T4,C0 canonicality is universally closed.,OPEN,Finite extensional equivalence is not a proof over arbitrary realizations/domains.
+T5,The fixed-point semantics are equivalence-relation closure for this domain.,VERIFIED,Both implementations terminate in the same five equivalence-relation normal forms.

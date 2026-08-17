@@ -1,0 +1,8 @@
+C0 item,Previous status,NX-001E result,Current status
+Γ_A vs Γ_B one-step identity,Falsified,They remain operationally different.,FALSIFIED
+Γ_A vs Γ_B terminal semantic equivalence,Finite evidence,Now proved for arbitrary finite relational domains under stated operator definitions.,CLOSED — FINITE RELATIONAL CLASS
+3×3 exhaustive check,Verified,512/512 agreement preserved.,VERIFIED
+4×4 exhaustive check,Verified,"65,536/65,536 agreement preserved.",VERIFIED
+Fixed-point characterization,Finite observation,Terminal objects are equivalence relations; fixed-point count B_n for tested n.,CLOSED — WITHIN REALIZATION
+Unique UOC primitive basis,Open,Not implied by semantic equivalence.,OPEN
+Cross-domain canonicality,Open,Not addressed by this theorem.,OPEN

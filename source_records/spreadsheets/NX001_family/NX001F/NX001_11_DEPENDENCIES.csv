@@ -1,0 +1,10 @@
+Dep_ID,Parent,Child,Dependency Type,Required Object,Produced Object,Unlock
+D001,PRIM-001..003,NX-001,primitive realization,"Δ,τ,κ",Γ:X→X,BR-002
+D002,BR-001,NX-001,bridge execution,Γ realization,Fix(Γ),BR-002
+D003,NX-001,BR-002,state recursion,Γ:X→X,"Ψ_n, Fix(Γ)",C1
+D004,BR-002,BR-003,state→graph,Ψ*,G_Ψ*,C3
+D005,BR-003,BR-004,graph operator,G,L=D-A,Spectral branch
+D006,BR-004,BR-005,spectral decomposition,L,Spec(L),Heat branch
+D007,BR-005,BR-006,semigroup,Spec(L),K_t=e^{-tL},Persistence/geometry
+D008,BR-006,BR-002,fixed-set comparison,K_t,ker L,C1 comparison
+D009,NX-001,TDIC,substrate instantiation,typed finite relation,TDIC node/relation realization,Compiler runtime

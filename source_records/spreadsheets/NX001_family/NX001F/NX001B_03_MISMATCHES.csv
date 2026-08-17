@@ -1,0 +1,4 @@
+GammaA_Output,GammaB_Output,Count,Interpretation
+101011111,111111111,16,One-step divergence; terminal fixed point still agrees
+110111011,111111111,16,One-step divergence; terminal fixed point still agrees
+111110101,111111111,16,One-step divergence; terminal fixed point still agrees

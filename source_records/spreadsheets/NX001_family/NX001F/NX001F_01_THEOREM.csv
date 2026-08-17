@@ -1,0 +1,10 @@
+Theorem / lemma,Formal statement,Proof
+L1 — Equivalence graph decomposition,"If Eq(A) has equivalence classes B_1,…,B_c with |B_j|=m_j, its adjacency matrix is permutation-similar to diag(J_{m_1},…,J_{m_c}).",An equivalence relation contains every pair within a class and no pair between classes.
+L2 — Block Laplacian spectrum,"For a class of size m, L(K_m)=mI_m−J_m has spectrum {0, m^(m−1)}.",J_m has eigenvalue m on 1 and 0 on its orthogonal complement.
+T1 — General terminal spectrum,Spec(L_Eq)= {0^c} ∪ ⋃_j {m_j^(m_j−1)}.,Apply L2 blockwise.
+T2 — Rank theorem,rank(L_Eq)=Σ_j(m_j−1)=n−c.,Each block contributes m_j−1 nonzero eigenvalues.
+T3 — Kernel theorem,dim ker(L_Eq)=c.,Each connected clique block contributes one zero mode.
+T4 — Representation relabeling,"For permutation matrix P, L' = P L P^T.",Relabeling acts by orthogonal similarity.
+T5 — Spectral invariance,Spec(L')=Spec(L).,Similar matrices have identical characteristic polynomials.
+T6 — Heat-trace invariance,Tr(e^{-tL'})=Tr(e^{-tL}) for t≥0.,Functional calculus preserves similarity: e^{-tL'}=P e^{-tL}P^T; trace is cyclic.
+T7 — Realization-to-spectrum descent,"If Γ_A and Γ_B have identical terminal Eq(A) semantics and use the same graph extraction rule, then their Laplacian spectra and heat traces are identical; under different vertex labels they remain permutation-similar.",F1 fixes the terminal relation; L1–T6 propagate equivalence through the descent.

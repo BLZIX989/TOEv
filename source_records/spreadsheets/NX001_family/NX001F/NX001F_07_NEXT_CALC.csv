@@ -1,0 +1,5 @@
+Priority,Calculation,Exact target,Dependency,Closure criterion,Failure criterion
+1,NX-001G — independent graph extraction,"Construct a second graph functor G'(Eq(A)) not equal to the adjacency encoding, then compare graph invariants",NX001E theorem,Identify which invariants are semantic vs representation-dependent,Find a semantic-equivalent representation with different invariant
+2,NX-001H — Dirac/spectral bridge,Test D_L=L^(1/2) on each terminal spectral type,BR-005,Determine whether D_L is representation-invariant and yields a coherent spectral triple candidate,Non-equivalent spectra or failure of first-order/Dirac structure
+3,NX-001I — heat-kernel continuum descent,Apply refinement sequences to equivalent Γ realizations,B6 + NX001F,Same continuum heat coefficients and metric limit,Different continuum limits
+4,NX-001J — primitive morphism,Construct explicit semantics-preserving map between Γ_A and Γ_B,C0,Typed compositional morphism preserving terminal semantics and dependency order,No compositional morphism

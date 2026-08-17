@@ -1,0 +1,13 @@
+Metric,Value,Derivation
+State-space size,512,2^(3×3)
+Fixed-point count,5,Exhaustive Γ(A)=A test
+Max iterations to fixed point,2,Exhaustive iteration
+States fixed at n=0,5,Initial state already satisfies Γ(A)=A
+States fixed at n=1,459,One Γ application
+States fixed at n=2,48,Two Γ applications
+Basin sum,512,Should equal 512
+Fixed graph types,3,"Empty graph, single-edge graph, triangle graph"
+Spectral types,3,"[0,0,0], [0,0,2], [0,3,3]"
+BR-002 finite correspondence,SUPPORTED IN REALIZATION,"For each Ψ*, number of equivalence blocks = dim ker(L) = dim Fix(e^{-tL}), t>0."
+BR-001 universal uniqueness,OPEN,Finite realization does not prove uniqueness of all admissible realizations
+BR-002 universal fixed-point theorem,OPEN,Finite realization does not establish global correspondence

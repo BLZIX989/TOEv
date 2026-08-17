@@ -1,0 +1,6 @@
+Object,Set-theoretic form,Γ_A role,Γ_B role,Common semantic object
+Input,A⊆V×V,Initial typed relation,Initial relation,A
+Reflexivity,A∪Δ_V,κ,R,R(A)
+Symmetry,A∪A^{-1},κ,S,S(A)
+Transitivity,⋃_{k≥1}A^k,τ iterated through Γ,T,T(A)
+Terminal object,Equivalence relation containing A,Γ_A fixed point,Eq(A),Eq(A)

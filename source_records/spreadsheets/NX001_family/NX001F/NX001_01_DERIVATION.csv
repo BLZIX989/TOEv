@@ -1,0 +1,17 @@
+NX-001 Formal Derivation,,,,,
+Step,Dependency,Formal statement,Derivation / proof,Result,Status
+1,PRIM-001..003,"X={0,1}^{3×3}",Finite relation state space is explicitly closed under the defined operators.,|X|=2^9=512,DERIVED
+2,Δ,Δ(A)=1[A≠0],Elementwise thresholding maps X→X.,Δ:X→X,DERIVED
+3,τ,τ(B)=B∨(B∘B),Boolean product B∘B is binary; join remains binary.,τ:X→X,DERIVED
+4,κ,κ(C)=C∨Cᵀ∨I,Transpose and identity are binary; join remains binary.,κ:X→X,DERIVED
+5,BR-001,Γ(A)=κ(τ(Δ(A))),Composition of three closed maps.,Γ:X→X,DERIVED
+6,Π,Π(A)=1_{Γ(A)=A},Persistence is registered as a state-level predicate.,"Π:X→{0,1}",PROPOSED REALIZATION
+7,Fixed point necessity,A=Γ(A),"Because κ includes I and transpose, A=Aᵀ and I⊆A. Because τ includes A², A²⊆A.","A is reflexive, symmetric, transitive",PROVED IN THIS REALIZATION
+8,Fixed point sufficiency,A equivalence relation,"For reflexive symmetric transitive A: Δ(A)=A, A²⊆A, so τ(A)=A and κ(A)=A.",Γ(A)=A,PROVED IN THIS REALIZATION
+9,Fixed-point set,Fix(Γ),"Therefore Fix(Γ) is exactly the set of equivalence relations on {1,2,3}.",|Fix(Γ)|=5,PROVED IN THIS REALIZATION
+10,BR-002,Ψ_{t+1}=Γ(Ψ_t),Finite iteration reaches one of the five fixed points; exhaustive enumeration gives max depth 2.,512/512 terminate,EXHAUSTIVELY VERIFIED
+11,BR-003,"G_Ψ=(V,E)","For fixed Ψ*, remove diagonal and retain undirected incidence.",5 fixed graphs,DERIVED
+12,BR-004,L=D-A,Construct graph Laplacian for each fixed graph.,5 Laplacians,CERTIFIED BRIDGE + CALCULATION
+13,BR-005,Lφ=λφ,Diagonalize each symmetric PSD Laplacian.,5 spectra,CERTIFIED BRIDGE + CALCULATION
+14,BR-006,K_t=e^{-tL},Construct heat semigroup from spectral decomposition.,5 heat kernels,CERTIFIED BRIDGE + CALCULATION
+15,BR-002 comparison,Fix(K_t)=ker L,"For λ_i≥0, e^{-tλ_i}=1 iff λ_i=0.",dim Fix(K_t)=dim ker L,PROVED UNDER FINITE PSD CONDITIONS

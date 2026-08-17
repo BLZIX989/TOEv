@@ -59,3 +59,5 @@ VAL-004,Quantum Mechanics,DER-QR-001..006,CERTIFIED
 VAL-005,Hamiltonian Mechanics,"DER-VAR-003, DER-QR-001",CERTIFIED
 THM-ANOM,G_SM = SU(3)xSU(2)xU(1) derivation,DER-QR-006,CERTIFIED
 DER-C0-PRIMGRAPH-001,"Graph-spectral realization test of {Delta,tau,kappa,Pi} against PRF-PRIM (kappa=P_ker(L) idempotent+commutes with automorphism tau; Pi=ker(L) derivable; tau=exp(-tL) FALSIFIED; Delta type-mismatch found)","PRF-PRIM, DER-SPC-002..005",CALCULATED/PARTIAL
+DER-P2-001,"Formal typing of G_A,G_B,G_C; well-typedness of Gamma in each realization (literal-Delta FALSIFIED; NX001-Delta CALCULATED/DERIVED scoped; Gamma_B CONDITIONAL iff n=m; Gamma_C UNDEFINED)","PRF-PRIM, NX001 family (SOURCE-011..015)",CALCULATED
+DER-P2-002,"Construction and testing of all 6 candidate translations F_AB,F_BA,F_AC,F_CA,F_BC,F_CB between G_A,G_B,G_C, with domain/codomain/action/preservation conditions; F_AC/F_CA proven exact+unconditional, F_AB rank+nonzero-spectrum unconditional, F_BC/F_CB proven only trivially-composite","DER-P2-001, PRF-PRIM",CALCULATED

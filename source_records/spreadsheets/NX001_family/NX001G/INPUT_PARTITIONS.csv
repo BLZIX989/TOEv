@@ -1,0 +1,6 @@
+ID,Partition,Blocks,# Blocks,Semantic meaning
+P1,1|2|3,1; 2; 3,3,Equivalence relation / terminal Γ normal form
+P2,12|3,12; 3,2,Equivalence relation / terminal Γ normal form
+P3,13|2,13; 2,2,Equivalence relation / terminal Γ normal form
+P4,23|1,23; 1,2,Equivalence relation / terminal Γ normal form
+P5,123,123,1,Equivalence relation / terminal Γ normal form

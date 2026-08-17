@@ -1,0 +1,8 @@
+Order,Target,Concrete next calculation,Dependency,Expected decision
+1,BR-001,"Instantiate a second structurally admissible realization of Δ,τ,κ on the same X and compare Γ classes",NX-001,If equivalent: evidence toward canonicality; if inequivalent: C0 non-uniqueness within admitted class
+2,BR-002,Construct f:Fix(Γ)→ker(L) for this realization explicitly using Ψ*→G→L,NX-001 + BR-003/004/005,Typed correspondence proof for test family
+3,BR-003,Run two admissible representations of the same Ψ* and compare graph invariants,NX-001 fixed states,Representation invariance result
+4,BR-017,Generate refinement family from the graph classes recovered here,BR-003,Continuum convergence table
+5,BR-012,"Apply D_L=L^(1/2) to the nontrivial spectra [0,0,2] and [0,3,3]",BR-005,Candidate Dirac spectral comparison
+6,BR-013,Construct Q families on the three graph types and compare λ_FP to λ_2(L),BR-005/006,Equality/inequality branch evidence
+7,BR-029,Use the fixed-state map as the finite test bed for Γ→F→dotL,BR-002 + BR-019,Spectral dynamics residual

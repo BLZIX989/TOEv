@@ -1,0 +1,17 @@
+NX-001 — Canonical Calculation Realization,,
+Field,Value,Status / Interpretation
+Calculation ID,NX-001,New execution artifact; not a new bridge
+Parent bridges,BR-001 → BR-002,BR-001 grammar realization feeds BR-002 fixed-point analysis
+State space,"X = {0,1}^{3×3}",512 finite binary relation states
+Primitive realization,Δ(A)=1[A≠0],Distinction / canonical binary relation
+Transformation,τ(B)=B ∨ (B∘B),One-step Boolean relational composition
+Constraint,κ(C)=C ∨ Cᵀ ∨ I,Reflexive + symmetric closure
+Compiler functional,Γ=κ∘τ∘Δ,Closed map X→X
+Persistence indicator,Π(A)=1 iff Γ(A)=A,State-level realization; not inserted compositionally
+Fixed-point characterization,Fix(Γ) = equivalence relations on 3 labels,Proved for this finite realization
+Exhaustive enumeration,512 states,All states evaluated
+Max iterations,2,Empirical exhaustive result for n=3 realization
+Fixed points,5,Bell number B3 = 5; the five equivalence relations are recovered
+Downstream map,Ψ*→G→L→Spec(L),Computed for every fixed point
+Semigroup check,Fix(e^{-tL}) = ker L for t>0,Verified numerically for each fixed-point graph
+Admission status,PROPOSED CALCULATION,Does not close BR-001 or BR-002 universally

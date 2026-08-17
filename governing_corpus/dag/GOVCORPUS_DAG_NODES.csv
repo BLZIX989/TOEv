@@ -1,0 +1,45 @@
+NODE_ID,Source_Doc,Name,Type,Status
+N-D1-01,D1,Pointed Graph Category (G-bullet),CATEGORY,DEFINED
+N-D1-02,D1,Refinement Endofunctor R,FUNCTOR,DEFINED
+N-D1-03,D1,Graph-Theoretic Axiom Set A-star,AXIOM_SET,DEFINED
+N-D1-04,D1,Discrete Geometry Category (Discrete Exterior Calculus),CATEGORY,DEFINED
+N-D1-05,D1,Compiler functor c: G-bullet -> Discrete-Geom,FUNCTOR,DEFINED
+N-D1-06,D1,Optimization Operator O_opt / Action Functional,FUNCTIONAL,DEFINED
+N-D1-07,D1,Critical Attractor Set K_crit (fixed point),FIXED_POINT,CANDIDATE (conditional on Strict Convexity lambda_min(H)>=m>0)
+N-D1-08,D1,DTC Grammar Gamma=kappa.tau.Delta (GR-01),OPERATOR,DEFINED
+N-D1-09,D1,Thermodynamic Realization Layer (TRL) axioms,AXIOM_SET,DEFINED
+N-D1-10,D1,Persistence threshold lambda_c (TRL reading),PARAMETER,OPEN (explicit: 'A full derivation of lambda_c from the spectral data of D_Gn remains an open problem and is not claimed here')
+N-D1-11,D1,Organizational Selection Cascade (4-gate P_T = Ce.Cpi.Ct.Cp),OPERATOR_CHAIN,"DEFINED (identity with P_T of Sec1 stated as 'the precise sense' of refinement, not proven independently)"
+N-D1-12,D1,Discrete Cartan Identity / Weitzenboeck-Lichnerowicz Formula,THEOREM,"CERTIFIED (complete derivation shown in text, Sec5.1-5.2)"
+N-D1-13,D1,Strong Resolvent / Heat Kernel / Atiyah-Singer continuization theorems,THEOREM,"CERTIFIED (proof sketches given, standard theorems cited: Kato, Trotter-Kato, McKean-Singer)"
+N-D1-14,D1,"Compiler Completeness Conjecture (existence of A-star, c)",CONJECTURE,OPEN
+N-D1-15,D1,Structural Minimality Conjecture,CONJECTURE,OPEN
+N-D1-16,D1,CMRC-001..019 chain (worldsheet to vacuum Einstein eqns),DERIVATION_CHAIN,"CERTIFIED (VAL-001, with 3 explicit certification refinements)"
+N-D1-17,D1,VAL-004 Quantum Mechanics (canonical quantization),DERIVATION_CHAIN,"CERTIFIED (2 explicit refinements: Groenewold-Van Hove obstruction scoping, representation-choice scoping)"
+N-D1-18,D1,VAL-005 Hamiltonian Mechanics (symplectic/Poisson),DERIVATION_CHAIN,CERTIFIED
+N-D1-19,D1,MDCL v2.0 Einstein tensor recovery (graph-spectral route),DERIVATION_CHAIN,CERTIFIED (vacuum only)
+N-D1-20,D1,"MDCL v2.0 Layer VII (matter coupling, Tmunu, EFE-with-matter, geodesic eqn, Newtonian limit)",TARGET_SET,"OPEN (explicit 'Target -- not yet recovered', all 5 rows)"
+N-D1-21,D1,Lorentzian Metric Recovery Program dependency tree,DERIVATION_CHAIN,PARTIAL -- certified through negative eigenvector (LOR-002); 'Localization' onward fully OPEN
+N-D1-22,D1,"Universal Organizational Foundation spine (UGAS..MDCL-0001, Sigma_0)",ALGEBRAIC_FOUNDATION,CERTIFIED framework / OPEN termination-confluence theorems (see GR-04)
+N-D2-01,D2,PR-001..004 (4 primitives),PRIMITIVE_SET,DEFINED (Layer 0)
+N-D2-02,D2,TH-PR-005 / TH-PR-005-L1 (theorem+lemma),THEOREM,PROVEN
+N-D2-03,D2,K-DEF-001 (Constraint Core K),OBJECT,DEFINED
+N-D2-04,D2,TH-K-001,CONJECTURE,OPEN
+N-D2-05,D2,"ARBS-DEF-001 (+scaling laws, TH-ARBS-001A/B)",OBJECT+THEOREM_SET,"CERTIFIED (definition) / OPEN (both locks, OP-001/OP-002)"
+N-D2-06,D2,"CE-THM-001..005, SCC-001",THEOREM_CHAIN,CERTIFIED (001-005) / OPEN (SCC-001)
+N-D2-07,D2,RF-001..004 (Recovery Functor chain),THEOREM_CHAIN,CONDITIONAL-CERTIFIED
+N-D2-08,D2,"CMRC-CHAIN-001, VAL-004, VAL-005 (as audited)",RECOVERY_MODULE,CERTIFIED with inherited conditional dependency (via RF-004 on OP-001/OP-002)
+N-D2-09,D2,THERMO-TAX-001..003,OBJECT+THEOREM_SET,CERTIFIED/PROVEN
+N-D3-01,D3,"Delta/G/A/D/L/{lambda,psi}/H(t)/g_ij/L*/P_ss/sigma/Pi_0 pipeline (11 stages)",DERIVATION_CHAIN,"PROPOSED (analysis/visualization protocol, not itself a proof chain)"
+N-D3-02,D3,Pi_0 = (delta_spec - lambda_c)/sigma (persistence order parameter),FUNCTIONAL,"OPEN (depends on lambda_c, same open object as N-D1-10, D2-OP-007)"
+N-D4-01,D4,"SEIT.0 triple (Sigma,Gamma,Pi) (GR-07)",PRIMITIVE_SET,PROPOSED
+N-D4-02,D4,Canonical reconstruction spine (Phase XII),DERIVATION_CHAIN,"stage-by-stage status recorded in STATUS_LEDGER D4-01..D4-18 (mostly Derived, with residual caveats)"
+N-D4-03,D4,Persistence Cost Functional C_Pi / Field equation SEIT.1,FUNCTIONAL+EQUATION,"DERIVED (per D4's own audit, 'full derivation complete')"
+N-D4-04,D4,"Gamma(lambda)=Restoration/Degradation, lambda_c (GR-09)",FUNCTION+PARAMETER,PARTIAL/OPEN -- ranked priority-1 target
+N-D5-01,D5,"Universal Distinction Graph G=(V,E) (sole primitive object)",PRIMITIVE_OBJECT,DEFINED
+N-D5-02,D5,Heat Kernel Bridge (graph Laplacian -> continuum Laplace-Beltrami),THEOREM,stated as proven in text (continuum convergence eqn 3.5); not independently re-verified by this reconstruction
+N-D5-03,D5,Spectral Metric Formula g_munu = sum_k lambda_k^-1 dpsi_k dpsi_k,EQUATION,"DEFINED/stated as derivation, not independently re-verified"
+N-D5-04,D5,Universal Persistence Field Equation (Euler-Lagrange of C_Pi),EQUATION,"stated as 'Derived by full Euler-Lagrange variation' -- CONSISTENT with D4's independent 'Derived, full derivation complete' status for the same object (cross-document AGREEMENT, not merely D5's own claim)"
+N-D5-05,D5,13-phase Universal Compiler Architecture (Born rule..inverse spectral),DERIVATION_CHAIN_SET,"MIXED -- individual phase status per D5's own Sec XIII (5 open problems named) and per D4's audit matrix where the SAME objects are covered (Born rule, Lorentz signature, gauge group; D4 assigns Partial/Open where D5's main text asserts completion)"
+N-D5-06,D5,G_SM=SU(3)xSU(2)xU(1) anomaly-cancellation derivation,THEOREM_CLAIM,"SUPERSEDED by D4 (see STATUS_LEDGER D5-RETR-04) -- D5's own text calls it 'derived, not postulated'; D4's audit downgrades to Open"
+N-D5-07,D5,"Falsifiable predictions (GW 166.48Hz, dwarf core radii, N_sub/CMB tilt)",PREDICTION_SET,"2 of 3 SUPERSEDED/RETRACTED by D4 (see STATUS_LEDGER D5-RETR-01/02); CMB tilt n_s prediction NOT retracted by D4, carried forward as Partial ('agreement... is real but derivation of N_sub is open')"

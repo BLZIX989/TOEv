@@ -1,0 +1,134 @@
+import csv, os
+REPO = '/home/user/TOEv/governing_corpus/'
+
+# ---------------- PRIMITIVE / GRAMMAR REGISTRY ----------------
+header = ["GRAMMAR_ID", "Source_Doc", "Section", "Primitive_Set", "Count", "Composition_Stated",
+          "Definitions", "Claim_Type", "Notes_on_Reconciliation"]
+rows = [
+["GR-01", "D1", "Part I Sec9.1-9.2", "Delta, tau, kappa, Pi (DTC grammar)", "4",
+ "Gamma = kappa_op o tau_op o Delta_op (stated as 'c_kappa . T_tau . T_Delta')",
+ "Delta=hypersurface satisfying homological closure d(dOmega)=partial(partial Omega)=empty set "
+ "(boundary reading). tau=smooth vector-field flow preserving phase-space volume element (discrete "
+ "Liouville condition). kappa=idempotent projection operator P_kappa, P_kappa^2=P_kappa. "
+ "Pi=kernel of invariant operator surviving repeated tau under kappa; identified with K_crit of Sec3.2.",
+ "DEFINED", "Explicitly said (Sec9.2) to be the DTC-level description of refinement functor R "
+ "from Sec1.1; compiler c of Sec1.3 is Gamma's DEC-object-valued realization."],
+["GR-02", "D1", "Part IV Preface", "D, T, C (+ Pi later) (MDCL v1.0)", "3-4",
+ "Gamma = C o T o Delta (identical composition ORDER to GR-01)",
+ "Not independently redefined in Part IV Preface; primitives named by single letters (D,T,C), "
+ "content assumed continuous with Part I's DTC pipeline per the text's own comparison.",
+ "DEFINED", "Text states explicitly: 'developed independently and are not claimed here to be "
+ "formally identical' to GR-01, despite matching composition order -- flagged by D1 itself (Sec6) "
+ "as convergence worth noting, NOT as proof of identity."],
+["GR-03", "D1", "Part IV Sec7.2", "Delta, tau, kappa, Theta, Pi, Omega (MDCL v2.0)", "6",
+ "Not stated as a single composition (explicit in source)",
+ "Delta,tau,kappa,Pi carried over directly from GR-01/GR-02. Theta=Accessibility, a reachability "
+ "structure (new). Omega=Organizational State, 'a certified organizational configuration' (new).",
+ "DEFINED (Delta,tau,kappa,Pi); DEFINED, no formula (Theta,Omega); UNDEFINED (Gamma_C)",
+ "D1's own Sec7.2 table explicitly compares GR-01/GR-02/GR-03 side by side and states: 'This paper "
+ "does not adjudicate between the three versions... records the disagreement rather than silently "
+ "standardizing on one.' This is the GRAMMAR the prior TOEv/PRF-PRIM computational work in this "
+ "repository (derivations/C0/PRF-PRIM, DER-P2-001/002) calls G_C."],
+["GR-04", "D1", "Part V Sec0 (Preface), Sec1 (UGAS)", "Sigma_0 = {D,T,C,Pi}", "4",
+ "Free algebra F(Sigma_0) with operations o_G (sequential composition), tensor_G (organizational "
+ "product), triangle_G (dependency action) -- composition order not fixed to a single Gamma formula",
+ "Formalized via 8-stage algebraic construction: UGAS (free algebra) -> UGCT (congruence/quotient) "
+ "-> UGUP (universal property) -> UGNT (normal forms, conditional/open) -> UGIT (intrinsic "
+ "invariants) -> UOLS (semantics) -> UTS (typed system) -> MDCL-0001 (single typed compiler object).",
+ "CERTIFIED (framework, per D1's own Sec0.5 CCR ledger) for UGAS through UTS and MDCL-0001; UGNT's "
+ "termination/confluence theorems themselves OPEN",
+ "D1 Sec9 (Part V) explicit caveat: this foundation formalizes Sigma_0={D,T,C,Pi} SPECIFICALLY. "
+ "Does NOT formalize GR-01's composition order or GR-03's 6-primitive set. Whether the same "
+ "construction could be rebuilt over GR-01 or GR-03 is stated as OPEN, not attempted."],
+["GR-05", "D3", "Sec VII.A", "Delta (Distinction), R (Relation), T (Transformation), C (Constraint), "
+ "Pi (Persistence) (TOEv 5 primitives)", "5",
+ "Master equation dO/dt = T(O) - div(J(O)) + C(O) (differential, not a discrete composition Gamma)",
+ "Delta=point cloud {x_1,...,x_N}. R=graph G=(V,E) encoding which Delta are connected (Relation "
+ "explicitly registered as ITS OWN primitive, not derived from Delta+tau as in GR-01/02). "
+ "T=operator O_t -> O_{t+1}, graph context L=D-A. C=constraint manifold, idempotent kappa. "
+ "Pi=invariant set, lim_{t->inf} O(t).",
+ "PROPOSED (no proof protocol stated in D3; D3 is an analysis/visualization companion, not a "
+ "derivation document)",
+ "Distinct from GR-01/02/03/04 in an important structural way: promotes Relation to a primitive "
+ "in its own right (5 primitives, not 4), where GR-01/02/04 treat relation/edge-structure as "
+ "implicit in tau's domain. Not reconciled with GR-01..04 by D3 or any other document in this set."],
+["GR-06", "D1", "Part III Sec2 (gradient chain, later revision)", "nabla(Gradient), kappa, "
+ "Organization(O), F(Flow), Wc(Corrective Work), Pi(Persistence), Psi(Viability), E(Emergence)", "8",
+ "Linear pipeline nabla -> kappa -> O -> F -> Wc -> Pi -> Psi -> E (not a composed operator Gamma)",
+ "nabla = directly measurable physical gradient (explicit replacement for an earlier, more abstract "
+ "Delta-based 10-stage chain: Delta,kappa,O,Gamma(Generative Capacity),tau,D(Divergence),Wc,Pi,"
+ "Psi,E -- retracted/revised within the SAME document, kept visible per D1's own stated policy).",
+ "PROPOSED / worked-example framework (D1 Part III is explicitly textbook-style, 'worked examples "
+ "first, formal statements second')",
+ "D1 Sec5 (Part III) explicitly declines to adjudicate between this chain and GR-01's DTC grammar: "
+ "'They disagree on the starting primitive... This paper does not adjudicate between them.' NOTE: "
+ "the retracted 10-stage predecessor chain's 'Gamma' (Generative Capacity) is a THIRD, UNRELATED "
+ "use of the symbol Gamma within D1 alone (see symbol-collision note, Sec04 of the main report)."],
+["GR-07", "D4", "Sec0", "Sigma(state), Gamma(generator), Pi(persistence functional) (SEIT.0)", "3",
+ "Chain Sigma -> Gamma -> Pi -> A -> sigma(A) -> Theta -> g -> R -> F -> Physical Observables",
+ "Explicitly labeled 'proposed primitives' in the source table itself. Sigma=admissible "
+ "organizational state (not matter/energy/particles/spacetime). Gamma=generator of organizational "
+ "evolution (a DIFFERENT object from GR-01's composed Gamma=kappa.tau.Delta). Pi=persistence "
+ "functional, precise definition explicitly flagged as still required.",
+ "PROPOSED (source's own words: 'a proposed SEIT construct, not an established physical quantity')",
+ "Symbol collision: this Gamma (an evolution GENERATOR, i.e. an infinitesimal operator) is not the "
+ "same mathematical object as GR-01's Gamma (a composed, discrete-step ENDOMORPHISM kappa.tau.Delta) "
+ "nor GR-06's retracted 'Generative Capacity' Gamma, nor D4 Sec2.2's Gamma(lambda) scalar function "
+ "(see GR-09). Four distinct uses of the letter Gamma across this corpus; none identified with "
+ "another by any source document."],
+["GR-08", "D5", "Sec XIV (Rosetta Grammar)", "Delta(Distinction), tau, kappa (Rosetta Grammar)", "3",
+ "(Delta, tau, kappa) => A => Pi (A = attractor, not defined as a composed operator formula)",
+ "Delta=Distinction generates possibilities (domain-specific instances tabulated: quantum states, "
+ "atomic arrangement, genetic variation, information differences, quantum perturbations). "
+ "kappa=Constraint filters them. tau not independently defined in this section (implicit "
+ "'Transformation explores them' from the one-line gloss above the table).",
+ "PROPOSED / illustrative (D5's own Sec XIII lists 5 explicit open problems and states 'The "
+ "framework does not overclaim. It identifies what has been derived, what has been outlined, and "
+ "what remains' -- but Sec XIV itself carries no explicit status marker)",
+ "A THIRD 3-primitive Delta/tau/kappa set (compare GR-01's 4-primitive DTC and GR-02's D,T,C), "
+ "omitting Pi from the active triple entirely (Pi appears only as the pipeline's final output "
+ "label, not as a fourth composed primitive). Not reconciled with GR-01/02/03/04 by D5."],
+["GR-09", "D4", "Sec2.2", "Gamma(lambda) = Restoration(lambda)/Degradation(lambda)", "N/A (a "
+ "scalar-valued function of one real parameter, not a primitive-set grammar)", "lambda_c defined "
+ "by Gamma(lambda_c)=1 (crossing point)",
+ "Both Restoration and Degradation stated as projections of the SAME object -- the forcing term "
+ "g^{ca} grad_a I_F in SEIT.1 -- projected onto mode psi_n (restoration) vs onto higher modes "
+ "(degradation). 'No new primitives are required' (source's own words).",
+ "PARTIAL / OPEN (D4 Sec2.5: 'Until that integral is evaluated, every claim downstream of lambda_c "
+ "carries the status Partial or Open')",
+ "Listed here as a registry entry in its own right (not a grammar) specifically because it is the "
+ "FOURTH distinct meaning of the symbol Gamma in this corpus and because it is the object the "
+ "corpus's own Sec6 ranks as the #1 priority open target (see status ledger, and D1 Sec10.2 / D2 "
+ "OP-007's overlapping open lambda_c problem)."],
+["GR-10", "D2 (implicit)", "throughout", "PR-001, PR-002, PR-003, PR-004", "4",
+ "Not stated (D2 audits dependency/certification structure; it never gives PR-001..004 "
+ "mathematical definitions in the text extracted for this analysis)",
+ "UNRESOLVED -- no definitions recovered from D2's own text for this analysis",
+ "DEFINED per D2's own certification ledger (Layer 0, 'no dependencies'), but definitional content "
+ "not present in the material available to this reconstruction",
+ "Probable but UNCONFIRMED overlap with GR-01/02 (Delta,tau,kappa,Pi or D,T,C,Pi) given shared "
+ "downstream object names (K-DEF-001 likely=kappa's Constraint Core; CMRC-CHAIN-001, VAL-004, "
+ "VAL-005 identical names to D1 Part IV objects). Treated as a DISTINCT, unidentified registry "
+ "entry per governance (no silent merge without an explicit textual identification)."],
+["GR-11", "D2/UDP-Phase0-I (D1 Part II)", "D1 Part II Phase I", "Object(O), Relation(R), "
+ "Operator(P-hat), Constraint(C), State(y) (UDP 5 irreducible functional primitives)", "5",
+ "Dependency cascade: Object -> State -> Relation -> Operator -> Transformation -> Constraint -> "
+ "Dynamics -> Persistence -> Equation -> Theory (Phase II)",
+ "Explicitly the result of an elimination audit over the 4 baseline registries (Phase 0's Objects, "
+ "Operators, Relations, Structures) collapsing them to 5 'irreducible, self-contained functional "
+ "primitives' -- O,R,P-hat,C,y.",
+ "DEFINED / methodology-level (Part II states this is a domain-independent REDUCTION methodology, "
+ "not itself a physical claim)",
+ "A DIFFERENT reduction target from GR-01..09: general-purpose (any scientific theory), not "
+ "physics-specific. Shares 'Relation' and 'Constraint' vocabulary with GR-05 but is not identified "
+ "with it by any document. UDP Phase XV separately proposes yet another 'working' minimal basis "
+ "{State,Relation,Constraint}+{Identity,Composition,Transformation,Projection,Selection,Reduction} "
+ "explicitly marked '(Working)' -- i.e. provisional, not the same as this Phase I list."],
+]
+
+os.makedirs(REPO + 'registries', exist_ok=True)
+with open(REPO + 'registries/PRIMITIVE_GRAMMAR_REGISTRY.csv', 'w', newline='') as f:
+    w = csv.writer(f)
+    w.writerow(header)
+    w.writerows(rows)
+print("Grammar registry written:", len(rows))

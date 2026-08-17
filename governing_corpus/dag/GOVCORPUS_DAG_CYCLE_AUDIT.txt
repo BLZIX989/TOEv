@@ -1,0 +1,2 @@
+Nodes: 44  Edges: 35
+No cycles detected.

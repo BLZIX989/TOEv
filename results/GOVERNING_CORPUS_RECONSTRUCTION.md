@@ -541,3 +541,114 @@ or D3's less specific statements of the same open problem.
 Per the directive's C0-style governance carried over from this repository's own prior conventions:
 this reconstruction does **not** attempt to evaluate that integral, does **not** propose a
 computational plan for doing so, and does **not** advance any downstream claim that depends on it.
+
+---
+
+## Addendum — Cross-Repository Findings: `BLZIX989/URSP`, "Given a seed, can we reproduce the
+## Standard Model?"
+
+**Added 2026-08-18**, in response to a direct follow-up question and a third-party (ChatGPT) reply
+citing prior project work this reconstruction had not yet located. Investigated by cloning
+`https://github.com/BLZIX989/URSP` (a separate, sibling repository — not part of this repository's
+Git history, not covered by §01–§16 above) at branch `claude/rosetta-stone-derivation-by6j3l`,
+commit `f05606c3f5f663028875cab940757a46deab7f57`. Full citation table:
+`governing_corpus/registries/URSP_CROSS_REPO_FINDINGS.csv` (7 rows, IDs URSP-01…07). This addendum
+does not modify §01–§16; it adds a second, independently-conducted line of evidence that bears
+directly on one specific question those sections could not answer from the 5-document corpus alone.
+
+### A1. Provenance correction
+
+The third-party reply described a "recent NCG bridge experiment" (grading/J-structure/order-zero/
+first-order tests) as if freshly run in this conversation. It was not — no such computation was
+performed in this session or its recorded history. It is real work, but it lives entirely in the
+separate `URSP` repository, on a branch this session had not been given and had to locate and fetch
+independently (`git ls-remote` surfaced it; the repo's default `main` branch contains only a stub
+`README.md`). The third-party description was also **already one step behind** that repository's
+actual head commit — it matched the second of three chained experiments below, not the third
+(most recent) one, which reverses which specific axiom fails.
+
+### A2. The finite-spectral-triple bridge chain (URSP-01, URSP-02, URSP-03)
+
+Three chained experiments, each explicitly built on the previous one's proof rather than repeating
+it, form a single line of inquiry: can a Connes-style finite noncommutative-geometry spectral triple
+be built canonically from a Track-A seed (a structure-derived, self-relating finite relation), with
+no Standard-Model content assumed in the construction?
+
+| Run | Algebra tested | Order-zero | First-order | Proof status |
+|---|---|---|---|---|
+| `SEMANTIC-FUNCTOR-BRIDGE-001` (URSP-01) | Maximal abelian, **symmetric** particle/antiparticle representation | PASS (259/259) | FAIL (0/259) | General theorem: identical representations force `D_F=0` |
+| `OPEN-024B` asymmetric (URSP-02) | Maximal abelian, 4 **asymmetric** representation candidates | PASS (universal) | FAIL (0/2072 test instances) | `THM-ASYM-BRIDGE-OBSTRUCTION-001`, proven: any representation of an abelian algebra forces `D_F=0`, symmetric or not — root cause is that every irrep of an abelian algebra is 1-dimensional |
+| `OPEN-024B` non-abelian (URSP-03) | `A_seed = Comm(D_F)`, the seed's own Dirac-operator commutant, **non-abelian for 56/259 seeds** | **FAIL (0/56, exact)** | **PASS (56/56, exact)** | `THM-NAB-ORDER-ZERO-OBSTRUCTION-001`, proven: for any conjugation-closed subalgebra with the standard real structure, order-zero holds *iff* the algebra is abelian |
+
+The three runs are not three independent attempts landing on the same wall — they are a single proof
+tightening around the same obstruction: abelian algebras satisfy order-zero and fail first-order;
+the one non-abelian algebra reachable from the seed's own structure satisfies first-order and fails
+order-zero; nothing tested satisfies both. Both directions are now closed by **proven general
+theorems**, not merely by exhausted search.
+
+### A3. Even where non-abelian structure appears, it is not the Standard Model gauge group (URSP-04)
+
+At the one place a non-abelian algebra was found (`Comm(D_F)`), its unitary group is
+`U(1)×U(1)×U(2)` (N=4 seeds) or `U(1)×U(1)×U(3)` (N=5 seeds) — not `SU(2)` or `SU(3)`, which are
+simple and determinant-constrained. Only the bare irrep *dimension* (2, 3) coincidentally matches.
+The source's own verdict: "**STRUCTURAL COMPARISON ONLY — no DERIVED MATCH claim**." A
+target-independence firewall (scanning the construction code itself for `SU(3)/SU(2)/U(1)/G_SM/
+color/generations/…`) returned zero hits, supporting that this negative result was not produced by
+(or in spite of) reaching for the Standard Model.
+
+### A4. Independent, cross-repository corroboration of §11's D4-vs-D5 finding (URSP-05)
+
+Separately from the NCG-bridge chain, `URSP`'s own `UOC-TOE-MASTER-CLOSURE-001.md` records that a
+prior run's governance instruction *explicitly warned against* downgrading the SM gauge-group claim
+"merely because a later source document rejected one specific route" — the same caution ChatGPT's
+reply raised in this conversation, already anticipated and guarded against inside `URSP` itself.
+Despite that explicit caution, a dedicated independent search (Clifford structures, commutants,
+Lie-algebra recovery, representation decomposition) found **four independent source documents** —
+including, per that file, "the project's own official *Status Report*" — concurring the gauge-group
+result was never derived; only the single oldest document claims otherwise, and that is exactly the
+claim the other four retract. `URSP` draws the precise distinction this reconstruction's §11 also
+drew: falsifying one derivation *route* establishes `¬(Route A ⇒ G_SM)`, not `¬G_SM` — the physics
+is unaffected, only this project's specific claimed derivation of it.
+
+This is the same conclusion §11 of this report reached independently, from a different corpus (5
+docx files vs. `URSP`'s own broader source set) and a different method (document reading vs. a
+dedicated code search) — two independently-conducted investigations converging on the same finding.
+`URSP`'s "project's own official Status Report" plausibly refers to the same
+`Theory_of_Everything_Status_Report.docx` uploaded as one of this repository's own original five
+Phase-0 source files (SHA-256 `7369a4eb…`) — noted as a filename match only; this reconstruction did
+not independently confirm the two are byte-identical.
+
+### A5. There is no single seed to begin with (URSP-06, URSP-07)
+
+Bearing directly on the literal premise of "given *a* seed": `URSP` proves seed existence but
+disproves seed uniqueness at every tested scale, on two separate counting schemes. The
+NCG-bridge-relevant family (`F_N^derived_v2`) grows **1, 4, 23, 231** across N=2,3,4,5, with the
+growth rate *accelerating* through N=5 rather than leveling off — reported as evidence against, not
+proof against, eventual convergence. A separate, less-restricted enumeration (raw self-relating
+fixed points of the structure-derived operator Γ) finds **6, 70, 2462** nonisomorphic fixed points
+at N=2,3,4. `URSP`'s own final status line: **"OPEN / PROVEN NON-IDENTIFIABLE, since its premise (a
+unique minimal kernel) remains false."**
+
+### A6. Updated answer to "given a seed, can we reproduce the Standard Model?"
+
+Combining §04–§16 above with A2–A5: the answer is still no, and it is now supported by considerably
+more than corpus incompleteness. For the one concrete, executable construction that has actually
+been tried (the finite Connes-style spectral-triple bridge from a Track-A seed), both of the two
+live options — abelian algebra, non-abelian commutant algebra — are now closed by **proven general
+theorems**, not unexplored gaps; where a non-abelian structure does appear, it provably is not the
+Standard Model's gauge group; the only located derivation route for the gauge group itself is
+empirically rejected across four independent source documents in a search designed specifically not
+to prematurely discard it; and the seed the question presupposes is provably not unique at any
+tested scale, with no convergence in sight. None of this is a claim that the underlying mathematics
+*cannot* produce the Standard Model in principle (§14's negative-capability rule still applies) — it
+is a claim that every concrete route tried so far, across two independent repositories and multiple
+independently-authored runs, closes with a proven obstruction rather than an open question.
+
+### A7. Next dependency, per `URSP`'s own stated next step
+
+`OPEN-024B_NONABELIAN_BRIDGE.md` §S states the precise, minimal condition its own theorem identifies
+as necessary before this specific route could have any chance of closing: either (a) a real
+structure `J` not of the standard swap-conjugate form, or (b) an algebra with multiple
+*inequivalent* irreducible representations of compatible dimension — a structure "none of the 259
+admissible seeds through N=5 possess." Per that file's own stop condition, this was not attempted in
+`URSP`, and it is not attempted here.

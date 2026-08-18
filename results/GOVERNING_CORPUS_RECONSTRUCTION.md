@@ -652,3 +652,21 @@ structure `J` not of the standard swap-conjugate form, or (b) an algebra with mu
 *inequivalent* irreducible representations of compatible dimension — a structure "none of the 259
 admissible seeds through N=5 possess." Per that file's own stop condition, this was not attempted in
 `URSP`, and it is not attempted here.
+
+### A8. A proposed (not sourced, not executed) formalization of the next question
+
+A follow-up message in this conversation proposed a specific next construction, labeled
+"`OPEN-024C`," with a formal target requiring both order-zero and first-order to hold simultaneously
+for a genuinely non-Abelian, target-independent `(𝒜_F, π, J, γ, D_F)`, plus a separate proposal to
+study the quotient `𝔉_N^derived∕∼ → [𝔉_N] → 𝔇*` — i.e. whether the non-unique admissible seed family
+(A5 above) has a canonical equivalence class rather than a canonical member.
+
+**Verified before recording:** `URSP` was re-fetched at the time of this addendum and is unchanged
+at commit `f05606c3f5f663028875cab940757a46deab7f57` — no `OPEN-024C` file, commit, or registry
+entry exists anywhere in its history. Both proposals are recorded here strictly as **PROPOSED, made
+in this conversation, not sourced from either repository and not executed by either repository or by
+this reconstruction.** The `OPEN-024C` formal target is a reasonable restatement of the *criteria*
+`OPEN-024B_NONABELIAN_BRIDGE.md` §S itself names as necessary (A7 above) — it is not invented from
+nothing — but it is not, as first presented, an item either project has queued, registered, or
+attempted, and this reconstruction does not treat it as one. Per governance, this status is not
+promoted further (no attempt, sketch, or partial computation toward either proposal was made here).
